@@ -261,5 +261,18 @@
 <!-- * * * * * * * * * * End of Placeholder  * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
+<div class="container mt-4">
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+      🌎 {{ 'change_language' | translate }}
+    </button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#" (click)="changeLanguage('en')">🇬🇧 English</a></li>
+            <li><a class="dropdown-item" href="#" (click)="changeLanguage('fr')">🇫🇷 Français</a></li>
+        </ul>
+    </div>
 
-<router-outlet />
+    <h1>{{ 'greeting' | translate }}</h1>
+    <p>{{ 'welcomeMessage' | translate }}</p>
+
+    <router-outlet />
