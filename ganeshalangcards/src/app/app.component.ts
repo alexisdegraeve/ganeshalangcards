@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
+import { FlashcardComponent } from "./flashcard/flashcard.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, TranslateModule],
+  imports: [RouterOutlet, TranslateModule, FlashcardComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
