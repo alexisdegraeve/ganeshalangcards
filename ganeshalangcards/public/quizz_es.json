@@ -1,0 +1,21 @@
+[{
+        "question": "¿Cuál es la capital de España?",
+        "answer": "La capital de España es Madrid."
+    },
+    {
+        "question": "¿Cuántos continentes hay en el mundo?",
+        "answer": "Hay siete continentes en el mundo."
+    },
+    {
+        "question": "¿Cómo se dice 'gracias' en francés?",
+        "answer": "En francés, se dice 'merci'."
+    },
+    {
+        "question": "¿Qué animal es conocido como el rey de la selva?",
+        "answer": "El león es conocido como el rey de la selva."
+    },
+    {
+        "question": "¿Quién escribió 'Don Quijote de la Mancha'?",
+        "answer": "Miguel de Cervantes escribió 'Don Quijote de la Mancha'."
+    }
+]
