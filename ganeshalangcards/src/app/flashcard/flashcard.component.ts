@@ -20,6 +20,33 @@ export class FlashcardComponent implements OnInit{
   theme: string = '';
   questions: any[] = [];
   endQuiz = false;
+  private _modeTraining: boolean = false;
+
+  @Input()
+  set modeTraining(value: boolean) {
+    this._modeTraining = value;
+    this.onModeTrainingChange();
+  }
+
+  get modeTraining(): boolean {
+    return this._modeTraining;
+  }
+
+  // Méthode déclenchée lorsqu'on change modeTraining
+  onModeTrainingChange() {
+    this.score = 0;
+    this.currentQuestionIndex = 0;
+    this.userAnswer= '';
+    this.endQuiz = false;
+    // if (this.modeTraining) {
+    //   this.currentQuestionIndex = 0;
+    //   this.currentQuestion = [];
+    //   this.userAnswer= '';
+    //   this.endQuiz = false;
+    // } else {
+
+    // }
+  }
 
   constructor(private quizService: QuizService){}
 
@@ -66,6 +93,20 @@ export class FlashcardComponent implements OnInit{
       .toLowerCase(); // Met en minuscules pour éviter les erreurs de casse
   }
 
+  nextQuestion() {
+    if(this.currentQuestionIndex < this.questions.length)
+      {
+        this.currentQuestionIndex++;
+        this.currentQuestion = this.questions[this.currentQuestionIndex];
+      }
+  }
 
+  prevQuestion() {
+    if(this.currentQuestionIndex > 0)
+       {
+        this.currentQuestionIndex--;
+        this.currentQuestion = this.questions[this.currentQuestionIndex];
+       }
+  }
 
 }
