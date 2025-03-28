@@ -1,8 +1,8 @@
 <div class="row">
-    <div class="card border-primary card-front col-12 col-md-6 col-lg-6" [class.animate-front]="showFront">
-        <div class=" card-header" (click)="showFront=!showFront">FRONT</div>
-        <div class="card-body text-primary">
-            <hr class="rainbow">
+    <div class="card border-0 card-front col-12 col-md-6 col-lg-6 shadow p-3 mb-5 bg-white rounded" [class.animate-front]="showFront ">
+        <div class=" card-header " (click)="showFront=!showFront ">FRONT</div>
+        <div class="card-body text-primary ">
+            <hr class="rainbow ">
             <h5 class="card-title ">Question</h5>
             <p class="card-text ">Comment dit-on en néerlandais ?</p>
             <p class="card-text ">{{ 'greeting' | translate }}</p>
@@ -17,8 +17,8 @@
         </div>
     </div>
 
-    <div class="card border-primary card-back  col-12 col-md-6 col-lg-6" [class.animate-back]="!showFront">
-        <div class="card-header" (click)="showFront=!showFront">BACK</div>
+    <div class="card border-primary card-back col-12 col-md-6 col-lg-6 " [class.animate-back]="!showFront ">
+        <div class="card-header " (click)="showFront=!showFront ">BACK</div>
         <div class="card-body text-primar ">
             <h5 class="card-title ">Question</h5>
             <p class="card-text ">Comment dit-on en néerlandais ?</p>
