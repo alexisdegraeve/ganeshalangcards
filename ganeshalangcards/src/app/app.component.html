@@ -1,15 +1,17 @@
-<div class="container mt-4">
-    <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+<app-header></app-header>
+<div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
       🌎 {{ 'change_language' | translate }}
     </button>
-        <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#" (click)="changeLanguage('en')">English</a></li>
-            <li><a class="dropdown-item" href="#" (click)="changeLanguage('fr')">Français</a></li>
-        </ul>
-    </div>
-    <app-flashcard></app-flashcard>
-    <h1>{{ 'greeting' | translate }}</h1>
-    <p>{{ 'welcomeMessage' | translate }}</p>
+    <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#" (click)="changeLanguage('en')">English</a></li>
+        <li><a class="dropdown-item" href="#" (click)="changeLanguage('fr')">Français</a></li>
+    </ul>
+</div>
+<app-flashcard></app-flashcard>
+<h1>{{ 'greeting' | translate }}</h1>
+<p>{{ 'welcomeMessage' | translate }}</p>
 
-    <router-outlet />
+<router-outlet />
+
+<app-footer></app-footer>
