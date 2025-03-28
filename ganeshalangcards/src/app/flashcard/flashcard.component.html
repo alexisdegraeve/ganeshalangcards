@@ -1,16 +1,33 @@
-<div class="card border-primary h-100">
-    <div class="card-header">Header</div>
-    <div class="card-body text-primar">
-        <h5 class="card-title">Question</h5>
-        <p class="card-text">Comment dit-on en néerlandais ?</p>
-        <p class="card-text">{{ 'greeting' | translate }}</p>
-        <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Votre réponse" aria-label="Votre réponse" aria-describedby="button-addon2">
-            <button class="btn btn-outline-primary" type="button" id="button-addon2">OK</button>
+<div class="card border-primary card-front" [class.animate-front]="showFront">
+    <div class=" card-header" (click)="showFront=!showFront">FRONT</div>
+    <div class="card-body text-primar ">
+        <h5 class="card-title ">Question</h5>
+        <p class="card-text ">Comment dit-on en néerlandais ?</p>
+        <p class="card-text ">{{ 'greeting' | translate }}</p>
+        <div class="input-group mb-3 ">
+            <input type="text " class="form-control " placeholder="Votre réponse " aria-label="Votre réponse " aria-describedby="button-addon2 ">
+            <button class="btn btn-outline-primary " type="button " id="button-addon2 ">OK</button>
         </div>
 
     </div>
-    <div class="card-footer">
-        <small class="text-body-secondary">Last updated 3 mins ago</small>
+    <div class="card-footer ">
+        <small class="text-body-secondary ">Last updated 3 mins ago</small>
+    </div>
+</div>
+
+<div class="card border-primary card-back" [class.animate-back]="!showFront">
+    <div class="card-header" (click)="showFront=!showFront">BACK</div>
+    <div class="card-body text-primar ">
+        <h5 class="card-title ">Question</h5>
+        <p class="card-text ">Comment dit-on en néerlandais ?</p>
+        <p class="card-text ">{{ 'greeting' | translate }}</p>
+        <div class="input-group mb-3 ">
+            <input type="text " class="form-control " placeholder="Votre réponse " aria-label="Votre réponse " aria-describedby="button-addon2 ">
+            <button class="btn btn-outline-primary " type="button " id="button-addon2 ">OK</button>
+        </div>
+
+    </div>
+    <div class="card-footer ">
+        <small class="text-body-secondary ">Last updated 3 mins ago</small>
     </div>
 </div>

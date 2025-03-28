@@ -1,17 +1,8 @@
-<app-header></app-header>
-<div class="dropdown">
-    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
-      🌎 {{ 'change_language' | translate }}
-    </button>
-    <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="#" (click)="changeLanguage('en')">English</a></li>
-        <li><a class="dropdown-item" href="#" (click)="changeLanguage('fr')">Français</a></li>
-    </ul>
+<div class="page">
+    <app-header></app-header>
+    <div class="content">
+        <app-flashcard></app-flashcard>
+        <router-outlet />
+    </div>
+    <app-footer></app-footer>
 </div>
-<app-flashcard></app-flashcard>
-<h1>{{ 'greeting' | translate }}</h1>
-<p>{{ 'welcomeMessage' | translate }}</p>
-
-<router-outlet />
-
-<app-footer></app-footer>

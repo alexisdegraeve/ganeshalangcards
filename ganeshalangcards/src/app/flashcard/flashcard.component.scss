@@ -1,0 +1,27 @@
+.card-front {
+    display: none;
+    animation: flipCard 1s forwards;
+    &.animate-front {
+        display: block;
+    }
+}
+
+.card-back {
+    display: none;
+    animation: flipCard 1s forwards;
+    &.animate-back {
+        display: block;
+    }
+}
+
+@keyframes flipCard {
+    0% {
+        transform: rotateY(0deg)
+    }
+    50% {
+        transform: rotateY(180deg)
+    }
+    100% {
+        transform: rotateY(360deg)
+    }
+}
