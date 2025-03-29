@@ -4,30 +4,41 @@
         <div class=" card-body text-primary ">
             <hr class="rainbow ">
             <h5 class="card-title ">{{ currentQuestion.question }}</h5>
-            <p class="card-text ">?</p>
         </div>
         <div class="card-footer ">
-            <small class="text-body-secondary ">Last updated 3 mins ago</small>
+            <small class="text-body-secondary ">{{ currentCardNumber }}</small>
         </div>
     </div>
 
     <div class="card border-primary card-back col-12 col-md-12 col-lg-6 " [class.animate-back]="!showFront " (click)="showFront=!showFront ">
         <div class="card-header ">{{theme}}</div>
-        <div class="card-body text-primary ">
+        <div class="card-body text-success ">
             <hr class="rainbow ">
             <h5 class="card-title ">{{ currentQuestion.answers }}</h5>
         </div>
         <div class="card-footer ">
-            <small class="text-body-secondary ">Last updated 3 mins ago</small>
+            <small class="text-body-secondary ">{{ currentCardNumber }}</small>
         </div>
     </div>
 
     <div class="col-12 col-md-12 col-lg-6 d-flex">
         <div class="ms-auto me-auto">
-            <button class="btn btn-outline-primary me-2" type="button " id="button-addon2 " (click)="firstQuestion() ">First</button>
-            <button class="btn btn-outline-primary me-2" type="button " id="button-addon2 " (click)="prevQuestion() ">Prev</button>
-            <button class="btn btn-outline-primary " type="button " id="button-addon2 " (click)="nextQuestion() ">Next</button>
-            <button class="btn btn-outline-primary " type="button " id="button-addon2 " (click)="lastQuestion() ">Last</button>
+            <button class="btn btn-outline-primary me-2" type="button" (click)="firstQuestion()" [disabled]="checkFirstQuestion" aria-label="First question">
+            <i class="bi bi-skip-backward-fill"></i>
+        </button>
+
+            <button class="btn btn-outline-primary me-2" type="button" (click)="prevQuestion()" [disabled]="checkFirstQuestion" aria-label="Previous question">
+            <i class="bi bi-caret-left-fill"></i>
+        </button>
+
+            <button class="btn btn-outline-primary me-2" type="button" (click)="nextQuestion()" [disabled]="checkLastQuestion" aria-label="Next question">
+            <i class="bi bi-caret-right-fill"></i>
+        </button>
+
+            <button class="btn btn-outline-primary" type="button" (click)="lastQuestion()" [disabled]="checkLastQuestion" aria-label="Last question">
+            <i class="bi bi-skip-forward-fill"></i>
+        </button>
+
         </div>
     </div>
 

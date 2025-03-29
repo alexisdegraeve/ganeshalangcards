@@ -119,4 +119,16 @@ export class FlashcardComponent implements OnInit{
     this.currentQuestion = this.questions[this.currentQuestionIndex];
   }
 
+  get checkLastQuestion() {
+    return  this.currentQuestionIndex === (this.questions.length - 1);
+  }
+
+  get checkFirstQuestion() {
+    return  this.currentQuestionIndex === 0;
+  }
+
+  get currentCardNumber() {
+    return `${this.currentQuestionIndex + 1}  / ${this.questions.length}`;
+  }
+
 }
