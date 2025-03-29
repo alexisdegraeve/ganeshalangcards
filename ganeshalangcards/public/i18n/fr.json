@@ -1,5 +1,5 @@
 {
-    "greeting": "Bonjour!",
-    "welcomeMessage": "Bienvenue sur mon application Angular 19.",
-    "change_language": "Changer de langue"
+    "change_language": "Changer de langage",
+    "learn": "Apprendre",
+    "test": "Test"
 }

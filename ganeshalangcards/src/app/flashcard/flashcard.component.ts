@@ -109,4 +109,14 @@ export class FlashcardComponent implements OnInit{
        }
   }
 
+  firstQuestion() {
+    this.currentQuestionIndex = 0;
+    this.currentQuestion = this.questions[this.currentQuestionIndex];
+  }
+
+  lastQuestion() {
+    this.currentQuestionIndex = this.questions.length - 1;
+    this.currentQuestion = this.questions[this.currentQuestionIndex];
+  }
+
 }

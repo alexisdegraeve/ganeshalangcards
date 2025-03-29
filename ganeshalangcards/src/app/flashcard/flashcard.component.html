@@ -1,8 +1,7 @@
 <ng-container *ngIf="modeTraining">
-    {{currentQuestionIndex }}
-    <div class="card border-0 card-front col-12 col-md-6 col-lg-6 shadow p-3 mb-5 bg-white rounded" [class.animate-front]="showFront ">
-        <div class=" card-header " (click)="showFront=!showFront ">{{theme}}</div>
-        <div class="card-body text-primary ">
+    <div class="card border-0 card-front col-12 col-md-12 col-lg-6 shadow p-3 mb-5 bg-white rounded" [class.animate-front]="showFront " (click)="showFront=!showFront ">
+        <div class=" card-header">{{theme}}</div>
+        <div class=" card-body text-primary ">
             <hr class="rainbow ">
             <h5 class="card-title ">{{ currentQuestion.question }}</h5>
             <p class="card-text ">?</p>
@@ -12,9 +11,9 @@
         </div>
     </div>
 
-    <div class="card border-primary card-back col-12 col-md-6 col-lg-6 " [class.animate-back]="!showFront ">
-        <div class="card-header " (click)="showFront=!showFront ">{{theme}}</div>
-        <div class="card-body text-primary">
+    <div class="card border-primary card-back col-12 col-md-12 col-lg-6 " [class.animate-back]="!showFront " (click)="showFront=!showFront ">
+        <div class="card-header ">{{theme}}</div>
+        <div class="card-body text-primary ">
             <hr class="rainbow ">
             <h5 class="card-title ">{{ currentQuestion.answers }}</h5>
         </div>
@@ -22,15 +21,23 @@
             <small class="text-body-secondary ">Last updated 3 mins ago</small>
         </div>
     </div>
-    <button class="btn btn-outline-primary " type="button " id="button-addon2" (click)="prevQuestion()">Prev</button>
-    <button class="btn btn-outline-primary " type="button " id="button-addon2" (click)="nextQuestion()">Next</button>
+
+    <div class="col-12 col-md-12 col-lg-6 d-flex">
+        <div class="ms-auto me-auto">
+            <button class="btn btn-outline-primary me-2" type="button " id="button-addon2 " (click)="firstQuestion() ">First</button>
+            <button class="btn btn-outline-primary me-2" type="button " id="button-addon2 " (click)="prevQuestion() ">Prev</button>
+            <button class="btn btn-outline-primary " type="button " id="button-addon2 " (click)="nextQuestion() ">Next</button>
+            <button class="btn btn-outline-primary " type="button " id="button-addon2 " (click)="lastQuestion() ">Last</button>
+        </div>
+    </div>
+
 </ng-container>
 
-<ng-container *ngIf="!modeTraining">
+<ng-container *ngIf="!modeTraining ">
 
-    <div class="row">
-        <div class="card border-0 card-front col-12 col-md-6 col-lg-6 shadow p-3 mb-5 bg-white rounded animate-front" *ngIf="endQuiz">
-            <div class="card-header">END</div>
+    <div class="row ">
+        <div class="card border-0 card-front col-12 col-md-6 col-lg-6 shadow p-3 mb-5 bg-white rounded animate-front " *ngIf="endQuiz ">
+            <div class="card-header ">END</div>
             <div class="card-body text-primary ">
                 <hr class="rainbow "> {{score / questions.length}}
 
@@ -41,9 +48,9 @@
             </div>
         </div>
 
-        <ng-container *ngIf="!endQuiz">
+        <ng-container *ngIf="!endQuiz ">
 
-            <div class="card border-0 card-front col-12 col-md-6 col-lg-6 shadow p-3 mb-5 bg-white rounded" [class.animate-front]="showFront ">
+            <div class="card border-0 card-front col-12 col-md-6 col-lg-6 shadow p-3 mb-5 bg-white rounded " [class.animate-front]="showFront ">
                 <div class=" card-header " (click)="showFront=!showFront ">{{theme}}</div>
                 <div class="card-body text-primary ">
                     <hr class="rainbow ">
@@ -57,12 +64,12 @@
 
             <div class="card border-primary card-back col-12 col-md-6 col-lg-6 " [class.animate-back]="!showFront ">
                 <div class="card-header " (click)="showFront=!showFront ">{{theme}}</div>
-                <div class="card-body text-primary">
+                <div class="card-body text-primary ">
                     <hr class="rainbow ">
                     <h5 class="card-title ">{{ currentQuestion.question }}</h5>
                     <div class="input-group mb-3 ">
-                        <input type="text" [(ngModel)]="userAnswer" class="form-control " placeholder="Votre réponse " aria-label="Votre réponse " aria-describedby="button-addon2 ">
-                        <button class="btn btn-outline-primary " type="button " id="button-addon2" (click)="checkAnswer()">OK</button>
+                        <input type="text " [(ngModel)]="userAnswer " class="form-control " placeholder="Votre réponse " aria-label="Votre réponse " aria-describedby="button-addon2 ">
+                        <button class="btn btn-outline-primary " type="button " id="button-addon2 " (click)="checkAnswer() ">OK</button>
                     </div>
 
                 </div>
