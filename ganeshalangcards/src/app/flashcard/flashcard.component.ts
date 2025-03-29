@@ -82,6 +82,12 @@ export class FlashcardComponent implements OnInit{
     this.showQuestion();
   }
 
+  skipQuestion():void {
+    this.currentQuestionIndex++;
+    this.showQuestion();
+  }
+
+
   private checkInAnswers(userAnswer: string, answers: string[]): boolean {
     return answers.some((answer: string) => this.cleanString(answer) === this.cleanString(userAnswer));
   }
@@ -129,6 +135,10 @@ export class FlashcardComponent implements OnInit{
 
   get currentCardNumber() {
     return `${this.currentQuestionIndex + 1}  / ${this.questions.length}`;
+  }
+
+  get scoreTotal() {
+    return `${this.score} / ${this.questions.length}`;
   }
 
 }
