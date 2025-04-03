@@ -22,7 +22,8 @@ export class GameComponent {
       imageUrl: 'assets/images/image1.jpg',  // Remplacez par le chemin réel de vos images
       icon: 'bi-heart',  // Optionnel : icône Bootstrap (par exemple, bi-heart)
       isLoading: false,
-      link: '/dutch'
+      link: '/dutch',
+      class: 'pink'
     },
     {
       title: 'Card 2',
@@ -30,7 +31,8 @@ export class GameComponent {
       imageUrl: 'assets/images/image2.jpg',
       icon: 'bi-star',
       isLoading: false,
-      link: '/spanish'
+      link: '/spanish',
+      class: 'green'
     },
     {
       title: 'Card 3',
@@ -38,7 +40,8 @@ export class GameComponent {
       imageUrl: 'assets/images/image3.jpg',
       icon: 'bi-moon',
       isLoading: false,
-      link: '/english'
+      link: '/english',
+      class: 'blue'
     }
   ];
 

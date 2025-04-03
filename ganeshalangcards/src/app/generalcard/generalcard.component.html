@@ -3,15 +3,17 @@
         <a [routerLink]="link" class="card-link">
             <div class="flip-card-inner">
                 <div class="flip-card-front">
-                    <div class="card-body text-center">
+                    <div class="card-body text-center" [ngClass]="class">
                         <div class="skeleton" *ngIf="isLoading"></div>
-                        <i class="bi" [ngClass]="icon" style="font-size: 48px;"></i>
-                        <h5 class="card-title" style="font-family: 'Audiowide', sans-serif; font-size: 48px;">
+                        <h5 class="card-title">
                             {{ title }}
                         </h5>
-                        <p class="card-text" style="font-family: 'Audiowide', sans-serif; font-size: 32px;">
+                        <p class="card-subtitle">
                             {{ subtitle }}
                         </p>
+                        <div class="image-container">
+                            <img [src]="imageUrl" alt="Card image" class="img-fluid">
+                        </div>
                     </div>
                 </div>
                 <div class="flip-card-back">

@@ -1,6 +1,6 @@
 @use './../../_variables.scss' as *;
 .navbar {
-    background-color: $primary;
+    background-color: #{$primary};
     color: #fff;
     font-family: 'Verdana';
 }

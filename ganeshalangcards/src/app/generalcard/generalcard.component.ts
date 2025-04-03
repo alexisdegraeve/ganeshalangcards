@@ -16,5 +16,6 @@ export class GeneralcardComponent {
   @Input() icon: string = '';  // Vous pouvez ajouter un icône si nécessaire
   @Input() isLoading: boolean = false;
   @Input() link: string = '';
+  @Input() class: string = '';
 
 }
