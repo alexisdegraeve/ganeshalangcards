@@ -6,7 +6,7 @@ import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-game',
-  imports: [FlashcardComponent, FormsModule, TranslateModule, RouterModule],
+  imports: [FormsModule, TranslateModule, RouterModule],
   templateUrl: './game.component.html',
   styleUrl: './game.component.scss'
 })
