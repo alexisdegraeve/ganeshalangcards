@@ -3,3 +3,11 @@ SUPER gamepad
 <a [routerLink]="'/dutch'" class="btn btn-primary text-white text-decoration-none">
   Aller vers Dutch
 </a>
+
+
+<div class="container">
+    <div class="row">
+        <app-generalcard *ngFor="let card of cards" [title]="card.title" [subtitle]="card.subtitle" [imageUrl]="card.imageUrl" [icon]="card.icon" [isLoading]="card.isLoading">
+        </app-generalcard>
+    </div>
+</div>

@@ -1,0 +1,26 @@
+<div class="col-md-4 mb-4">
+    <div class="card h-100" [ngClass]="{ 'flip-card': !isLoading }">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <div class="card-body text-center">
+                    <div class="skeleton" *ngIf="isLoading"></div>
+                    <i class="bi" [ngClass]="icon" style="font-size: 48px;"></i>
+                    <h5 class="card-title" style="font-family: 'Audiowide', sans-serif; font-size: 48px;">
+                        {{ title }}
+                    </h5>
+                    <p class="card-text" style="font-family: 'Audiowide', sans-serif; font-size: 32px;">
+                        {{ subtitle }}
+                    </p>
+                </div>
+            </div>
+            <div class="flip-card-back">
+                <div class="card-body text-center">
+                    <div class="skeleton" *ngIf="isLoading"></div>
+                    <div class="image-container">
+                        <img [src]="imageUrl" alt="Card image" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
