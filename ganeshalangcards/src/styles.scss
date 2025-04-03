@@ -1,6 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
 
+@use '_variables.scss' as *;
 body,
 html {
     height: 100%;
+}
+
+.navbar {
+    a,
+    ul {
+        color: #fff;
+    }
+}
+
+.navbar-nav {
+    color: #fff;
+    --bs-navbar-active-color: #{$active};
 }
