@@ -7,7 +7,7 @@ SUPER gamepad
 
 <div class="container">
     <div class="row">
-        <app-generalcard *ngFor="let card of cards" [title]="card.title" [subtitle]="card.subtitle" [imageUrl]="card.imageUrl" [icon]="card.icon" [isLoading]="card.isLoading">
+        <app-generalcard *ngFor="let card of cards" [title]="card.title" [subtitle]="card.subtitle" [imageUrl]="card.imageUrl" [icon]="card.icon" [isLoading]="card.isLoading" [link]="card.link">
         </app-generalcard>
     </div>
 </div>
