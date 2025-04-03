@@ -17,5 +17,6 @@ export class GeneralcardComponent {
   @Input() isLoading: boolean = false;
   @Input() link: string = '';
   @Input() class: string = '';
+  @Input() hover = true;
 
 }

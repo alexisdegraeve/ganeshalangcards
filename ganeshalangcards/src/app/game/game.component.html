@@ -1,13 +1,8 @@
-SUPER gamepad
-
-<a [routerLink]="'/dutch'" class="btn btn-primary text-white text-decoration-none">
-  Aller vers Dutch
-</a>
-
-
-<div class="container">
-    <div class="row">
-        <app-generalcard *ngFor="let card of cards" [title]="card.title" [subtitle]="card.subtitle" [imageUrl]="card.imageUrl" [icon]="card.icon" [isLoading]="card.isLoading" [link]="card.link" [class]="card.class">
-        </app-generalcard>
+<div class="container-fluid mt-4">
+    <div class="row g-3 flex-wrap">
+        <div class="col-12 col-sm-12 col-md-12 col-xl-6 flex-wrap" *ngFor="let card of cards ">
+            <app-generalcard [title]="card.title " [subtitle]="card.subtitle " [imageUrl]="card.imageUrl " [isLoading]="card.isLoading " [link]="card.link " [class]="card.class " [hover]="false ">
+            </app-generalcard>
+        </div>
     </div>
 </div>

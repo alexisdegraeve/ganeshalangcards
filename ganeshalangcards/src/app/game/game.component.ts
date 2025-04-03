@@ -17,28 +17,25 @@ export class GameComponent {
 
   cards = [
     {
-      title: 'Card 1',
-      subtitle: 'Subtitle 1',
-      imageUrl: 'assets/images/image1.jpg',  // Remplacez par le chemin réel de vos images
-      icon: 'bi-heart',  // Optionnel : icône Bootstrap (par exemple, bi-heart)
+      title: 'Nederlands',
+      subtitle: 'Level B 2.4',
+      imageUrl: '/images/flags/flag_dutch.svg',  // Remplacez par le chemin réel de vos images
       isLoading: false,
       link: '/dutch',
       class: 'pink'
     },
     {
-      title: 'Card 2',
-      subtitle: 'Subtitle 2',
-      imageUrl: 'assets/images/image2.jpg',
-      icon: 'bi-star',
+      title: 'Spanish',
+      subtitle: 'Level A 0',
+      imageUrl: '/images/flags/flag_spain.svg',
       isLoading: false,
       link: '/spanish',
       class: 'green'
     },
     {
-      title: 'Card 3',
-      subtitle: 'Subtitle 3',
-      imageUrl: 'assets/images/image3.jpg',
-      icon: 'bi-moon',
+      title: 'English',
+      subtitle: 'Level C 1',
+      imageUrl: '/images/flags/flag_english.svg',
       isLoading: false,
       link: '/english',
       class: 'blue'
