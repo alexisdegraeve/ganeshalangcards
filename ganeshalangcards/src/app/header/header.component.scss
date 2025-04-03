@@ -1,1 +1,4 @@
-.nvabar {}
+@use './../../_variables.scss' as *;
+.navbar {
+    background-color: $primary;
+}
