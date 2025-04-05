@@ -4,10 +4,11 @@ import { TranslateModule } from '@ngx-translate/core';
 import { QuizService } from '../services/quiz.service';
 import { FormsModule } from '@angular/forms';
 import { ActivatedRoute } from '@angular/router';
+import { GeneralcardComponent } from '../generalcard/generalcard.component';
 
 @Component({
   selector: 'app-flashcard',
-  imports: [CommonModule, TranslateModule, FormsModule],
+  imports: [CommonModule, TranslateModule, FormsModule, GeneralcardComponent],
   templateUrl: './flashcard.component.html',
   styleUrl: './flashcard.component.scss'
 })

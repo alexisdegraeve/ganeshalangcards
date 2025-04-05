@@ -10,8 +10,8 @@ import { RouterModule } from '@angular/router';
   styleUrl: './generalcard.component.scss'
 })
 export class GeneralcardComponent {
-  @Input() title: string = '';
-  @Input() subtitle: string = '';
+  @Input() title: string  = '';
+  @Input() subtitle: string  = '';
   @Input() imageUrl: string = '';
   @Input() icon: string = '';  // Vous pouvez ajouter un icône si nécessaire
   @Input() isLoading: boolean = false;
