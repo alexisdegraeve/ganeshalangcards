@@ -1,5 +1,5 @@
 <ng-container *ngIf="mode === CardMode.OneSide">
-    <div class="col-md-4 mb-4">
+    <div class="col-md-10 col-lg-4 mb-4">
         <div class="card h-100" [ngClass]="{ 'flip-card': !isLoading}">
             <a [routerLink]="[link,  language]" class="card-link">
                 <div class="flip-card-inner">
@@ -25,7 +25,7 @@
 </ng-container>
 
 <ng-container *ngIf="mode === CardMode.DoubleSide">
-    <div class="col-md-4 mb-4 double-side">
+    <div class="col-md-10 col-lg-8 mb-4 double-side">
         <div class="card h-100 border-0">
             <div class="flip-card-inner" [ngClass]="{ 'flip-card-hover': flipcard}">
                 <div class="flip-card-front" [ngClass]="class" (click)="flipcard = !flipcard">
