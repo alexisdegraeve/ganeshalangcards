@@ -16,7 +16,7 @@
     </ng-container>
 
     <ng-container *ngIf="currentQuestion">
-        <app-generalcard [title]="'Question'" [answer]="currentQuestion.answers" [question]="currentQuestion.question" [class]="class" [icon]="'bi-patch-question-fill'" [mode]="CardMode.question"></app-generalcard>
+        <app-generalcard (okEvent)="checkAnswer($event)" (skipEvent)="skipQuestion()" [title]="'Question'" [answer]="currentQuestion.answers" [question]="currentQuestion.question" [class]="class" [icon]="'bi-patch-question-fill'" [mode]="CardMode.question"></app-generalcard>
     </ng-container>
 
     <ng-container *ngIf="modeTraining">
@@ -90,8 +90,8 @@
                                 <hr class="rainbow ">
                                 <h5 class="card-title ">{{ currentQuestion.question }}</h5>
                                 <div class="input-group mb-3 ">
-                                    <input type="text " [(ngModel)]="userAnswer " class="form-control " placeholder="Votre réponse " aria-label="Votre réponse " aria-describedby="button-addon2 ">
-                                    <button class="btn btn-outline-success " type="button " id="button-addon2 " (click)="checkAnswer() "> <i class="bi bi-check-lg"></i> OK</button>
+                                    <input type="text " class="form-control " placeholder="Votre réponse " aria-label="Votre réponse " aria-describedby="button-addon2 ">
+                                    <button class="btn btn-outline-success " type="button " id="button-addon2 "> <i class="bi bi-check-lg"></i> OK</button>
                                 </div>
 
                             </div>

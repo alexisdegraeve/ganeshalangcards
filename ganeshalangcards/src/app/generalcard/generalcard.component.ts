@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, Input } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { CardMode } from '../cardmode';
@@ -22,6 +22,19 @@ export class GeneralcardComponent {
   @Input() answer: string = '';
   @Input() language = '';
   @Input() mode: CardMode = CardMode.OneSide;
+  @Output() skipEvent = new EventEmitter<void>();
+  @Output() okEvent = new EventEmitter<string>();
   CardMode = CardMode;
   flipcard = false;
+  userAnswer ='';
+
+  onSkip(): void {
+    this.skipEvent.emit();
+    this.userAnswer = '';
+  }
+
+  onOk(): void {
+    this.okEvent.emit(this.userAnswer);
+    this.userAnswer = '';
+  }
 }

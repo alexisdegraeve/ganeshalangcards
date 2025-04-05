@@ -78,22 +78,22 @@
                         <i class="bi bi-patch-question-fill h1"></i>
                     </div>
                 </div>
-                <div class="flip-card-back " (click)="flipcard=! flipcard ">
+                <div class="flip-card-back">
                     <div class="card-body text-center ">
                         <div class="skeleton " *ngIf="isLoading "></div>
                         <div class="wave-card " [ngClass]="class ">
                             <div class="text-answer ">
-                                <h5 class="card-title ">
+                                <h5 class="card-title" (click)="flipcard=! flipcard ">
                                     <i class="bi bi-patch-question-fill"></i> {{ question }}
                                 </h5>
                                 <div class="card-answer ">
                                     <div class="form-group">
                                         <label for="answerInput">Votre Réponse</label>
-                                        <input type="text" class="form-control" id="answerInput" placeholder="Napoléeon">
+                                        <input type="text" class="form-control" id="answerInput" placeholder="Napoléeon" [(ngModel)]="userAnswer">
                                     </div>
                                     <div class="buttons">
-                                        <button type="button" class="btn btn-outline-light">Skip</button>
-                                        <button type="button" class="ms-2 btn btn-outline-warning">Ok</button>
+                                        <button type="button" class="btn btn-outline-light" (click)="onSkip()">Skip</button>
+                                        <button type="button" class="ms-2 btn btn-outline-warning" (click)="onOk()">Ok</button>
                                     </div>
                                 </div>
 

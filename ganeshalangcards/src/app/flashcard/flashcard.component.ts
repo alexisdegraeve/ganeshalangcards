@@ -21,7 +21,7 @@ export class FlashcardComponent implements OnInit{
   score: number = 0;
   currentQuestion: any = {};
   currentQuestionIndex: number = 0;
-  userAnswer: string = '';
+  // userAnswer: string = '';
   endQuiz = false;
   private _modeTraining: boolean = false;
   loading = true;
@@ -41,7 +41,7 @@ export class FlashcardComponent implements OnInit{
   onModeTrainingChange() {
     this.score = 0;
     this.currentQuestionIndex = 0;
-    this.userAnswer= '';
+    // this.userAnswer= '';
     this.endQuiz = false;
     // if (this.modeTraining) {
     //   this.currentQuestionIndex = 0;
@@ -87,16 +87,16 @@ export class FlashcardComponent implements OnInit{
     if(this.currentQuestionIndex < this.questions.length) {
       this.endQuiz = false;
       this.currentQuestion = this.questions[this.currentQuestionIndex];
-      this.userAnswer = '';
+      // this.userAnswer = '';
     } else {
       this.endQuiz = true;
     }
   }
 
-  checkAnswer():void {
-    console.log(this.userAnswer.trim().toLowerCase());
+  checkAnswer(answer: string):void {
+    console.log(answer.trim().toLowerCase());
     console.log(this.currentQuestion.answers[0].trim().toLowerCase());
-    if (this.checkInAnswers(this.userAnswer, this.currentQuestion.answers)) {
+    if (this.checkInAnswers(answer, this.currentQuestion.answers)) {
       this.score++;
     }
     this.currentQuestionIndex++;
