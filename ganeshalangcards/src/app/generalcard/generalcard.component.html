@@ -25,38 +25,37 @@
 </ng-container>
 
 <ng-container *ngIf="mode === CardMode.DoubleSide">
-    <div class="col-md-4 mb-4 flip-card-hover">
-        <div class="card h-100" [ngClass]="{ 'flip-card': !isLoading}">
-            <a [routerLink]="[link,  language]" class="card-link">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <div class="card-body text-center" [ngClass]="class">
-                            <div class="skeleton" *ngIf="isLoading"></div>
-                            <h5 class="card-title">
-                                {{ title }}
-                            </h5>
-                            <i class="bi" [ngClass]="icon" style="font-size: 48px;" *ngIf="icon"></i>
-                            <p class="card-subtitle">
-                                {{ subtitle }}
-                            </p>
-                            <div class="image-container">
-                                <img [src]="imageUrl" alt="Card image" class="img-fluid">
-                            </div>
-                        </div>
+    <div class="col-md-4 mb-4">
+        <div class="card h-100">
+            <div class="flip-card-inner" [ngClass]="{ 'flip-card-hover': flipcard}">
+                <div class="flip-card-front" (click)="flipcard = !flipcard">
+                    <div class="card-body text-center" [ngClass]="class">
+                        <div class="skeleton" *ngIf="isLoading"></div>
+                        <h5 class="card-title">
+                            {{ title }}
+                        </h5>
+                        <i class="bi" [ngClass]="icon" style="font-size: 48px;" *ngIf="icon"></i>
+                        <p class="card-subtitle">
+                            {{ subtitle }}
+                        </p>
                     </div>
-                    <div class="flip-card-back">
-                        <div class="card-body text-center">
-                            <div class="skeleton" *ngIf="isLoading"></div>
-                            <div class="wave-card" [ngClass]="class">
-                                <svg viewBox="0 0 450 167" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                </div>
+                <div class="flip-card-back" (click)="flipcard = !flipcard">
+                    <div class="card-body text-center">
+                        <div class="skeleton" *ngIf="isLoading"></div>
+                        <div class="wave-card" [ngClass]="class">
+                            <div class="text-question">
+                                <span>{{ question }}</span>
+                            </div>
+                            <svg viewBox="0 0 450 167" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M0,80 C150,120 300,40 450,80 L450,167 L0,167 Z" fill="currentColor" />
                                   </svg>
 
-                            </div>
                         </div>
                     </div>
                 </div>
-            </a>
+            </div>
+
         </div>
     </div>
 </ng-container>

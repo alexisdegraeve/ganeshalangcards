@@ -22,9 +22,7 @@
 }
 
 .flip-card-hover {
-    .flip-card:hover .flip-card-inner {
-        transform: rotateY(180deg);
-    }
+    transform: rotateY(180deg);
 }
 
 .flip-card-front,
@@ -110,10 +108,14 @@
     border: 0.125rem solid #fff;
 }
 
+.text-question {
+    display: flex;
+    position: absolute;
+}
+
 .wave-card {
     width: 100%;
     height: 100%;
-    position: relative;
     background-color: white;
     &.pink {
         color: $pink;
@@ -130,5 +132,7 @@
         /* display: block; */
         transform: scale(1, 1.8);
         transform-origin: 0 11rem;
+        position: absolute;
+        left: 0;
     }
 }
