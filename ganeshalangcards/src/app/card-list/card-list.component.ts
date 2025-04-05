@@ -12,7 +12,14 @@ import { CommonModule } from '@angular/common';
 })
 export class CardListComponent implements OnInit{
   language: string | null = null;
-  $theme: Observable<any> | null = null;
+  theme$: Observable<any> | null = null;
+
+  cards: any[] = []; // Liste des cartes
+  currentPage: number = 1; // Page courante
+  itemsPerPage: number = 5; // Nombre d'éléments par page
+  totalItems: number = 0; // Nombre total d'éléments
+  themeId: string = ''; // ID du thème (utilisé pour les redirections)
+
 
   constructor(private route: ActivatedRoute, private router: Router, private quizzService: QuizService) {}
 
@@ -21,7 +28,7 @@ export class CardListComponent implements OnInit{
       this.language = params.get('language');
       if (this.language)
       {
-        this.$theme = this.quizzService.getThemes(this.language);
+        this.theme$ = this.quizzService.getThemes(this.language);
       }
 
 
@@ -30,6 +37,23 @@ export class CardListComponent implements OnInit{
       }
     });
 
+  }
+
+  onThemeClick(url: string, title: string): void {
+    // Rediriger vers le composant flashcard avec l'URL du vocabulaire
+    this.router.navigate(['/flashcard'], { queryParams: { quizFile: url } });
+  }
+
+    // Fonction pour changer la page
+    onPageChange(page: number): void {
+      this.currentPage = page;
+    }
+
+      // Fonction de pagination : slice les éléments en fonction de la page actuelle
+  get paginatedCards(): any[] {
+    const startIndex = (this.currentPage - 1) * this.itemsPerPage;
+    const endIndex = startIndex + this.itemsPerPage;
+    return this.cards.slice(startIndex, endIndex);
   }
 
 }

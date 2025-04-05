@@ -1,2 +1,16 @@
-<p>card-list works!</p>
-{{language}} {{ ($theme | async) | json}}
+<div class="container mt-4">
+    <div class="row">
+        <!-- Liste des thèmes avec pagination et async pipe -->
+        <div class="col-12 col-md-6" *ngFor="let theme of (theme$ | async)">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">{{ theme.title }}</h5>
+                    <p class="card-subtitle">{{ theme.description }}</p>
+                    <button (click)="onThemeClick(theme.url, theme.title)" class="btn btn-primary">Go to Theme</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pagination Bootstrap (tu peux l'ajouter si tu as la pagination en place) -->
+</div>

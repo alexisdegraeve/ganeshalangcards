@@ -3,6 +3,7 @@ import { Component, Input, OnInit } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
 import { QuizService } from '../services/quiz.service';
 import { FormsModule } from '@angular/forms';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-flashcard',
@@ -12,15 +13,15 @@ import { FormsModule } from '@angular/forms';
 })
 export class FlashcardComponent implements OnInit{
   @Input() showFront = true;
-  @Input() quizFile = '';
+  @Input() questions: any[] = [];
+  @Input() theme: string = '';
   score: number = 0;
   currentQuestion: any = {};
   currentQuestionIndex: number = 0;
   userAnswer: string = '';
-  theme: string = '';
-  questions: any[] = [];
   endQuiz = false;
   private _modeTraining: boolean = false;
+  loading = true;
 
   @Input()
   set modeTraining(value: boolean) {
@@ -48,19 +49,33 @@ export class FlashcardComponent implements OnInit{
     // }
   }
 
-  constructor(private quizService: QuizService){}
+  constructor(private route: ActivatedRoute, private quizService: QuizService){
+  }
 
   ngOnInit(): void {
-    this.loadQuiz(this.quizFile);
+    this.route.queryParams.subscribe(params => {
+      const quizFile = params['quizFile'];
+      if (quizFile) {
+        // Charger le fichier JSON du vocabulaire
+        this.quizService. getVocabulary(quizFile).subscribe((data) => {
+          this.questions = [...data[0].questions];
+          console.log(this.questions);
+//     this.theme = data[0].theme;
+//     this.showQuestion();
+          this.loading = false;
+        });
+      }
+    });
   }
 
-  private loadQuiz(filePath: string): void {
-    this.quizService.loadJson(filePath).subscribe(data => {
-      this.questions = [...data[0].questions];
-      this.theme = data[0].theme;
-      this.showQuestion();
-    })
-  }
+
+  // private loadQuiz(filePath: string): void {
+  //   this.quizService.getVocabulary(filePath).subscribe(data => {
+  //     this.questions = [...data[0].questions];
+  //     this.theme = data[0].theme;
+  //     this.showQuestion();
+  //   })
+  // }
 
   showQuestion() {
     if(this.currentQuestionIndex < this.questions.length) {

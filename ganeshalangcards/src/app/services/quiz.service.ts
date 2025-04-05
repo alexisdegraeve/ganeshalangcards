@@ -9,7 +9,7 @@ export class QuizService {
 
   constructor(private http: HttpClient) { }
 
-  loadJson(filePath: string): Observable<any> {
+  getVocabulary(filePath: string): Observable<any> {
     return this.http.get<any>(filePath);
   }
 
