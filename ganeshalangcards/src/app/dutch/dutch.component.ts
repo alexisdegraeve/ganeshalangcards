@@ -3,6 +3,7 @@ import { FlashcardComponent } from '../flashcard/flashcard.component';
 import { TranslateModule } from '@ngx-translate/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { CardListComponent } from "../card-list/card-list.component";
 
 @Component({
   selector: 'app-dutch',

@@ -18,5 +18,6 @@ export class GeneralcardComponent {
   @Input() link: string = '';
   @Input() class: string = '';
   @Input() hover = true;
+  @Input() language = '';
 
 }

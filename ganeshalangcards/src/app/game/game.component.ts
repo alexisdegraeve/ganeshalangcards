@@ -21,24 +21,27 @@ export class GameComponent {
       subtitle: 'Level B 2.4',
       imageUrl: '/images/flags/flag_dutch.svg',  // Remplacez par le chemin réel de vos images
       isLoading: false,
-      link: '/dutch',
-      class: 'pink'
+      link: '/theme',
+      class: 'pink',
+      language: 'nl'
     },
     {
       title: 'Spanish',
       subtitle: 'Level A 0',
       imageUrl: '/images/flags/flag_spain.svg',
       isLoading: false,
-      link: '/spanish',
-      class: 'green'
+      link: '/theme',
+      class: 'green',
+      language: 'es'
     },
     {
       title: 'English',
       subtitle: 'Level C 1',
       imageUrl: '/images/flags/flag_english.svg',
       isLoading: false,
-      link: '/english',
-      class: 'blue'
+      link: '/theme',
+      class: 'blue',
+      language: 'en'
     }
   ];
 

@@ -21,4 +21,10 @@ export class QuizService {
     return questions;
   }
 
+  getThemes(language: string): Observable<any> {
+    // Utiliser la langue pour construire l'URL du fichier JSON des thèmes
+    const url = `assets/themes_${language}.json`;
+    return this.http.get(url); // Charger le fichier de thèmes en fonction de la langue
+  }
+
 }
