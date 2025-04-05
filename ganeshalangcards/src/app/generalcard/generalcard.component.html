@@ -63,3 +63,50 @@
         </div>
     </div>
 </ng-container>
+
+
+<ng-container *ngIf="mode === CardMode.question">
+    <div class="col-md-10 col-lg-8 mb-4 question">
+        <div class="card h-100 border-0">
+            <div class="flip-card-inner" [ngClass]="{ 'flip-card-hover': flipcard}">
+                <div class="flip-card-front" [ngClass]="class" (click)="flipcard = !flipcard">
+                    <div class="card-body text-center">
+                        <div class="skeleton" *ngIf="isLoading"></div>
+                        <h5 class="card-title">
+                            {{ 'Question' }}
+                        </h5>
+                        <i class="bi bi-patch-question-fill h1"></i>
+                    </div>
+                </div>
+                <div class="flip-card-back " (click)="flipcard=! flipcard ">
+                    <div class="card-body text-center ">
+                        <div class="skeleton " *ngIf="isLoading "></div>
+                        <div class="wave-card " [ngClass]="class ">
+                            <div class="text-answer ">
+                                <h5 class="card-title ">
+                                    <i class="bi bi-patch-question-fill"></i> {{ question }}
+                                </h5>
+                                <div class="card-answer ">
+                                    <div class="form-group">
+                                        <label for="answerInput">Votre Réponse</label>
+                                        <input type="text" class="form-control" id="answerInput" placeholder="Napoléeon">
+                                    </div>
+                                    <div class="buttons">
+                                        <button type="button" class="btn btn-outline-light">Skip</button>
+                                        <button type="button" class="ms-2 btn btn-outline-warning">Ok</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <svg viewBox="0 0 450 167 " fill="currentColor " xmlns="http://www.w3.org/2000/svg ">
+                                  <path d="M0,80 C150,120 300,40 450,80 L450,167 L0,167 Z " fill="currentColor " />
+                                </svg>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</ng-container>

@@ -15,6 +15,10 @@
         <app-generalcard [title]="'Question'" [answer]="currentQuestion.answers" [question]="currentQuestion.question" [class]="class" [icon]="'bi-patch-question-fill'" [mode]="CardMode.DoubleSide"></app-generalcard>
     </ng-container>
 
+    <ng-container *ngIf="currentQuestion">
+        <app-generalcard [title]="'Question'" [answer]="currentQuestion.answers" [question]="currentQuestion.question" [class]="class" [icon]="'bi-patch-question-fill'" [mode]="CardMode.question"></app-generalcard>
+    </ng-container>
+
     <ng-container *ngIf="modeTraining">
         <div class="card border-0 card-front col-12 col-md-12 col-lg-6 shadow p-3 mb-5 bg-white rounded" [class.animate-front]="showFront " (click)="showFront=!showFront ">
             <div class=" card-header">{{theme}}</div>
