@@ -12,7 +12,7 @@
 
 <div class="container-fluid">
     <ng-container *ngIf="currentQuestion">
-        <app-generalcard [title]="'Question'" [question]="currentQuestion.question" [class]="class" [icon]="'bi-patch-question-fill'" [mode]="CardMode.DoubleSide"></app-generalcard>
+        <app-generalcard [title]="'Question'" [answer]="currentQuestion.answers" [question]="currentQuestion.question" [class]="class" [icon]="'bi-patch-question-fill'" [mode]="CardMode.DoubleSide"></app-generalcard>
     </ng-container>
 
     <ng-container *ngIf="modeTraining">

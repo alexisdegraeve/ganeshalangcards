@@ -19,6 +19,7 @@ export class GeneralcardComponent {
   @Input() link: string = '';
   @Input() class: string = '';
   @Input() question: string = '';
+  @Input() answer: string = '';
   @Input() language = '';
   @Input() mode: CardMode = CardMode.OneSide;
   CardMode = CardMode;
