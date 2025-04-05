@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, Input } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
+import { CardMode } from '../cardmode';
 
 @Component({
   selector: 'app-generalcard',
@@ -17,7 +18,7 @@ export class GeneralcardComponent {
   @Input() isLoading: boolean = false;
   @Input() link: string = '';
   @Input() class: string = '';
-  @Input() hover = true;
   @Input() language = '';
-
+  @Input() mode: CardMode = CardMode.OneSide;
+  CardMode = CardMode;
 }

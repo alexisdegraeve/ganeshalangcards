@@ -5,6 +5,7 @@ import { QuizService } from '../services/quiz.service';
 import { FormsModule } from '@angular/forms';
 import { ActivatedRoute } from '@angular/router';
 import { GeneralcardComponent } from '../generalcard/generalcard.component';
+import { CardMode } from '../cardmode';
 
 @Component({
   selector: 'app-flashcard',
@@ -24,6 +25,7 @@ export class FlashcardComponent implements OnInit{
   endQuiz = false;
   private _modeTraining: boolean = false;
   loading = true;
+  CardMode = CardMode;
 
   @Input()
   set modeTraining(value: boolean) {

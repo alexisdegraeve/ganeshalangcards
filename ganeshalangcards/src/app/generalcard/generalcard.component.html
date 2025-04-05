@@ -1,30 +1,59 @@
-<div class="col-md-4 mb-4" [ngClass]="{ 'flip-card-hover': hover }">
-    <div class="card h-100" [ngClass]="{ 'flip-card': !isLoading}">
-        <a [routerLink]="[link,  language]" class="card-link">
-            <div class="flip-card-inner">
-                <div class="flip-card-front">
-                    <div class="card-body text-center" [ngClass]="class">
-                        <div class="skeleton" *ngIf="isLoading"></div>
-                        <h5 class="card-title">
-                            {{ title }}
-                        </h5>
-                        <p class="card-subtitle">
-                            {{ subtitle }}
-                        </p>
-                        <div class="image-container">
-                            <img [src]="imageUrl" alt="Card image" class="img-fluid">
+<ng-container *ngIf="mode === CardMode.OneSide">
+    <div class="col-md-4 mb-4">
+        <div class="card h-100" [ngClass]="{ 'flip-card': !isLoading}">
+            <a [routerLink]="[link,  language]" class="card-link">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <div class="card-body text-center" [ngClass]="class">
+                            <div class="skeleton" *ngIf="isLoading"></div>
+                            <h5 class="card-title">
+                                {{ title }}
+                            </h5>
+                            <i class="bi" [ngClass]="icon" style="font-size: 48px;" *ngIf="icon"></i>
+                            <p class="card-subtitle">
+                                {{ subtitle }}
+                            </p>
+                            <div class="image-container" *ngIf="imageUrl !== ''">
+                                <img [src]="imageUrl" alt="Card image" class="img-fluid">
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="flip-card-back">
-                    <div class="card-body text-center">
-                        <div class="skeleton" *ngIf="isLoading"></div>
-                        <div class="image-container">
-                            <img [src]="imageUrl" alt="Card image" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
+            </a>
+        </div>
     </div>
-</div>
+</ng-container>
+
+<ng-container *ngIf="mode === CardMode.DoubleSide">
+    <div class="col-md-4 mb-4 flip-card-hover">
+        <div class="card h-100" [ngClass]="{ 'flip-card': !isLoading}">
+            <a [routerLink]="[link,  language]" class="card-link">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <div class="card-body text-center" [ngClass]="class">
+                            <div class="skeleton" *ngIf="isLoading"></div>
+                            <h5 class="card-title">
+                                {{ title }}
+                            </h5>
+                            <i class="bi" [ngClass]="icon" style="font-size: 48px;" *ngIf="icon"></i>
+                            <p class="card-subtitle">
+                                {{ subtitle }}
+                            </p>
+                            <div class="image-container">
+                                <img [src]="imageUrl" alt="Card image" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="card-body text-center">
+                            <div class="skeleton" *ngIf="isLoading"></div>
+                            <div class="image-container">
+                                <img [src]="imageUrl" alt="Card image" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</ng-container>

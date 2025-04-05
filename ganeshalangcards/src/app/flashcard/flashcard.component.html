@@ -12,8 +12,7 @@
 
 <div class="container-fluid">
     <ng-container *ngIf="currentQuestion">
-        {{ class }}
-        <app-generalcard [title]="theme" [subtitle]="currentQuestion.question" [class]="class" [hover]="true"></app-generalcard>
+        <app-generalcard [title]="theme" [subtitle]="currentQuestion.question" [class]="class" [mode]="CardMode.DoubleSide"></app-generalcard>
     </ng-container>
 
     <ng-container *ngIf="modeTraining">
