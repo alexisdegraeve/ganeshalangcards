@@ -1,17 +1,15 @@
 import { Component } from '@angular/core';
 import { FlashcardComponent } from '../flashcard/flashcard.component';
 import { TranslateModule } from '@ngx-translate/core';
-import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { CardListComponent } from "../card-list/card-list.component";
 
 @Component({
-  selector: 'app-dutch',
+  selector: 'app-quiz',
   imports: [FormsModule, FlashcardComponent, TranslateModule],
-  templateUrl: './dutch.component.html',
-  styleUrl: './dutch.component.scss'
+  templateUrl: './quiz.component.html',
+  styleUrl: './quiz.component.scss'
 })
-export class DutchComponent {
+export class QuizComponent {
     modeTraining: boolean = true;
 
 }
