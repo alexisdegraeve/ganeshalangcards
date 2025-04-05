@@ -39,9 +39,9 @@ export class CardListComponent implements OnInit{
 
   }
 
-  onThemeClick(url: string, title: string): void {
+  onThemeClick(url: string, title: string, classColor: string): void {
     // Rediriger vers le composant flashcard avec l'URL du vocabulaire
-    this.router.navigate(['/flashcard'], { queryParams: { quizFile: url } });
+    this.router.navigate(['/flashcard'], { queryParams: { quizFile: url, class: classColor, theme: title } });
   }
 
     // Fonction pour changer la page

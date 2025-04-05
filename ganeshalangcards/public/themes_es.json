@@ -1,7 +1,8 @@
 [{
         "title": "SPANISH Vocabulaire 1",
         "description": "Learn essential words.",
-        "url": "/en/2.4./quizz_en_1.json"
+        "class": "green",
+        "url": "/nl/2.4/quizz_nl.json"
     },
     {
         "title": "Vocabulaire 2",

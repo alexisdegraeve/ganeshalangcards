@@ -16,6 +16,7 @@ export class FlashcardComponent implements OnInit{
   @Input() showFront = true;
   @Input() questions: any[] = [];
   @Input() theme: string = '';
+  @Input() class: string = '';
   score: number = 0;
   currentQuestion: any = {};
   currentQuestionIndex: number = 0;
@@ -66,6 +67,8 @@ export class FlashcardComponent implements OnInit{
           this.loading = false;
         });
       }
+      this.theme = params['theme'];
+      this.class = params['class'];
     });
   }
 
