@@ -47,8 +47,11 @@
                     <div class="flip-card-back">
                         <div class="card-body text-center">
                             <div class="skeleton" *ngIf="isLoading"></div>
-                            <div class="image-container">
-                                <img [src]="imageUrl" alt="Card image" class="img-fluid">
+                            <div class="wave-card" [ngClass]="class">
+                                <svg viewBox="0 0 450 167" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0,80 C150,120 300,40 450,80 L450,167 L0,167 Z" fill="currentColor" />
+                                  </svg>
+
                             </div>
                         </div>
                     </div>
