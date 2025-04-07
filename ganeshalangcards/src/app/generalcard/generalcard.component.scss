@@ -20,6 +20,10 @@
             }
         }
         
+        .flip-card-simple {
+            transform: rotateY(100deg);
+        }
+        
         .flip-card-hover {
             transform: rotateY(180deg);
         }
@@ -55,6 +59,11 @@
             font-family: 'Audiowide', sans-serif;
             font-size: 3rem;
             text-transform: uppercase;
+            h5 {
+                font-family: 'Audiowide', sans-serif;
+                font-size: 3rem;
+                text-transform: uppercase;
+            }
         }
         
         .card-subtitle {
@@ -103,9 +112,16 @@
             z-index: 300;
             p {
                 color: #fff;
-                bottom: 40%;
+                bottom: 30%;
                 color: #fff;
                 position: absolute;
+                left: 0;
+                right: 0;
+                /* justify-content: center; */
+                display: flex;
+                align-items: center;
+                margin: 2rem;
+                align-self: center;
             }
         }
         
@@ -155,6 +171,12 @@
                     margin-right: 1rem;
                 }
                 font-size: 24px;
+                h5 {
+                    font-size: 24px;
+                    &.big {
+                        font-size: 3rem;
+                    }
+                }
             }
             .card-subtitle {
                 font-size: 20px;
@@ -169,6 +191,7 @@
                 align-items: center;
                 margin-top: 2rem;
                 max-width: calc(100% - 2rem);
+                width: calc(100% - 2rem);
             }
             .text-answer {
                 font-size: 20px;

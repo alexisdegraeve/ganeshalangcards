@@ -43,7 +43,12 @@ export class GeneralcardComponent implements OnInit {
   }
 
   onCardClickAction(): void {
-    this.onCardClick.emit();
+    this.flipcard = true;
+    setTimeout(() => {
+      this.flipcard = false;
+      this.onCardClick.emit();
+    }, 500);
+
   }
 
   onOk(): void {

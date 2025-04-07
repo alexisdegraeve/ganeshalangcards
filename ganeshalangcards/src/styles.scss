@@ -73,6 +73,12 @@ html {
     border-radius: 0.375rem;
 }
 
+.skeleton-button {
+    width: 120px; // ajustable selon la taille de ton bouton
+    height: 38px; // correspond environ à un bouton Bootstrap moyen
+    margin: 0.5rem 0;
+}
+
 @keyframes pulse {
     0% {
         background-color: #e0e0e0;
