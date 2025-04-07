@@ -3,10 +3,11 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { CardMode } from '../cardmode';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-generalcard',
-  imports: [FormsModule, CommonModule, RouterModule],
+  imports: [FormsModule, CommonModule, RouterModule, TranslateModule],
   templateUrl: './generalcard.component.html',
   styleUrl: './generalcard.component.scss'
 })
