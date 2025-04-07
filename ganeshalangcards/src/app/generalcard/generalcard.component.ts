@@ -16,7 +16,7 @@ export class GeneralcardComponent {
   @Input() imageUrl: string = '';
   @Input() icon: string = '';  // Vous pouvez ajouter un icône si nécessaire
   @Input() isLoading: boolean = false;
-  @Input() link: string = '';
+  @Input() link: string | undefined = '';
   @Input() class: string = '';
   @Input() question: string = '';
   @Input() answer: string = '';
@@ -24,6 +24,7 @@ export class GeneralcardComponent {
   @Input() mode: CardMode = CardMode.OneSide;
   @Output() skipEvent = new EventEmitter<void>();
   @Output() okEvent = new EventEmitter<string>();
+  @Output() onCardClick = new EventEmitter();
   CardMode = CardMode;
   flipcard = false;
   userAnswer ='';
@@ -31,6 +32,10 @@ export class GeneralcardComponent {
   onSkip(): void {
     this.skipEvent.emit();
     this.userAnswer = '';
+  }
+
+  onCardClickAction(): void {
+    this.onCardClick.emit();
   }
 
   onOk(): void {

@@ -2,14 +2,14 @@ import { Component } from '@angular/core';
 import { FlashcardComponent } from '../flashcard/flashcard.component';
 import { FormsModule } from '@angular/forms';
 import { TranslateModule } from '@ngx-translate/core';
-import { RouterModule } from '@angular/router';
+import { Router, RouterModule } from '@angular/router';
 import { GeneralcardComponent } from "../generalcard/generalcard.component";
 import { CommonModule } from '@angular/common';
 import { CardMode } from '../cardmode';
 
 @Component({
   selector: 'app-game',
-  imports: [FormsModule, TranslateModule, RouterModule, GeneralcardComponent, CommonModule],
+  imports: [FormsModule, TranslateModule, RouterModule, GeneralcardComponent, CommonModule, RouterModule],
   templateUrl: './game.component.html',
   styleUrl: './game.component.scss'
 })
@@ -46,5 +46,12 @@ export class GameComponent {
       language: 'en'
     }
   ];
+  constructor(private router: Router) {}
+
+  onCardClick(link:string, language: string): void {
+    // Rediriger vers le composant flashcard avec l'URL du vocabulaire
+    this.router.navigate([link, language]);
+  }
+
 
 }

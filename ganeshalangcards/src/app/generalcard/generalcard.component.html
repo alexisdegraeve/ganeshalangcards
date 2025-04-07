@@ -1,6 +1,6 @@
 <ng-container *ngIf="mode === CardMode.OneSide">
     <div class="card h-100" [ngClass]="{ 'flip-card': !isLoading}">
-        <a [routerLink]="[link,  language]" class="card-link">
+        <a class="card-link" (click)="onCardClickAction()">
             <div class="flip-card-inner">
                 <div class="flip-card-front">
                     <div class="card-body text-center" [ngClass]="class">

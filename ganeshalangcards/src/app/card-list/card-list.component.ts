@@ -3,16 +3,20 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { Observable } from 'rxjs';
 import { QuizService } from '../services/quiz.service';
 import { CommonModule } from '@angular/common';
+import { GeneralcardComponent } from '../generalcard/generalcard.component';
+import { CardMode } from '../cardmode';
 
 @Component({
   selector: 'app-card-list',
-  imports: [CommonModule],
+  imports: [CommonModule, GeneralcardComponent],
   templateUrl: './card-list.component.html',
   styleUrl: './card-list.component.scss'
 })
 export class CardListComponent implements OnInit{
   language: string | null = null;
   theme$: Observable<any> | null = null;
+
+  CardMode = CardMode;
 
   cards: any[] = []; // Liste des cartes
   currentPage: number = 1; // Page courante
