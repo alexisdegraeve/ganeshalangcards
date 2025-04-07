@@ -5,5 +5,7 @@
     "question": "Question",
     "answer": "Answer",
     "youranswer": "Your Answer",
-    "skip": "Skip"
+    "skip": "Skip",
+    "win": "You <span class='yellow-active'>Win</span>!",
+    "lose": "You <span class='red'>Lose</span>!"
 }

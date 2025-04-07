@@ -138,3 +138,44 @@
         </div>
     </div>
 </ng-container>
+
+
+
+<ng-container *ngIf="mode === CardMode.win">
+    <div class="col-md-10 col-lg-8 mb-4 question win">
+        <div class="card h-100 border-0">
+            <div class="flip-card-inner" [ngClass]="{ 'flip-card-hover': flipcard}">
+                <div class="flip-card-front" [ngClass]="class">
+                    <div class="card-body text-center">
+                        <div class="skeleton" *ngIf="isLoading"></div>
+                        <div class="card-title">
+                            <h5 *ngIf="!isLoading" class="big" [innerHtml]="('win' | translate)"></h5>
+                            <div *ngIf="isLoading" class="skeleton skeleton-title w-100 "></div>
+                        </div>
+                        <i class="bi bi-trophy-fill h1" *ngIf="!isLoading "></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</ng-container>
+
+
+<ng-container *ngIf="mode === CardMode.lose">
+    <div class="col-md-10 col-lg-8 mb-4 question lose">
+        <div class="card h-100 border-0">
+            <div class="flip-card-inner" [ngClass]="{ 'flip-card-hover': flipcard}">
+                <div class="flip-card-front" [ngClass]="class">
+                    <div class="card-body text-center">
+                        <div class="skeleton" *ngIf="isLoading"></div>
+                        <div class="card-title">
+                            <h5 *ngIf="!isLoading" class="big" [innerHtml]="('lose' | translate)"></h5>
+                            <div *ngIf="isLoading" class="skeleton skeleton-title w-100 "></div>
+                        </div>
+                        <i class="bi bi-emoji-dizzy" *ngIf="!isLoading"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</ng-container>

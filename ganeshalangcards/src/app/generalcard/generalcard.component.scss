@@ -84,6 +84,10 @@
             background-color: $blue;
         }
         
+        .grey {
+            background-color: $grey;
+        }
+        
         .card-body {
             // margin: 1rem;
             color: #fff;
@@ -218,5 +222,25 @@
                 margin-top: 1rem;
                 place-self: flex-end;
                 display: flex;
+            }
+        }
+        
+        .win,
+        .lose {
+            .bi {
+                font-size: 60px;
+            }
+        }
+        
+        .win {
+            .bi {
+                color: $active;
+            }
+        }
+        
+        .lose {
+            background-color: #C8C8C8;
+            .bi {
+                color: red;
             }
         }

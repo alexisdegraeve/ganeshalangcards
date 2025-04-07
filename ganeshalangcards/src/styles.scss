@@ -22,8 +22,20 @@ html {
     --bs-navbar-active-color: #{$active};
 }
 
+.yellow-active {
+    color: #{$active};
+}
+
 .yellow {
     color: #{$yellow};
+}
+
+.grey {
+    color: #{$grey};
+}
+
+.red {
+    color: red;
 }
 
 .skeleton {
