@@ -31,7 +31,7 @@
                     <div class="card-body text-center">
                         <div class="skeleton" *ngIf="isLoading"></div>
                         <h5 class="card-title">
-                            <i class="bi bi-patch-question-fill"></i> {{ 'Question' }}
+                            <i class="bi bi-patch-question-fill"></i> {{ 'question' | translate }}
                         </h5>
                         <p class="card-subtitle ">
                             {{ question }}
@@ -87,11 +87,11 @@
                                 </h5>
                                 <div class="card-answer ">
                                     <div class="form-group">
-                                        <label for="answerInput">Votre Réponse</label>
+                                        <label for="answerInput">{{ 'youranswer' | translate }} </label>
                                         <input type="text" class="form-control" id="answerInput" placeholder="Napoléeon" [(ngModel)]="userAnswer">
                                     </div>
                                     <div class="buttons">
-                                        <button type="button" class="btn btn-outline-light" (click)="onSkip()">Skip</button>
+                                        <button type="button" class="btn btn-outline-light" (click)="onSkip()">{{ 'skip' | translate }}</button>
                                         <button type="button" class="ms-2 btn btn-outline-warning" (click)="onOk()">Ok</button>
                                     </div>
                                 </div>

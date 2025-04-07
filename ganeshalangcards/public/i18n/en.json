@@ -3,5 +3,7 @@
     "spanish": "Spanish",
     "english": "English",
     "question": "Question",
-    "answer": "Answer"
+    "answer": "Answer",
+    "youranswer": "Your Answer",
+    "skip": "Skip"
 }
