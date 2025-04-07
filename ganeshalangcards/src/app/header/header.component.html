@@ -7,25 +7,21 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  mb-2 mb-lg-0 d-flex flex-grow-1">
                 <li class="nav-item">
-                    <a class="nav-link" [routerLink]="['theme', 'nl']" routerLinkActive="active">Nederland</a>
+                    <a class="nav-link" [routerLink]="['theme', 'nl']" routerLinkActive="active">{{ 'dutch' | translate}}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" [routerLink]="['theme', 'es']" routerLinkActive="active">Spanish</a>
+                    <a class="nav-link" [routerLink]="['theme', 'es']" routerLinkActive="active">{{ 'spanish' | translate}}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" [routerLink]="['theme', 'en']" routerLinkActive="active">English</a>
+                    <a class="nav-link" [routerLink]="['theme', 'en']" routerLinkActive="active">{{ 'english' | translate}}</a>
                 </li>
                 <li class="nav-item dropdown ms-auto">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      {{ 'change_language' | translate }}
+                      {{ defaultLang | uppercase }}
                     </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" (click)="changeLanguage('en')">English</a></li>
-                        <li><a class="dropdown-item" (click)="changeLanguage('fr')">French</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <ul class="dropdown-menu  dropdown-menu-dark dropdown-menu-end">
+                        <li><a class="dropdown-item" (click)="changeLanguage('en')">EN</a></li>
+                        <li><a class="dropdown-item" (click)="changeLanguage('fr')">FR</a></li>
                     </ul>
                 </li>
             </ul>
