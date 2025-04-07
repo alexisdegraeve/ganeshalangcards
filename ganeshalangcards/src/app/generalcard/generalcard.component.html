@@ -1,27 +1,26 @@
 <ng-container *ngIf="mode === CardMode.OneSide">
-    <div class="col-md-10 col-lg-4 mb-4">
-        <div class="card h-100" [ngClass]="{ 'flip-card': !isLoading}">
-            <a [routerLink]="[link,  language]" class="card-link">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <div class="card-body text-center" [ngClass]="class">
-                            <div class="skeleton" *ngIf="isLoading"></div>
-                            <h5 class="card-title">
-                                {{ title }}
-                            </h5>
-                            <i class="bi" [ngClass]="icon" style="font-size: 48px;" *ngIf="icon"></i>
-                            <p class="card-subtitle">
-                                {{ subtitle }}
-                            </p>
-                            <div class="image-container" *ngIf="imageUrl !== ''">
-                                <img [src]="imageUrl" alt="Card image" class="img-fluid">
-                            </div>
+    <div class="card h-100" [ngClass]="{ 'flip-card': !isLoading}">
+        <a [routerLink]="[link,  language]" class="card-link">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <div class="card-body text-center" [ngClass]="class">
+                        <div class="skeleton" *ngIf="isLoading"></div>
+                        <h5 class="card-title">
+                            {{ title }}
+                        </h5>
+                        <i class="bi" [ngClass]="icon" style="font-size: 48px;" *ngIf="icon"></i>
+                        <p class="card-subtitle">
+                            {{ subtitle }}
+                        </p>
+                        <div class="image-container" *ngIf="imageUrl !== ''">
+                            <img [src]="imageUrl" alt="Card image" class="img-fluid">
                         </div>
                     </div>
                 </div>
-            </a>
-        </div>
+            </div>
+        </a>
     </div>
+
 </ng-container>
 
 <ng-container *ngIf="mode === CardMode.DoubleSide">
