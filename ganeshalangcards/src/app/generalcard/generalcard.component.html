@@ -4,15 +4,26 @@
             <div class="flip-card-inner">
                 <div class="flip-card-front">
                     <div class="card-body text-center" [ngClass]="class">
-                        <div class="skeleton" *ngIf="isLoading"></div>
-                        <h5 class="card-title">
+                        <!-- Skeleton Loader pour le titre -->
+                        <div *ngIf="isLoading" class="skeleton skeleton-title"></div>
+                        <h5 class="card-title" *ngIf="!isLoading">
                             {{ title }}
                         </h5>
-                        <i class="bi" [ngClass]="icon" style="font-size: 48px;" *ngIf="icon"></i>
-                        <p class="card-subtitle">
+
+                        <!-- Skeleton Loader pour l'icône -->
+                        <div *ngIf="isLoading && icon" class="skeleton skeleton-icon"></div>
+                        <i class="bi" [ngClass]="icon" style="font-size: 48px;" *ngIf="!isLoading"></i>
+
+                        <!-- Skeleton Loader pour le sous-titre -->
+                        <div *ngIf="isLoading" class="skeleton skeleton-subtitle"></div>
+                        <p class="card-subtitle" *ngIf="!isLoading">
                             {{ subtitle }}
                         </p>
-                        <div class="image-container" *ngIf="imageUrl !== ''">
+
+
+                        <!-- Skeleton Loader pour l'image -->
+                        <div *ngIf="isLoading && imageUrl !== ''" class="skeleton skeleton-image"></div>
+                        <div class="image-container" *ngIf="imageUrl !== '' && !isLoading">
                             <img [src]="imageUrl" alt="Card image" class="img-fluid">
                         </div>
                     </div>
@@ -20,7 +31,6 @@
             </div>
         </a>
     </div>
-
 </ng-container>
 
 <ng-container *ngIf="mode === CardMode.DoubleSide">
@@ -33,7 +43,7 @@
                         <h5 class="card-title">
                             <i class="bi bi-patch-question-fill"></i> {{ 'question' | translate }}
                         </h5>
-                        <p class="card-subtitle ">
+                        <p class="card-subtitle " *ngIf="!isLoading">
                             {{ question }}
                         </p>
                     </div>
@@ -42,27 +52,24 @@
                     <div class="card-body text-center ">
                         <div class="skeleton " *ngIf="isLoading "></div>
                         <div class="wave-card " [ngClass]="class ">
-                            <div class="text-answer ">
+                            <div class="text-answer " *ngIf="!isLoading">
                                 <h5 class="card-title ">
                                     <i class="bi bi-patch-check-fill"></i> {{ 'answer' | translate }}
                                 </h5>
-                                <p class=" card-subtitle ">
+                                <p class=" card-subtitle " *ngIf="!isLoading">
                                     {{ answer }}
                                 </p>
                             </div>
                             <svg viewBox="0 0 450 167 " fill="currentColor " xmlns="http://www.w3.org/2000/svg ">
-                                    <path d="M0,80 C150,120 300,40 450,80 L450,167 L0,167 Z " fill="currentColor " />
-                                  </svg>
-
+                              <path d="M0,80 C150,120 300,40 450,80 L450,167 L0,167 Z " fill="currentColor " />
+                          </svg>
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 </ng-container>
-
 
 <ng-container *ngIf="mode === CardMode.question">
     <div class="col-md-10 col-lg-8 mb-4 question">
@@ -74,18 +81,18 @@
                         <h5 class="card-title">
                             {{ 'question' | translate }}
                         </h5>
-                        <i class="bi bi-patch-question-fill h1"></i>
+                        <i class="bi bi-patch-question-fill h1" *ngIf="!isLoading"></i>
                     </div>
                 </div>
                 <div class="flip-card-back">
-                    <div class="card-body text-center ">
-                        <div class="skeleton " *ngIf="isLoading "></div>
+                    <div class="card-body text-center " *ngIf="!isLoading">
+                        <div class="skeleton" *ngIf="isLoading"></div>
                         <div class="wave-card " [ngClass]="class ">
                             <div class="text-answer ">
                                 <h5 class="card-title" (click)="flipcard=! flipcard ">
                                     <i class="bi bi-patch-question-fill"></i> {{ question }}
                                 </h5>
-                                <div class="card-answer ">
+                                <div class="card-answer " *ngIf="!isLoading">
                                     <div class="form-group">
                                         <label for="answerInput">{{ 'youranswer' | translate }} </label>
                                         <input type="text" class="form-control" id="answerInput" placeholder="Napoléeon" [(ngModel)]="userAnswer">
@@ -95,17 +102,14 @@
                                         <button type="button" class="ms-2 btn btn-outline-warning" (click)="onOk()">Ok</button>
                                     </div>
                                 </div>
-
                             </div>
                             <svg viewBox="0 0 450 167 " fill="currentColor " xmlns="http://www.w3.org/2000/svg ">
-                                  <path d="M0,80 C150,120 300,40 450,80 L450,167 L0,167 Z " fill="currentColor " />
-                                </svg>
-
+                              <path d="M0,80 C150,120 300,40 450,80 L450,167 L0,167 Z " fill="currentColor " />
+                          </svg>
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 </ng-container>

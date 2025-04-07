@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { CardMode } from '../cardmode';
@@ -11,12 +11,12 @@ import { TranslateModule } from '@ngx-translate/core';
   templateUrl: './generalcard.component.html',
   styleUrl: './generalcard.component.scss'
 })
-export class GeneralcardComponent {
+export class GeneralcardComponent implements OnInit {
   @Input() title: string  = '';
   @Input() subtitle: string  = '';
   @Input() imageUrl: string = '';
   @Input() icon: string = '';  // Vous pouvez ajouter un icône si nécessaire
-  @Input() isLoading: boolean = false;
+  @Input() isLoading: boolean = true;
   @Input() link: string | undefined = '';
   @Input() class: string = '';
   @Input() question: string = '';
@@ -29,6 +29,13 @@ export class GeneralcardComponent {
   CardMode = CardMode;
   flipcard = false;
   userAnswer ='';
+
+  ngOnInit(): void {
+    // Simulez un délai de chargement de 3 secondes
+    setTimeout(() => {
+      this.isLoading = false; // Une fois les données chargées, mettez isLoading à false
+    }, 1000);
+  }
 
   onSkip(): void {
     this.skipEvent.emit();
