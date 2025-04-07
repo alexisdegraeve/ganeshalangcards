@@ -5,6 +5,7 @@ import { TranslateModule } from '@ngx-translate/core';
 import { RouterModule } from '@angular/router';
 import { GeneralcardComponent } from "../generalcard/generalcard.component";
 import { CommonModule } from '@angular/common';
+import { CardMode } from '../cardmode';
 
 @Component({
   selector: 'app-game',
@@ -14,6 +15,7 @@ import { CommonModule } from '@angular/common';
 })
 export class GameComponent {
   modeTraining: boolean = true;
+  CardMode = CardMode;
 
   cards = [
     {
