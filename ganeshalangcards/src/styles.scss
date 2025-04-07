@@ -11,6 +11,9 @@ html {
     a,
     ul {
         color: #fff;
+        &:hover {
+            color: $active;
+        }
     }
 }
 
