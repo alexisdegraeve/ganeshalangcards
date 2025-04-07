@@ -18,3 +18,7 @@ html {
     color: #fff;
     --bs-navbar-active-color: #{$active};
 }
+
+.yellow {
+    color: #{$yellow};
+}

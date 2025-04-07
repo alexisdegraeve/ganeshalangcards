@@ -1,6 +1,22 @@
 @use './../../_variables.scss' as *;
 .navbar {
     background-color: #{$primary};
-    color: #fff;
+    font-size: 1.125rem;
     font-family: 'Verdana';
+    color: #fff;
+    .navbar-brand {
+        display: flex;
+        flex-direction: column;
+        font-size: 1.25rem;
+        font-family: 'Averia Libre';
+        font-weight: bold;
+        color: inherit;
+        .sub-brand {
+            font-size: 0.875rem;
+            font-weight: bold;
+            i {
+                font-size: 1rem;
+            }
+        }
+    }
 }
