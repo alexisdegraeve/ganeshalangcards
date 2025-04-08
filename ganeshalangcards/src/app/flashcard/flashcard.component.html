@@ -12,7 +12,8 @@
 
 <div class="container-fluid">
     <ng-container *ngIf="modeTraining">
-        <app-generalcard [currentCardNumber]="currentCardNumber" [title]="'Question'" [answer]="currentQuestion.answers" [question]="currentQuestion.question" [class]="class" [icon]="'bi-patch-question-fill'" [mode]="CardMode.DoubleSide"></app-generalcard>
+        <app-generalcard [disableFirst]="checkFirstQuestion" [disableLast]="checkLastQuestion" (firstClick)="firstQuestion()" (prevClick)="prevQuestion()" (nextClick)="nextQuestion()" (lastClick)="lastQuestion()" [currentCardNumber]="currentCardNumber" [title]="'Question'"
+            [answer]="currentQuestion.answers" [question]="currentQuestion.question" [class]="class" [icon]="'bi-patch-question-fill'" [mode]="CardMode.DoubleSide"></app-generalcard>
     </ng-container>
 
     <ng-container *ngIf="!modeTraining">

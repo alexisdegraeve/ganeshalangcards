@@ -49,10 +49,29 @@
                         <p class="card-subtitle " *ngIf="!isLoading">
                             {{ question }}
                         </p>
+                        <div class="card-footer">
+                            <div class="ms-auto me-auto ">
+                                <button class="btn btn-outline-primary me-2 " type="button " (click)="firstQuestion() " [disabled]="disableFirst " aria-label="First question ">
+                      <i class="bi bi-skip-backward-fill "></i>
+                  </button>
+
+                                <button class="btn btn-outline-primary me-2 " type="button " (click)="prevQuestion() " [disabled]="disableFirst " aria-label="Previous question ">
+                      <i class="bi bi-caret-left-fill "></i>
+                  </button>
+
+                                <button class="btn btn-outline-primary me-2 " type="button " (click)="nextQuestion() " [disabled]="disableLast " aria-label="Next question ">
+                      <i class="bi bi-caret-right-fill "></i>
+                  </button>
+
+                                <button class="btn btn-outline-primary " type="button " (click)="lastQuestion() " [disabled]="disableLast " aria-label="Last question ">
+                      <i class="bi bi-skip-forward-fill "></i>
+                  </button>
+
+                            </div>
+                            {{ currentCardNumber }}
+                        </div>
                     </div>
-                    <div class="card-footer">
-                        {{ currentCardNumber }}
-                    </div>
+
                 </div>
                 <div class="flip-card-back " (click)="flipcard=! flipcard ">
                     <div class="card-body text-center ">
@@ -69,6 +88,9 @@
                                 <div class=" card-subtitle">
                                     <p *ngIf="!isLoading">{{ answer }}</p>
                                     <p *ngIf="isLoading" class="skeleton skeleton-subtitle"></p>
+                                    <div class="card-footer">
+                                        {{ currentCardNumber }}
+                                    </div>
                                 </div>
                             </div>
                             <svg viewBox="0 0 450 167 " fill="currentColor " xmlns="http://www.w3.org/2000/svg ">
@@ -76,9 +98,7 @@
                           </svg>
                         </div>
                     </div>
-                    <div class="card-footer">
-                        {{ currentCardNumber }}
-                    </div>
+
                 </div>
             </div>
         </div>

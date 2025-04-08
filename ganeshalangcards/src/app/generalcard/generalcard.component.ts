@@ -29,6 +29,12 @@ export class GeneralcardComponent implements OnInit {
   @Output() skipEvent = new EventEmitter<void>();
   @Output() okEvent = new EventEmitter<string>();
   @Output() onCardClick = new EventEmitter();
+  @Output() firstClick = new EventEmitter();
+  @Output() prevClick = new EventEmitter();
+  @Output() nextClick = new EventEmitter();
+  @Output() lastClick = new EventEmitter();
+  @Input() disableFirst: boolean = true;
+  @Input() disableLast: boolean = true;
   CardMode = CardMode;
   flipcard = false;
   userAnswer ='';
@@ -57,5 +63,18 @@ export class GeneralcardComponent implements OnInit {
   onOk(): void {
     this.okEvent.emit(this.userAnswer);
     this.userAnswer = '';
+  }
+
+  firstQuestion() {
+    this.firstClick.emit();
+  }
+  prevQuestion() {
+    this.prevClick.emit();
+  }
+  nextQuestion() {
+    this.nextClick.emit();
+  }
+  lastQuestion() {
+    this.lastClick.emit();
   }
 }
