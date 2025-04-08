@@ -234,7 +234,6 @@
             }
             .buttons {
                 margin-top: 1rem;
-                place-self: flex-end;
                 display: flex;
             }
         }
@@ -257,4 +256,16 @@
             .bi {
                 color: red;
             }
+        }
+
+        .card-footer {
+            margin-top: auto;
+            margin-right: auto;
+            font-size: 12px;
+            width: 100%;
+            display: flex;
+        }
+
+        .score {
+            font-size: 24px;
         }

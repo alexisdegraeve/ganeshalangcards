@@ -26,6 +26,7 @@ export class FlashcardComponent implements OnInit{
   private _modeTraining: boolean = false;
   loading = true;
   CardMode = CardMode;
+  win = false;
 
   @Input()
   set modeTraining(value: boolean) {

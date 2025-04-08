@@ -50,6 +50,9 @@
                             {{ question }}
                         </p>
                     </div>
+                    <div class="card-footer">
+                        {{ currentCardNumber }}
+                    </div>
                 </div>
                 <div class="flip-card-back " (click)="flipcard=! flipcard ">
                     <div class="card-body text-center ">
@@ -73,6 +76,9 @@
                           </svg>
                         </div>
                     </div>
+                    <div class="card-footer">
+                        {{ currentCardNumber }}
+                    </div>
                 </div>
             </div>
         </div>
@@ -91,6 +97,9 @@
                             <div *ngIf="isLoading" class="skeleton skeleton-title w-100 "></div>
                         </div>
                         <i class="bi bi-patch-question-fill h1 " *ngIf="!isLoading "></i>
+                        <div class="card-footer">
+                            {{ currentCardNumber }}
+                        </div>
                     </div>
                 </div>
                 <div class="flip-card-back ">
@@ -112,6 +121,9 @@
                                         <input type="text " class="form-control " id="answerInput " placeholder="Napoléeon " [(ngModel)]="userAnswer ">
                                     </div>
                                     <div class="buttons ">
+                                        <div class="card-footer">
+                                            {{ currentCardNumber }}
+                                        </div>
                                         <button type="button " class="btn btn-outline-light " (click)="onSkip() ">{{ 'skip' | translate }}</button>
                                         <button type="button " class="ms-2 btn btn-outline-warning " (click)="onOk() ">Ok</button>
                                     </div>
@@ -122,11 +134,13 @@
                                         <div class="skeleton skeleton-title w-100 "></div>
                                         <div class="skeleton skeleton-title w-100 "></div>
                                     </div>
+
                                     <div class="buttons ">
                                         <div class="skeleton btn skeleton-button"></div>
                                         <div class="skeleton btn ms-2 skeleton-button"></div>
                                     </div>
                                 </div>
+
                             </div>
                             <svg viewBox="0 0 450 167 " fill="currentColor " xmlns="http://www.w3.org/2000/svg ">
                               <path d="M0,80 C150,120 300,40 450,80 L450,167 L0,167 Z " fill="currentColor " />
@@ -153,6 +167,9 @@
                             <div *ngIf="isLoading" class="skeleton skeleton-title w-100 "></div>
                         </div>
                         <i class="bi bi-trophy-fill h1" *ngIf="!isLoading "></i>
+                        <div class="score">
+                            {{ score }}/{{ total }}
+                        </div>
                     </div>
                 </div>
             </div>
@@ -173,6 +190,9 @@
                             <div *ngIf="isLoading" class="skeleton skeleton-title w-100 "></div>
                         </div>
                         <i class="bi bi-emoji-dizzy" *ngIf="!isLoading"></i>
+                        <div class="score">
+                            {{ score }}/{{ total }}
+                        </div>
                     </div>
                 </div>
             </div>

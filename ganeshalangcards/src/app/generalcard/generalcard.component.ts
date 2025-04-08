@@ -22,7 +22,10 @@ export class GeneralcardComponent implements OnInit {
   @Input() question: string = '';
   @Input() answer: string = '';
   @Input() language = '';
+  @Input() score  =  0;
+  @Input() total  =  0;
   @Input() mode: CardMode = CardMode.OneSide;
+  @Input() currentCardNumber = '';
   @Output() skipEvent = new EventEmitter<void>();
   @Output() okEvent = new EventEmitter<string>();
   @Output() onCardClick = new EventEmitter();
