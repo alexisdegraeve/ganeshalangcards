@@ -34,7 +34,7 @@ export class GeneralcardComponent implements OnInit {
     // Simulez un délai de chargement de 3 secondes
     setTimeout(() => {
       this.isLoading = false; // Une fois les données chargées, mettez isLoading à false
-    }, 1000);
+    }, 500);
   }
 
   onSkip(): void {
