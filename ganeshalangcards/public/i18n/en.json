@@ -7,5 +7,6 @@
     "youranswer": "Your Answer",
     "skip": "Skip",
     "win": "You <span class='yellow-active'>Win</span>!",
-    "lose": "You <span class='red'>Lose</span>!"
+    "lose": "You <span class='red'>Lose</span>!",
+    "restart": "Restart"
 }
