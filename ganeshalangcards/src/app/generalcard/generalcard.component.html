@@ -49,27 +49,26 @@
                         <p class="card-subtitle " *ngIf="!isLoading">
                             {{ question }}
                         </p>
-                        <div class="card-footer">
-                            <div class="ms-auto me-auto ">
-                                <button class="btn btn-outline-primary me-2 " type="button " (click)="firstQuestion() " [disabled]="disableFirst " aria-label="First question ">
-                      <i class="bi bi-skip-backward-fill "></i>
-                  </button>
+                    </div>
+                    <div class="card-footer">
+                        <div class="ms-auto me-auto ">
+                            <button class="btn btn-outline-primary me-2 " type="button " (click)="firstQuestion() " [disabled]="disableFirst " aria-label="First question ">
+                <i class="bi bi-chevron-bar-left"></i>
+              </button>
 
-                                <button class="btn btn-outline-primary me-2 " type="button " (click)="prevQuestion() " [disabled]="disableFirst " aria-label="Previous question ">
-                      <i class="bi bi-caret-left-fill "></i>
-                  </button>
+                            <button class="btn btn-outline-primary me-2 " type="button " (click)="prevQuestion() " [disabled]="disableFirst " aria-label="Previous question ">
+                <i class="bi bi-chevron-left"></i>
+              </button> <span class="currentnumber">{{ currentCardNumber }}</span>
+                            <button class="btn btn-outline-primary me-2 " type="button " (click)="nextQuestion() " [disabled]="disableLast " aria-label="Next question ">
+                <i class="bi bi-chevron-right"></i>
+              </button>
 
-                                <button class="btn btn-outline-primary me-2 " type="button " (click)="nextQuestion() " [disabled]="disableLast " aria-label="Next question ">
-                      <i class="bi bi-caret-right-fill "></i>
-                  </button>
+                            <button class="btn btn-outline-primary " type="button " (click)="lastQuestion() " [disabled]="disableLast " aria-label="Last question ">
+                <i class="bi bi-chevron-bar-right"></i>
+              </button>
 
-                                <button class="btn btn-outline-primary " type="button " (click)="lastQuestion() " [disabled]="disableLast " aria-label="Last question ">
-                      <i class="bi bi-skip-forward-fill "></i>
-                  </button>
-
-                            </div>
-                            {{ currentCardNumber }}
                         </div>
+
                     </div>
 
                 </div>
@@ -88,15 +87,32 @@
                                 <div class=" card-subtitle">
                                     <p *ngIf="!isLoading">{{ answer }}</p>
                                     <p *ngIf="isLoading" class="skeleton skeleton-subtitle"></p>
-                                    <div class="card-footer">
-                                        {{ currentCardNumber }}
-                                    </div>
                                 </div>
                             </div>
                             <svg viewBox="0 0 450 167 " fill="currentColor " xmlns="http://www.w3.org/2000/svg ">
-                              <path d="M0,80 C150,120 300,40 450,80 L450,167 L0,167 Z " fill="currentColor " />
-                          </svg>
+                <path d="M0,80 C150,120 300,40 450,80 L450,167 L0,167 Z " fill="currentColor " />
+              </svg>
                         </div>
+                    </div>
+                    <div class="card-footer" [ngClass]="class">
+                        <div class="ms-auto me-auto ">
+                            <button class="btn btn-outline-primary me-2 " type="button " (click)="firstQuestion() " [disabled]="disableFirst " aria-label="First question ">
+              <i class="bi bi-chevron-bar-left"></i>
+            </button>
+
+                            <button class="btn btn-outline-primary me-2 " type="button " (click)="prevQuestion() " [disabled]="disableFirst " aria-label="Previous question ">
+              <i class="bi bi-chevron-left"></i>
+            </button> <span class="currentnumber">{{ currentCardNumber }}</span>
+                            <button class="btn btn-outline-primary me-2 " type="button " (click)="nextQuestion() " [disabled]="disableLast " aria-label="Next question ">
+              <i class="bi bi-chevron-right"></i>
+            </button>
+
+                            <button class="btn btn-outline-primary " type="button " (click)="lastQuestion() " [disabled]="disableLast " aria-label="Last question ">
+              <i class="bi bi-chevron-bar-right"></i>
+            </button>
+
+                        </div>
+
                     </div>
 
                 </div>
@@ -144,7 +160,8 @@
                                         <div class="card-footer">
                                             {{ currentCardNumber }}
                                         </div>
-                                        <button type="button " class="btn btn-outline-light " (click)="onSkip() ">{{ 'skip' | translate }}</button>
+                                        <button type="button " class="btn btn-outline-light " (click)="onSkip() ">{{ 'skip' | translate
+                      }}</button>
                                         <button type="button " class="ms-2 btn btn-outline-warning " (click)="onOk() ">Ok</button>
                                     </div>
                                 </div>
@@ -163,8 +180,8 @@
 
                             </div>
                             <svg viewBox="0 0 450 167 " fill="currentColor " xmlns="http://www.w3.org/2000/svg ">
-                              <path d="M0,80 C150,120 300,40 450,80 L450,167 L0,167 Z " fill="currentColor " />
-                          </svg>
+                <path d="M0,80 C150,120 300,40 450,80 L450,167 L0,167 Z " fill="currentColor " />
+              </svg>
                         </div>
                     </div>
                 </div>
