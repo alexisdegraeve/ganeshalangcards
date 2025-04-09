@@ -159,7 +159,13 @@
                                     <div class="buttons ">
                                         <div class="card-footer">
                                             {{ 'question' | translate }} {{ currentCardNumber }}
+                                            <div class="stars">
+                                                <span *ngFor="let i of [].constructor(total); let idx = index">
+                                            <i class="bi" [ngClass]="idx < score ? 'bi-star-fill text-warning' : 'bi-star'"></i>
+                                          </span>
+                                            </div>
                                         </div>
+
                                         <button type="button " class="btn btn-outline-light " (click)="onSkip() ">{{ 'skip' | translate
                       }}</button>
                                         <button type="button " class="ms-2 btn btn-outline-warning " (click)="onOk() ">Ok</button>
