@@ -12,6 +12,18 @@
       },
       {
           "title": "Woordenschat",
+          "description": "Indirecte reed - Verlijden tijd",
+          "class": "pink",
+          "url": "/nl/2.4/quizz_indirecterede.json"
+      },
+      {
+          "title": "Woordenschat",
+          "description": "Indirecte vraag",
+          "class": "pink",
+          "url": "/nl/2.4/quizz_indirectevraag.json"
+      },
+      {
+          "title": "Woordenschat",
           "description": "Ik erger me eraan als",
           "class": "pink",
           "url": "/nl/2.4/quizz_ergerme.json"

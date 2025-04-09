@@ -1,0 +1,60 @@
+[{
+    "theme": "indirecte vraag",
+    "questions": [{
+            "question": "Weet je... ? Houdt hij van Cola?",
+            "answers": ["Weet je of hij van cola houdt?"]
+        },
+        {
+            "question": "Weet je ...? Wat zijn zijn hobby's?",
+            "answers": ["Weet je wat zijn hobby's zijn?"]
+        },
+        {
+            "question": "Weet je ...? Hoelang woont hij in België?",
+            "answers": ["Weet je hoelang hij in België woont?"]
+        },
+        {
+            "question": "Weet je ...? Werkt hij elke dag op de computer?",
+            "answers": ["Weet je of hij elke dag op de computer werkt?"]
+        },
+        {
+            "question": "Weet je ...? Vindt hij het leuk om Nederlands te leren?",
+            "answers": ["Weet je of hij het leuk vindt om Nederlands te leren?"]
+        },
+        {
+            "question": "Weet je ...? Gaat hij dikwijls naar de film?",
+            "answers": ["Weet je of hij dikwijls naar de film gaat?"]
+        },
+        {
+            "question": "Weet je ...? Staat hij vroeg op, ook als het niet moet?",
+            "answers": ["Weet je of hij vroeg opstaat, ook als het niet moet?"]
+        },
+        {
+            "question": "Weet je ...? Kan hij genieten van een strandwandeling?",
+            "answers": ["Weet je of hij van een strandwandeling kan genieten?"]
+        },
+        {
+            "question": "Weet je ...? Mist hij het land waar hij vandaan komt?",
+            "answers": ["Weet je of hij het land waar hij vandaan komt, mist?"]
+        },
+        {
+            "question": "Weet je ...? Heeft hij dikwijls contact met zijn familie in het buitenland?",
+            "answers": ["Weet je of hij dikwijls contact met zijn familie in het buitenland heeft?"]
+        },
+        {
+            "question": "Elisabeth vraagt... Wanneer zie je hem terug?",
+            "answers": ["Elizabeth vraagt wanneer ik hem terugzie."]
+        },
+        {
+            "question": "Elisabeth wil weten...? Met welke auto rijdt hij?",
+            "answers": ["Elizabeth wil weten met welke auto hij rijdt."]
+        },
+        {
+            "question": "Elisabeth wil weten...? Doet hij aan sport?",
+            "answers": ["Elizabeth wil weten of hij aan sport doet."]
+        },
+        {
+            "question": "Elisabeth is benieuwd... Wat leest hij graag?",
+            "answers": ["Elizabeth is benieuwd wat hij graag leest"]
+        }
+    ]
+}]
