@@ -46,8 +46,7 @@
                         <div class="card-title w-100" *ngIf="isLoading">
                             <div *ngIf="isLoading" class="skeleton skeleton-title"></div>
                         </div>
-                        <p class="card-subtitle " *ngIf="!isLoading">
-                            {{ question }}
+                        <p class="card-subtitle " *ngIf="!isLoading" [innerHtml]="question">
                         </p>
                     </div>
                     <div class="card-footer">
@@ -145,7 +144,7 @@
                             <div class="text-answer ">
                                 <div class="card-title " (click)="flipcard=! flipcard " *ngIf="!isLoading">
                                     <i class="bi bi-patch-question-fill "></i>
-                                    <h5>{{ question }}</h5>
+                                    <h5 [innerHtml]="question"></h5>
                                 </div>
                                 <div class="card-title" *ngIf="isLoading">
                                     <div *ngIf=" isLoading " class="skeleton skeleton-title w-100 "></div>
@@ -153,8 +152,7 @@
 
                                 <div class="card-answer " *ngIf="!isLoading">
                                     <div class="form-group ">
-                                        <label for="answerInput ">{{ 'youranswer' | translate }} </label>
-                                        <input type="text " class="form-control " id="answerInput " placeholder="Napoléeon " [(ngModel)]="userAnswer ">
+                                        <input type="text " class="form-control " id="answerInput " [placeholder]="('youranswer' | translate)" [(ngModel)]="userAnswer ">
                                     </div>
                                     <div class="buttons ">
                                         <div class="card-footer">

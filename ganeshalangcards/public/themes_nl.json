@@ -1,27 +1,33 @@
-[{
-        "title": "Vocabulaire 1",
-        "description": "Apprenez des mots essentiels.",
-        "class": "pink",
-        "url": "/nl/2.4/quizz_nl.json"
-    },
-    {
-        "title": "Vocabulaire 2",
-        "description": "Vocabulaire avancé pour les experts.",
-        "url": "/fr/2.4./quizz_fr_2.json"
-    },
-    {
-        "title": "Vocabulaire 3",
-        "description": "Explorez de nouveaux termes.",
-        "url": "/fr/2.4./quizz_fr_3.json"
-    },
-    {
-        "title": "Vocabulaire 4",
-        "description": "Perfectionnez vos compétences linguistiques.",
-        "url": "/fr/2.4./quizz_fr_4.json"
-    },
-    {
-        "title": "Vocabulaire 5",
-        "description": "Familiarisez-vous avec des termes courants.",
-        "url": "/fr/2.4./quizz_fr_5.json"
-    }
-]
+  [{
+          "title": "Woordenschat",
+          "description": "Beleving van een stad",
+          "class": "pink",
+          "url": "/nl/2.4/quizz_stad.json"
+      },
+      {
+          "title": "Vocabulaire 1",
+          "description": "Apprenez des mots essentiels.",
+          "class": "pink",
+          "url": "/nl/2.4/quizz_nl.json"
+      },
+      {
+          "title": "Vocabulaire 2",
+          "description": "Vocabulaire avancé pour les experts.",
+          "url": "/fr/2.4./quizz_fr_2.json"
+      },
+      {
+          "title": "Vocabulaire 3",
+          "description": "Explorez de nouveaux termes.",
+          "url": "/fr/2.4./quizz_fr_3.json"
+      },
+      {
+          "title": "Vocabulaire 4",
+          "description": "Perfectionnez vos compétences linguistiques.",
+          "url": "/fr/2.4./quizz_fr_4.json"
+      },
+      {
+          "title": "Vocabulaire 5",
+          "description": "Familiarisez-vous avec des termes courants.",
+          "url": "/fr/2.4./quizz_fr_5.json"
+      }
+  ]

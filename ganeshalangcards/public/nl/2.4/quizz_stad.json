@@ -1,0 +1,44 @@
+[{
+    "theme": "Woordenschat beleving van een stad",
+    "questions": [{
+            "question": "Greet <b>vond</b> het <b>leuk</b> om naar de mooie etalages te kijken'",
+            "answers": ["De man vroeg of hij naast me mocht komen zitten.", "22"]
+        },
+        {
+            "question": "Ik antwoordde: 'Dat is prima'",
+            "answers": ["Ik antwoordde dat dat prima was.", "22"]
+        },
+        {
+            "question": "Hij vroeg: 'hoe heet je?'",
+            "answers": ["Hij vroeg hoe ik heette."]
+        },
+        {
+            "question": "Daarna vroeg hij: 'Uit welk land kom je?'",
+            "answers": ["Daarna vroeg hij uit welk land ik kwam."]
+        },
+        {
+            "question": "Ik zei: 'Ik kom uit Peru'",
+            "answers": ["Ik zei dat ik uit Peru kwam."]
+        },
+        {
+            "question": "Hij vroeg: 'Woon je al lang in België?'",
+            "answers": ["Hij vroeg of ik al lang in België woonde."]
+        },
+        {
+            "question": "Hij vroeg ook: 'Woon je graag in België?'.",
+            "answers": ["Hij vroeg ook of ik graag in België woonde."]
+        },
+        {
+            "question": "Ik zei: 'Ik woon graag in België.'",
+            "answers": ["Ik zei dat ik graag in België woonde."]
+        },
+        {
+            "question": "Ik zei: 'Ik voel me goed omdat ik al goed Nederlands spreek.'",
+            "answers": ["Ik zei dat ik me goed voelde omdat ik al goed Nederlands sprak."]
+        },
+        {
+            "question": "De man zei: 'Ik zou heel graag eens op vakantie gaan naar Peru.'",
+            "answers": ["De man zei dat hij heel graag eens op vakantie zou gaan naar Peru."]
+        }
+    ]
+}]
