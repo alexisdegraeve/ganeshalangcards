@@ -8,5 +8,7 @@
     "skip": "Skip",
     "win": "You <span class='yellow-active'>Win</span>!",
     "lose": "You <span class='red'>Lose</span>!",
-    "restart": "Restart"
+    "restart": "Restart",
+    "learn": "Training",
+    "test": "Test"
 }

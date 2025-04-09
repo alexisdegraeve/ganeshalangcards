@@ -6,5 +6,7 @@
     "answer": "Réponse",
     "youranswer": "Votre Réponse",
     "skip": "Passe",
-    "restart": "Recommencer"
+    "restart": "Recommencer",
+    "learn": "Apprendre",
+    "test": "Tester"
 }

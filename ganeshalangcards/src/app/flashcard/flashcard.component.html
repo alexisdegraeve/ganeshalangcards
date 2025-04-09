@@ -1,131 +1,32 @@
-<div class="row">
-    <div class="col-12 col-md-12 col-lg-6 d-flex">
-        <div class="btn-group ms-auto" role="group" aria-label="Basic radio toggle button group">
+<div class="container-fluid">
+    <div class="col-md-10 col-lg-8  mode">
+        <div class="btn-group btn-group-lg ms-auto " role="group" aria-label="Basic radio toggle button group">
             <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked [(ngModel)]="modeTraining" [value]="true">
-            <label class="btn btn-outline-warning" for="btnradio1">{{ 'learn' | translate}}</label>
+            <label class="btn btn-outline-primary" for="btnradio1">{{ 'learn' | translate}}</label>
 
             <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" [(ngModel)]="modeTraining" [value]="false">
-            <label class="btn btn-outline-warning" for="btnradio2">{{ 'test' | translate}}</label>
+            <label class="btn btn-outline-primary " for="btnradio2">{{ 'test' | translate}}</label>
         </div>
     </div>
-</div>
-
-<div class="container-fluid">
-    <ng-container *ngIf="modeTraining">
-        <app-generalcard [disableFirst]="checkFirstQuestion" [disableLast]="checkLastQuestion" (firstClick)="firstQuestion()" (prevClick)="prevQuestion()" (nextClick)="nextQuestion()" (lastClick)="lastQuestion()" [currentCardNumber]="currentCardNumber" [title]="'Question'"
-            [answer]="currentQuestion.answers" [question]="currentQuestion.question" [class]="class" [icon]="'bi-patch-question-fill'" [mode]="CardMode.DoubleSide"></app-generalcard>
+    <ng-container *ngIf="modeTraining ">
+        <app-generalcard [disableFirst]="checkFirstQuestion " [disableLast]="checkLastQuestion " (firstClick)="firstQuestion() " (prevClick)="prevQuestion() " (nextClick)="nextQuestion() " (lastClick)="lastQuestion() " [currentCardNumber]="currentCardNumber
+        " [title]=" 'Question' " [answer]="currentQuestion.answers " [question]="currentQuestion.question " [class]="class " [icon]=" 'bi-patch-question-fill' " [mode]="CardMode.DoubleSide "></app-generalcard>
     </ng-container>
 
-    <ng-container *ngIf="!modeTraining">
-        <app-generalcard [currentCardNumber]="currentCardNumber" (okEvent)="checkAnswer($event) " (skipEvent)="skipQuestion() " [title]=" 'Question' " [answer]="currentQuestion.answers " [question]="currentQuestion.question " [class]="class " [icon]="
-            'bi-patch-question-fill' " [mode]="CardMode.question " *ngIf="!endQuiz"></app-generalcard>
+    <ng-container *ngIf="!modeTraining ">
+        <app-generalcard [currentCardNumber]="currentCardNumber " (okEvent)="checkAnswer($event) " (skipEvent)="skipQuestion() " [title]=" 'Question' " [answer]="currentQuestion.answers " [question]="currentQuestion.question " [class]="class
+        " [icon]=" 'bi-patch-question-fill' " [mode]="CardMode.question " *ngIf="!endQuiz "></app-generalcard>
         <ng-container *ngIf="endQuiz ">
-            <ng-container *ngIf="checkWin">
-                <app-generalcard [class]="class " [mode]="CardMode.win " [score]="score" [total]="questions.length" (restartClick)="reset()"></app-generalcard>
+            <ng-container *ngIf="checkWin ">
+                <app-generalcard [class]="class " [mode]="CardMode.win " [score]="score " [total]="questions.length " (restartClick)="reset() "></app-generalcard>
             </ng-container>
 
-            <ng-container *ngIf="!checkWin">
-                <app-generalcard [class]="class " [mode]="CardMode.lose " [class]=" 'grey' " [score]="score" [total]="questions.length" (restartClick)="reset()"></app-generalcard>
+            <ng-container *ngIf="!checkWin ">
+                <app-generalcard [class]="class " [mode]="CardMode.lose " [class]=" 'grey' " [score]="score " [total]="questions.length " (restartClick)="reset() "></app-generalcard>
             </ng-container>
 
         </ng-container>
     </ng-container>
 
 
-    <ng-container *ngIf="modeTraining && false ">
-        <div class="card border-0 card-front col-12 col-md-12 col-lg-6 shadow p-3 mb-5 bg-white rounded " [class.animate-front]="showFront " (click)="showFront=!showFront ">
-            <div class=" card-header ">{{theme}}</div>
-            <div class=" card-body text-primary ">
-                <hr class="rainbow ">
-                <h5 class="card-title ">{{ currentQuestion.question }}</h5>
-            </div>
-            <div class="card-footer ">
-                <small class="text-body-secondary ">{{ currentCardNumber }}</small>
-            </div>
-        </div>
-
-        <div class="card border-primary card-back col-12 col-md-12 col-lg-6 " [class.animate-back]="!showFront " (click)="showFront=!showFront ">
-            <div class="card-header ">{{theme}}</div>
-            <div class="card-body text-success ">
-                <hr class="rainbow ">
-                <h5 class="card-title ">{{ currentQuestion.answers }}</h5>
-            </div>
-            <div class="card-footer ">
-                <small class="text-body-secondary ">{{ currentCardNumber }}</small>
-            </div>
-        </div>
-
-        <div class="col-12 col-md-12 col-lg-6 d-flex ">
-            <div class="ms-auto me-auto ">
-                <button class="btn btn-outline-primary me-2 " type="button " (click)="firstQuestion() " [disabled]="checkFirstQuestion " aria-label="First question ">
-            <i class="bi bi-skip-backward-fill "></i>
-        </button>
-
-                <button class="btn btn-outline-primary me-2 " type="button " (click)="prevQuestion() " [disabled]="checkFirstQuestion " aria-label="Previous question ">
-            <i class="bi bi-caret-left-fill "></i>
-        </button>
-
-                <button class="btn btn-outline-primary me-2 " type="button " (click)="nextQuestion() " [disabled]="checkLastQuestion " aria-label="Next question ">
-            <i class="bi bi-caret-right-fill "></i>
-        </button>
-
-                <button class="btn btn-outline-primary " type="button " (click)="lastQuestion() " [disabled]="checkLastQuestion " aria-label="Last question ">
-            <i class="bi bi-skip-forward-fill "></i>
-        </button>
-
-            </div>
-        </div>
-
-    </ng-container>
-
-    <ng-container *ngIf="!modeTraining && false ">
-
-        <div class="row ">
-            <div class="card border-0 card-front col-12 col-md-6 col-lg-6 shadow p-3 mb-5 bg-white rounded animate-front " *ngIf="endQuiz ">
-                <div class="card-header ">RESULTAT</div>
-                <div class="card-body text-primary ">
-                    <h5 class="card-title ">{{theme}}</h5>
-                    <hr class="rainbow ">
-                    <p>
-                        {{scoreTotal}}
-                    </p>
-                </div>
-                <div class="card-footer ">
-                </div>
-            </div>
-
-            <ng-container *ngIf="!endQuiz ">
-                <div class="row ">
-                    <div class="col-12 col-md-6 col-lg-6 ">
-                        <div class="card border-primary card-back animate-back ">
-                            <div class=" card-header " (click)="showFront=!showFront ">{{theme}}</div>
-                            <div class="card-body text-primary ">
-                                <hr class="rainbow ">
-                                <h5 class="card-title ">{{ currentQuestion.question }}</h5>
-                                <div class="input-group mb-3 ">
-                                    <input type="text " class="form-control " placeholder="Votre réponse " aria-label="Votre réponse " aria-describedby="button-addon2 ">
-                                    <button class="btn btn-outline-success " type="button " id="button-addon2 "> <i class="bi bi-check-lg "></i> OK</button>
-                                </div>
-
-                            </div>
-                            <div class="card-footer ">
-                                <small class="text-body-secondary ">{{ currentCardNumber }}</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row ">
-                    <div class="col-12 col-md-12 col-lg-6 d-flex ">
-                        <div class="ms-auto me-auto mt-2 ">
-
-                            <button class="btn btn-outline-danger me-2 " type="button " (click)="skipQuestion() " aria-label="Skip question " title="Skip question ">
-                              <i class="bi bi-x-lg "></i>
-                      SKIP
-                  </button>
-                        </div>
-                    </div>
-                </div>
-            </ng-container>
-        </div>
-    </ng-container>
 </div>
