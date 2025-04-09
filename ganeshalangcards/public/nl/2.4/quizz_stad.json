@@ -1,44 +1,44 @@
 [{
     "theme": "Woordenschat beleving van een stad",
     "questions": [{
-            "question": "Greet <b>vond</b> het <b>leuk</b> om naar de mooie etalages te kijken'",
-            "answers": ["De man vroeg of hij naast me mocht komen zitten.", "22"]
+            "question": "Greet <b>vond</b> het <b>leuk</b> om naar de mooie etalages te kijken",
+            "answers": ["Het is een plezier om naar de mooie etalages te kijken."]
         },
         {
-            "question": "Ik antwoordde: 'Dat is prima'",
-            "answers": ["Ik antwoordde dat dat prima was.", "22"]
+            "question": "Thomas <b>was verbaasd</b> toen ze op de Grote Markt kwamen.",
+            "answers": ["Thomas zijn mond viel open van verbazing toen ze op de grote markt kwamen."]
         },
         {
-            "question": "Hij vroeg: 'hoe heet je?'",
-            "answers": ["Hij vroeg hoe ik heette."]
+            "question": "Thomas was verbaasd toen ze op het zeer mooie plein kwamen.",
+            "answers": ["Thomas was verbaasd toen ze op het prachtige plein kwamen."]
         },
         {
-            "question": "Daarna vroeg hij: 'Uit welk land kom je?'",
-            "answers": ["Daarna vroeg hij uit welk land ik kwam."]
+            "question": "De Grote markt <b>maakt</b> elke keer weer indruk <b>op</b> Greet.",
+            "answers": ["Ik ben elke keer weer onder de indruk van de grote markt."]
         },
         {
-            "question": "Ik zei: 'Ik kom uit Peru'",
-            "answers": ["Ik zei dat ik uit Peru kwam."]
+            "question": "Het gebouw op het plein dat de meeste indruk maakt, is natuurlijk het stadhuis.",
+            "answers": ["Het indrukwekkendste gebouw is natuurlijk het stadhuis."]
         },
         {
-            "question": "Hij vroeg: 'Woon je al lang in België?'",
-            "answers": ["Hij vroeg of ik al lang in België woonde."]
+            "question": "Op het plein staat het stadhuis met zijn <b>fantastische</b> toren.",
+            "answers": ["Op het plein staat het stadhuis met zijn schitterende toren."]
         },
         {
-            "question": "Hij vroeg ook: 'Woon je graag in België?'.",
-            "answers": ["Hij vroeg ook of ik graag in België woonde."]
+            "question": "Louise <b>was niet blij</b> dat Manneken Pis geen kleren aanhad.",
+            "answers": ["Louise was teleurgesteld dat Manneken Pis geen kleren aanhad."]
         },
         {
-            "question": "Ik zei: 'Ik woon graag in België.'",
-            "answers": ["Ik zei dat ik graag in België woonde."]
+            "question": "Thomas <b>vond</b> het heel leuk dat Manneken Pis geen kleren aanhad.",
+            "answers": ["Thomas vond het geweldig dat Manneken Pis geen kleren aanhad."]
         },
         {
-            "question": "Ik zei: 'Ik voel me goed omdat ik al goed Nederlands spreek.'",
-            "answers": ["Ik zei dat ik me goed voelde omdat ik al goed Nederlands sprak."]
+            "question": "Greet <b>heeft veel plezier beleefd</b> aan de uitstap naar Brussel.",
+            "answers": ["Greet heeft heel erg genoten van de uitstap naar Brussel."]
         },
         {
-            "question": "De man zei: 'Ik zou heel graag eens op vakantie gaan naar Peru.'",
-            "answers": ["De man zei dat hij heel graag eens op vakantie zou gaan naar Peru."]
+            "question": "Greet <b>denkt</b> vooral <b>terug aan</b> de gezellige sfeer in de smalle straatjes van het centrum.",
+            "answers": ["De gezellige sfeer in de smalle straatjes van het centrum is haar bijgebleven."]
         }
     ]
 }]
