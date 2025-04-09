@@ -127,16 +127,16 @@
             <div class="flip-card-inner" [ngClass]="{ 'flip-card-hover': flipcard}">
                 <div class="flip-card-front" [ngClass]="class" (click)="flipcard = !flipcard">
                     <div class="card-body text-center">
-                        <div class="skeleton" *ngIf="isLoading"></div>
                         <div class="card-title">
                             <h5 *ngIf="!isLoading" class="big">{{ 'question' | translate }}</h5>
-                            <div *ngIf="isLoading" class="skeleton skeleton-title w-100 "></div>
+                            <div *ngIf="isLoading" class="skeleton skeleton-title w-50 "></div>
                         </div>
                         <i class="bi bi-patch-question-fill h1 " *ngIf="!isLoading "></i>
-                        <div class="card-footer">
-                            {{ currentCardNumber }}
-                        </div>
+                        <div *ngIf="isLoading" class="skeleton skeleton-icon"></div>
+                        <span *ngIf="!isLoading "> {{ currentCardNumber }} </span>
+                        <span *ngIf=" isLoading " class="skeleton skeleton-title w-25"></span>
                     </div>
+
                 </div>
                 <div class="flip-card-back ">
                     <div class="card-body text-center ">
@@ -158,7 +158,7 @@
                                     </div>
                                     <div class="buttons ">
                                         <div class="card-footer">
-                                            {{ currentCardNumber }}
+                                            {{ 'question' | translate }} {{ currentCardNumber }}
                                         </div>
                                         <button type="button " class="btn btn-outline-light " (click)="onSkip() ">{{ 'skip' | translate
                       }}</button>
@@ -207,6 +207,9 @@
                         <div class="score">
                             {{ score }}/{{ total }}
                         </div>
+                        <div class="buttons ">
+                            <button type="button " class="btn btn-light " (click)="restart() ">{{ 'restart' | translate}}</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -229,6 +232,9 @@
                         <i class="bi bi-emoji-dizzy" *ngIf="!isLoading"></i>
                         <div class="score">
                             {{ score }}/{{ total }}
+                        </div>
+                        <div class="buttons ">
+                            <button type="button " class="btn btn-light " (click)="restart() ">{{ 'restart' | translate}}</button>
                         </div>
                     </div>
                 </div>

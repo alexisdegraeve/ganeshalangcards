@@ -33,6 +33,7 @@ export class GeneralcardComponent implements OnInit {
   @Output() prevClick = new EventEmitter();
   @Output() nextClick = new EventEmitter();
   @Output() lastClick = new EventEmitter();
+  @Output() restartClick = new EventEmitter();
   @Input() disableFirst: boolean = true;
   @Input() disableLast: boolean = true;
   CardMode = CardMode;
@@ -76,5 +77,9 @@ export class GeneralcardComponent implements OnInit {
   }
   lastQuestion() {
     this.lastClick.emit();
+  }
+
+  restart() {
+    this.restartClick.emit();
   }
 }

@@ -18,14 +18,14 @@
 
     <ng-container *ngIf="!modeTraining">
         <app-generalcard [currentCardNumber]="currentCardNumber" (okEvent)="checkAnswer($event) " (skipEvent)="skipQuestion() " [title]=" 'Question' " [answer]="currentQuestion.answers " [question]="currentQuestion.question " [class]="class " [icon]="
-            'bi-patch-question-fill' " [mode]="CardMode.question "></app-generalcard>
+            'bi-patch-question-fill' " [mode]="CardMode.question " *ngIf="!endQuiz"></app-generalcard>
         <ng-container *ngIf="endQuiz ">
-            <ng-container *ngIf="win ">
-                <app-generalcard [class]="class " [mode]="CardMode.win " [score]="score" [total]="questions.length"></app-generalcard>
+            <ng-container *ngIf="checkWin">
+                <app-generalcard [class]="class " [mode]="CardMode.win " [score]="score" [total]="questions.length" (restartClick)="reset()"></app-generalcard>
             </ng-container>
 
-            <ng-container *ngIf="!win ">
-                <app-generalcard [class]="class " [mode]="CardMode.lose " [class]=" 'grey' " [score]="score" [total]="questions.length"></app-generalcard>
+            <ng-container *ngIf="!checkWin">
+                <app-generalcard [class]="class " [mode]="CardMode.lose " [class]=" 'grey' " [score]="score" [total]="questions.length" (restartClick)="reset()"></app-generalcard>
             </ng-container>
 
         </ng-container>

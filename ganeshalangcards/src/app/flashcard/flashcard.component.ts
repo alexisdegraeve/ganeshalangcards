@@ -31,7 +31,7 @@ export class FlashcardComponent implements OnInit{
   @Input()
   set modeTraining(value: boolean) {
     this._modeTraining = value;
-    this.onModeTrainingChange();
+    this.reset();
   }
 
   get modeTraining(): boolean {
@@ -39,7 +39,7 @@ export class FlashcardComponent implements OnInit{
   }
 
   // Méthode déclenchée lorsqu'on change modeTraining
-  onModeTrainingChange() {
+  reset() {
     this.score = 0;
     this.currentQuestionIndex = 0;
     // this.userAnswer= '';
@@ -68,6 +68,7 @@ export class FlashcardComponent implements OnInit{
 //     this.theme = data[0].theme;
 //     this.showQuestion();
           this.loading = false;
+          this.firstQuestion();
         });
       }
       this.theme = params['theme'];
@@ -161,6 +162,9 @@ export class FlashcardComponent implements OnInit{
 
   get scoreTotal() {
     return `${this.score} / ${this.questions.length}`;
+  }
+  get checkWin() {
+    return this.score > (this.questions.length / 2);
   }
 
 }
