@@ -1,0 +1,66 @@
+[{
+    "theme": "Ik erger me eraan als",
+    "questions": [{
+            "question": "Waar erger jij je aan bij de opvoeding van je kinderen? kinderen zich niet gedragen in de winkel",
+            "answers": ["Ik erger mij aan mijn kinderen die zich niet gedragen in de winkel.", "Ik erger mij er aan als mijn kinderen zich niet gedragen in de winkel.", "Ik erger mij niet aan mijn kinderen die zich niet gedragen in de winkel.", "Ik erger mij er niet aan als mijn kinderen zich niet gedragen in de winkel."]
+        },
+        {
+            "question": "Waar erger jij je aan bij de opvoeding van je kinderen? kinderen neit willen eten",
+            "answers": ["Ik erger mij aan mijn kinderen die niet willen eten.", "Ik erger mij er aan als mijn kinderen niet wilen eten.", "Ik erger mij niet aan mijn kinderen die niet willen eten.", "Ik erger mij er niet aan als mijn kinderen niet wilen eten."]
+        },
+        {
+            "question": "Waar erger jij je aan bij de opvoeding van je kinderen? kinderen speelgoed niet opruimen",
+            "answers": ["Ik erger mij aan mijn kinderen die hun speelgoed niet opruimen.", "Ik erger mij er aan als mijn kinderen hun speelgoed niet opruimen.", "Ik erger mij niet aan mijn kinderen die hun speelgoed niet opruimen.", "Ik erger mij er niet aan als mijn kinderen hun speelgoed niet opruimen."]
+        },
+        {
+            "question": "Waar erger jij je aan in de supermarkt? de supermarkt stuurt veel reclame",
+            "answers": ["Ik erger mij aan winkels die veel reclame sturen.", "Ik erger mij er aan als winkels veel reclame sturen.", "Ik erger mij niet aan winkels die veel reclame sturen.", "Ik erger mij er niet aan als winkels veel reclame sturen."]
+        },
+        {
+            "question": "Waar erger jij je aan in de supermarkt? winkelpersoneel onvriendelijk is",
+            "answers": ["Ik erger mij aan het winkelpersoneel dat onvriendelijk is.", "Ik erger mij er aan als het winkelpersoneel onvriendelijk is.", "Ik erger mij niet aan het winkelpersoneel dat onvriendelijk is.", "Ik erger mij er niet aan als het winkelpersoneel onvriendelijk is."]
+        },
+        {
+            "question": "Waar erger jij je aan in de supermarkt? lang moeten aanschuiven aan de kassa",
+            "answers": ["Ik erger mij aan lang moeten aanschuiven aan de kassa.", "Ik erger mij er aan als ik lang moet aanschuiven aan de kassa.", "Ik erger mij niet aan lang moeten aanschuiven aan de kassa.", "Ik erger mij er niet aan als ik lang moet aanschuiven aan de kassa."]
+        },
+        {
+            "question": "Waar erger jij je aan in de klas? de leerkracht geeft te weinig tijd voor een test",
+            "answers": ["Ik erger mij aan leerkrachten die te weinig tijd geven voor een test.", "Ik erger mij er aan als leerkrachten te weinig tijd geven voor een test.", "Ik erger mij niet aan leerkrachten die te weinig tijd geven voor een test.", "Ik erger mij er niet aan als leerkrachten te weinig tijd geven voor een test."]
+        },
+        {
+            "question": "Waar erger jij je aan op school? lange wachttijden in het secretariaat",
+            "answers": ["Ik erger mij aan lange wachttijden in het secretariaat.", "Ik erger mij er aan als er lange wachttijden zijn in het secretariaat.", "Ik erger mij niet aan lange wachttijden in het secretariaat.", "Ik erger mij er niet aan als er lange wachttijden zijn in het secretariaat."]
+        },
+        {
+            "question": "Waar erger jij je aan in de klas? medecursisten komen te laat",
+            "answers": ["Ik erger mij aan medecursisten die te laat komen.", "Ik erger mij er aan als medecursisten te laat komen.", "Ik erger mij niet aan medecursisten die te laat komen.", "Ik erger mij er niet aan als medecursisten te laat komen."]
+        },
+        {
+            "question": "Waar erger jij je aan in je vrije tijd? mensen die voortdurend op hum smartphone kijken",
+            "answers": ["Ik erger mij aan mensen die tijdens een gesprek voortdurend op hun smartphone kijken.", "Ik erger mij er aan als mensen tijdens een gesprek voortdurend op hun smartphone kijken.", "Ik erger mij niet aan mensen die tijdens een gesprek voortdurend op hun smartphone kijken.", "Ik erger mij er niet aan als mensen tijdens een gesprek voortdurend op hun smartphone kijken."]
+        },
+        {
+            "question": "Waar erger jij je aan in je vrije tijd? mensen maken 's nachts lawaai",
+            "answers": ["Ik erger mij aan mensen die 's nachts lawaai maken op straat.", "Ik erger mij er aan als mensen 's nachts lawaai maken op straat.", "Ik erger mij niet aan mensen die 's nachts lawaai maken op straat.", "Ik erger mij er niet aan als mensen 's nachts lawaai maken op straat."]
+        },
+        {
+            "question": "Waar erger jij je aan in je vrije tijd? geen <b>dag</b> zeggen",
+            "answers": ["Ik erger mij aan mensen die geen dag zeggen.", "Ik erger mij er aan als mensen geen dag zeggen.", "Ik erger mij niet aan mensen die geen dag zeggen.", "Ik erger mij er niet aan als mensen geen dag zeggen."]
+        },
+        {
+            "question": "Waar erger jij je aan op je werk? collega's zijn lui",
+            "answers": ["Ik erger mij aan collega's die lui zijn.", "Ik erger mij er aan als collega's lui zijn.", "Ik erger mij niet aan collega's die lui zijn.", "Ik erger mij er niet aan als collega's lui zijn."]
+        },
+        {
+            "question": "Waar erger jij je aan op je werk? collega's respecteren afspraken niet",
+            "answers": ["Ik erger mij aan collega's die afspraken niet respecteren.", "Ik erger mij er aan als collega's afspraken niet respecteren.", "Ik erger mij niet aan collega's die afspraken niet respecteren.", "Ik erger mij er niet aan als collega's afspraken niet respecteren."]
+        },
+        {
+            "question": "Waar erger jij je aan op je werk? collega's roddelen",
+            "answers": ["Ik erger mij aan collega's die roddelen.", "Ik erger mij er aan als collega's roddelen.", "Ik erger mij niet aan collega's die roddelen.", "Ik erger mij er niet aan als collega's roddelen."]
+        }
+
+
+    ]
+}]

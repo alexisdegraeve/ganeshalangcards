@@ -1,0 +1,52 @@
+[{
+    "theme": "Klachtenbrief",
+    "questions": [{
+            "question": "Het café sluit om 23u.",
+            "answers": ["Ik vind het niet eerlijk dat het café om 23u sluit.", "Ik vind het niet eerlijk dat het café sluit om 23u."]
+        },
+        {
+            "question": "De prijs van mijn favoriete broodje is duurder geworden.",
+            "answers": ["Ik vind het niet eerlijk dat de prijs van mijn favoriete broodje duurder is geworden.", "Ik vind het niet eerlijk dat de prijs van mijn favoriete broodje duurder geworden is."]
+        },
+        {
+            "question": "Ik moet meer uren werken.",
+            "answers": ["Ik vind het niet eerlijk dat ik meer uren moet werken."]
+        },
+        {
+            "question": "We gingen een weekend op hotel in de Ardennen. --> Het hotel was niet proper.",
+            "answers": ["We gingen een weekend op hotel in de Ardennen. Spijtig genoeg was het hotel niet proper."]
+        },
+        {
+            "question": "Ik ben ziek. --> Ik kan niet naar jouw verjaardagsfeestje komen.",
+            "answers": ["Ik ben ziek. Spijtig genoeg kan ik niet naar jouw verjaardagsfeestje komen."]
+        },
+        {
+            "question": "Ik wil graag appeltaart maken. --> Er waren geen appels in de winkel.",
+            "answers": ["Ik wil graag appeltaart maken. Spijtig genoeg waren er geen appels in de winkel."]
+        },
+        {
+            "question": "Het internet werkt niet.",
+            "answers": ["Ik vind het vervelend dat het internet niet werkt."]
+        },
+        {
+            "question": "We moeten het gras dikwijls maaien.",
+            "answers": ["Ik vind het vervelend dat we het gras dikwijls moeten maaien."]
+        },
+        {
+            "question": "Mijn collega stelt altijd veel vragen.",
+            "answers": ["Ik vind het vervelend dat mijn collega altijd veel vragen stelt."]
+        },
+        {
+            "question": "We zijn moe. --> We hebben bijna vakantie.",
+            "answers": ["We zijn moe. Gelukkig hebben we bijna vakantie."]
+        },
+        {
+            "question": "We waren onze autosleutel kwijt. --> We hadden een reservesleutel bij.",
+            "answers": ["We waren onze autosleutel kwijt. Gelukkig hadden we een reservesleutel bij."]
+        },
+        {
+            "question": "Het regent buiten. --> Ik heb een paraplu mee.",
+            "answers": ["Het regent buiten. Gelukkig heb ik een paraplu mee."]
+        }
+    ]
+}]
