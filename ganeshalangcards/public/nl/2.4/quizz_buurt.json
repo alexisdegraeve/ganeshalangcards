@@ -1,0 +1,64 @@
+[{
+    "theme": "Kom op voor je buurt!",
+    "questions": [{
+            "question": "decoreren",
+            "answers": ["verfraaien"]
+        },
+        {
+            "question": "de last of hinder die je anderen geeft",
+            "answers": ["de overlast"]
+        },
+        {
+            "question": "het stukje dat overblijft van een opgerookte sigaret",
+            "answers": ["de sigarettenpeuk"]
+        },
+        {
+            "question": "de ontlasting van een hond",
+            "answers": ["de hondenpoep"]
+        },
+        {
+            "question": "afval dat rondslingert op straat, in het park...",
+            "answers": ["het zwerfvuil"]
+        },
+        {
+            "question": "de voorkant van een gebouw",
+            "answers": ["de gevel"]
+        },
+        {
+            "question": "een speeltoestel dat in een speeltuin staat",
+            "answers": ["het speeltuig"]
+        },
+        {
+            "question": "een zak huishoudelijk afval dat in een openbare vuilnisbak wordt achtergelaten",
+            "answers": ["het sluikstort"]
+        },
+        {
+            "question": "de omgeving waar je woont",
+            "answers": ["de buurt"]
+        },
+        {
+            "question": "de persoon die in een huis/buurt woont",
+            "answers": ["de bewoner"]
+        },
+        {
+            "question": "niet mooi",
+            "answers": ["lelijk"]
+        },
+        {
+            "question": "Ik heb gisteren alles gekuist. Mijn appartememnt is nu heel pr... / sc...",
+            "answers": ["prper", "schoon"]
+        },
+        {
+            "question": "knus, aangenaam",
+            "answers": ["gezellig", "schoon"]
+        },
+        {
+            "question": "een officiel verzoek sturen",
+            "answers": ["een aanvraag indienen"]
+        },
+        {
+            "question": "een suggestie geven",
+            "answers": ["voorstellen", "een voorstel doen"]
+        }
+    ]
+}]

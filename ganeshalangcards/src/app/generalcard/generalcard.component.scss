@@ -339,3 +339,10 @@
                     }
                 }
             }
+            
+            .control-back {
+                background-color: transparent;
+                position: absolute;
+                display: flex;
+                justify-content: center;
+            }

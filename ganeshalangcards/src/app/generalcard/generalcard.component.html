@@ -39,8 +39,8 @@
             <div class="flip-card-inner" [ngClass]="{ 'flip-card-hover': flipcard}">
 
                 <div class="flip-card-front" [ngClass]="class">
-                    <div class="control-flip"><button class="btn btn-outline-light" (click)="flipcard=! flipcard "><i class="bi bi-arrow-clockwise"></i></button>
-                        <button class="ms-2 btn btn-outline-light" (click)="speakText(question)">
+                    <div class="control-flip d-flex justify-content-center m-2"><button class="btn btn-outline-light border-0" (click)="flipcard=! flipcard "><i class="bi bi-arrow-clockwise"></i></button>
+                        <button class="ms-2 btn btn-outline-light border-0" (click)="speakText(question)">
                     <i class="bi bi-volume-up-fill"></i>
                   </button>
                     </div>
@@ -77,15 +77,27 @@
                     </div>
 
                 </div>
-                <div class="flip-card-back " (click)="flipcard=! flipcard ">
+                <div class="flip-card-back">
+                    <div class="control-back" [ngClass]="class">
+
+                    </div>
+
 
                     <div class="card-body text-center ">
                         <div class="skeleton " *ngIf="isLoading "></div>
                         <div class="wave-card " [ngClass]="class ">
                             <div class="text-answer">
-                                <div class="card-title" *ngIf="!isLoading">
-                                    <i class="bi bi-patch-check-fill"></i>
-                                    <h5> {{ 'answer' | translate }}</h5>
+                                <div class="card-title flex-column" *ngIf="!isLoading">
+                                    <div class="control-flip mb-2"><button class="btn btn-outline-primary" (click)="flipcard=! flipcard "><i class="bi bi-arrow-clockwise"></i></button>
+                                        <button class="ms-2 btn btn-outline-primary" (click)="speakText(answer.toString())">
+                              <i class="bi bi-volume-up-fill"></i>
+                            </button>
+                                    </div>
+                                    <div class="d-flex">
+                                        <i class="bi bi-patch-check-fill"></i>
+                                        <h5> {{ 'answer' | translate }}</h5>
+                                    </div>
+
                                 </div>
                                 <div class="card-title w-100" *ngIf="isLoading">
                                     <div *ngIf="isLoading" class="skeleton skeleton-title"></div>
