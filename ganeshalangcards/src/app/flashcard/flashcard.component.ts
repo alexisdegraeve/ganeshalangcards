@@ -54,7 +54,6 @@ export class FlashcardComponent implements OnInit{
       if (quizFile) {
         this.quizService. getVocabulary(quizFile).subscribe((data) => {
           this.questions = [...data[0].questions];
-          console.log(this.questions);
           this.loading = false;
           this.firstQuestion();
         });
@@ -75,8 +74,6 @@ export class FlashcardComponent implements OnInit{
   }
 
   checkAnswer(answer: string):void {
-    console.log(answer.trim().toLowerCase());
-    console.log(this.currentQuestion.answers[0].trim().toLowerCase());
     if (this.checkInAnswers(answer, this.currentQuestion.answers)) {
       this.score++;
     }
