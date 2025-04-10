@@ -28,6 +28,7 @@ export class QuizService {
   }
 
   speakText(text: string, lang: string) {
+    const cleanedText = this.stripHtmlTags(text);
     const synth = window.speechSynthesis;
     const speak = () => {
       const voices = synth.getVoices();
@@ -38,7 +39,7 @@ export class QuizService {
         return;
       }
 
-      const utterance = new SpeechSynthesisUtterance(text);
+      const utterance = new SpeechSynthesisUtterance(cleanedText);
       utterance.voice = voice;
       utterance.lang = voice.lang;
       synth.speak(utterance);
@@ -49,6 +50,13 @@ export class QuizService {
     } else {
       speak();
     }
+  }
+
+  private stripHtmlTags(input: string): string {
+    const withoutTags = input.replace(/<\/?[^>]+(>|$)/g, '');
+    const withoutEntities = withoutTags.replace(/&[a-z]+;/gi, '');
+    const finalCleaned = withoutEntities.replace(/[^\w\sÀ-ÿ']/gi, '');
+    return finalCleaned.trim();
   }
 
 }
