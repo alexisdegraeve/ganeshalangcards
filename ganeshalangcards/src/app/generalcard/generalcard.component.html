@@ -37,7 +37,13 @@
     <div class="col-md-10 col-lg-8 mb-2 double-side">
         <div class="card h-100 border-0">
             <div class="flip-card-inner" [ngClass]="{ 'flip-card-hover': flipcard}">
-                <div class="flip-card-front" [ngClass]="class" (click)="flipcard = !flipcard">
+
+                <div class="flip-card-front" [ngClass]="class">
+                    <div class="control-flip"><button class="btn btn-outline-light" (click)="flipcard=! flipcard "><i class="bi bi-arrow-clockwise"></i></button>
+                        <button class="ms-2 btn btn-outline-light" (click)="speakText(question)">
+                    <i class="bi bi-volume-up-fill"></i>
+                  </button>
+                    </div>
                     <div class="card-body text-center">
                         <div class="card-title" *ngIf="!isLoading">
                             <i class="bi bi-patch-question-fill"></i>
@@ -72,6 +78,7 @@
 
                 </div>
                 <div class="flip-card-back " (click)="flipcard=! flipcard ">
+
                     <div class="card-body text-center ">
                         <div class="skeleton " *ngIf="isLoading "></div>
                         <div class="wave-card " [ngClass]="class ">

@@ -7,6 +7,38 @@
         {
             "question": "Alex: Is het lekker? <br> Boris: Wat vraag je?",
             "answers": ["Ik vraag of het lekker is."]
+        },
+        {
+            "question": "Alex: Ik heb een beetje honger. <br/> Boris: Wat zeg je?",
+            "answers": ["Ik zeg dat ik een beetje honger heb."]
+        },
+        {
+            "question": "Alex: Wil je iets eten? <br/> Boris: Wat vraag je?",
+            "answers": ["Ik vraag of je iets wil eten."]
+        },
+        {
+            "question": "Alex: Dat slaatje ziet er lekker uit! <br/> Boris: Wat zeg je?",
+            "answers": ["Ik zeg dat dat slaatje er lekker uitziet."]
+        },
+        {
+            "question": "Alex: De muziek staat luid. <br/> Boris: Wat zeg je?",
+            "answers": ["Ik zeg dat de muziek luid staat."]
+        },
+        {
+            "question": "Boris: Ik en die man daar. <br/> Alex: Wat zeg je?",
+            "answers": ["Ik zeg dat ik die man daar ken."]
+        },
+        {
+            "question": "Alex: Je moet wat luider praten. <br/> Boris: Wat zeg je?",
+            "answers": ["Ik zeg dat je wat luider moet praten."]
+        },
+        {
+            "question": "Boris: Vraag de rekening eens. <br/> Alex: Wat zeg je?",
+            "answers": ["Ik zeg dat je de rekening moet vragen."]
+        },
+        {
+            "question": "Alex: Heb jij geld bij je? <br/> Boris: Wat vraag je?",
+            "answers": ["Ik vraag of je geld bij je hebt."]
         }
     ]
 }]
