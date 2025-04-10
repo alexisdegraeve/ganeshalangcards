@@ -1,0 +1,64 @@
+[{
+    "theme": "Verba met een vaste preposite",
+    "questions": [{
+            "question": "houden",
+            "answers": ["houden van"]
+        },
+        {
+            "question": "een hekel hebben",
+            "answers": ["een hekel hebben aan"]
+        },
+        {
+            "question": "last hebben",
+            "answers": ["last hebben van"]
+        },
+        {
+            "question": "blij zijn",
+            "answers": ["blij zijn met"]
+        },
+        {
+            "question": "graag kijken",
+            "answers": ["graag kijken naar"]
+        },
+        {
+            "question": "niet graag discussiëren",
+            "answers": ["niet graag discussiëren over"]
+        },
+        {
+            "question": "zorgen",
+            "answers": ["zorgen voor"]
+        },
+        {
+            "question": "zich zorgen maken",
+            "answers": ["zich zorgen maken over"]
+        },
+        {
+            "question": "genieten",
+            "answers": ["genieten van"]
+        },
+        {
+            "question": "zich ergeren",
+            "answers": ["zich ergeren aan"]
+        },
+        {
+            "question": "bang zijn",
+            "answers": ["bang zijn voor"]
+        },
+        {
+            "question": "veel geld uitgeven",
+            "answers": ["veel geld uitgeven aan"]
+        },
+        {
+            "question": "wachten",
+            "answers": ["wachten op"]
+        },
+        {
+            "question": "uitkijken",
+            "answers": ["uitkijken naar"]
+        },
+        {
+            "question": "piekeren",
+            "answers": ["piekeren over"]
+        }
+    ]
+}]

@@ -38,5 +38,11 @@
           "description": "Ik erger me eraan als",
           "class": "pink",
           "url": "/nl/2.4/quizz_ergerme.json"
+      },
+      {
+          "title": "Prepositie",
+          "description": "Verba met een vaste prepositie",
+          "class": "pink",
+          "url": "/nl/2.4/quizz_prepositie.json"
       }
   ]
