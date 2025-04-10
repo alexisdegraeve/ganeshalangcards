@@ -106,3 +106,32 @@ html {
 .card-link {
     border: unset;
 }
+
+@mixin btn-outline-colored($color) {
+    --bs-btn-color: #{$color};
+    --bs-btn-border-color: #{$color};
+    --bs-btn-hover-bg: #{$color};
+    --bs-btn-hover-border-color: #{$color};
+    --bs-btn-active-bg: #{$color};
+    --bs-btn-active-border-color: #{$color};
+    --bs-btn-disabled-color: #{$color};
+    --bs-btn-disabled-border-color: #{$color};
+}
+
+.pink {
+    .btn-outline-primary {
+        @include btn-outline-colored($pink);
+    }
+}
+
+.green {
+    .btn-outline-primary {
+        @include btn-outline-colored($green);
+    }
+}
+
+.blue {
+    .btn-outline-primary {
+        @include btn-outline-colored($blue);
+    }
+}
