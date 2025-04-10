@@ -44,5 +44,11 @@
           "description": "Verba met een vaste prepositie",
           "class": "pink",
           "url": "/nl/2.4/quizz_prepositie.json"
+      },
+      {
+          "title": "Woordenschat",
+          "description": "De ergernis",
+          "class": "pink",
+          "url": "/nl/2.4/quizz_ergernis.json"
       }
   ]
