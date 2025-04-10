@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { CardMode } from '../cardmode';
 import { TranslateModule } from '@ngx-translate/core';
+import { QuizService } from '../services/quiz.service';
 
 @Component({
   selector: 'app-generalcard',
@@ -39,6 +40,15 @@ export class GeneralcardComponent implements OnInit {
   CardMode = CardMode;
   flipcard = false;
   userAnswer ='';
+
+  constructor(private quizService : QuizService) {
+
+  }
+
+  speakText(text: string) {
+    console.log(this.language);
+    this.quizService.speakText(text, this.language);
+  }
 
   ngOnInit(): void {
     // Simulez un délai de chargement de 3 secondes

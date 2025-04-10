@@ -27,4 +27,18 @@ export class QuizService {
     return this.http.get(url); // Charger le fichier de thèmes en fonction de la langue
   }
 
+  speakText(text: string, lang: string) {
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = lang;
+
+    // Optionnel : changer la voix si tu veux une voix féminine ou autre
+    const voices = window.speechSynthesis.getVoices();
+    const selectedVoice = voices.find(voice => voice.lang.startsWith(lang));
+    if (selectedVoice) {
+      utterance.voice = selectedVoice;
+    }
+
+    speechSynthesis.speak(utterance);
+  }
+
 }

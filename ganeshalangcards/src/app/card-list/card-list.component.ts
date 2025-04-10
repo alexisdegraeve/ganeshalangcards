@@ -13,7 +13,7 @@ import { CardMode } from '../cardmode';
   styleUrl: './card-list.component.scss'
 })
 export class CardListComponent implements OnInit{
-  language: string | null = null;
+  language = '';
   theme$: Observable<any> | null = null;
 
   CardMode = CardMode;
@@ -29,7 +29,7 @@ export class CardListComponent implements OnInit{
 
   ngOnInit(): void {
     this.route.paramMap.subscribe(params => {
-      this.language = params.get('language');
+      this.language = params.get('language') ?? '';
       if (this.language)
       {
         this.theme$ = this.quizzService.getThemes(this.language);
@@ -45,7 +45,7 @@ export class CardListComponent implements OnInit{
 
   onThemeClick(url: string, title: string, classColor: string): void {
     // Rediriger vers le composant flashcard avec l'URL du vocabulaire
-    this.router.navigate(['/flashcard'], { queryParams: { quizFile: url, class: classColor, theme: title } });
+    this.router.navigate(['/flashcard'], { queryParams: { quizFile: url, class: classColor, theme: title, language: this.language } });
   }
 
     // Fonction pour changer la page

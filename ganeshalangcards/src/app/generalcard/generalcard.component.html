@@ -145,6 +145,9 @@
                                 <div class="card-title " (click)="flipcard=! flipcard " *ngIf="!isLoading">
                                     <i class="bi bi-patch-question-fill "></i>
                                     <h5 [innerHtml]="question"></h5>
+                                    <button class="btn btn-outline-secondary" (click)="speakText(question)">
+                                      <i class="bi bi-volume-up-fill"></i>
+                                    </button>
                                 </div>
                                 <div class="card-title" *ngIf="isLoading">
                                     <div *ngIf=" isLoading " class="skeleton skeleton-title w-100 "></div>

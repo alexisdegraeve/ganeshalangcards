@@ -18,6 +18,7 @@ export class FlashcardComponent implements OnInit{
   @Input() questions: any[] = [];
   @Input() theme: string = '';
   @Input() class: string = '';
+  language: string = '';
   score: number = 0;
   currentQuestion: any = {};
   currentQuestionIndex: number = 0;
@@ -73,6 +74,7 @@ export class FlashcardComponent implements OnInit{
       }
       this.theme = params['theme'];
       this.class = params['class'];
+      this.language = params['language'];
     });
   }
 

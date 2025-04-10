@@ -1,0 +1,12 @@
+[{
+    "theme": "In een lawaaierig café -  Zet in de indirecte rede / vraag",
+    "questions": [{
+            "question": "Alex: Ik wil een biertje <br> Boris: Wat zeg je?",
+            "answers": ["Ik zeg dat ik een biertje wil."]
+        },
+        {
+            "question": "Alex: Is het lekker? <br> Boris: Wat vraag je?",
+            "answers": ["Ik vraag of het lekker is."]
+        }
+    ]
+}]

@@ -24,6 +24,12 @@
       },
       {
           "title": "Woordenschat",
+          "description": "Indirecte rede/vraag",
+          "class": "pink",
+          "url": "/nl/2.4/quizz_indirecteredevraag.json"
+      },
+      {
+          "title": "Woordenschat",
           "description": "Ik erger me eraan als",
           "class": "pink",
           "url": "/nl/2.4/quizz_ergerme.json"
