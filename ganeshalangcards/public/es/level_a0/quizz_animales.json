@@ -1,4 +1,4 @@
-{
+[{
     "theme": "Animales",
     "questions": [
         { "question": "Animal doméstico que ladra.", "answers": ["perro"] },
@@ -22,4 +22,4 @@
         { "question": "Animal muy inteligente que vive en el mar.", "answers": ["delfín"] },
         { "question": "Animal de granja que pone huevos.", "answers": ["gallina"] }
     ]
-}
+}]

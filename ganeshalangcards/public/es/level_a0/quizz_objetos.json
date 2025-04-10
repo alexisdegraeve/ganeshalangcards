@@ -1,4 +1,4 @@
-{
+[{
     "theme": "Objetos de la casa",
     "questions": [
         { "question": "Lo usas para dormir.", "answers": ["cama"] },
@@ -22,4 +22,4 @@
         { "question": "Lugar para bañarse.", "answers": ["bañera", "ducha"] },
         { "question": "Donde pones libros o decoraciones.", "answers": ["estantería"] }
     ]
-}
+}]

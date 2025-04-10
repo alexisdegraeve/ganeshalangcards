@@ -1,4 +1,4 @@
-{
+[{
     "theme": "Ropa",
     "questions": [
         { "question": "Lo usas en la parte superior del cuerpo.", "answers": ["camiseta"] },
@@ -22,4 +22,4 @@
         { "question": "Se usa en la cintura para ajustar los pantalones.", "answers": ["cinturón"] },
         { "question": "Zapatos elegantes para eventos formales.", "answers": ["zapatos"] }
     ]
-}
+}]

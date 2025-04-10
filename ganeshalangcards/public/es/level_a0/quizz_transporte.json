@@ -1,4 +1,4 @@
-{
+[{
     "theme": "Transporte",
     "questions": [
         { "question": "Vehículo con dos ruedas, sin motor.", "answers": ["bicicleta"] },
@@ -22,4 +22,4 @@
         { "question": "Vehículo que vuela y tiene hélices.", "answers": ["helicóptero"] },
         { "question": "Transporte tirado por caballos.", "answers": ["carroza", "carruaje"] }
     ]
-}
+}]

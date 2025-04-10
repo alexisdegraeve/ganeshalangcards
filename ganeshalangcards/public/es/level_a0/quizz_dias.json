@@ -1,4 +1,4 @@
-{
+[{
     "theme": "Días de la semana y estaciones",
     "questions": [
         { "question": "Es el primer día de la semana laboral.", "answers": ["lunes"] },
@@ -14,4 +14,4 @@
         { "question": "Hace frío y puede nevar.", "answers": ["invierno"] },
         { "question": "Las flores crecen y los días se hacen más largos.", "answers": ["primavera"] }
     ]
-}
+}]
