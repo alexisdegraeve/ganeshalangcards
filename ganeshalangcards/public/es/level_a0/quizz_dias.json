@@ -1,0 +1,17 @@
+{
+    "theme": "Días de la semana y estaciones",
+    "questions": [
+        { "question": "Es el primer día de la semana laboral.", "answers": ["lunes"] },
+        { "question": "Es el segundo día después del fin de semana.", "answers": ["martes"] },
+        { "question": "Es el día en medio de la semana.", "answers": ["miércoles"] },
+        { "question": "Viene después del miércoles.", "answers": ["jueves"] },
+        { "question": "Último día laboral para muchos.", "answers": ["viernes"] },
+        { "question": "Es un día de descanso, viene después del viernes.", "answers": ["sábado"] },
+        { "question": "Día tradicionalmente dedicado a la familia o la iglesia.", "answers": ["domingo"] },
+        { "question": "Incluye sábado y domingo, días de descanso.", "answers": ["fin de semana"] },
+        { "question": "Hace calor, el sol brilla mucho.", "answers": ["verano"] },
+        { "question": "Las hojas de los árboles caen.", "answers": ["otoño"] },
+        { "question": "Hace frío y puede nevar.", "answers": ["invierno"] },
+        { "question": "Las flores crecen y los días se hacen más largos.", "answers": ["primavera"] }
+    ]
+}

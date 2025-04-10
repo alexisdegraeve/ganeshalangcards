@@ -1,0 +1,25 @@
+{
+    "theme": "Animales",
+    "questions": [
+        { "question": "Animal doméstico que ladra.", "answers": ["perro"] },
+        { "question": "Animal doméstico que maúlla.", "answers": ["gato"] },
+        { "question": "Animal grande con trompa.", "answers": ["elefante"] },
+        { "question": "Animal que vuela y canta.", "answers": ["pájaro", "ave"] },
+        { "question": "Animal que vive en el agua y nada.", "answers": ["pez"] },
+        { "question": "Rey de la selva.", "answers": ["león"] },
+        { "question": "Animal que da leche y hace 'mu'.", "answers": ["vaca"] },
+        { "question": "Animal que tiene lana y hace 'bee'.", "answers": ["oveja"] },
+        { "question": "Animal rosa que vive en la granja y hace 'oink'.", "answers": ["cerdo"] },
+        { "question": "Animal largo y sin patas.", "answers": ["serpiente"] },
+        { "question": "Animal muy lento con caparazón.", "answers": ["tortuga"] },
+        { "question": "Animal con orejas largas que salta.", "answers": ["conejo"] },
+        { "question": "Animal grande y fuerte, vive en el bosque.", "answers": ["oso"] },
+        { "question": "Animal marino muy grande con agua por el agujero.", "answers": ["ballena"] },
+        { "question": "Insecto que produce miel.", "answers": ["abeja"] },
+        { "question": "Animal marino con ocho brazos.", "answers": ["pulpo"] },
+        { "question": "Ave nocturna que dice 'uuuh'.", "answers": ["búho"] },
+        { "question": "Animal de granja que canta al amanecer.", "answers": ["gallo"] },
+        { "question": "Animal muy inteligente que vive en el mar.", "answers": ["delfín"] },
+        { "question": "Animal de granja que pone huevos.", "answers": ["gallina"] }
+    ]
+}

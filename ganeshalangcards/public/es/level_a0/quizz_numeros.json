@@ -1,0 +1,25 @@
+[{
+    "theme": "Números del 1 al 20",
+    "questions": [
+        { "question": "1", "answers": ["uno"] },
+        { "question": "2", "answers": ["dos"] },
+        { "question": "3", "answers": ["tres"] },
+        { "question": "4", "answers": ["cuatro"] },
+        { "question": "5", "answers": ["cinco"] },
+        { "question": "6", "answers": ["seis"] },
+        { "question": "7", "answers": ["siete"] },
+        { "question": "8", "answers": ["ocho"] },
+        { "question": "9", "answers": ["nueve"] },
+        { "question": "10", "answers": ["diez"] },
+        { "question": "11", "answers": ["once"] },
+        { "question": "12", "answers": ["doce"] },
+        { "question": "13", "answers": ["trece"] },
+        { "question": "14", "answers": ["catorce"] },
+        { "question": "15", "answers": ["quince"] },
+        { "question": "16", "answers": ["dieciséis"] },
+        { "question": "17", "answers": ["diecisiete"] },
+        { "question": "18", "answers": ["dieciocho"] },
+        { "question": "19", "answers": ["diecinueve"] },
+        { "question": "20", "answers": ["veinte"] }
+    ]
+}]

@@ -1,27 +1,6 @@
 [{
-        "title": "Vocabulaire 1",
-        "description": "Learn essential words.",
-        "class": "blue",
-        "url": "/nl/2.4/quizz_nl.json"
-    },
-    {
-        "title": "Vocabulaire 2",
-        "description": "Advanced vocabulary for experts.",
-        "url": "/en/2.4./quizz_en_2.json"
-    },
-    {
-        "title": "Vocabulaire 3",
-        "description": "Explore new terms.",
-        "url": "/en/2.4./quizz_en_3.json"
-    },
-    {
-        "title": "Vocabulaire 4",
-        "description": "Perfect your language skills.",
-        "url": "/en/2.4./quizz_en_4.json"
-    },
-    {
-        "title": "Vocabulaire 5",
-        "description": "Familiarize yourself with common terms.",
-        "url": "/en/2.4./quizz_en_5.json"
-    }
-]
+    "title": "Expressions",
+    "description": "Common English Expressions",
+    "class": "blue",
+    "url": "/en/level_c1/quizz_expression.json"
+}]

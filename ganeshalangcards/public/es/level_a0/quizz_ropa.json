@@ -1,0 +1,25 @@
+{
+    "theme": "Ropa",
+    "questions": [
+        { "question": "Lo usas en la parte superior del cuerpo.", "answers": ["camiseta"] },
+        { "question": "Ropa formal que se lleva sobre la camisa.", "answers": ["chaqueta"] },
+        { "question": "Pantalones cortos para el verano.", "answers": ["pantalones cortos", "shorts"] },
+        { "question": "Zapatos deportivos.", "answers": ["zapatillas", "tenis"] },
+        { "question": "Ropa que usas para dormir.", "answers": ["pijama"] },
+        { "question": "Ropa para protegerse del frío.", "answers": ["abrigo"] },
+        { "question": "Cubre la cabeza cuando hace frío.", "answers": ["gorro"] },
+        { "question": "Lo usas en el cuello con una camisa.", "answers": ["corbata"] },
+        { "question": "Prenda larga usada por mujeres.", "answers": ["vestido"] },
+        { "question": "Ropa que cubre las piernas.", "answers": ["pantalones"] },
+        { "question": "Se lleva en los pies, debajo de los zapatos.", "answers": ["calcetines"] },
+        { "question": "Lo usas en la playa o piscina.", "answers": ["traje de baño", "bañador"] },
+        { "question": "Lo usas sobre la ropa cuando llueve.", "answers": ["impermeable"] },
+        { "question": "Prenda ligera con botones al frente.", "answers": ["camisa"] },
+        { "question": "Se usa sobre la camisa cuando hace fresco.", "answers": ["suéter", "jersey"] },
+        { "question": "Ropa interior para mujeres.", "answers": ["sujetador"] },
+        { "question": "Ropa interior en general.", "answers": ["ropa interior"] },
+        { "question": "Lo llevas en las manos cuando hace frío.", "answers": ["guantes"] },
+        { "question": "Se usa en la cintura para ajustar los pantalones.", "answers": ["cinturón"] },
+        { "question": "Zapatos elegantes para eventos formales.", "answers": ["zapatos"] }
+    ]
+}

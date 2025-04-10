@@ -1,0 +1,25 @@
+{
+    "theme": "Transporte",
+    "questions": [
+        { "question": "Vehículo con dos ruedas, sin motor.", "answers": ["bicicleta"] },
+        { "question": "Vehículo para viajar por la ciudad, tiene cuatro ruedas.", "answers": ["coche", "auto", "carro"] },
+        { "question": "Vehículo grande que transporta muchas personas.", "answers": ["autobús"] },
+        { "question": "Medio de transporte que va por vías.", "answers": ["tren"] },
+        { "question": "Vehículo para volar.", "answers": ["avión"] },
+        { "question": "Vehículo grande que transporta mercancías.", "answers": ["camión"] },
+        { "question": "Vehículo que va bajo tierra en grandes ciudades.", "answers": ["metro"] },
+        { "question": "Lo usas para cruzar un río o el mar.", "answers": ["barco"] },
+        { "question": "Vehículo de dos ruedas con motor.", "answers": ["moto", "motocicleta"] },
+        { "question": "Taxi moderno que pides con una aplicación.", "answers": ["uber"] },
+        { "question": "Vehículo para una sola persona con patines eléctricos.", "answers": ["patinete eléctrico"] },
+        { "question": "Vehículo pequeño que se arrastra con una bici o coche.", "answers": ["remolque"] },
+        { "question": "Vehículo pequeño para bebés.", "answers": ["cochecito", "carrito"] },
+        { "question": "Medio de transporte con animales.", "answers": ["caballo"] },
+        { "question": "Vehículo público que sigue un recorrido fijo.", "answers": ["tranvía"] },
+        { "question": "Coche especial para urgencias médicas.", "answers": ["ambulancia"] },
+        { "question": "Vehículo usado por los bomberos.", "answers": ["camión de bomberos"] },
+        { "question": "Barco pequeño para paseos cortos.", "answers": ["lancha"] },
+        { "question": "Vehículo que vuela y tiene hélices.", "answers": ["helicóptero"] },
+        { "question": "Transporte tirado por caballos.", "answers": ["carroza", "carruaje"] }
+    ]
+}

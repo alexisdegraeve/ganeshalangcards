@@ -1,0 +1,25 @@
+{
+    "theme": "Objetos de la casa",
+    "questions": [
+        { "question": "Lo usas para dormir.", "answers": ["cama"] },
+        { "question": "Donde te sientas en el salón.", "answers": ["sofá"] },
+        { "question": "Lo usas para comer o trabajar.", "answers": ["mesa"] },
+        { "question": "Se usa para sentarse.", "answers": ["silla"] },
+        { "question": "Guarda tu ropa.", "answers": ["armario"] },
+        { "question": "Donde lavas los platos.", "answers": ["fregadero"] },
+        { "question": "Lo usas para cocinar.", "answers": ["estufa", "cocina"] },
+        { "question": "Electrodoméstico para mantener la comida fría.", "answers": ["nevera", "refrigerador"] },
+        { "question": "Electrodoméstico para calentar comida rápido.", "answers": ["microondas"] },
+        { "question": "Dispositivo que muestra programas de televisión.", "answers": ["televisor", "tele"] },
+        { "question": "Sirve para iluminar la habitación.", "answers": ["lámpara"] },
+        { "question": "Lo usas para cubrirte cuando tienes frío en la cama.", "answers": ["manta"] },
+        { "question": "Utensilio para comer sopa.", "answers": ["cuchara"] },
+        { "question": "Se usa para cortar comida.", "answers": ["cuchillo"] },
+        { "question": "Utensilio con dientes para comer.", "answers": ["tenedor"] },
+        { "question": "Se usa para mirar el reflejo.", "answers": ["espejo"] },
+        { "question": "Sirve para limpiar el suelo.", "answers": ["escoba"] },
+        { "question": "Donde haces tus necesidades.", "answers": ["inodoro", "váter"] },
+        { "question": "Lugar para bañarse.", "answers": ["bañera", "ducha"] },
+        { "question": "Donde pones libros o decoraciones.", "answers": ["estantería"] }
+    ]
+}

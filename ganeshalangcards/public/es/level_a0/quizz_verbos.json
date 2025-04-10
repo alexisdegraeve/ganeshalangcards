@@ -1,0 +1,25 @@
+[{
+    "theme": "Verbos comunes",
+    "questions": [
+        { "question": "être", "answers": ["ser", "estar"] },
+        { "question": "avoir", "answers": ["tener"] },
+        { "question": "faire", "answers": ["hacer"] },
+        { "question": "aller", "answers": ["ir"] },
+        { "question": "dire", "answers": ["decir"] },
+        { "question": "pouvoir", "answers": ["poder"] },
+        { "question": "voir", "answers": ["ver"] },
+        { "question": "savoir", "answers": ["saber"] },
+        { "question": "vouloir", "answers": ["querer"] },
+        { "question": "venir", "answers": ["venir"] },
+        { "question": "devoir", "answers": ["deber"] },
+        { "question": "prendre", "answers": ["tomar"] },
+        { "question": "donner", "answers": ["dar"] },
+        { "question": "parler", "answers": ["hablar"] },
+        { "question": "vivre", "answers": ["vivir"] },
+        { "question": "mettre", "answers": ["poner"] },
+        { "question": "travailler", "answers": ["trabajar"] },
+        { "question": "utiliser", "answers": ["usar"] },
+        { "question": "comprendre", "answers": ["entender"] },
+        { "question": "aimer", "answers": ["amar", "gustar"] }
+    ]
+}]
