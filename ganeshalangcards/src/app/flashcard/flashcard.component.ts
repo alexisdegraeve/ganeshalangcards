@@ -39,20 +39,10 @@ export class FlashcardComponent implements OnInit{
     return this._modeTraining;
   }
 
-  // Méthode déclenchée lorsqu'on change modeTraining
   reset() {
     this.score = 0;
     this.currentQuestionIndex = 0;
-    // this.userAnswer= '';
     this.endQuiz = false;
-    // if (this.modeTraining) {
-    //   this.currentQuestionIndex = 0;
-    //   this.currentQuestion = [];
-    //   this.userAnswer= '';
-    //   this.endQuiz = false;
-    // } else {
-
-    // }
   }
 
   constructor(private route: ActivatedRoute, private quizService: QuizService){
@@ -62,12 +52,9 @@ export class FlashcardComponent implements OnInit{
     this.route.queryParams.subscribe(params => {
       const quizFile = params['quizFile'];
       if (quizFile) {
-        // Charger le fichier JSON du vocabulaire
         this.quizService. getVocabulary(quizFile).subscribe((data) => {
           this.questions = [...data[0].questions];
           console.log(this.questions);
-//     this.theme = data[0].theme;
-//     this.showQuestion();
           this.loading = false;
           this.firstQuestion();
         });
@@ -78,20 +65,10 @@ export class FlashcardComponent implements OnInit{
     });
   }
 
-
-  // private loadQuiz(filePath: string): void {
-  //   this.quizService.getVocabulary(filePath).subscribe(data => {
-  //     this.questions = [...data[0].questions];
-  //     this.theme = data[0].theme;
-  //     this.showQuestion();
-  //   })
-  // }
-
   showQuestion() {
     if(this.currentQuestionIndex < this.questions.length) {
       this.endQuiz = false;
       this.currentQuestion = this.questions[this.currentQuestionIndex];
-      // this.userAnswer = '';
     } else {
       this.endQuiz = true;
     }
