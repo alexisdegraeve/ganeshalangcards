@@ -28,17 +28,27 @@ export class QuizService {
   }
 
   speakText(text: string, lang: string) {
-    const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = lang;
+    const synth = window.speechSynthesis;
+    const speak = () => {
+      const voices = synth.getVoices();
+      const voice = voices.find(v => v.lang.startsWith(lang)) || voices.find(v => v.lang.startsWith('en'));
 
-    // Optionnel : changer la voix si tu veux une voix féminine ou autre
-    const voices = window.speechSynthesis.getVoices();
-    const selectedVoice = voices.find(voice => voice.lang.startsWith(lang));
-    if (selectedVoice) {
-      utterance.voice = selectedVoice;
+      if (!voice) {
+        console.warn('No voice found for', lang);
+        return;
+      }
+
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.voice = voice;
+      utterance.lang = voice.lang;
+      synth.speak(utterance);
+    };
+
+    if (synth.getVoices().length === 0) {
+      synth.onvoiceschanged = speak;
+    } else {
+      speak();
     }
-
-    speechSynthesis.speak(utterance);
   }
 
 }

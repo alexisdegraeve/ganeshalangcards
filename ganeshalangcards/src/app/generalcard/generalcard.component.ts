@@ -46,8 +46,9 @@ export class GeneralcardComponent implements OnInit {
   }
 
   speakText(text: string) {
+    console.log('speakText');
     console.log(this.language);
-    this.quizService.speakText(text, this.language);
+    this.quizService.speakText(text, 'en');
   }
 
   ngOnInit(): void {
