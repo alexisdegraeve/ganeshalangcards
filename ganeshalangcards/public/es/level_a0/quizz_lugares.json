@@ -1,0 +1,104 @@
+[{
+    "theme": "Los lugares y la orientación",
+    "questions": [{
+            "question": "the city",
+            "answers": ["la ciudad"]
+        },
+        {
+            "question": "restaurant",
+            "answers": ["el restaurante"]
+        },
+        {
+            "question": "museum",
+            "answers": ["el museo"]
+        },
+        {
+            "question": "tourist office",
+            "answers": ["la oficina de turismo"]
+        },
+        {
+            "question": "main square",
+            "answers": ["la plaza mayor"]
+        },
+        {
+            "question": "library",
+            "answers": ["la biblioteca"]
+        },
+        {
+            "question": "school",
+            "answers": ["la escuela"]
+        },
+        {
+            "question": "supermarket",
+            "answers": ["el supermercado"]
+        },
+        {
+            "question": "station",
+            "answers": ["la estación"]
+        },
+        {
+            "question": "hospital",
+            "answers": ["el hospital"]
+        },
+        {
+            "question": "pharmacy",
+            "answers": ["la farmacia"]
+        },
+        {
+            "question": "near",
+            "answers": ["cerca"]
+        },
+        {
+            "question": "far",
+            "answers": ["lejos"]
+        },
+        {
+            "question": "on the right",
+            "answers": ["a la derecha"]
+        },
+        {
+            "question": "on the left",
+            "answers": ["a la izquierda"]
+        },
+        {
+            "question": "straight ahead",
+            "answers": ["todo recto", "todo derecho"]
+        },
+        {
+            "question": "turn right",
+            "answers": ["gira a la derecha", "dobla a la derecha"]
+        },
+        {
+            "question": "turn left",
+            "answers": ["gira a la izquierda", "dobla a la izquierda"]
+        },
+        {
+            "question": "opposite (in front of)",
+            "answers": ["en frente de"]
+        },
+        {
+            "question": "Is the library far from here?",
+            "answers": ["¿La biblioteca está lejos de aquí?"]
+        },
+        {
+            "question": "Is the museum close to here?",
+            "answers": ["¿El museo está cerca de aquí?"]
+        },
+        {
+            "question": "I’m looking for the station",
+            "answers": ["Busco la estación"]
+        },
+        {
+            "question": "How do I get to the supermarket?",
+            "answers": ["¿Cómo llego al supermercado?"]
+        },
+        {
+            "question": "Where is the pharmacy?",
+            "answers": ["¿Dónde está la farmacia?"]
+        },
+        {
+            "question": "Follow the street",
+            "answers": ["Sigue la calle"]
+        }
+    ]
+}]

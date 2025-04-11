@@ -1,0 +1,132 @@
+[{
+    "theme": "Environmental Issues",
+    "questions": [{
+            "question": "The Earth is getting hotter due to pollution.",
+            "answers": ["global warming"]
+        },
+        {
+            "question": "Cutting down too many trees in a forest.",
+            "answers": ["deforestation"]
+        },
+        {
+            "question": "Big changes in weather patterns over time.",
+            "answers": ["climate change"]
+        },
+        {
+            "question": "Dirty or harmful things in the air.",
+            "answers": ["air pollution"]
+        },
+        {
+            "question": "Throwing trash into oceans or rivers.",
+            "answers": ["water pollution"]
+        },
+        {
+            "question": "Things like paper or plastic that you throw away.",
+            "answers": ["waste", "litter"]
+        },
+        {
+            "question": "Turning used materials into new products.",
+            "answers": ["recycling"]
+        },
+        {
+            "question": "Energy from the sun, wind, or water.",
+            "answers": ["renewable energy"]
+        },
+        {
+            "question": "Energy from coal, gas, or oil.",
+            "answers": ["non-renewable energy"]
+        },
+        {
+            "question": "A gas like CO2 that makes the Earth hotter.",
+            "answers": ["greenhouse gas"]
+        },
+        {
+            "question": "Big ice blocks are melting because of heat.",
+            "answers": ["glacier melting", "ice melting"]
+        },
+        {
+            "question": "Trying to produce less CO2.",
+            "answers": ["cut carbon emissions"]
+        },
+        {
+            "question": "Being careful not to harm the environment.",
+            "answers": ["eco-friendly habits"]
+        },
+        {
+            "question": "Animals that may disappear forever.",
+            "answers": ["endangered species", "species extinction"]
+        },
+        {
+            "question": "The damage a person does to nature.",
+            "answers": ["carbon footprint"]
+        },
+        {
+            "question": "To notice something small or not obvious (e.g., signs of pollution).",
+            "answers": ["pick up on"]
+        },
+        {
+            "question": "To be seen or interpreted in a certain way (e.g., how your actions affect nature).",
+            "answers": ["come across"]
+        },
+        {
+            "question": "To change into something else (e.g., trash turns into pollution).",
+            "answers": ["turn into"]
+        },
+        {
+            "question": "To meet something suddenly (e.g., unexpected environmental issues).",
+            "answers": ["run into"]
+        },
+        {
+            "question": "To act like a problem isn't serious.",
+            "answers": ["laugh off"]
+        },
+        {
+            "question": "To explain something clearly (like a report or issue).",
+            "answers": ["break down"]
+        },
+        {
+            "question": "To use a word with two meanings to be clever or funny.",
+            "answers": ["play on"]
+        },
+        {
+            "question": "To do something wrong and not be punished.",
+            "answers": ["get away with"]
+        },
+        {
+            "question": "When meaning changes between languages or cultures.",
+            "answers": ["lost in translation"]
+        },
+        {
+            "question": "A small mistake when speaking.",
+            "answers": ["a slip of the tongue"]
+        },
+        {
+            "question": "When a sentence has more than one possible meaning.",
+            "answers": ["double meaning", "ambiguity", "wordplay"]
+        },
+        {
+            "question": "When two cultures understand things differently.",
+            "answers": ["cross-cultural misunderstanding"]
+        },
+        {
+            "question": "When two people can't understand each other well because of language.",
+            "answers": ["language barrier", "communication gap"]
+        },
+        {
+            "question": "The way you say something matters.",
+            "answers": ["tone matters", "intonation counts"]
+        },
+        {
+            "question": "When something is not understood correctly because the full situation isn’t known.",
+            "answers": ["out of context"]
+        },
+        {
+            "question": "To save nature and stop damage.",
+            "answers": ["environmental protection"]
+        },
+        {
+            "question": "Using natural resources in a responsible way.",
+            "answers": ["sustainability"]
+        }
+    ]
+}]

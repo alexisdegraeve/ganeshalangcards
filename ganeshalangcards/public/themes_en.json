@@ -1,6 +1,19 @@
 [{
-    "title": "Expressions",
-    "description": "Common English Expressions",
-    "class": "blue",
-    "url": "/en/level_c1/quizz_expression.json"
-}]
+        "title": "Expressions",
+        "description": "Common English Expressions",
+        "class": "blue",
+        "url": "/en/level_c1/quizz_expression.json"
+    },
+    {
+        "title": "Vocabulary",
+        "description": "Environmental Issues",
+        "class": "blue",
+        "url": "/en/level_c1/quizz_environmental.json"
+    },
+    {
+        "title": "Vocabulary",
+        "description": "Overcoming Creative Block",
+        "class": "blue",
+        "url": "/en/level_c1/quizz_creativeblock.json"
+    }
+]

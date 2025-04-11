@@ -50,5 +50,15 @@
         "description": "Animales",
         "class": "green",
         "url": "/es/level_a0/quizz_animales.json"
+    }, {
+        "title": "Vocabulario",
+        "description": "Las bebidas",
+        "class": "green",
+        "url": "/es/level_a0/quizz_bebidas.json"
+    }, {
+        "title": "Vocabulario",
+        "description": "Los lugares y la orientación",
+        "class": "green",
+        "url": "/es/level_a0/quizz_lugares.json"
     }
 ]

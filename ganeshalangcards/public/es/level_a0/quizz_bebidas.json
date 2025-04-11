@@ -1,0 +1,108 @@
+[{
+    "theme": "Las bebidas",
+    "questions": [{
+            "question": "coffee",
+            "answers": ["un café"]
+        },
+        {
+            "question": "coffee with milk",
+            "answers": ["un café con leche"]
+        },
+        {
+            "question": "black coffee",
+            "answers": ["un café solo", "un café negro"]
+        },
+        {
+            "question": "tea",
+            "answers": ["un té"]
+        },
+        {
+            "question": "tea with lemon",
+            "answers": ["un té con limón"]
+        },
+        {
+            "question": "orange juice",
+            "answers": ["un zumo de naranja", "un jugo de naranja"]
+        },
+        {
+            "question": "juice",
+            "answers": ["un zumo", "un jugo"]
+        },
+        {
+            "question": "lemonade",
+            "answers": ["una limonada"]
+        },
+        {
+            "question": "sparkling water",
+            "answers": ["agua con gas"]
+        },
+        {
+            "question": "still water",
+            "answers": ["agua sin gas"]
+        },
+        {
+            "question": "beer",
+            "answers": ["una cerveza"]
+        },
+        {
+            "question": "wine",
+            "answers": ["vino"]
+        },
+        {
+            "question": "red wine",
+            "answers": ["vino tinto"]
+        },
+        {
+            "question": "white wine",
+            "answers": ["vino blanco"]
+        },
+        {
+            "question": "I want (a drink)",
+            "answers": ["quiero"]
+        },
+        {
+            "question": "for me",
+            "answers": ["para mí"]
+        },
+        {
+            "question": "for my friend",
+            "answers": ["para mi amigo", "para mi amiga"]
+        },
+        {
+            "question": "for my wife",
+            "answers": ["para mi esposa"]
+        },
+        {
+            "question": "for my husband",
+            "answers": ["para mi esposo"]
+        },
+        {
+            "question": "What are you going to drink?",
+            "answers": ["¿Qué vas a tomar?", "¿Qué vas a beber?"]
+        },
+        {
+            "question": "What are they going to drink?",
+            "answers": ["¿Qué van a tomar?", "¿Qué van a beber?"]
+        },
+        {
+            "question": "please",
+            "answers": ["por favor"]
+        },
+        {
+            "question": "for your friend",
+            "answers": ["para su amigo", "para su amiga"]
+        },
+        {
+            "question": "for you (formal)",
+            "answers": ["para usted"]
+        },
+        {
+            "question": "right away",
+            "answers": ["en seguida"]
+        },
+        {
+            "question": "cheers",
+            "answers": ["salud"]
+        }
+    ]
+}]
