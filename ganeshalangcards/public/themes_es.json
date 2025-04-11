@@ -60,5 +60,10 @@
         "description": "Los lugares y la orientación",
         "class": "green",
         "url": "/es/level_a0/quizz_lugares.json"
+    }, {
+        "title": "Vocabulario",
+        "description": "De las acciones habituales",
+        "class": "green",
+        "url": "/es/level_a0/quizz_actiones.json"
     }
 ]
