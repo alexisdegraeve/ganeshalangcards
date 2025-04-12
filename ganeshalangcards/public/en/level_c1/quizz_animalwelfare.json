@@ -1,0 +1,28 @@
+[{
+    "theme": "Animal Welfare & Observation",
+    "questions": [{
+            "question": "The condition of being confined and unable to leave.",
+            "answers": ["captivity"]
+        },
+        {
+            "question": "To catch or gain control of someone or something.",
+            "answers": ["capture"]
+        },
+        {
+            "question": "A new phase in life or a period of history.",
+            "answers": ["chapter"]
+        },
+        {
+            "question": "General health, safety, and happiness of people or animals.",
+            "answers": ["welfare"]
+        },
+        {
+            "question": "An area that is fenced or closed off for animals.",
+            "answers": ["enclosure"]
+        },
+        {
+            "question": "To observe or check on something regularly over time.",
+            "answers": ["monitor"]
+        }
+    ]
+}]

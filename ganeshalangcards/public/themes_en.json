@@ -15,5 +15,11 @@
         "description": "Overcoming Creative Block",
         "class": "blue",
         "url": "/en/level_c1/quizz_creativeblock.json"
+    },
+    {
+        "title": "Vocabulary",
+        "description": "Animal Welfare & Observation",
+        "class": "blue",
+        "url": "/en/level_c1/quizz_animalwelfare.json"
     }
 ]
