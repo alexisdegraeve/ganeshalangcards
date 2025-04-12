@@ -124,8 +124,16 @@ export class GeneralcardComponent implements OnInit, AfterViewChecked {
         case 'End':
           if (!this.disableLast) this.lastQuestion();
           break;
+        case ' ':
+          this.flipcard = !this.flipcard;
+          break;
         case 'Enter':
-          this.speakText(this.question);
+          if(!this.flipcard) {
+            this.speakText(this.question);
+          } else {
+            this.speakText(this.answer.toString());
+          }
+
           break;
       }
     }
