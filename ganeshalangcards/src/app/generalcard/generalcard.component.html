@@ -34,7 +34,7 @@
 </ng-container>
 
 <ng-container *ngIf="mode === CardMode.DoubleSide">
-    <div class="col-md-10 col-lg-8 mb-2 double-side">
+    <div class="col-md-10 col-lg-8 mb-2 double-side" #doubleSideDiv tabindex="0">
         <div class="card h-100 border-0">
             <div class="flip-card-inner" [ngClass]="{ 'flip-card-hover': flipcard}">
 
@@ -177,7 +177,7 @@
 
                                 <div class="card-answer" *ngIf="!isLoading">
                                     <div class="form-group ">
-                                        <input type="text " class="form-control " id="answerInput " [placeholder]="('youranswer' | translate)" [(ngModel)]="userAnswer ">
+                                        <input type="text " class="form-control " id="answerInput " [placeholder]="('youranswer' | translate)" [(ngModel)]="userAnswer" (keydown.enter)="onOk()" #inputAnswer autofocus>
                                     </div>
                                     <div class="buttons ">
                                         <div class="card-footer">

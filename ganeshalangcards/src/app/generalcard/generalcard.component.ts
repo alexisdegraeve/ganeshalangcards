@@ -1,10 +1,11 @@
 import { CommonModule } from '@angular/common';
-import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { AfterViewChecked, AfterViewInit, Component, ElementRef, EventEmitter, HostListener, Input, OnInit, Output, ViewChild } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { CardMode } from '../cardmode';
 import { TranslateModule } from '@ngx-translate/core';
 import { QuizService } from '../services/quiz.service';
+import { Question } from '../question';
 
 @Component({
   selector: 'app-generalcard',
@@ -12,7 +13,7 @@ import { QuizService } from '../services/quiz.service';
   templateUrl: './generalcard.component.html',
   styleUrl: './generalcard.component.scss'
 })
-export class GeneralcardComponent implements OnInit {
+export class GeneralcardComponent implements OnInit, AfterViewChecked {
   @Input() title: string  = '';
   @Input() subtitle: string  = '';
   @Input() imageUrl: string = '';
@@ -40,9 +41,24 @@ export class GeneralcardComponent implements OnInit {
   CardMode = CardMode;
   flipcard = false;
   userAnswer ='';
+  @ViewChild('inputAnswer') inputAnswer!: ElementRef;
+  @ViewChild('doubleSideDiv') doubleSideDiv?: ElementRef<HTMLDivElement>;
 
   constructor(private quizService : QuizService) {
 
+  }
+
+  ngAfterViewChecked(): void {
+    if (this.mode === CardMode.DoubleSide && !this.isLoading && this.doubleSideDiv) {
+      this.doubleSideDiv.nativeElement.focus();
+    }
+    if (this.mode === CardMode.question && !this.isLoading) {
+      setTimeout(() => {
+        if (this.inputAnswer) {
+          this.inputAnswer.nativeElement.focus();
+        }
+      });
+    }
   }
 
   speakText(text: string) {
@@ -90,5 +106,29 @@ export class GeneralcardComponent implements OnInit {
 
   restart() {
     this.restartClick.emit();
+  }
+
+  @HostListener('document:keydown', ['$event'])
+  handleKeyboardEvent(event: KeyboardEvent) {
+    if(this.mode=== CardMode.DoubleSide) {
+      switch (event.key) {
+        case 'ArrowRight':
+          if (!this.disableLast) this.nextQuestion();
+          break;
+        case 'ArrowLeft':
+          if (!this.disableFirst) this.prevQuestion();
+          break;
+        case 'Home':
+          if (!this.disableFirst) this.firstQuestion();
+          break;
+        case 'End':
+          if (!this.disableLast) this.lastQuestion();
+          break;
+        case 'Enter':
+          this.speakText(this.question);
+          break;
+      }
+    }
+
   }
 }

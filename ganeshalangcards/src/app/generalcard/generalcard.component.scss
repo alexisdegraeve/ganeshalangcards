@@ -355,3 +355,8 @@
                                         display: flex;
                                         justify-content: center;
                                     }
+
+                                    .double-side:focus {
+                                        outline: none;
+                                        box-shadow: none;
+                                    }
