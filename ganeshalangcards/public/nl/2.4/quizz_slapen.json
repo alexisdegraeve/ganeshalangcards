@@ -1,0 +1,84 @@
+[{
+    "theme": "Beter slapen 😴🛌",
+    "questions": [{
+            "question": "Wat neem je soms ‘s avonds om beter te slapen? Het is ook een drankje 🍷",
+            "answers": ["een slaapmutsje"]
+        },
+        {
+            "question": "Wat doe je als je slaapt zonder wakker te worden?",
+            "answers": ["doorslapen"]
+        },
+        {
+            "question": "Hoe voel je je als je echt géén energie meer hebt?",
+            "answers": ["energieloos"]
+        },
+        {
+            "question": "Wat moet je doen als je de voorbije nachten te weinig hebt geslapen?",
+            "answers": ["bijslapen"]
+        },
+        {
+            "question": "Wat tel je soms om beter te kunnen slapen?",
+            "answers": ["schaapjes"]
+        },
+        {
+            "question": "Hoe noem je het als je begint te slapen?",
+            "answers": ["in slaap vallen"]
+        },
+        {
+            "question": "Wat doe je als je lang slaapt zonder wakker te worden?",
+            "answers": ["doorslapen"]
+        },
+        {
+            "question": "Wat doe je als je blijft denken aan problemen in bed?",
+            "answers": ["piekeren"]
+        },
+        {
+            "question": "Wat doe je in het weekend als je geen wekker zet?",
+            "answers": ["uitslapen"]
+        },
+        {
+            "question": "Als je niet meer moe bent, ben je...",
+            "answers": ["uitgeslapen"]
+        },
+        {
+            "question": "Hoe noem je een korte slaap in de namiddag?",
+            "answers": ["een dutje"]
+        },
+        {
+            "question": "Wat doe je als je extra slaapt na een korte nacht?",
+            "answers": ["bijslapen"]
+        },
+        {
+            "question": "Wat gebeurt er als je klaar bent met slapen?",
+            "answers": ["wakker worden"]
+        },
+        {
+            "question": "Welk toestel maakt je wakker in de ochtend?",
+            "answers": ["de wekker"]
+        },
+        {
+            "question": "Je hoorde de wekker niet en bent te laat. Je hebt je...",
+            "answers": ["overslapen"]
+        },
+        {
+            "question": "Hoe ben je als je meteen actief en alert bent na het wakker worden?",
+            "answers": ["klaarwakker"]
+        },
+        {
+            "question": "Hoe voel je je als je extreem moe bent?",
+            "answers": ["doodmoe"]
+        },
+        {
+            "question": "Je wordt snel wakker van geluiden. Je slaapt...",
+            "answers": ["licht"]
+        },
+        {
+            "question": "Maak een zin: wat zegt de dokter tegen hem over zijn slaap? (niet te laat)",
+            "answers": ["Volgens de dokter moet hij vroeger slapen."]
+        },
+        {
+            "question": "Maak een zin: wat is haar slechte gewoonte voor het slapen? (geen koffie)",
+            "answers": ["Zij drinkt te veel koffie voor het slapen."]
+        }
+    ]
+}]
