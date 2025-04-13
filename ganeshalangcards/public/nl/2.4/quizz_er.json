@@ -1,0 +1,88 @@
+[{
+    "theme": "Gebruik van 'er' in het Nederlands 🇧🇪🗣️",
+    "questions": [{
+            "question": "Woon jij in Halle? Ja...",
+            "answers": ["Ja, ik woon er."]
+        },
+        {
+            "question": "Werk jij in Brussel? Ja...",
+            "answers": ["Ja, ik werk er al een jaar."]
+        },
+        {
+            "question": "Hoeveel kinderen heb jij? (3)",
+            "answers": ["Ik heb er drie.", "Ik heb er 3."]
+        },
+        {
+            "question": "Wil jij nog appels? (ja, 10)",
+            "answers": ["Ja, ik wil er nog tien.", "Ja, ik wil er nog 10."]
+        },
+        {
+            "question": "Wil jij nog appels? (nee)",
+            "answers": ["Nee, ik wil er geen."]
+        },
+        {
+            "question": "Hij drinkt uit een glas.",
+            "answers": ["Hij drinkt eruit."]
+        },
+        {
+            "question": "Hou je van spaghetti?",
+            "answers": ["Ik hou ervan."]
+        },
+        {
+            "question": "Ze kijkt naar een televisieprogramma.",
+            "answers": ["Ze kijkt ernaar."]
+        },
+        {
+            "question": "Ik heb een hekel aan hondenpoep.",
+            "answers": ["Ik heb er een hekel aan."]
+        },
+        {
+            "question": "Ik denk na over jouw voorstel.",
+            "answers": ["Ik denk erover na."]
+        },
+        {
+            "question": "Ben je bang voor spinnen?",
+            "answers": ["Ja, ik ben er bang voor."]
+        },
+        {
+            "question": "Hij ergert zich aan chauffeurs die te snel rijden.",
+            "answers": ["Hij ergert er zich aan.", "Hij ergert er zich aan als chauffeurs te snel rijden."]
+        },
+        {
+            "question": "Ik heb last van treinreizigers die te luid bellen.",
+            "answers": ["Ik heb er last van.", "Ik heb er last van als treinreizigers te luid bellen."]
+        },
+        {
+            "question": "Ik heb aan Bert gedacht.",
+            "answers": ["Ik heb aan hem gedacht."]
+        },
+        {
+            "question": "Ik schrijf met een vulpen.",
+            "answers": ["Ik schrijf ermee."]
+        },
+        {
+            "question": "Die computergames zetten aan tot geweld.",
+            "answers": ["Ze zetten ertoe aan."]
+        },
+        {
+            "question": "We gaan naar het museum.",
+            "answers": ["We gaan ernaartoe."]
+        },
+        {
+            "question": "Ik kijk naar het schilderij.",
+            "answers": ["Ik kijk ernaar."]
+        },
+        {
+            "question": "Ze kwam van de bakker.",
+            "answers": ["Ze kwam ervandaan."]
+        },
+        {
+            "question": "Ik hou van docusoaps.",
+            "answers": ["Ik hou ervan."]
+        },
+        {
+            "question": "Hij viel van de ladder.",
+            "answers": ["Hij viel eraf."]
+        }
+    ]
+}]

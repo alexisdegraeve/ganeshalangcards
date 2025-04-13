@@ -56,5 +56,11 @@
           "description": "Beter slapen 😴🛌",
           "class": "pink",
           "url": "/nl/2.4/quizz_slapen.json"
+      },
+      {
+          "title": "Woordenschat",
+          "description": "Gebruik van 'er'",
+          "class": "pink",
+          "url": "/nl/2.4/quizz_er.json"
       }
   ]
