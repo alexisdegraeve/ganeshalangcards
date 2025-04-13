@@ -65,5 +65,11 @@
         "description": "De las acciones habituales",
         "class": "green",
         "url": "/es/level_a0/quizz_actiones.json"
+    },
+    {
+        "title": "Vocabulario",
+        "description": "Amor, encuentros y algo para comer😍🍷",
+        "class": "green",
+        "url": "/es/level_a0/quizz_comer.json"
     }
 ]

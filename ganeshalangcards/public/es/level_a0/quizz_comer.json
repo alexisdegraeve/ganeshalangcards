@@ -1,0 +1,124 @@
+[{
+    "theme": "Amor, encuentros y algo para comer 😍🍷",
+    "questions": [{
+            "question": "Es amarillo, salado, y lo que más les gusta a los ratones. ¿Qué es?",
+            "answers": ["queso"]
+        },
+        {
+            "question": "Es algo que viene del cerdo y se pone en un bocadillo.",
+            "answers": ["jamón"]
+        },
+        {
+            "question": "Es algo frío, verde o con tomate, que comes antes del plato principal.",
+            "answers": ["ensalada"]
+        },
+        {
+            "question": "Es redonda, con huevo y patata. Una especialidad muy española.",
+            "answers": ["tortilla", "tortilla de patatas"]
+        },
+        {
+            "question": "Es algo que tomas en una taza caliente con leche, por la mañana.",
+            "answers": ["café con leche"]
+        },
+        {
+            "question": "Es una bebida dulce, amarilla o rosa, sin alcohol.",
+            "answers": ["limonada"]
+        },
+        {
+            "question": "No es vino, no es cerveza, pero te ayuda a no tener sed.",
+            "answers": ["agua"]
+        },
+        {
+            "question": "Cuando quieres algo más de pan, ¿qué pides?",
+            "answers": ["más pan", "muéstrame más pan por favor", "trae más pan por favor"]
+        },
+        {
+            "question": "La dices cuando quieres pagar después de comer.",
+            "answers": ["la cuenta", "la cuenta por favor"]
+        },
+        {
+            "question": "¿Qué dices si quieres saber si puedes sentarte y comer?",
+            "answers": ["¿se puede comer aquí?"]
+        },
+        {
+            "question": "Palabra para un sándwich en España (¡con jamón, claro!).",
+            "answers": ["bocadillo"]
+        },
+        {
+            "question": "La pides cuando quieres ver qué hay para comer.",
+            "answers": ["la carta", "el menú"]
+        },
+        {
+            "question": "Una frase para empezar una conversación romántica: tus ojos son bonitos.",
+            "answers": ["me gustan tus ojos"]
+        },
+        {
+            "question": "Frase directa: quiero estar contigo siempre ❤️",
+            "answers": ["quiero pasar toda mi vida contigo"]
+        },
+        {
+            "question": "Forma dulce de decir 'te deseo' o 'te amo'.",
+            "answers": ["te quiero"]
+        },
+        {
+            "question": "Cuando ves a alguien guapo, ¿qué dices? (chico)",
+            "answers": ["eres guapo"]
+        },
+        {
+            "question": "Cuando ves a alguien hermosa, ¿qué dices? (chica)",
+            "answers": ["eres guapa"]
+        },
+        {
+            "question": "Frase para iniciar una charla: ¿Estudias o...?",
+            "answers": ["¿estudias o trabajas?"]
+        },
+        {
+            "question": "Cuando ves a alguien y no estás seguro si ya lo conoces.",
+            "answers": ["¿nos conocemos?"]
+        },
+        {
+            "question": "Frase para decir: 'No eres de este lugar, ¿cierto?'",
+            "answers": ["no eres de aquí, ¿verdad?"]
+        },
+        {
+            "question": "Pregunta si esa persona vino con alguien (hombre).",
+            "answers": ["¿estás acompañado?"]
+        },
+        {
+            "question": "Pregunta si esa persona vino con alguien (mujer).",
+            "answers": ["¿estás acompañada?"]
+        },
+        {
+            "question": "Si quieres saber si la otra persona desea algo más.",
+            "answers": ["¿quieres algo más?", "¿quiere algo más?", "¿quieren algo más?"]
+        },
+        {
+            "question": "Es una bebida elegante, roja o blanca, perfecta con queso.",
+            "answers": ["vino"]
+        },
+        {
+            "question": "Cuando te traen solo un poco de comida para compartir.",
+            "answers": ["una ración"]
+        },
+        {
+            "question": "Una forma educada de pedir un té.",
+            "answers": ["un té"]
+        },
+        {
+            "question": "No es comida, es lo que sientes cuando ves a alguien y sonríes.",
+            "answers": ["me gusta", "me gustas"]
+        },
+        {
+            "question": "Una palabra para expresar atracción o amor platónico.",
+            "answers": ["me gustas"]
+        },
+        {
+            "question": "Es el verbo que usas para pedir: 'quiero una limonada'.",
+            "answers": ["quiero"]
+        },
+        {
+            "question": "La frase para cuando quieres empezar algo bonito con alguien ❤️",
+            "answers": ["quiero estar contigo", "quiero pasar tiempo contigo"]
+        }
+    ]
+}]
