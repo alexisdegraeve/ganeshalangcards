@@ -1,0 +1,100 @@
+[{
+    "theme": "🍽️ En el restaurante y aprender frases",
+    "questions": [{
+            "question": "Cuando tienes ganas de comer algo, dices...",
+            "answers": ["Tengo hambre."]
+        },
+        {
+            "question": "Cuando necesitas beber algo, dices...",
+            "answers": ["Tengo sed."]
+        },
+        {
+            "question": "Quieres saber si hay un lugar para comer cerca.",
+            "answers": ["¿Hay un restaurante cerca de aquí?"]
+        },
+        {
+            "question": "Pregunta si hay un lugar para comer en esta zona.",
+            "answers": ["¿Hay un restaurante por aquí?"]
+        },
+        {
+            "question": "Quieres decir en qué ciudad vives.",
+            "answers": ["En la ciudad donde vivo yo."]
+        },
+        {
+            "question": "Preguntas si tienen una mesa libre.",
+            "answers": ["¿Tiene una mesa?"]
+        },
+        {
+            "question": "El camarero pregunta: ¿Para cuántas personas?",
+            "answers": ["¿Para cuántas personas?"]
+        },
+        {
+            "question": "El camarero quiere saber si fumas o no.",
+            "answers": ["¿Fumadores o no fumadores?"]
+        },
+        {
+            "question": "Te muestran el camino hacia la mesa.",
+            "answers": ["Por aquí."]
+        },
+        {
+            "question": "El restaurante está cerrado.",
+            "answers": ["Lo siento, estamos cerrados."]
+        },
+        {
+            "question": "El restaurante está lleno.",
+            "answers": ["Estamos llenos."]
+        },
+        {
+            "question": "No tienen ninguna mesa disponible.",
+            "answers": ["No tenemos mesas."]
+        },
+        {
+            "question": "Te dicen que necesitas esperar un momento.",
+            "answers": ["Hay que esperar."]
+        },
+        {
+            "question": "Preguntas cuánto tiempo hay que esperar.",
+            "answers": ["¿Cuánto hay que esperar?"]
+        },
+        {
+            "question": "Hoy es tu cumpleaños. Te dicen...",
+            "answers": ["¡Hay que festejar!"]
+        },
+        {
+            "question": "Pides ver el menú.",
+            "answers": ["Nos trae la carta, por favor."]
+        },
+        {
+            "question": "Pides una silla especial para un bebé.",
+            "answers": ["Nos trae una sillita para el bebé."]
+        },
+        {
+            "question": "Quieres un menú que puedas entender mejor.",
+            "answers": ["Nos trae una carta en inglés."]
+        },
+        {
+            "question": "Quieres saber qué ingredientes tiene un plato.",
+            "answers": ["¿Qué lleva este plato?"]
+        },
+        {
+            "question": "Ves a otras personas comiendo y preguntas...",
+            "answers": ["¿Qué están comiendo ellos?"]
+        },
+        {
+            "question": "Tu amigo come algo, y le preguntas...",
+            "answers": ["¿Qué estás comiendo tú?"]
+        },
+        {
+            "question": "Respondes que estás comiendo carne.",
+            "answers": ["Estoy comiendo carne."]
+        },
+        {
+            "question": "No sabes qué pedir y preguntas una sugerencia.",
+            "answers": ["¿Qué me recomienda?"]
+        },
+        {
+            "question": "Dices que aprendes mucho en español.",
+            "answers": ["Estoy aprendiendo muchas frases y muchas palabras."]
+        }
+    ]
+}]

@@ -71,5 +71,10 @@
         "description": "Amor, encuentros y algo para comer😍🍷",
         "class": "green",
         "url": "/es/level_a0/quizz_comer.json"
+    }, {
+        "title": "Vocabulario",
+        "description": "🍽️ En el restaurante y aprender frase",
+        "class": "green",
+        "url": "/es/level_a0/quizz_restaurante.json"
     }
 ]
