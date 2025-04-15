@@ -76,5 +76,10 @@
         "description": "🍽️ En el restaurante y aprender frase",
         "class": "green",
         "url": "/es/level_a0/quizz_restaurante.json"
+    }, {
+        "title": "Vocabulario",
+        "description": "🍽️ En el restaurante y expresar lo que comes ",
+        "class": "green",
+        "url": "/es/level_a0/quizz_restaurante_dos.json"
     }
 ]

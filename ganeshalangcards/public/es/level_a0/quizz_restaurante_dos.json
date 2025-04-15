@@ -1,0 +1,76 @@
+[{
+    "theme": "🍽️ En el restaurante y expresar lo que comes",
+    "questions": [{
+            "question": "¿Qué dices cuando ya estás preparado? (hombre)",
+            "answers": ["Estoy listo", "Estoy preparado"]
+        },
+        {
+            "question": "¿Qué dices cuando ya estás preparada? (mujer)",
+            "answers": ["Estoy lista", "Estoy preparada"]
+        },
+        {
+            "question": "Eres hombre y no comes carne, ¿cómo lo dices?",
+            "answers": ["Soy vegetariano", "No como carne"]
+        },
+        {
+            "question": "Eres mujer y no comes carne, ¿cómo lo dices?",
+            "answers": ["Soy vegetariana", "No como carne"]
+        },
+        {
+            "question": "¿Cómo se dice: I eat?",
+            "answers": ["Como"]
+        },
+        {
+            "question": "No comes animales del mar, ¿cómo lo dices?",
+            "answers": ["No como marisco", "No como pescado"]
+        },
+        {
+            "question": "Si tienes alergia a los frutos secos, ¿qué dices? (hombre)",
+            "answers": ["Soy alérgico a las nueces", "Soy alérgico a los frutos secos"]
+        },
+        {
+            "question": "Si eres mujer y no puedes tomar leche, ¿qué dices?",
+            "answers": ["Soy alérgica a los productos lácteos", "Soy alérgica a la leche"]
+        },
+        {
+            "question": "¿Qué dices a alguien antes de comer?",
+            "answers": ["¡Que aproveche!", "¡Buen provecho!"]
+        },
+        {
+            "question": "Tu comida no está caliente, ¿qué dices?",
+            "answers": ["Está fría", "Esto está frío"]
+        },
+        {
+            "question": "Tu comida quema la boca, ¿qué dices?",
+            "answers": ["Está caliente", "Esto está muy caliente"]
+        },
+        {
+            "question": "Tu comida está quemada, ¿qué dices?",
+            "answers": ["Está quemado", "Esto está quemado"]
+        },
+        {
+            "question": "No puedes con el picante, ¿cómo lo expresas?",
+            "answers": ["Está demasiado picante", "Esto está muy picante"]
+        },
+        {
+            "question": "Quieres más agua, ¿qué pides?",
+            "answers": ["Nos trae más agua, por favor", "¿Puede traer más agua, por favor?"]
+        },
+        {
+            "question": "La comida está increíble, ¿cómo lo expresas?",
+            "answers": ["Está buenísimo", "Está riquísimo"]
+        },
+        {
+            "question": "No tienes más espacio en el estómago, ¿cómo lo dices? (hombre)",
+            "answers": ["Estoy satisfecho", "Estoy lleno"]
+        },
+        {
+            "question": "No tienes más espacio en el estómago, ¿cómo lo dices? (mujer)",
+            "answers": ["Estoy satisfecha", "Estoy llena"]
+        },
+        {
+            "question": "¿Qué dices cuando no quieres más comida en la mesa para todos?",
+            "answers": ["Estamos llenos", "No queremos más, gracias"]
+        }
+    ]
+}]
