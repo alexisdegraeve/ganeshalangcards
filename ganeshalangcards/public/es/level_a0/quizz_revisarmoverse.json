@@ -1,0 +1,72 @@
+[{
+    "theme": "🧭 Revisión en español: moverse, preguntar, pedir",
+    "questions": [{
+            "question": "Tienes el estómago vacío, ¿qué dices?",
+            "answers": ["Tengo hambre"]
+        },
+        {
+            "question": "Quieres saber si la otra persona puede hablar contigo en español, ¿qué preguntas?",
+            "answers": ["¿Hablas español?"]
+        },
+        {
+            "question": "Quieres visitar un monumento famoso, ¿qué preguntas?",
+            "answers": ["¿Dónde está la catedral?"]
+        },
+        {
+            "question": "Buscas un lugar para sacar dinero, ¿qué preguntas?",
+            "answers": ["¿Hay un banco por aquí?"]
+        },
+        {
+            "question": "Quieres saber si puedes sentarte a comer, ¿qué preguntas?",
+            "answers": ["¿Se puede comer aquí?"]
+        },
+        {
+            "question": "El camarero viene a tu mesa, ¿qué te pregunta?",
+            "answers": ["¿Qué van a tomar?", "¿Qué va a tomar?"]
+        },
+        {
+            "question": "Terminas de comer y necesitas pagar, ¿qué pides?",
+            "answers": ["¿Nos trae la cuenta, por favor?", "La cuenta, por favor"]
+        },
+        {
+            "question": "Necesitas medicamentos, ¿qué preguntas?",
+            "answers": ["¿Hay una farmacia cerca de aquí?"]
+        },
+        {
+            "question": "¿Cómo dices que el banco está enfrente de la piscina?",
+            "answers": ["El banco está en frente de la piscina", "El banco está frente a la piscina"]
+        },
+        {
+            "question": "Quieres explicar que estás estudiando el idioma, ¿qué dices?",
+            "answers": ["Estoy aprendiendo español"]
+        },
+        {
+            "question": "Quieres que alguien te diga algo, ¿cómo lo pides con cortesía?",
+            "answers": ["¿Me sabe decir...?", "¿Me puede decir...?"]
+        },
+        {
+            "question": "Tienes un mapa en la mano y necesitas ayuda, ¿qué preguntas?",
+            "answers": ["¿Me puede indicar dónde está en este plano?"]
+        },
+        {
+            "question": "Quieres que alguien mire algo, ¿qué dices?",
+            "answers": ["¡Mira!", "¡Mire!"]
+        },
+        {
+            "question": "Necesitas ir todo derecho, ¿qué te dicen?",
+            "answers": ["Todo recto", "Sigue recto"]
+        },
+        {
+            "question": "Estás en una esquina y necesitas girar en la segunda calle, ¿qué haces?",
+            "answers": ["Tomo la segunda calle", "Doblo en la segunda calle"]
+        },
+        {
+            "question": "Quieres ir a la derecha, ¿cómo lo dices?",
+            "answers": ["A la derecha"]
+        },
+        {
+            "question": "No vas en coche, vas caminando, ¿cómo lo dices?",
+            "answers": ["A pie"]
+        }
+    ]
+}]
