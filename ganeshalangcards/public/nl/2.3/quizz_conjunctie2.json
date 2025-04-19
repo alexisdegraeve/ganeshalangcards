@@ -1,0 +1,64 @@
+{
+    "theme": "Conjuncties: als, omdat, terwijl, omdat, nadat, voordat, zodat, sinds",
+    "questions": [{
+            "question": "Ik was altijd mijn handen ______________ ik eet.",
+            "answers": ["voordat"]
+        },
+        {
+            "question": "Ik zing altijd ______________ ik een douche neem.",
+            "answers": ["terwijl"]
+        },
+        {
+            "question": "Ik poets niet graag, ______________ ik allergisch voor stof ben.",
+            "answers": ["omdat"]
+        },
+        {
+            "question": "Ik was mijn haar met speciale shampoo, ______________ het minder snel vet wordt.",
+            "answers": ["zodat"]
+        },
+        {
+            "question": "Ik kijk meestal tv, ______________ ik de kleding strijk.",
+            "answers": ["terwijl"]
+        },
+        {
+            "question": "Ik voel me altijd wakkerder, ______________ ik een douche heb genomen.",
+            "answers": ["nadat"]
+        },
+        {
+            "question": "Ik was de groenten ______________ ik ze klaarmaak.",
+            "answers": ["voordat"]
+        },
+        {
+            "question": "Ik draag nooit rokken, ______________ ik mijn benen te dik vind.",
+            "answers": ["omdat"]
+        },
+        {
+            "question": "______________ ik in Antwerpen woon, zie ik mijn familie niet meer zo vaak.",
+            "answers": ["Sinds"]
+        },
+        {
+            "question": "______________ ik op reis vertrek, controleer ik altijd alle reisdocumenten.",
+            "answers": ["voordat"]
+        },
+        {
+            "question": "Ik zet het raam altijd open, ______________ ik frieten heb gebakken.",
+            "answers": ["nadat"]
+        },
+        {
+            "question": "______________ het erg koud is, neem ik meestal de bus i.p.v. de fiets.",
+            "answers": ["Als"]
+        },
+        {
+            "question": "Ik ga elke week naar de MacDonalds, ______________ ik van fastfood hou.",
+            "answers": ["omdat"]
+        },
+        {
+            "question": "Ik poets altijd mijn tanden, ______________ ik koffie heb gedronken.",
+            "answers": ["nadat"]
+        },
+        {
+            "question": "Ik voel me veel beter ______________ ik gestopt ben met roken.",
+            "answers": ["sinds"]
+        }
+    ]
+}

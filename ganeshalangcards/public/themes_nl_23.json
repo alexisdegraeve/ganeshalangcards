@@ -15,5 +15,11 @@
         "description": "Conjuncties",
         "class": "pink",
         "url": "/nl/2.3/quizz_conjunctie.json"
+    },
+    {
+        "title": "Grammatica",
+        "description": "Conjuncties - II",
+        "class": "pink",
+        "url": "/nl/2.3/quizz_conjunctie2.json"
     }
 ]
