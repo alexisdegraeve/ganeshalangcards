@@ -98,6 +98,8 @@ Users can apply filters to personalize their quiz experience:
 - TTS (Text-to-Speech) support for pronunciation in multiple languages.
 - Separation of themes and vocabulary per language in individual files.
 - Filter-based navigation with automatic redirection.
+- ✅ **User experience enhancement**: A `cursor: pointer` style is now applied to flashcards to indicate interactivity.
+
 
 ---
 
