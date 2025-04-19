@@ -1,6 +1,19 @@
 [{
-    "title": "Woordenschat",
-    "description": "🌡️🥵 Ziek zijn & Vrije tijd",
-    "class": "pink",
-    "url": "/nl/2.3/quizz_ziek.json"
-}]
+        "title": "Woordenschat",
+        "description": "🌡️🥵 Ziek zijn & Vrije tijd",
+        "class": "pink",
+        "url": "/nl/2.3/quizz_ziek.json"
+    },
+    {
+        "title": "Grammatica",
+        "description": "Zinsconstructie🤒✍️",
+        "class": "pink",
+        "url": "/nl/2.3/quizz_zinconst.json"
+    },
+    {
+        "title": "Grammatica",
+        "description": "Conjuncties",
+        "class": "pink",
+        "url": "/nl/2.3/quizz_conjunctie.json"
+    }
+]

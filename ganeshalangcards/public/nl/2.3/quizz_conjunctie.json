@@ -1,0 +1,64 @@
+[{
+    "theme": "Conjuncties: en, of, maar, want, dus, omdat, als, toen, terwijl, dat, of",
+    "questions": [{
+            "question": "Ik kan een nieuwe winterjas kopen, ..... mijn loon is gestort.",
+            "answers": ["want"]
+        },
+        {
+            "question": "Ik ben geslaagd, ..... ik mag naar de volgende module gaan.",
+            "answers": ["dus"]
+        },
+        {
+            "question": "Ik ben te laat, ..... mijn trein vertraging had.",
+            "answers": ["omdat"]
+        },
+        {
+            "question": "Ik vind ..... jij een mooi kleedje draagt.",
+            "answers": ["dat"]
+        },
+        {
+            "question": "Gaan we op restaurant ..... halen we iets af?",
+            "answers": ["of"]
+        },
+        {
+            "question": "Hij heeft een koffie gedronken ..... een croissant gegeten.",
+            "answers": ["en"]
+        },
+        {
+            "question": "Ik zal een paraplu meenemen ..... het regent.",
+            "answers": ["als"]
+        },
+        {
+            "question": "De kinderen hebben hun kamer opgeruimd, ..... ik het eten maakte.",
+            "answers": ["terwijl"]
+        },
+        {
+            "question": "Ik twijfel ..... ik morgen met de fiets zal komen.",
+            "answers": ["of"]
+        },
+        {
+            "question": "Ik was op tijd, ..... ik was mijn sleutels vergeten.",
+            "answers": ["maar"]
+        },
+        {
+            "question": "Ik ben naar Babbeluur geweest, ..... de les gedaan was.",
+            "answers": ["toen"]
+        },
+        {
+            "question": "..... het vroeg donker wordt, nemen we onze zaklamp mee.",
+            "answers": ["Omdat"]
+        },
+        {
+            "question": "..... jullie jullie huiswerk maken, strijk ik de kleren.",
+            "answers": ["Terwijl"]
+        },
+        {
+            "question": "..... iedereen klaar is, mogen jullie van tafel gaan.",
+            "answers": ["Als"]
+        },
+        {
+            "question": "..... de dokter alle patiënten gezien had, kon hij eindelijk naar huis gaan.",
+            "answers": ["Toen"]
+        }
+    ]
+}]
