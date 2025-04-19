@@ -15,6 +15,10 @@ export const routes: Routes = [
     component: GameComponent
   },
   {
+    path: 'game/:language',
+    component: GameComponent
+  },
+  {
     path: 'flashcard',
     component: FlashcardComponent
   },
