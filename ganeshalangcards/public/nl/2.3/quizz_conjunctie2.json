@@ -1,4 +1,4 @@
-{
+[{
     "theme": "Conjuncties: als, omdat, terwijl, omdat, nadat, voordat, zodat, sinds",
     "questions": [{
             "question": "Ik was altijd mijn handen ______________ ik eet.",
@@ -61,4 +61,4 @@
             "answers": ["sinds"]
         }
     ]
-}
+}]
