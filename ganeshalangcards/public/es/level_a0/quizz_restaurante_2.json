@@ -1,0 +1,148 @@
+[{
+    "theme": "🍽️ En el restaurante - Part II",
+    "questions": [{
+            "question": "Tu estómago hace ruido, ¿qué dices?",
+            "answers": ["Yo tengo hambre"]
+        },
+        {
+            "question": "Buscas un lugar para comer cerca, ¿qué preguntas?",
+            "answers": ["¿Hay un restaurante por aquí?"]
+        },
+        {
+            "question": "Estás con tu pareja y quieres una mesa, ¿qué dices al camarero?",
+            "answers": ["¿Tiene una mesa para dos, por favor?"]
+        },
+        {
+            "question": "El camarero acepta tu petición, ¿qué te dice?",
+            "answers": ["Sí, claro"]
+        },
+        {
+            "question": "El camarero quiere que lo sigas a la mesa, ¿qué dice?",
+            "answers": ["¿Quieren seguirme?"]
+        },
+        {
+            "question": "El camarero te pregunta si deseas tomar algo, ¿cómo lo dice?",
+            "answers": ["¿Quieren tomar algo?", "¿Quieren beber algo?"]
+        },
+        {
+            "question": "Tienes ganas de algo, ¿cómo lo expresas?",
+            "answers": ["Me apetece"]
+        },
+        {
+            "question": "Quieres una bebida roja y fuerte, ¿qué pides?",
+            "answers": ["Un vino tinto"]
+        },
+        {
+            "question": "Quieres agua sin burbujas, ¿qué pides?",
+            "answers": ["Agua mineral sin gas"]
+        },
+        {
+            "question": "Quieres ver lo que hay en el menú, ¿qué pides?",
+            "answers": ["¿Nos trae la carta, por favor?"]
+        },
+        {
+            "question": "El camarero pregunta si pueden hacer su pedido, ¿cómo lo dice?",
+            "answers": ["¿Están listos para pedir?"]
+        },
+        {
+            "question": "No comes carne, ¿cómo te describes?",
+            "answers": ["Soy vegetariana"]
+        },
+        {
+            "question": "Quieres saber si el plato contiene carne, ¿cómo lo preguntas?",
+            "answers": ["¿Lleva carne este plato?"]
+        },
+        {
+            "question": "Quieres unas croquetas sin carne, ¿qué pides?",
+            "answers": ["Las croquetas de champiñones"]
+        },
+        {
+            "question": "Quieres unas papas como acompañamiento, ¿qué pides?",
+            "answers": ["Una ración de patatas"]
+        },
+        {
+            "question": "El camarero te ofrece pan, ¿cómo lo pregunta?",
+            "answers": ["¿Quieren un poco de pan?"]
+        },
+        {
+            "question": "Quieres pedir una porción, ¿qué dices?",
+            "answers": ["Nos trae una ración, por favor"]
+        },
+        {
+            "question": "Quieres albóndigas, ¿qué pides?",
+            "answers": ["Albóndigas"]
+        },
+        {
+            "question": "Quieres una especialidad española con huevos y papas, ¿qué pides?",
+            "answers": ["La tortilla"]
+        },
+        {
+            "question": "El camarero quiere saber si necesitas algo más, ¿cómo lo pregunta?",
+            "answers": ["¿Necesita algo más?"]
+        },
+        {
+            "question": "El camarero te desea buen provecho, ¿qué dice?",
+            "answers": ["¡Que aproveche!"]
+        },
+        {
+            "question": "El camarero quiere saber si todo está bien, ¿qué dice?",
+            "answers": ["¿Está todo bien?"]
+        },
+        {
+            "question": "Dices que la comida está muy rica, ¿qué dices?",
+            "answers": ["Está riquísimo", "Está buenísimo"]
+        },
+        {
+            "question": "Tienes ganas de algo dulce después de comer, ¿qué preguntas?",
+            "answers": ["¿Tienen algo de postre?"]
+        },
+        {
+            "question": "Quieres saber si puedes pedir café, ¿qué preguntas?",
+            "answers": ["¿Tienen un café?"]
+        },
+        {
+            "question": "Quieres un café con leche, ¿qué dices?",
+            "answers": ["Yo quiero un café con leche"]
+        },
+        {
+            "question": "El camarero te dice que regresa enseguida, ¿qué dice?",
+            "answers": ["En seguida"]
+        },
+        {
+            "question": "Estás pensando, y dices algo como 'voy a ver'...",
+            "answers": ["A ver"]
+        },
+        {
+            "question": "Ofreces algo a otra persona también, ¿cómo preguntas?",
+            "answers": ["¿Quieres algo tú también?"]
+        },
+        {
+            "question": "Preguntas qué opciones hay, ¿qué dices?",
+            "answers": ["¿Qué hay?"]
+        },
+        {
+            "question": "Hay muchas opciones, ¿cómo lo dicen en el restaurante?",
+            "answers": ["Hay de todo"]
+        },
+        {
+            "question": "Quieres un café cortado, ¿qué pides?",
+            "answers": ["Un café cortado"]
+        },
+        {
+            "question": "Ya terminaste y quieres pagar, ¿qué pides?",
+            "answers": ["Por favor, nos trae la cuenta"]
+        },
+        {
+            "question": "Preguntas si puedes pagar con tarjeta, ¿qué dices?",
+            "answers": ["¿Puedo pagar con tarjeta de crédito?"]
+        },
+        {
+            "question": "El camarero acepta el pago, ¿qué dice?",
+            "answers": ["¡Claro que sí!"]
+        },
+        {
+            "question": "Al salir, el camarero te desea algo bueno, ¿qué dice?",
+            "answers": ["¡Que tengan un buen día!"]
+        }
+    ]
+}]

@@ -14,6 +14,7 @@ import { CardMode } from '../cardmode';
 })
 export class CardListComponent implements OnInit{
   language = '';
+  season = 1;
   theme$: Observable<any> | null = null;
 
   CardMode = CardMode;
@@ -29,10 +30,11 @@ export class CardListComponent implements OnInit{
 
   ngOnInit(): void {
     this.route.paramMap.subscribe(params => {
+      this.season = Number(params.get('season')) ?? 1;
       this.language = params.get('language') ?? '';
       if (this.language)
       {
-        this.theme$ = this.quizzService.getThemes(this.language);
+        this.theme$ = this.quizzService.getThemes(this.season, this.language);
       }
 
 

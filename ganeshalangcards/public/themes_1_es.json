@@ -86,5 +86,10 @@
         "description": "🧭 Revisión en español: moverse, preguntar, pedir",
         "class": "green",
         "url": "/es/level_a0/quizz_revisarmoverse.json"
+    }, {
+        "title": "Vocabulario",
+        "description": "🍽️ En el restaurante - Conversación completa",
+        "class": "green",
+        "url": "/es/level_a0/quizz_restaurante_2.json"
     }
 ]

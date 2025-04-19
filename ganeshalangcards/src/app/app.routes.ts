@@ -19,7 +19,7 @@ export const routes: Routes = [
     component: FlashcardComponent
   },
   {
-    path: 'theme/:language',
+    path: 'theme/:season/:language',
     component: CardListComponent
   },
   {

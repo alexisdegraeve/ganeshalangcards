@@ -20,10 +20,19 @@ export class GameComponent {
   cards = [
     {
       title: 'Nederlands',
+      subtitle: 'Level B 2.3',
+      imageUrl: '/images/flags/flag_dutch.svg',  // Remplacez par le chemin réel de vos images
+      isLoading: false,
+      link: '/theme/2',
+      class: 'pink',
+      language: 'nl'
+    },
+    {
+      title: 'Nederlands',
       subtitle: 'Level B 2.4',
       imageUrl: '/images/flags/flag_dutch.svg',  // Remplacez par le chemin réel de vos images
       isLoading: false,
-      link: '/theme',
+      link: '/theme/1',
       class: 'pink',
       language: 'nl'
     },
@@ -32,7 +41,7 @@ export class GameComponent {
       subtitle: 'Level A 0',
       imageUrl: '/images/flags/flag_spain.svg',
       isLoading: false,
-      link: '/theme',
+      link: '/theme/1',
       class: 'green',
       language: 'es'
     },
@@ -41,7 +50,7 @@ export class GameComponent {
       subtitle: 'Level C 1',
       imageUrl: '/images/flags/flag_english.svg',
       isLoading: false,
-      link: '/theme',
+      link: '/theme/1',
       class: 'blue',
       language: 'en'
     }
