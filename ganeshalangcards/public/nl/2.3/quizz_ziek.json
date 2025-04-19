@@ -1,0 +1,84 @@
+[{
+    "theme": "Ziek zijn & Vrije tijd",
+    "questions": [{
+            "question": "Een campagne die informatie geeft over iets.",
+            "answers": ["voorlichtingscampagne"]
+        },
+        {
+            "question": "Geneesmiddelen die helpen tegen ziekteverwekkende bacteriën, maar niet tegen virussen.",
+            "answers": ["antibiotica"]
+        },
+        {
+            "question": "Ik heb een verstopte neus en moet vaak hoesten. Ik ben _.",
+            "answers": ["verkouden"]
+        },
+        {
+            "question": "Computerspelletjes spelen? Neen, dat is _ voor mij.",
+            "answers": ["niets"]
+        },
+        {
+            "question": "Een eencellig organisme dat zich snel kan vermenigvuldigen en soms ziekte kan veroorzaken: _.",
+            "answers": ["een bacterie"]
+        },
+        {
+            "question": "Je _ wordt door de ziektekiemen van anderen.",
+            "answers": ["besmet"]
+        },
+        {
+            "question": "Het coronavirus is een ziekte of een _ aan de luchtwegen.",
+            "answers": ["aandoening"]
+        },
+        {
+            "question": "Het coronavirus _ zich snel.",
+            "answers": ["verspreidt"]
+        },
+        {
+            "question": "Een organisme dat een ziekte veroorzaakt: _.",
+            "answers": ["ziektekiem"]
+        },
+        {
+            "question": "Iets dat over is van iets, bv. van een medicijn: _.",
+            "answers": ["een overschotje"]
+        },
+        {
+            "question": "Het is een spel dat je met familie of vrienden speelt voor de gezelligheid: _.",
+            "answers": ["gezelschapsspel"]
+        },
+        {
+            "question": "Vlamingen brengen veel tijd _ met hun familie.",
+            "answers": ["door"]
+        },
+        {
+            "question": "Naar muziek luisteren? Ja, dat is echt mijn _.",
+            "answers": ["ding"]
+        },
+        {
+            "question": "Als we een griepepidemie willen voorkomen, moeten we alle kinderen laten _ tegen griep.",
+            "answers": ["vaccineren"]
+        },
+        {
+            "question": "Het is een website waar over een bepaalde zaak kan worden gediscussieerd: _.",
+            "answers": ["een internetforum"]
+        },
+        {
+            "question": "Een medicijn dat de pijn verzacht: _.",
+            "answers": ["pijnstiller"]
+        },
+        {
+            "question": "Hoe kan je voorkomen dat je _ wordt door de ziektekiemen van anderen?",
+            "answers": ["besmet"]
+        },
+        {
+            "question": "Hoe noem je een ziekte die ontstaat door een virus, waarbij je koorts, hoofdpijn en pijn aan je spieren krijgt?",
+            "answers": ["griep"]
+        },
+        {
+            "question": "Hoe noem je de tijd die men niet hoeft te besteden aan verplichte of noodzakelijke activiteiten zoals werk, zorg en studie?",
+            "answers": ["vrije tijd"]
+        },
+        {
+            "question": "Een dienst in het ziekenhuis voor dringende problemen: _.",
+            "answers": ["spoedgevallen"]
+        }
+    ]
+}]
