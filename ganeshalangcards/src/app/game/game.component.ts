@@ -23,25 +23,27 @@ export class GameComponent implements OnInit {
       subtitle: 'Level B 2.3',
       imageUrl: '/images/flags/flag_dutch.svg',  // Remplacez par le chemin réel de vos images
       isLoading: false,
-      link: '/theme/2',
+      link: '/theme',
       class: 'pink',
-      language: 'nl'
+      language: 'nl',
+      serie: 23,
     },
     {
       title: 'Nederlands',
       subtitle: 'Level B 2.4',
       imageUrl: '/images/flags/flag_dutch.svg',  // Remplacez par le chemin réel de vos images
       isLoading: false,
-      link: '/theme/1',
+      link: '/theme',
       class: 'pink',
-      language: 'nl'
+      language: 'nl',
+      serie: 24
     },
     {
       title: 'Spanish',
       subtitle: 'Level A 0',
       imageUrl: '/images/flags/flag_spain.svg',
       isLoading: false,
-      link: '/theme/1',
+      link: '/theme',
       class: 'green',
       language: 'es'
     },
@@ -50,7 +52,7 @@ export class GameComponent implements OnInit {
       subtitle: 'Level C 1',
       imageUrl: '/images/flags/flag_english.svg',
       isLoading: false,
-      link: '/theme/1',
+      link: '/theme',
       class: 'blue',
       language: 'en'
     }
@@ -65,9 +67,14 @@ export class GameComponent implements OnInit {
     });
   }
 
-  onCardClick(link:string, language: string): void {
+  onCardClick(link:string, language: string, serie?: number): void {
     // Rediriger vers le composant flashcard avec l'URL du vocabulaire
-    this.router.navigate([link, language]);
+    if(serie) {
+      this.router.navigate([link, language, serie]);
+    } else {
+      this.router.navigate([link, language]);
+    }
+
   }
 
   filtersCardsByLanguage(language?: string) {

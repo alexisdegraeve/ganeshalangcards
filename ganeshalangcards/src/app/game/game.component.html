@@ -1,7 +1,7 @@
 <div class="container-fluid mt-4">
     <div class="row">
-        <app-generalcard (onCardClick)="onCardClick(card.link, card.language)" [title]="card.title " [subtitle]="card.subtitle " [imageUrl]="card.imageUrl " [link]="card.link " [class]="card.class" [language]="card.language" [mode]="CardMode.OneSide" *ngFor="let card of cardsLocal"
-            class="col-md-10 col-lg-4 mb-2 border-0">
+        <app-generalcard (onCardClick)="onCardClick(card.link, card.language, card?.serie)" [title]="card.title " [subtitle]="card.subtitle " [imageUrl]="card.imageUrl " [link]="card.link " [class]="card.class" [language]="card.language" [mode]="CardMode.OneSide"
+            *ngFor="let card of cardsLocal" class="col-md-10 col-lg-4 mb-2 border-0">
         </app-generalcard>
     </div>
 </div>

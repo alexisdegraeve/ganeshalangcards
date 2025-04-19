@@ -6,4 +6,5 @@ export class CardLanguage {
   link: string = '';
   class: string = '';
   language: string = '';
+  serie?: number;
 }
