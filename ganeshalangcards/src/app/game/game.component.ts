@@ -69,11 +69,9 @@ export class GameComponent implements OnInit {
 
   onCardClick(link:string, language: string, serie?: number): void {
     // Rediriger vers le composant flashcard avec l'URL du vocabulaire
-    if(serie) {
-      this.router.navigate([link, language, serie]);
-    } else {
-      this.router.navigate([link, language]);
-    }
+    const url: (string | number)[] = [link, language];
+    if (serie !== undefined) url.push(serie);
+    this.router.navigate(url);
 
   }
 
