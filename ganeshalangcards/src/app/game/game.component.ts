@@ -61,7 +61,6 @@ export class GameComponent implements OnInit {
   ngOnInit(): void {
     this.activateRoute.params.subscribe(params => {
       const lang = this.activateRoute.snapshot.params['language'];
-      console.log(lang);
       this.filtersCardsByLanguage(lang);
     });
   }
