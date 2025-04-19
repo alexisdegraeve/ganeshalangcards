@@ -54,6 +54,56 @@ ng e2e
 
 Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
 
-## Additional Resources
+## 📜 Project History and Additional Features
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## 🕘 History
+
+This project is focused on providing an interactive flashcard application to help users learn languages. It offers various features such as customizable themes for different languages (e.g., Dutch and Spanish), filters for quiz selection, and redirection to improve user experience. It was built with the goal of creating a dynamic, user-friendly environment for language learners.
+
+---
+
+## 📁 Additional Files
+
+In addition to the core files, this project includes language-specific themes and data files for **Dutch (NL)** and **Spanish (ES)**. These themes are stored in separate files to keep the project organized and easy to maintain.
+
+- **Dutch Themes (NL)**: JSON files containing flashcards and quizzes tailored for Dutch learners.
+- **Spanish Themes (ES)**: JSON files containing flashcards and quizzes tailored for Spanish learners.
+
+---
+
+## 🎯 Separation of Levels
+
+The application content is structured by difficulty level:  
+**Beginner**, **Intermediate**, and **Advanced**.  
+This helps users gradually improve their language skills in a progressive way.
+
+---
+
+## 🔎 Filters and Redirection
+
+Users can apply filters to personalize their quiz experience:
+
+- **Language filter**: Choose the language to learn (e.g., NL, ES).
+- **Theme filter**: Select a topic or context (e.g., restaurant, grammar).
+- **Level filter**: Beginner, Intermediate, or Advanced.
+
+➡️ After applying filters, the app redirects users to the appropriate quiz section automatically.
+
+---
+
+## 🌟 Key Features
+
+- Dynamic flashcards and quizzes per language and level.
+- Responsive design: Works great on smartphones and tablets.
+- TTS (Text-to-Speech) support for pronunciation in multiple languages.
+- Separation of themes and vocabulary per language in individual files.
+- Filter-based navigation with automatic redirection.
+
+---
+
+## 🔮 Future Updates
+
+- Add support for more languages and additional vocabulary.
+- Improve the quiz engine and add score tracking.
+- Expand theme library with more cultural and practical topics.
+- Improve UI/UX based on learner feedback.
