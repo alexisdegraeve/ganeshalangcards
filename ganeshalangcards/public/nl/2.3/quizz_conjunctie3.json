@@ -1,0 +1,104 @@
+[{
+    "theme": "Conjuncties en verbandwoorden: toen, als, omdat, daardoor, zodat, daarna, zodra, voordat, nadat, sinds, volgens, dat, of, wanneer, maar, tenzij, terwijl, dus, zoals, hierdoor",
+    "questions": [{
+            "question": "... ik klein was, speelde ik vaak buiten.",
+            "answers": ["Toen"]
+        },
+        {
+            "question": "... ik met pensioen ben, verhuis ik naar Spanje.",
+            "answers": ["Als"]
+        },
+        {
+            "question": "... ik een baan zoek, ga ik naar het interimkantoor.",
+            "answers": ["Omdat"]
+        },
+        {
+            "question": "Ik doe een cursus Nederlands, ... ik in Mechelen wil werken.",
+            "answers": ["omdat"]
+        },
+        {
+            "question": "De trein had vertraging en ... kwam ik te laat op school.",
+            "answers": ["daardoor"]
+        },
+        {
+            "question": "... de trein vertraging had, kwam ik te laat op school.",
+            "answers": ["doordat"]
+        },
+        {
+            "question": "Ik doe een cursus Engels, ... ik bij een internationaal bedrijf kan werken.",
+            "answers": ["zodat"]
+        },
+        {
+            "question": "Eerst doe ik boodschappen en ... kook ik.",
+            "answers": ["daarna"]
+        },
+        {
+            "question": "... ga ik hardlopen en daarna ga ik douchen.",
+            "answers": ["Eerst"]
+        },
+        {
+            "question": "... ik thuis kom, begin ik te koken.",
+            "answers": ["Zodra"]
+        },
+        {
+            "question": "Eerst schilderen we de muren en ... hangen we de schilderijen op.",
+            "answers": ["daarna"]
+        },
+        {
+            "question": "... ik naar de huisarts kan, moet ik een afspraak maken.",
+            "answers": ["Voordat"]
+        },
+        {
+            "question": "... ik het eten heb klaargemaakt, roep ik de kinderen aan tafel.",
+            "answers": ["Nadat"]
+        },
+        {
+            "question": "... ik in Brussel woon, reis ik dagelijks met de metro.",
+            "answers": ["sinds"]
+        },
+        {
+            "question": "... het weerbericht gaat het de hele dag regenen.",
+            "answers": ["Volgens"]
+        },
+        {
+            "question": "Mijn moeder zegt ... je van tv kijken slechte ogen krijgt.",
+            "answers": ["dat"]
+        },
+        {
+            "question": "Ik vraag me af ... de zon morgen gaat schijnen.",
+            "answers": ["of"]
+        },
+        {
+            "question": "In de nieuwsbrief van de school van mijn kinderen staat ... de vakantie begint.",
+            "answers": ["wanneer"]
+        },
+        {
+            "question": "In de meeste Europese landen rijden we aan de rechterkant van de weg, ... in Engeland rijden ze aan de linkerkant.",
+            "answers": ["maar"]
+        },
+        {
+            "question": "Ik wil graag rijles nemen, ... ik mijn rijbewijs kan behalen.",
+            "answers": ["zodat"]
+        },
+        {
+            "question": "We gaan morgen naar het strand, ... het regent.",
+            "answers": ["tenzij"]
+        },
+        {
+            "question": "... de kinderen buiten spelen, maak ik het avondeten klaar.",
+            "answers": ["Terwijl"]
+        },
+        {
+            "question": "Ik heb geen geld om op vakantie te gaan, ... ik blijf dit jaar thuis.",
+            "answers": ["dus"]
+        },
+        {
+            "question": "Ik houd van zoetigheid ... koek, chocola en roomijs.",
+            "answers": ["zoals"]
+        },
+        {
+            "question": "Ik heb het erg druk op mijn werk. ... heb ik last van stress.",
+            "answers": ["Hierdoor"]
+        }
+    ]
+}]
