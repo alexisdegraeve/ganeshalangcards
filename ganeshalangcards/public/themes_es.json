@@ -91,5 +91,10 @@
         "description": "🍽️ En el restaurante - Conversación completa",
         "class": "green",
         "url": "/es/level_a0/quizz_restaurante_2.json"
+    }, {
+        "title": "Vocabulario",
+        "description": "🌤️ El tiempo",
+        "class": "green",
+        "url": "/es/level_a0/quizz_tiempo.json"
     }
 ]

@@ -1,0 +1,68 @@
+[{
+    "theme": "🌤️El tiempo ",
+    "questions": [{
+            "question": "¿Qué tiempo hace cuando el cielo está despejado y brillante?",
+            "answers": ["Hace sol"]
+        },
+        {
+            "question": "¿Qué tiempo hace cuando necesitas una chaqueta y el aire es frío?",
+            "answers": ["Hace frío"]
+        },
+        {
+            "question": "¿Qué tiempo hace cuando el viento sopla mucho?",
+            "answers": ["Hace viento"]
+        },
+        {
+            "question": "¿Qué tiempo hace cuando sudas y necesitas agua fría?",
+            "answers": ["Hace calor"]
+        },
+        {
+            "question": "¿Qué tiempo hace cuando todo parece perfecto afuera?",
+            "answers": ["Hace buen tiempo"]
+        },
+        {
+            "question": "¿Qué tiempo hace cuando hay tormentas y está nublado?",
+            "answers": ["Hace mal tiempo"]
+        },
+        {
+            "question": "¿Qué tiempo hace cuando cae agua del cielo?",
+            "answers": ["Llueve"]
+        },
+        {
+            "question": "¿Qué tiempo hace cuando cae nieve?",
+            "answers": ["Nieva"]
+        },
+        {
+            "question": "¿Qué va a pasar mañana si llevas paraguas?",
+            "answers": ["Va a llover"]
+        },
+        {
+            "question": "¿Qué va a pasar mañana si ves copos blancos?",
+            "answers": ["Va a nevar"]
+        },
+        {
+            "question": "¿Qué tiempo va a hacer mañana si llevas gafas de sol?",
+            "answers": ["Va a hacer sol"]
+        },
+        {
+            "question": "¿Qué tiempo va a hacer mañana si hace frío hoy también?",
+            "answers": ["Va a hacer frío"]
+        },
+        {
+            "question": "¿Qué tiempo va a hacer mañana si el día será perfecto?",
+            "answers": ["Va a hacer buen tiempo"]
+        },
+        {
+            "question": "¿Qué tiempo hace hoy si mañana va a hacer frío?",
+            "answers": ["Hace sol"]
+        },
+        {
+            "question": "Estás en un hotel y quieres saber el clima hoy.",
+            "answers": ["¿Qué tiempo hace hoy?"]
+        },
+        {
+            "question": "Estás planeando una excursión mañana y quieres saber el clima.",
+            "answers": ["¿Qué tiempo va a hacer mañana?"]
+        }
+    ]
+}]
