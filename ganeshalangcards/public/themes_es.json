@@ -96,5 +96,10 @@
         "description": "🌤️ El tiempo",
         "class": "green",
         "url": "/es/level_a0/quizz_tiempo.json"
+    }, {
+        "title": "Vocabulario",
+        "description": "🏨 Viajar a España — Necesito un hotel",
+        "class": "green",
+        "url": "/es/level_a0/quizz_hotel.json"
     }
 ]

@@ -1,0 +1,64 @@
+[{
+    "theme": "🏨 Viajar a España — Necesito un hotel",
+    "questions": [{
+            "question": "Llegas a un hotel sin preparación. ¿Qué dices si no has planeado nada con antelación?",
+            "answers": ["No tengo reserva"]
+        },
+        {
+            "question": "Estás en la recepción con tu pareja y ya habéis planeado el viaje. ¿Qué dices?",
+            "answers": ["Tenemos una reserva"]
+        },
+        {
+            "question": "Quieres una habitación con una cama grande para ti y tu pareja. ¿Qué tipo de habitación pides?",
+            "answers": ["Una habitación doble con cama de matrimonio"]
+        },
+        {
+            "question": "Vas a pasar solo una noche en el hotel. ¿Qué dices al recepcionista?",
+            "answers": ["Para una noche"]
+        },
+        {
+            "question": "Quieres saber el precio de la habitación por persona. ¿Qué preguntas?",
+            "answers": ["¿Cuánto cuesta por persona?"]
+        },
+        {
+            "question": "Estás en la montaña y quieres ver el mar desde tu habitación. ¿Qué pides?",
+            "answers": ["Con vistas al mar"]
+        },
+        {
+            "question": "Quieres una habitación con dos camas separadas. ¿Qué pides?",
+            "answers": ["Una habitación doble con dos camas"]
+        },
+        {
+            "question": "Deseas una habitación para una persona. ¿Qué tipo de habitación necesitas?",
+            "answers": ["Una habitación individual"]
+        },
+        {
+            "question": "Estás siendo muy cortés con el recepcionista al pedir una habitación. ¿Cómo lo dices?",
+            "answers": ["Quisiera una habitación, por favor"]
+        },
+        {
+            "question": "Vas a quedarte una semana en el hotel. ¿Qué dices al hacer la reserva?",
+            "answers": ["Para una semana"]
+        },
+        {
+            "question": "Tu estancia termina el próximo domingo. ¿Qué dices?",
+            "answers": ["Hasta la semana que viene"]
+        },
+        {
+            "question": "Quieres saber cuánto vas a pagar cada noche. ¿Qué preguntas?",
+            "answers": ["¿Cuánto cuesta por noche?"]
+        },
+        {
+            "question": "Preguntas de manera educada si el hotel tiene habitaciones disponibles. ¿Cómo lo dices?",
+            "answers": ["¿Tiene usted una habitación?"]
+        },
+        {
+            "question": "Necesitas una ducha en tu habitación. ¿Qué pides?",
+            "answers": ["Una habitación con ducha"]
+        },
+        {
+            "question": "Alguien en el hotel te pregunta tu nombre. ¿Qué dice?",
+            "answers": ["¿Cómo se llama usted?"]
+        }
+    ]
+}]
