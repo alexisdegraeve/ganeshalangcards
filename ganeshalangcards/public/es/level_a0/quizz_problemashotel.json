@@ -1,0 +1,84 @@
+[{
+    "theme": "🛎️ Problemas en el hotel",
+    "questions": [{
+            "question": "Tu habitación es muy pequeña. ¿Cómo expresas el problema?",
+            "answers": ["Hay un problema con la habitación, es demasiado pequeña"]
+        },
+        {
+            "question": "La habitación es muy ruidosa por la noche. ¿Qué dices?",
+            "answers": ["Hay un problema con la habitación, es demasiado ruidosa"]
+        },
+        {
+            "question": "No puedes pagar tanto por la habitación. ¿Qué problema expresas?",
+            "answers": ["Hay un problema con la habitación, es demasiado cara"]
+        },
+        {
+            "question": "La limpieza no está bien hecha. ¿Qué dices?",
+            "answers": ["Hay un problema con la habitación, está sucia"]
+        },
+        {
+            "question": "Quieres decir que la habitación está en buen estado. ¿Qué dices?",
+            "answers": ["La habitación está limpia"]
+        },
+        {
+            "question": "Hace mucho frío dentro de la habitación. ¿Cómo lo expresas?",
+            "answers": ["Hace demasiado frío en la habitación"]
+        },
+        {
+            "question": "La habitación es muy calurosa. ¿Qué dices?",
+            "answers": ["Hace demasiado calor en la habitación"]
+        },
+        {
+            "question": "La ducha no funciona. ¿Cómo informas de esto?",
+            "answers": ["La ducha no funciona"]
+        },
+        {
+            "question": "Intentas ver la televisión pero no puedes. ¿Qué dices?",
+            "answers": ["La televisión no funciona"]
+        },
+        {
+            "question": "Hace calor y el aire acondicionado está roto. ¿Qué problema reportas?",
+            "answers": ["El aire acondicionado no funciona"]
+        },
+        {
+            "question": "Quieres abrir la ventana pero no puedes. ¿Qué dices?",
+            "answers": ["No puedo abrir la ventana"]
+        },
+        {
+            "question": "La luz no se enciende. ¿Cómo lo expresas?",
+            "answers": ["No puedo encender la luz"]
+        },
+        {
+            "question": "Intentas encender la televisión sin éxito. ¿Qué dices?",
+            "answers": ["No puedo encender la televisión"]
+        },
+        {
+            "question": "Quieres escuchar tu podcast favorito pero no puedes conectarte. ¿Cómo lo explicas?",
+            "answers": ["No puedo acceder a internet para escuchar Coffee Break Spanish"]
+        },
+        {
+            "question": "Vas al baño y notas que falta algo esencial. ¿Qué dices?",
+            "answers": ["No hay toallas"]
+        },
+        {
+            "question": "Falta jabón en el baño. ¿Cómo lo expresas?",
+            "answers": ["No hay jabón"]
+        },
+        {
+            "question": "No encuentras papel higiénico. ¿Qué dices?",
+            "answers": ["No hay papel higiénico"]
+        },
+        {
+            "question": "El agua de la ducha no se calienta. ¿Qué problema reportas?",
+            "answers": ["No hay agua caliente"]
+        },
+        {
+            "question": "Notas un mal olor en la habitación. ¿Qué dices?",
+            "answers": ["La habitación huele mal"]
+        },
+        {
+            "question": "El baño no tiene buen olor. ¿Cómo lo expresas?",
+            "answers": ["El baño huele mal"]
+        }
+    ]
+}]

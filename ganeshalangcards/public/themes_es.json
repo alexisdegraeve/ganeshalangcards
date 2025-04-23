@@ -101,5 +101,10 @@
         "description": "🏨 Viajar a España — Necesito un hotel",
         "class": "green",
         "url": "/es/level_a0/quizz_hotel.json"
+    }, {
+        "title": "Vocabulario",
+        "description": "🛎️ Problemas en el hotel",
+        "class": "green",
+        "url": "/es/level_a0/quizz_problemashotel.json"
     }
 ]
