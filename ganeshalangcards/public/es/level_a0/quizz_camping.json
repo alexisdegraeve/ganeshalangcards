@@ -1,0 +1,56 @@
+[{
+    "theme": "Camping — Preguntas situacionales",
+    "questions": [{
+            "question": "Estás en un pueblo nuevo y quieres encontrar un lugar para pasar la noche con tu tienda.",
+            "answers": ["¿Hay un camping cerca de aquí?"]
+        },
+        {
+            "question": "Quieres saber si es posible dormir al aire libre en este lugar.",
+            "answers": ["¿Se puede acampar aquí?"]
+        },
+        {
+            "question": "Tienes sed y quieres asegurarte de que el agua es potable.",
+            "answers": ["¿Se puede beber el agua?"]
+        },
+        {
+            "question": "Necesitas ducharte después de un largo día de caminata.",
+            "answers": ["¿Dónde están las duchas?"]
+        },
+        {
+            "question": "Quieres alquilar una toalla porque olvidaste la tuya.",
+            "answers": ["¿Se puede alquilar una toalla?"]
+        },
+        {
+            "question": "Quieres saber dónde se encuentra la tienda para comprar alimentos.",
+            "answers": ["¿Dónde está el supermercado?"]
+        },
+        {
+            "question": "Quieres saber si puedes comer en el lugar o si hay que salir.",
+            "answers": ["¿Se puede comer aquí?"]
+        },
+        {
+            "question": "Necesitas tirar la basura y no sabes dónde hacerlo.",
+            "answers": ["¿Dónde están los cubos de basura?"]
+        },
+        {
+            "question": "Quieres darte un baño en el agua, pero no sabes dónde está.",
+            "answers": ["¿Dónde está la piscina?"]
+        },
+        {
+            "question": "Necesitas ir al baño pero no sabes dónde se encuentran.",
+            "answers": ["¿Dónde están los servicios?"]
+        },
+        {
+            "question": "Buscas leche para el desayuno.",
+            "answers": ["¿Dónde se puede comprar leche?"]
+        },
+        {
+            "question": "Tienes ganas de tomar un café por la mañana.",
+            "answers": ["¿Dónde se puede comprar café?"]
+        },
+        {
+            "question": "Quieres pan fresco para acompañar tu comida.",
+            "answers": ["¿Dónde se puede comprar pan?"]
+        }
+    ]
+}]

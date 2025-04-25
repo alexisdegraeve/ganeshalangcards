@@ -106,5 +106,10 @@
         "description": "🛎️ Problemas en el hotel",
         "class": "green",
         "url": "/es/level_a0/quizz_problemashotel.json"
+    }, {
+        "title": "Vocabulario",
+        "description": "Camping— Preguntas situacionales",
+        "class": "green",
+        "url": "/es/level_a0/quizz_camping.json"
     }
 ]
