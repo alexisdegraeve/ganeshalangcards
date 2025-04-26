@@ -1,0 +1,88 @@
+[{
+    "theme": "🛍️ Ir de compras — Preguntas situacionales",
+    "questions": [{
+            "question": "Estás en una tienda y el vendedor se acerca para ofrecer su ayuda. ¿Qué podría preguntarte?",
+            "answers": ["¿En qué puedo ayudarle?"]
+        },
+        {
+            "question": "Solo estás mirando y no quieres ayuda de momento. ¿Qué puedes decir?",
+            "answers": ["Solo estoy mirando."]
+        },
+        {
+            "question": "No estás seguro de querer comprar algo. ¿Qué puedes decir?",
+            "answers": ["No estoy seguro.", "No estoy segura."]
+        },
+        {
+            "question": "Quieres regresar más tarde a la tienda. ¿Qué puedes decir?",
+            "answers": ["Vuelvo más tarde."]
+        },
+        {
+            "question": "Has decidido comprar algo. ¿Qué puedes decir al vendedor?",
+            "answers": ["Me lo llevo."]
+        },
+        {
+            "question": "Deseas pagar con tarjeta de crédito. ¿Qué puedes preguntar?",
+            "answers": ["¿Puedo pagar con tarjeta de crédito?"]
+        },
+        {
+            "question": "El vendedor te pide ver un documento de identidad. ¿Qué podría decirte?",
+            "answers": ["¿Puedo ver su DNI?", "¿Puedo ver su pasaporte?"]
+        },
+        {
+            "question": "El vendedor te entrega lo que pediste. ¿Qué podría decirte?",
+            "answers": ["Aquí tiene."]
+        },
+        {
+            "question": "Necesitas una bolsa para llevar tu compra. ¿Qué puedes pedir?",
+            "answers": ["¿Me puede dar una bolsa?"]
+        },
+        {
+            "question": "Quieres pedir el recibo de tu compra. ¿Qué puedes decir?",
+            "answers": ["¿Me puede dar un recibo?"]
+        },
+        {
+            "question": "Quieres probarte una prenda antes de comprarla. ¿Qué puedes preguntar?",
+            "answers": ["¿Puedo probarme esto, por favor?"]
+        },
+        {
+            "question": "Ves un vestido que te gusta y quieres saber su precio. ¿Qué preguntas?",
+            "answers": ["¿Cuánto cuesta este vestido?"]
+        },
+        {
+            "question": "Ves unos zapatos que te gustan y quieres saber su precio. ¿Qué preguntas?",
+            "answers": ["¿Cuánto cuestan estos zapatos?"]
+        },
+        {
+            "question": "Quieres saber dónde puedes probarte ropa. ¿Qué puedes preguntar?",
+            "answers": ["¿Dónde están los probadores?"]
+        },
+        {
+            "question": "Te pruebas una prenda y quieres saber si te queda bien. ¿Qué preguntas?",
+            "answers": ["¿Me queda bien?"]
+        },
+        {
+            "question": "Alguien te dice que la prenda te queda perfectamente. ¿Qué podría decirte?",
+            "answers": ["Sí, le queda bien."]
+        },
+        {
+            "question": "Notas que la prenda que probaste no te queda bien. ¿Qué puedes decir?",
+            "answers": ["No me queda bien."]
+        },
+        {
+            "question": "Sientes que la prenda es demasiado grande. ¿Qué puedes decir?",
+            "answers": ["Es demasiado grande."]
+        },
+        {
+            "question": "Sientes que la prenda es demasiado pequeña. ¿Qué puedes decir?",
+            "answers": ["Es demasiado pequeño."]
+        },
+        {
+            "question": "Encuentras algo que realmente te gusta. ¿Qué puedes decir?",
+            "answers": ["Me gusta."]
+        },
+        {
+            "question": "Encuentras algo que no te gusta. ¿Qué puedes decir?",
+            "answers": ["No me gusta."]
+        }
+    ]
+}]
