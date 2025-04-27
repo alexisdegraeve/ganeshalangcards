@@ -5,7 +5,7 @@
             "answers": ["gechoqueerd"]
         },
         {
-            "question": "Een jong dier van een koe.",
+            "question": "Wat is de naam voor het jong van een koe?",
             "answers": ["het kalfje"]
         },
         {
@@ -33,11 +33,11 @@
             "answers": ["de vleesvervangers"]
         },
         {
-            "question": "Het verdwijnen van bossen, meestal door menselijk ingrijpen.",
+            "question": "Wat is het proces waarbij bossen verdwijnen?",
             "answers": ["de ontbossing"]
         },
         {
-            "question": "Het houden van vee voor vlees of melk.",
+            "question": "Hoe heet het fokken van dieren voor vleesproductie?",
             "answers": ["de veeteelt"]
         },
         {
@@ -160,130 +160,7 @@
             "question": "Welke vleesvervanger wordt gemaakt van gefermenteerde sojabonen?",
             "answers": ["de tempeh"]
         },
-        {
-            "question": "Hoe voel je je als je iets heel schokkend vindt?",
-            "answers": ["gechoqueerd"]
-        },
-        {
-            "question": "Hoe noem je een jong kalfje in het Nederlands?",
-            "answers": ["het kalfje"]
-        },
-        {
-            "question": "Hoe noem je mensen die geen vlees eten?",
-            "answers": ["de vegetariërs"]
-        },
-        {
-            "question": "Wat is het woord voor de grootste groep mensen?",
-            "answers": ["de meerderheid"]
-        },
-        {
-            "question": "Hoe noem je het of iemand een man of een vrouw is?",
-            "answers": ["het geslacht"]
-        },
-        {
-            "question": "Wat is de naam voor het jong van een koe?",
-            "answers": ["het kalf"]
-        },
-        {
-            "question": "Hoe noem je een stuk rood vlees dat vaak gebakken wordt?",
-            "answers": ["de biefstuk"]
-        },
-        {
-            "question": "Hoe noem je gestoofd vlees in Nederland?",
-            "answers": ["het stoofvlees"]
-        },
-        {
-            "question": "Hoe noem je producten die vlees vervangen?",
-            "answers": ["de vleesvervangers"]
-        },
-        {
-            "question": "Wat is het proces waarbij bossen verdwijnen?",
-            "answers": ["de ontbossing"]
-        },
-        {
-            "question": "Hoe heet het fokken van dieren voor vleesproductie?",
-            "answers": ["de veeteelt"]
-        },
-        {
-            "question": "Hoe zeg je 'ernstige ziektes' in het Nederlands?",
-            "answers": ["ernstige ziektes"]
-        },
-        {
-            "question": "Hoe noem je iemand of iets die gemeen of hardvochtig is?",
-            "answers": ["wreed"]
-        },
-        {
-            "question": "Wat is het woord voor het menselijke lichaam in het Nederlands?",
-            "answers": ["het lichaam"]
-        },
-        {
-            "question": "Wat zijn de cellen in je lichaam die zuurstof vervoeren?",
-            "answers": ["de bloedcellen"]
-        },
-        {
-            "question": "Wat is het gas dat koeien uitstoten dat bijdraagt aan opwarming van de aarde?",
-            "answers": ["het methaangas"]
-        },
-        {
-            "question": "Wat doen boeren als ze dieren houden?",
-            "answers": ["boeren"]
-        },
-        {
-            "question": "Wat laten dieren soms ontsnappen dat geluid maakt en ruikt?",
-            "answers": ["scheten"]
-        },
-        {
-            "question": "Hoe noem je vrouwelijke runderen die melk geven?",
-            "answers": ["de koeien"]
-        },
-        {
-            "question": "Hoe noem je iets dat nog gemener is dan wreed?",
-            "answers": ["wreder"]
-        },
-        {
-            "question": "Hoe heet de plek waar dieren worden geslacht?",
-            "answers": ["het slachthuis"]
-        },
-        {
-            "question": "Wat betekent het als iets nog meer vervuilt?",
-            "answers": ["vervuilender"]
-        },
-        {
-            "question": "Hoe noem je iets dat je zonder verplichting doet?",
-            "answers": ["vrijwillig"]
-        },
-        {
-            "question": "Welk dier lijkt op een grote hagedis en leeft in water?",
-            "answers": ["de krokodil"]
-        },
-        {
-            "question": "Hoe noem je vlees dat nagemaakt is zonder echt dierlijk vlees?",
-            "answers": ["het namaakvlees"]
-        },
-        {
-            "question": "Hoe noem je iets dat absoluut noodzakelijk is om te leven?",
-            "answers": ["levensnoodzakelijke"]
-        },
-        {
-            "question": "Hoe voel je je als je buiten bewustzijn bent?",
-            "answers": ["bewusteloos"]
-        },
-        {
-            "question": "Hoe noem je iets dat heel absurd is?",
-            "answers": ["belachelijk"]
-        },
-        {
-            "question": "Hoe noem je iemand die anderen de les leest?",
-            "answers": ["belerend"]
-        },
-        {
-            "question": "Wat doet iemand als hij iets dringend vraagt?",
-            "answers": ["eisen"]
-        },
-        {
-            "question": "Hoe noem je het wanneer iemand iets gaat uitvoeren of reageren?",
-            "answers": ["optreden"]
-        },
+
         {
             "question": "Hoe heet de dag waarop men geen vlees eet in België?",
             "answers": ["de veggiedag"]
@@ -305,7 +182,7 @@
             "answers": ["de worsten"]
         },
         {
-            "question": "Wat is een andere naam voor een eis?",
+            "question": "Wat is een andere naam voor een claim?",
             "answers": ["de eis"]
         },
         {
