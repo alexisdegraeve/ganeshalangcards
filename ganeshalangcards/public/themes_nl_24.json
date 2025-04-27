@@ -62,5 +62,11 @@
           "description": "Gebruik van 'er'",
           "class": "pink",
           "url": "/nl/2.4/quizz_er.json"
+      },
+      {
+          "title": "Woordenschat",
+          "description": "Vegetarisch of Carnivoor — Raad het woord! 🌱🥩",
+          "class": "pink",
+          "url": "/nl/2.4/quizz_vegetarisch.json"
       }
   ]

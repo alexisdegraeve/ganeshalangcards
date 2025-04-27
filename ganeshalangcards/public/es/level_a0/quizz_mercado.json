@@ -1,0 +1,128 @@
+{
+    "theme": "En el mercado en España",
+    "questions": [{
+            "question": "¿Cómo pedirías algo que quieres comprar en el mercado?",
+            "answers": ["quiero"]
+        },
+        {
+            "question": "¿Cómo dirías de forma más cortés que te gustaría algo?",
+            "answers": ["quisiera"]
+        },
+        {
+            "question": "¿Cómo se llama el producto típico español hecho de cerdo?",
+            "answers": ["jamón"]
+        },
+        {
+            "question": "¿Cómo se dice una rodaja de jamón en español?",
+            "answers": ["una loncha"]
+        },
+        {
+            "question": "¿Qué frase usarías para pedir cuatro rodajas de jamón?",
+            "answers": ["quisiera cuatro lonchas de jamón"]
+        },
+        {
+            "question": "¿Qué puedes decir para que te pongan cuatro rodajas de jamón?",
+            "answers": ["póngame cuatro lonchas de jamón por favor"]
+        },
+        {
+            "question": "¿Qué expresión utilizas para pedir que te den algo?",
+            "answers": ["deme"]
+        },
+        {
+            "question": "¿Cómo pedirías un trozo de queso?",
+            "answers": ["deme un trozo de queso por favor"]
+        },
+        {
+            "question": "¿Qué pides si quieres un kilo de queso?",
+            "answers": ["un kilo de queso"]
+        },
+        {
+            "question": "¿Qué dices si quieres solo medio kilo de algo?",
+            "answers": ["medio kilo de queso"]
+        },
+        {
+            "question": "¿Cómo pedirías un poquito de algo?",
+            "answers": ["un poco de eso"]
+        },
+        {
+            "question": "¿Qué pregunta haces si quieres probar algo antes de comprarlo?",
+            "answers": ["¿puedo probarlo?"]
+        },
+        {
+            "question": "¿Qué pregunta haces para saber qué es un producto?",
+            "answers": ["¿qué es eso?"]
+        },
+        {
+            "question": "¿Qué otra pregunta puedes usar para saber qué es un producto?",
+            "answers": ["¿qué es esto?"]
+        },
+        {
+            "question": "¿Cómo se llama el famoso jamón curado español?",
+            "answers": ["es jamón serrano"]
+        },
+        {
+            "question": "¿Qué dices si algo está muy sabroso?",
+            "answers": ["está riquísimo"]
+        },
+        {
+            "question": "¿Qué dices si quieres un poquito más de algo?",
+            "answers": ["un poco más"]
+        },
+        {
+            "question": "¿Qué dices si quieres un poco menos de algo?",
+            "answers": ["un poco menos"]
+        },
+        {
+            "question": "¿Cómo puedes confirmar de manera corta en español?",
+            "answers": ["ya"]
+        },
+        {
+            "question": "¿Qué dices si estás satisfecho con la cantidad?",
+            "answers": ["vale, así"]
+        },
+        {
+            "question": "¿Cómo se llama una bolsa para llevar tus compras?",
+            "answers": ["un bolso"]
+        },
+        {
+            "question": "¿Qué dices si quieres comprar un bolso?",
+            "answers": ["quiero este bolso"]
+        },
+        {
+            "question": "¿Qué palabra describe una joya que se lleva en la muñeca?",
+            "answers": ["una pulsera"]
+        },
+        {
+            "question": "¿Qué frase dices si quieres comprar una pulsera?",
+            "answers": ["quiero esta pulsera"]
+        },
+        {
+            "question": "¿Qué expresión usarías si el precio es muy alto?",
+            "answers": ["es muy caro"]
+        },
+        {
+            "question": "¿Cómo dices que algo cuesta demasiado en masculino?",
+            "answers": ["está demasiado caro"]
+        },
+        {
+            "question": "¿Cómo dices que algo cuesta demasiado en femenino?",
+            "answers": ["está demasiado cara"]
+        },
+        {
+            "question": "¿Qué pregunta haces si quieres algo más barato?",
+            "answers": ["¿tiene algo más barato?"]
+        },
+        {
+            "question": "¿Qué expresión usas para decir que te llevas el producto?",
+            "answers": ["me lo llevo"]
+        },
+        {
+            "question": "¿Qué dices si aceptas el precio de un producto?",
+            "answers": ["bueno, está bien"]
+        },
+        {
+            "question": "¿Qué dices si quieres pedir disculpas en una situación?",
+            "answers": ["lo siento"]
+        }
+    ]
+}

@@ -116,5 +116,10 @@
         "description": "🛍️ Ir de compras — Preguntas situacionales",
         "class": "green",
         "url": "/es/level_a0/quizz_irdecompras.json"
+    }, {
+        "title": "Vocabulario",
+        "description": "En el mercado en España",
+        "class": "green",
+        "url": "/es/level_a0/quizz_mercado.json"
     }
 ]
