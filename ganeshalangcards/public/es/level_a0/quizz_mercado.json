@@ -1,4 +1,4 @@
-{
+[{
     "theme": "En el mercado en España",
     "questions": [{
             "question": "¿Cómo pedirías algo que quieres comprar en el mercado?",
@@ -125,4 +125,4 @@
             "answers": ["lo siento"]
         }
     ]
-}
+}]
