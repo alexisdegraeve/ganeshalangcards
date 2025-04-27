@@ -33,11 +33,11 @@
             "answers": ["deme un trozo de queso por favor"]
         },
         {
-            "question": "¿Qué pides si quieres un kilo de queso?",
+            "question": "¿Qué pides si quieres mucho de un alimento lácteo que a los ratones les encanta?",
             "answers": ["un kilo de queso"]
         },
         {
-            "question": "¿Qué dices si quieres solo medio kilo de algo?",
+            "question": "¿Cómo pides una cantidad más pequeña de un alimento lácteo que les gusta mucho a los ratones?",
             "answers": ["medio kilo de queso"]
         },
         {
