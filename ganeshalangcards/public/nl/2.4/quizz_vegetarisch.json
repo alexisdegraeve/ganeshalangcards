@@ -13,7 +13,7 @@
             "answers": ["de vegetariërs"]
         },
         {
-            "question": "Meer dan de helft van de mensen.",
+            "question": "Als meer dan de helft van de mensen akkoord gaat over iets.",
             "answers": ["de meerderheid"]
         },
         {
@@ -21,7 +21,7 @@
             "answers": ["het geslacht"]
         },
         {
-            "question": "Een stuk vlees van een koe, vaak rood en sappig.",
+            "question": "Een stuk vlees van een koe, vaak rood en eerder bloedend dan sappig.",
             "answers": ["de biefstuk"]
         },
         {
@@ -29,7 +29,7 @@
             "answers": ["het stoofvlees"]
         },
         {
-            "question": "Producten die worden gegeten in plaats van vlees.",
+            "question": "Wat eten vegetariërs als alternatief voor vlees?",
             "answers": ["de vleesvervangers"]
         },
         {
@@ -73,7 +73,7 @@
             "answers": ["de koeien"]
         },
         {
-            "question": "Nog gemener dan gewoon wreed.",
+            "question": "Nog gemener dan gewoon gemeen zijn.",
             "answers": ["wreder"]
         },
         {
@@ -113,7 +113,7 @@
             "answers": ["belerend"]
         },
         {
-            "question": "Iemand vraagt iets met kracht of nadruk.",
+            "question": "Wanneer iemand veel meer verlangt voordat hij akkoord gaat met iets.",
             "answers": ["het eisen"]
         },
         {
@@ -121,7 +121,7 @@
             "answers": ["het optreden"]
         },
         {
-            "question": "Wat krijg je in de rechtbank wanneer iemand vertelt wat hij heeft gezien?",
+            "question": "Wat vertelt iemand nauwkeurig tijdens een rechtszaak over wat hij heeft gezien?",
             "answers": ["de getuigenis"]
         },
         {
@@ -141,8 +141,8 @@
             "answers": ["nodigen"]
         },
         {
-            "question": "Hoe heet een kleine eetbare paddenstoel in het Nederlands?",
-            "answers": ["de champignon"]
+            "question": "Iets kleins dat soms eetbaar is en je vindt in het bos, zoals een 'trompet van de dood'.",
+            "answers": ["de paddenstoel"]
         },
         {
             "question": "Hoe heet de vegetarische vleesvervanger gemaakt van schimmel?",
@@ -198,12 +198,12 @@
             "answers": ["optreden"]
         },
         {
-            "question": "Wat eet je als je worst maakt van paardenvlees?",
+            "question": "Welk vleesproduct wordt gemaakt van paardenvlees?",
             "answers": ["de paardenworsten"]
         },
         {
-            "question": "Wat betekent het woord voor iets dat net is afgelopen?",
-            "answers": ["afgelopen"]
+            "question": "Wat betekent het werkwoord dat iets net tot een einde is gekomen?",
+            "answers": ["aflopen"]
         }
     ]
 }]
