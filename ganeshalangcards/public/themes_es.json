@@ -121,5 +121,10 @@
         "description": "En el mercado en España",
         "class": "green",
         "url": "/es/level_a0/quizz_mercado.json"
+    }, {
+        "title": "Vocabulario",
+        "description": "💶 Cambiar Dinero",
+        "class": "green",
+        "url": "/es/level_a0/quizz_dinero.json"
     }
 ]

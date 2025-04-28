@@ -1,0 +1,84 @@
+[{
+    "theme": "💶 Cambiar Dinero",
+    "questions": [{
+            "question": "How do you say 'money' in Spanish?",
+            "answers": ["el dinero"]
+        },
+        {
+            "question": "What is the verb for 'to exchange' in Spanish?",
+            "answers": ["cambiar"]
+        },
+        {
+            "question": "How do you say 'to take out' in Spanish?",
+            "answers": ["sacar"]
+        },
+        {
+            "question": "What is the Spanish verb for 'to sign'?",
+            "answers": ["firmar"]
+        },
+        {
+            "question": "How do you say 'I want to change money' in Spanish?",
+            "answers": ["quiero cambiar dinero"]
+        },
+        {
+            "question": "How do you politely say 'I would like to change money'?",
+            "answers": ["quisiera cambiar dinero"]
+        },
+        {
+            "question": "How do you say 'I need to change money'?",
+            "answers": ["necesito cambiar dinero"]
+        },
+        {
+            "question": "How do you ask 'Can I change money here?' in Spanish?",
+            "answers": ["se puede cambiar dinero aqui"]
+        },
+        {
+            "question": "What do you say when you want to change 50 pounds?",
+            "answers": ["quiero cambiar cincuenta libras"]
+        },
+        {
+            "question": "How do you say 'I want to change 100 dollars'?",
+            "answers": ["quisiera cambiar cien dólares"]
+        },
+        {
+            "question": "What is the Spanish word for 'dollars'?",
+            "answers": ["dólares"]
+        },
+        {
+            "question": "How do you say 'pounds' in Spanish?",
+            "answers": ["libras"]
+        },
+        {
+            "question": "How do you say 'euros' in Spanish?",
+            "answers": ["euros"]
+        },
+        {
+            "question": "What is 'Mexican pesos' in Spanish?",
+            "answers": ["pesos"]
+        },
+        {
+            "question": "How do you say 'traveler's checks' in Spanish?",
+            "answers": ["los cheques de viajero"]
+        },
+        {
+            "question": "How would you say 'I would like to change these traveler’s checks'?",
+            "answers": ["quisiera cambiar estos cheques de viajero"]
+        },
+        {
+            "question": "How do you ask 'Can I take out money with my credit card?' in Spanish?",
+            "answers": ["puedo sacar dinero con mi tarjeta de crédito"]
+        },
+        {
+            "question": "Where do you sign?",
+            "answers": ["donde firmo"]
+        },
+        {
+            "question": "How do you say 'the cash machine' (ATM) in Spanish?",
+            "answers": ["el cajero automático"]
+        },
+        {
+            "question": "How do you say 'the ATM swallowed my card'?",
+            "answers": ["el cajero se ha tragado mi tarjeta"]
+        }
+    ]
+}]
