@@ -54,7 +54,8 @@ export class FlashcardComponent implements OnInit{
       const quizFile = params['quizFile'];
       if (quizFile) {
         this.quizService. getVocabulary(quizFile).subscribe((data) => {
-          this.questions = [...data[0].questions];
+          // this.questions = [...data[0].questions];
+          this.questions = [...this.quizService.suffleQuestions(data[0].questions)];
           this.langRead = data[0].langread ? data[0].langread : params['language'];
           this.loading = false;
           this.firstQuestion();

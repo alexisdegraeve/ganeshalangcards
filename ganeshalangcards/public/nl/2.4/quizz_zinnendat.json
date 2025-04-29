@@ -1,0 +1,132 @@
+[{
+    "theme": "📝 Zinnen maken (dat, ik denk dat, zou graag)",
+    "questions": [{
+            "question": "Maak een zin met 'dansen geweldig'. (bv.: Ik vind lezen leuk.)",
+            "answers": ["Ik vind dansen geweldig."]
+        },
+        {
+            "question": "Maak een zin met 'zingen vervelend'. (bv.: Ik vind lezen leuk.)",
+            "answers": ["Ik vind zingen vervelend."]
+        },
+        {
+            "question": "Maak een zin met 'werken saai'. (bv.: Ik vind lezen leuk.)",
+            "answers": ["Ik vind werken saai."]
+        },
+        {
+            "question": "Maak een zin met 'reizen fantastisch'. (bv.: Ik vind lezen leuk.)",
+            "answers": ["Ik vind reizen fantastisch."]
+        },
+        {
+            "question": "Maak een zin met 'vechten stom'. (bv.: Ik vind dat lezen leuk is.)",
+            "answers": ["Ik vind dat vechten stom is."]
+        },
+        {
+            "question": "Maak een zin met 'babbelen fijn'. (bv.: Ik vind dat lezen leuk is.)",
+            "answers": ["Ik vind dat babbelen fijn is."]
+        },
+        {
+            "question": "Maak een zin met 'wachten vervelend'. (bv.: Ik vind dat lezen leuk is.)",
+            "answers": ["Ik vind dat wachten vervelend is."]
+        },
+        {
+            "question": "Maak een zin met 'een serie kijken ontspannend'. (bv.: Ik vind dat lezen leuk is.)",
+            "answers": ["Ik vind dat een serie kijken ontspannend is."]
+        },
+        {
+            "question": "Maak een zin met 'een proper huis hebben'. (bv.: Ik vind het belangrijk om veel sociaal ocntact te hebben.)",
+            "answers": ["Ik vind het belangrijk om een proper huis te hebben."]
+        },
+        {
+            "question": "Maak een zin met 'een goed mens zijn'. (bv.: Ik vind het belangrijk om veel sociaal ocntact te hebben.)",
+            "answers": ["Ik vind het belangrijk om een goed mens te zijn."]
+        },
+        {
+            "question": "Maak een zin met 'een dure auto kunnen kopen'. (bv.: Ik vind het belangrijk om veel sociaal ocntact te hebben.)",
+            "answers": ["Ik vind het belangrijk om een dure auto te kunnen kopen."]
+        },
+        {
+            "question": "Maak een zin met 'een geveltuin aanleggen'. (bv.: Ik vind het belangrijk om veel sociaal ocntact te hebben.)",
+            "answers": ["Ik vind het belangrijk om een geveltuin aan te leggen."]
+        },
+        {
+            "question": "Maak een zin met 'kinderen kijken veel naar schermen'. (bv.: Ik vind het erg dat het klimaat steeds sneller opwarm)",
+            "answers": ["Ik vind het erg dat kinderen veel naar schermen kijken."]
+        },
+        {
+            "question": "Maak een zin met 'volwassen zijn vaak gestresseerd'. (bv.: Ik vind het erg dat het klimaat steeds sneller opwarm)",
+            "answers": ["Ik vind het erg dat volwassenen vaak gestresseerd zijn."]
+        },
+        {
+            "question": "Maak een zin met 'benzine wordt duurder en duurder'. (bv.: Ik vind het erg dat het klimaat steeds sneller opwarm)",
+            "answers": ["Ik vind het erg dat benzine duurder en duurder wordt."]
+        },
+        {
+            "question": "Maak een zin met 'ik heb weinig vrije tijd'. (bv.: Ik vind het erg dat het klimaat steeds sneller opwarm)",
+            "answers": ["Ik vind het erg dat ik weinig vrije tijd heb."]
+        },
+        {
+            "question": "Maak een zin met 'mijn kleinkind komt op bezoek'. (bv.: Ik blen blij dat ik al beter Nederlands schrijf)",
+            "answers": ["Ik ben blij dat mijn kleinkind op bezoek komt."]
+        },
+        {
+            "question": "Maak een zin met 'ik krijg een mooi boeket'. (bv.: Ik blen blij dat ik al beter Nederlands schrijf)",
+            "answers": ["Ik ben blij dat ik een mooi boeket krijg."]
+        },
+        {
+            "question": "Maak een zin met 'hij telefoneert mij elke dag'. (bv.: Ik blen blij dat ik al beter Nederlands schrijf)",
+            "answers": ["Ik ben blij dat hij mij elke dag telefoneert."]
+        },
+        {
+            "question": "Maak een zin met 'wij zijn al 20 jaar vrienden'. (bv.: Ik blen blij dat ik al beter Nederlands schrijf)",
+            "answers": ["Ik ben blij dat wij al 20 jaar vrienden zijn."]
+        },
+        {
+            "question": "Maak een zin met 'mijn ouders zijn al lang gescheiden'. (bv.: Ik vind het jammer dat we elkaar niet meer zien)",
+            "answers": ["Ik vind het jammer dat mijn ouders al lang gescheiden zijn."]
+        },
+        {
+            "question": "Maak een zin met 'mijn zus is ziek'. (bv.: Ik vind het jammer dat we elkaar niet meer zien)",
+            "answers": ["Ik vind het jammer dat mijn zus ziek is."]
+        },
+        {
+            "question": "Maak een zin met 'het regent de hele zomer'. (bv.: Ik vind het jammer dat we elkaar niet meer zien)",
+            "answers": ["Ik vind het jammer dat het de hele zomer regent."]
+        },
+        {
+            "question": "Maak een zin met 'we hebben geen ijs meer'. (bv.: Ik vind het jammer dat we elkaar niet meer zien)",
+            "answers": ["Ik vind het jammer dat we geen ijs meer hebben."]
+        },
+        {
+            "question": "Maak een zin met 'we moeten beter naar elkaar luisteren'. (bv.: Ik denk dat het goed is)",
+            "answers": ["Ik denk dat we beter naar elkaar moeten luisteren."]
+        },
+        {
+            "question": "Maak een zin met 'ik heb niet veel zin'. (bv.: Ik denk dat het goed is)",
+            "answers": ["Ik denk dat ik niet veel zin heb."]
+        },
+        {
+            "question": "Maak een zin met 'we kennen elkaar niet'. (bv.: Ik denk dat het goed is)",
+            "answers": ["Ik denk dat we elkaar niet kennen."]
+        },
+        {
+            "question": "Maak een zin met 'het is een spannende film'. (bv.: Ik denk dat het goed is)",
+            "answers": ["Ik denk dat het een spannende film is."]
+        },
+        {
+            "question": "Maak een zin met 'een buurtcafé openen'. (bv.: Ik zou graag leren koorddansen)",
+            "answers": ["Ik zou graag een buurtcafé openen."]
+        },
+        {
+            "question": "Maak een zin met 'een instrument bespelen'. (bv.: Ik zou graag leren koorddansen)",
+            "answers": ["Ik zou graag een instrument bespelen."]
+        },
+        {
+            "question": "Maak een zin met 'een grote tuin hebben'. (bv.: Ik zou graag leren koorddansen)",
+            "answers": ["Ik zou graag een grote tuin hebben."]
+        },
+        {
+            "question": "Maak een zin met 'in een kalme buurt wonen'. (bv.: Ik zou graag leren koorddansen)",
+            "answers": ["Ik zou graag in een kalme buurt wonen."]
+        }
+    ]
+}]

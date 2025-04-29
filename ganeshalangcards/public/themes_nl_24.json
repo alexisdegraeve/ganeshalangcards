@@ -68,5 +68,11 @@
           "description": "Vegetarisch of Carnivoor 🌱🥩",
           "class": "pink",
           "url": "/nl/2.4/quizz_vegetarisch.json"
+      },
+      {
+          "title": "Grammatica",
+          "description": "📝 Zinnen maken (dat, ik denk dat, zou graag)",
+          "class": "pink",
+          "url": "/nl/2.4/quizz_zinnendat.json"
       }
   ]
