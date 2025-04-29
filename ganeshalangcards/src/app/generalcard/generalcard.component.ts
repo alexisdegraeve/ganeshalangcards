@@ -22,6 +22,7 @@ export class GeneralcardComponent implements OnInit, AfterViewChecked {
   @Input() link: string | undefined = '';
   @Input() class: string = '';
   @Input() question: string = '';
+  @Input() langRead: string = '';
   @Input() answer: string = '';
   @Input() language = '';
   @Input() score  =  0;
@@ -61,8 +62,13 @@ export class GeneralcardComponent implements OnInit, AfterViewChecked {
     }
   }
 
-  speakText(text: string) {
-    this.quizService.speakText(text, this.language);
+  speakText(text: string, question: boolean = true) {
+    if(question) {
+      this.quizService.speakText(text, this.langRead);
+    } else {
+      this.quizService.speakText(text, this.language);
+    }
+
   }
 
   ngOnInit(): void {

@@ -9,13 +9,14 @@
         </div>
     </div>
     <ng-container *ngIf="modeTraining ">
-        <app-generalcard [language]="language" [disableFirst]="checkFirstQuestion " [disableLast]="checkLastQuestion " (firstClick)="firstQuestion() " (prevClick)="prevQuestion() " (nextClick)="nextQuestion() " (lastClick)="lastQuestion() " [currentCardNumber]="currentCardNumber
+        <app-generalcard [language]="language" [langRead]="langRead" [disableFirst]="checkFirstQuestion " [disableLast]="checkLastQuestion " (firstClick)="firstQuestion() " (prevClick)="prevQuestion() " (nextClick)="nextQuestion() " (lastClick)="lastQuestion() "
+            [currentCardNumber]="currentCardNumber
         " [title]=" 'Question' " [answer]="currentQuestion.answers " [question]="currentQuestion.question " [class]="class " [icon]=" 'bi-patch-question-fill' " [mode]="CardMode.DoubleSide "></app-generalcard>
     </ng-container>
 
     <ng-container *ngIf="!modeTraining ">
-        <app-generalcard [language]="language" [score]="score" [total]="questions.length" [currentCardNumber]="currentCardNumber " (okEvent)="checkAnswer($event) " (skipEvent)="skipQuestion() " [title]=" 'Question' " [answer]="currentQuestion.answers " [question]="currentQuestion.question "
-            [class]="class
+        <app-generalcard [language]="language" [langRead]="langRead" [score]="score" [total]="questions.length" [currentCardNumber]="currentCardNumber " (okEvent)="checkAnswer($event) " (skipEvent)="skipQuestion() " [title]=" 'Question' " [answer]="currentQuestion.answers "
+            [question]="currentQuestion.question " [class]="class
         " [icon]=" 'bi-patch-question-fill' " [mode]="CardMode.question " *ngIf="!endQuiz "></app-generalcard>
         <ng-container *ngIf="endQuiz ">
             <ng-container *ngIf="checkWin ">

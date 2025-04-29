@@ -1,5 +1,6 @@
 [{
     "theme": "💶 Cambiar Dinero",
+    "langread": "en",
     "questions": [{
             "question": "How do you say 'money' in Spanish?",
             "answers": ["el dinero"]

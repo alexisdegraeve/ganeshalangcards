@@ -89,7 +89,7 @@
                             <div class="text-answer">
                                 <div class="card-title flex-column" *ngIf="!isLoading">
                                     <div class="control-flip mb-2"><button class="btn btn-outline-primary" (click)="flipcard=! flipcard "><i class="bi bi-arrow-clockwise"></i></button>
-                                        <button class="ms-2 btn btn-outline-primary" (click)="speakText(answer.toString())">
+                                        <button class="ms-2 btn btn-outline-primary" (click)="speakText(answer.toString(), false)">
                               <i class="bi bi-volume-up-fill"></i>
                             </button>
                                     </div>

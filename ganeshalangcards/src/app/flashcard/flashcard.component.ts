@@ -18,6 +18,7 @@ export class FlashcardComponent implements OnInit{
   @Input() questions: any[] = [];
   @Input() theme: string = '';
   @Input() class: string = '';
+  langRead: string = '';
   language: string = '';
   score: number = 0;
   currentQuestion: any = {};
@@ -54,6 +55,7 @@ export class FlashcardComponent implements OnInit{
       if (quizFile) {
         this.quizService. getVocabulary(quizFile).subscribe((data) => {
           this.questions = [...data[0].questions];
+          this.langRead = data[0].langread ? data[0].langread : params['language'];
           this.loading = false;
           this.firstQuestion();
         });
