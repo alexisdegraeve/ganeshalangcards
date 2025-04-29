@@ -126,5 +126,10 @@
         "description": "💶 Cambiar Dinero",
         "class": "green",
         "url": "/es/level_a0/quizz_dinero.json"
+    }, {
+        "title": "Vocabulario",
+        "description": "💢 Dolores y molestias",
+        "class": "green",
+        "url": "/es/level_a0/quizz_dinero.json"
     }
 ]

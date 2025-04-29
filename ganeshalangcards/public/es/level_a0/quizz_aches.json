@@ -1,0 +1,84 @@
+[{
+    "theme": "💢 Dolores y molestias",
+    "questions": [{
+            "question": "How do you say 'I feel fine'?",
+            "answers": ["me siento bien"]
+        },
+        {
+            "question": "How do you say 'I don't feel well'?",
+            "answers": ["no me siento bien"]
+        },
+        {
+            "question": "How do you say 'I am sick' if you're a man?",
+            "answers": ["estoy enfermo"]
+        },
+        {
+            "question": "What do you say if you're a woman and you are sick?",
+            "answers": ["estoy enferma"]
+        },
+        {
+            "question": "What would a doctor ask to know where it hurts?",
+            "answers": ["dónde le duele"]
+        },
+        {
+            "question": "How would you say 'It hurts here' in Spanish?",
+            "answers": ["me duele aquí"]
+        },
+        {
+            "question": "What do you say in Spanish if you have a headache?",
+            "answers": ["me duele la cabeza"]
+        },
+        {
+            "question": "What do you say in Spanish if your arms hurt?",
+            "answers": ["me duelen los brazos"]
+        },
+        {
+            "question": "How do you say 'my eye hurts' in Spanish?",
+            "answers": ["me duele el ojo"]
+        },
+        {
+            "question": "What do you say in Spanish if your feet hurt?",
+            "answers": ["me duelen los pies"]
+        },
+        {
+            "question": "What is the Spanish word for 'throat'?",
+            "answers": ["la garganta"]
+        },
+        {
+            "question": "How do you say 'leg' in Spanish?",
+            "answers": ["la pierna"]
+        },
+        {
+            "question": "How do you say 'mouth' in Spanish?",
+            "answers": ["la boca"]
+        },
+        {
+            "question": "What is the Spanish word for 'shoulder'?",
+            "answers": ["el hombro"]
+        },
+        {
+            "question": "How do you say 'my shoulders hurt' in Spanish?",
+            "answers": ["me duelen los hombros"]
+        },
+        {
+            "question": "What is the Spanish word for 'ear'?",
+            "answers": ["la oreja"]
+        },
+        {
+            "question": "How do you say 'my ears hurt' in Spanish?",
+            "answers": ["me duelen las orejas"]
+        },
+        {
+            "question": "What is the Spanish word for 'nose'?",
+            "answers": ["la nariz"]
+        },
+        {
+            "question": "What is the Spanish word for 'stomach'?",
+            "answers": ["el estómago"]
+        },
+        {
+            "question": "How do you say 'eyes' in Spanish?",
+            "answers": ["los ojos"]
+        }
+    ]
+}]
