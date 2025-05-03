@@ -1,5 +1,6 @@
 [{
     "theme": "💊 En la farmacia o con el médico",
+    "langread": "en",
     "questions": [{
             "question": "How do you say 'the head' in Spanish?",
             "answers": ["la cabessa"]
