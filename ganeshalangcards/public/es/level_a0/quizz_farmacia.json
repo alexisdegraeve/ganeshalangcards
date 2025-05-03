@@ -1,0 +1,144 @@
+[{
+    "theme": "💊 En la farmacia o doctor",
+    "questions": [{
+            "question": "How do you say 'the head' in Spanish?",
+            "answers": ["la cabessa"]
+        },
+        {
+            "question": "How do you say 'leg' in Spanish?",
+            "answers": ["la pierna"]
+        },
+        {
+            "question": "How do you say 'the stomach' in Spanish?",
+            "answers": ["el estomago"]
+        },
+        {
+            "question": "How do you say 'the throat' in Spanish?",
+            "answers": ["la garganta"]
+        },
+        {
+            "question": "How do you say 'the nose' in Spanish?",
+            "answers": ["la nariz"]
+        },
+        {
+            "question": "How do you say 'mouth' in Spanish?",
+            "answers": ["la boca"]
+        },
+        {
+            "question": "How do you say 'the shoulder' in Spanish?",
+            "answers": ["el hombro"]
+        },
+        {
+            "question": "How do you say 'foot' in Spanish?",
+            "answers": ["el pié"]
+        },
+        {
+            "question": "How do you say 'the eyes' in Spanish?",
+            "answers": ["los ojos"]
+        },
+        {
+            "question": "How do you say 'the ears' in Spanish?",
+            "answers": ["las orejas"]
+        },
+        {
+            "question": "How do you say 'I've got a sore head' in Spanish?",
+            "answers": ["me duele la cabessa"]
+        },
+        {
+            "question": "How do you say 'I've pain in my feet' in Spanish?",
+            "answers": ["me duelen los pies"]
+        },
+        {
+            "question": "How do you say 'pain' in Spanish?",
+            "answers": ["el dolor"]
+        },
+        {
+            "question": "How do you say 'I have a headache' in Spanish?",
+            "answers": ["tengo dolor de cabessa"]
+        },
+        {
+            "question": "How do you say 'I have a stomach ache' in Spanish?",
+            "answers": ["tengo dolor de estomago"]
+        },
+        {
+            "question": "How do you say 'I have a sore throat' in Spanish?",
+            "answers": ["tengo dolor de garganta"]
+        },
+        {
+            "question": "How do you ask 'Do you have something for headache?' in Spanish?",
+            "answers": ["tiene algo para el dolor de cabessa"]
+        },
+        {
+            "question": "How do you ask 'Do you have something for a cough?' in Spanish?",
+            "answers": ["tiene algo para la tos"]
+        },
+        {
+            "question": "How do you say 'a rash' in Spanish?",
+            "answers": ["un sarpullido"]
+        },
+        {
+            "question": "How do you ask 'Do you have something for a rash?' in Spanish?",
+            "answers": ["tiene algo para un sarpullido"]
+        },
+        {
+            "question": "How do you say 'a sunburn' in Spanish?",
+            "answers": ["una quemadura de sol"]
+        },
+        {
+            "question": "How do you say 'I don't feel well' in Spanish?",
+            "answers": ["no me siento bien"]
+        },
+        {
+            "question": "How do you say 'I'm dizzy' (male) in Spanish?",
+            "answers": ["estoy mareado"]
+        },
+        {
+            "question": "How do you say 'I'm dizzy' (female) in Spanish?",
+            "answers": ["estoy mareada"]
+        },
+        {
+            "question": "How do you say 'I can't sleep' in Spanish?",
+            "answers": ["no puedo dormir"]
+        },
+        {
+            "question": "How do you say 'I can't breathe' in Spanish?",
+            "answers": ["no puedo respirar"]
+        },
+        {
+            "question": "How do you say 'a pill' in Spanish?",
+            "answers": ["una píldora"]
+        },
+        {
+            "question": "How do you say 'a tablet' in Spanish?",
+            "answers": ["un comprimido"]
+        },
+        {
+            "question": "How do you say 'a cream' in Spanish?",
+            "answers": ["una crema"]
+        },
+        {
+            "question": "How do you say 'You need to take these pills' in Spanish?",
+            "answers": ["necesita tomar estas píldoras"]
+        },
+        {
+            "question": "How do you say 'You need to apply this cream' in Spanish?",
+            "answers": ["necesita poner esta crema"]
+        },
+        {
+            "question": "How do you say 'twice a day' in Spanish?",
+            "answers": ["dos veces al día"]
+        },
+        {
+            "question": "How do you say 'before eating' in Spanish?",
+            "answers": ["antes de comer"]
+        },
+        {
+            "question": "How do you say 'after eating' in Spanish?",
+            "answers": ["después de comer"]
+        },
+        {
+            "question": "How do you ask 'How many times per day?' in Spanish?",
+            "answers": ["¿Cuántas veces al día?"]
+        }
+    ]
+}]

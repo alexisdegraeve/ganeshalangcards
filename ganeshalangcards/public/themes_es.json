@@ -131,5 +131,10 @@
         "description": "💢 Dolores y molestias",
         "class": "green",
         "url": "/es/level_a0/quizz_dolores.json"
+    }, {
+        "title": "Vocabulario",
+        "description": "💊 En la farmacia o doctor",
+        "class": "green",
+        "url": "/es/level_a0/quizz_farmacia.json"
     }
 ]
