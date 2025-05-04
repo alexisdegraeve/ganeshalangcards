@@ -136,5 +136,10 @@
         "description": "💊 En la farmacia o con el médico",
         "class": "green",
         "url": "/es/level_a0/quizz_farmacia.json"
+    }, {
+        "title": "Vocabulario",
+        "description": "⚽ En un partido de fútbol - Final de la UEFA en Glasgow",
+        "class": "green",
+        "url": "/es/level_a0/quizz_futbol.json"
     }
 ]
