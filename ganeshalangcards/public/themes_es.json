@@ -141,5 +141,10 @@
         "description": "⚽ En un partido de fútbol - Final de la UEFA en Glasgow",
         "class": "green",
         "url": "/es/level_a0/quizz_futbol.json"
+    }, {
+        "title": "Vocabulario",
+        "description": "🛫 En un vuelo a España",
+        "class": "green",
+        "url": "/es/level_a0/quizz_vueloespana.json"
     }
 ]

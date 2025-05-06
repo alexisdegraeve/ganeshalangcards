@@ -1,0 +1,177 @@
+[{
+    "theme": "🛫 En un vuelo a España",
+    "langread": "en",
+    "questions": [{
+            "question": "How do you ask 'Where is it?'",
+            "answers": ["¿Dónde está?"]
+        },
+        {
+            "question": "How do you say 'to stop'?",
+            "answers": ["parar"]
+        },
+        {
+            "question": "How do you say 'bus stop'?",
+            "answers": ["la parada de autobuses"]
+        },
+        {
+            "question": "How do you ask 'Where is the bus stop?'",
+            "answers": ["¿Dónde está la parada de autobuses?"]
+        },
+        {
+            "question": "How do you say 'It's on the right'?",
+            "answers": ["Está a la derecha"]
+        },
+        {
+            "question": "How do you say 'It's on the left'?",
+            "answers": ["Está a la izquierda"]
+        },
+        {
+            "question": "How do you say 'near'?",
+            "answers": ["cerca"]
+        },
+        {
+            "question": "How do you say 'far'?",
+            "answers": ["lejos"]
+        },
+        {
+            "question": "How do you ask 'Is it near here?'",
+            "answers": ["¿Está cerca de aquí?"]
+        },
+        {
+            "question": "How do you ask 'Is it far from here?'",
+            "answers": ["¿Está lejos de aquí?"]
+        },
+        {
+            "question": "How do you ask 'Is the hotel far from here?'",
+            "answers": ["¿El hotel está lejos de aquí?"]
+        },
+        {
+            "question": "How do you politely call a waiter?",
+            "answers": ["¡Oiga, por favor!"]
+        },
+        {
+            "question": "How do you say 'I want a beer'?",
+            "answers": ["Quiero una cerveza"]
+        },
+        {
+            "question": "How do you say 'a glass of beer'?",
+            "answers": ["una caña"]
+        },
+        {
+            "question": "How do you say 'I want a coffee with milk'?",
+            "answers": ["Quiero un café con leche"]
+        },
+        {
+            "question": "How do you say 'a coffee with a little milk'?",
+            "answers": ["un cortado"]
+        },
+        {
+            "question": "How do you say 'The bill, please'?",
+            "answers": ["La cuenta, por favor"]
+        },
+        {
+            "question": "How do you say 'Can you bring us the bill, please?'",
+            "answers": ["¿Nos trae la cuenta, por favor?"]
+        },
+        {
+            "question": "How do you say 'Bring us the bill, please'?",
+            "answers": ["Tráiganos la cuenta, por favor"]
+        },
+        {
+            "question": "How do you say 'the restaurant'?",
+            "answers": ["el restaurante"]
+        },
+        {
+            "question": "How do you say 'tourist office'?",
+            "answers": ["la oficina de turismo"]
+        },
+        {
+            "question": "How do you say 'pharmacy'?",
+            "answers": ["la farmacia"]
+        },
+        {
+            "question": "How do you say 'tobacconist shop'?",
+            "answers": ["el estanco"]
+        },
+        {
+            "question": "How do you say 'a postcard'?",
+            "answers": ["una tarjeta postal"]
+        },
+        {
+            "question": "How do you say 'some postcards'?",
+            "answers": ["unas tarjetas postales"]
+        },
+        {
+            "question": "How do you say 'a stamp'?",
+            "answers": ["un sello"]
+        },
+        {
+            "question": "How do you ask 'How can I help you?' (formal, singular)?",
+            "answers": ["¿En qué puedo ayudarle?"]
+        },
+        {
+            "question": "How do you ask 'How can I help you?' (formal, plural)?",
+            "answers": ["¿En qué puedo ayudarles?"]
+        },
+        {
+            "question": "How do you ask 'How can I serve you?' (formal, singular)?",
+            "answers": ["¿En qué puedo servirle?"]
+        },
+        {
+            "question": "How do you ask 'How can I serve you?' (formal, plural)?",
+            "answers": ["¿En qué puedo servirles?"]
+        },
+        {
+            "question": "How do you say 'Anything else?'",
+            "answers": ["¿Algo más?"]
+        },
+        {
+            "question": "How do you ask 'Do you need anything else?'",
+            "answers": ["¿Necesita algo más?"]
+        },
+        {
+            "question": "How do you say 'Would you like anything else?'",
+            "answers": ["¿Quisiera algo más?"]
+        },
+        {
+            "question": "How do you say 'Thank you'?",
+            "answers": ["Gracias"]
+        },
+        {
+            "question": "How do you say 'Thank you very much'?",
+            "answers": ["Muchas gracias"]
+        },
+        {
+            "question": "How do you say 'Thanks a lot'?",
+            "answers": ["Muchísimas gracias"]
+        },
+        {
+            "question": "How do you say 'You're welcome'?",
+            "answers": ["De nada"]
+        },
+        {
+            "question": "How do you say 'No need to thank me'?",
+            "answers": ["No hay de qué"]
+        },
+        {
+            "question": "How do you say 'Good morning'?",
+            "answers": ["Buenos días"]
+        },
+        {
+            "question": "How do you say 'Good afternoon'?",
+            "answers": ["Buenas tardes"]
+        },
+        {
+            "question": "How do you say 'Good night'?",
+            "answers": ["Buenas noches"]
+        },
+        {
+            "question": "How do you greet quickly in a shop?",
+            "answers": ["Buenas"]
+        },
+        {
+            "question": "How do you say 'See you next week'?",
+            "answers": ["Hasta la próxima semana"]
+        }
+    ]
+}]
