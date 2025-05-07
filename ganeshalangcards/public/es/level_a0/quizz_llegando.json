@@ -1,0 +1,100 @@
+[{
+    "theme": "🛬 Llegando a España",
+    "questions": [{
+            "question": "How do you say 'Good morning'?",
+            "answers": ["Buenos días"]
+        },
+        {
+            "question": "How do you say 'We are going to Santiago de la Ribera'?",
+            "answers": ["Vamos a Santiago de la Ribera"]
+        },
+        {
+            "question": "How do you ask 'Is there a bus that goes there?'",
+            "answers": ["¿Hay un autobús que va allí?"]
+        },
+        {
+            "question": "How do you say 'Yes, bus number 17 goes to la Ribera'?",
+            "answers": ["Sí, el autobús número 17 va a la Ribera"]
+        },
+        {
+            "question": "How do you say 'The bus stop is to the right'?",
+            "answers": ["La parada de autobús está a la derecha"]
+        },
+        {
+            "question": "How do you say '... when leaving the airport'?",
+            "answers": ["... al salir del aeropuerto"]
+        },
+        {
+            "question": "How do you ask 'Can I go by taxi?'",
+            "answers": ["¿Se puede ir también en taxi?"]
+        },
+        {
+            "question": "How do you say 'Of course'?",
+            "answers": ["Claro que sí"]
+        },
+        {
+            "question": "How do you say 'We will be late 15 minutes'?",
+            "answers": ["Vamos a tardar quince minutos"]
+        },
+        {
+            "question": "How do you ask 'How long is the bus ride?'",
+            "answers": ["¿Cuánto tiempo tarda el autobús?"]
+        },
+        {
+            "question": "How do you say 'About half an hour'?",
+            "answers": ["Una media hora"]
+        },
+        {
+            "question": "How do you ask 'How much is the bus ticket?'",
+            "answers": ["¿Cuánto cuesta el billete de autobús?"]
+        },
+        {
+            "question": "How do you say 'The bus tickets cost 1.40 euros'?",
+            "answers": ["Los billetes de autobús cuestan 1 euro con cuarenta"]
+        },
+        {
+            "question": "How do you say 'The taxi costs between 10 and 15 euros'?",
+            "answers": ["El taxi cuesta entre 10 y 15 euros"]
+        },
+        {
+            "question": "How do you say 'Very good'?",
+            "answers": ["Muy bien"]
+        },
+        {
+            "question": "How do you say 'I think we will take a taxi'?",
+            "answers": ["Creo que vamos a coger un taxi"]
+        },
+        {
+            "question": "How do you say 'More comfortable and faster'?",
+            "answers": ["Más cómodo y más rápido"]
+        },
+        {
+            "question": "How do you say 'The bus is less comfortable'?",
+            "answers": ["El autobús es menos cómodo"]
+        },
+        {
+            "question": "How do you say '... and less fast'?",
+            "answers": ["... y menos rápido"]
+        },
+        {
+            "question": "How do you say 'More or less'?",
+            "answers": ["Más o menos"]
+        },
+        {
+            "question": "How do you say 'I am more happy' (male speaker)?",
+            "answers": ["Estoy más contento"]
+        },
+        {
+            "question": "How do you say 'I am more happy' (female speaker)?",
+            "answers": ["Estoy más contenta"]
+        },
+        {
+            "question": "How do you say 'I am less happy' (male speaker)?",
+            "answers": ["Estoy menos contento"]
+        },
+        {
+            "question": "How do you say 'I am less happy' (female speaker)?",
+            "answers": ["Estoy menos contenta"]
+        }
+    ]
+}]

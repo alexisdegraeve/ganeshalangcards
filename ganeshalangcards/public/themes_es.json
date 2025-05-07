@@ -146,5 +146,11 @@
         "description": "🛫 En un vuelo a España",
         "class": "green",
         "url": "/es/level_a0/quizz_vueloespana.json"
+    }, {
+        "title": "Vocabulario",
+        "description": "🛬 Llegando a España",
+        "class": "green",
+        "url": "/es/level_a0/quizz_llegando.json"
     }
+
 ]
