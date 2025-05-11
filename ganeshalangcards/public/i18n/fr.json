@@ -8,5 +8,7 @@
     "skip": "Passe",
     "restart": "Recommencer",
     "learn": "Apprendre",
-    "test": "Tester"
+    "test": "Tester",
+    "sorry": "Désolé c'était...",
+    "nice": "Bien joué!"
 }

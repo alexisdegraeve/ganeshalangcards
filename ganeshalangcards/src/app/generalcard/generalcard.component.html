@@ -143,16 +143,31 @@
     <div class="col-md-10 col-lg-8 mb-2 question">
         <div class="card h-100 border-0">
             <div class="flip-card-inner" [ngClass]="{ 'flip-card-hover': flipcard}">
-                <div class="flip-card-front cursor-pointer" [ngClass]="class" (click)="flipcard = !flipcard">
+                <div class="flip-card-front cursor-pointer" [ngClass]="class" (click)="actionFlipCard()" [class.good-answer]="showSolution && correctAnswer" [class.wrong-answer]="showSolution && !correctAnswer">
                     <div class="card-body text-center">
-                        <div class="card-title">
-                            <h5 *ngIf="!isLoading" class="big">{{ 'question' | translate }}</h5>
-                            <div *ngIf="isLoading" class="skeleton skeleton-title w-50 "></div>
-                        </div>
-                        <i class="bi bi-patch-question-fill h1 " *ngIf="!isLoading "></i>
-                        <div *ngIf="isLoading" class="skeleton skeleton-icon"></div>
-                        <span *ngIf="!isLoading "> {{ currentCardNumber }} </span>
-                        <span *ngIf=" isLoading " class="skeleton skeleton-title w-25"></span>
+                        <ng-container *ngIf="!showSolution">
+                            <div class="card-title">
+                                <h5 *ngIf="!isLoading" class="big">{{ 'question' | translate }}</h5>
+                                <div *ngIf="isLoading" class="skeleton skeleton-title w-50 "></div>
+                            </div>
+                            <i class="bi bi-patch-question-fill h1 " *ngIf="!isLoading "></i>
+                            <div *ngIf="isLoading" class="skeleton skeleton-icon"></div>
+                            <span *ngIf="!isLoading "> {{ currentCardNumber }} </span>
+                            <span *ngIf=" isLoading " class="skeleton skeleton-title w-25"></span>
+                        </ng-container>
+                        <ng-container *ngIf="showSolution">
+                            <div class="card-title flex-column">
+                                <h5 *ngIf="!isLoading && !correctAnswer" class="d-flex">{{ 'sorry' | translate }}</h5>
+                                <h3 *ngIf="!isLoading && correctAnswer" class="d-flex">{{ 'nice'| translate }}</h3>
+                                <h4 *ngIf="!isLoading && !correctAnswer">{{ questionBefore }}</h4>
+                                <div *ngIf="isLoading && !correctAnswer" class="skeleton skeleton-title w-50 "></div>
+                                <div *ngIf="isLoading" class="skeleton skeleton-title w-50 "></div>
+                            </div>
+                            <i class="bi h1" [class.bi-emoji-smile-fill]="correctAnswer" [class.bi-emoji-frown-fill]="!correctAnswer" *ngIf="!isLoading "></i>
+                            <div *ngIf="isLoading" class="skeleton skeleton-icon"></div>
+                            <span *ngIf="!isLoading && !correctAnswer"> {{ answerBefore }} </span>
+                            <span *ngIf=" isLoading && !correctAnswer" class="skeleton skeleton-title w-25"></span>
+                        </ng-container>
                     </div>
 
                 </div>

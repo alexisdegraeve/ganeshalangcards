@@ -10,5 +10,7 @@
     "lose": "You <span class='red'>Lose</span>!",
     "restart": "Restart",
     "learn": "Training",
-    "test": "Test"
+    "test": "Test",
+    "sorry": "Sorry it was...",
+    "nice": "Well done!"
 }

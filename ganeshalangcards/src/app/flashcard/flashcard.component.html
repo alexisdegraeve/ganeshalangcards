@@ -15,8 +15,8 @@
     </ng-container>
 
     <ng-container *ngIf="!modeTraining ">
-        <app-generalcard [language]="language" [langRead]="langRead" [score]="score" [total]="questions.length" [currentCardNumber]="currentCardNumber " (okEvent)="checkAnswer($event) " (skipEvent)="skipQuestion() " [title]=" 'Question' " [answer]="currentQuestion.answers "
-            [question]="currentQuestion.question " [class]="class
+        <app-generalcard [questionBefore]="questionsBefore.question" [answerBefore]="questionsBefore.answers" [correctAnswer]="correctAnswer" [language]="language" [langRead]="langRead" [score]="score" [total]="questions.length" [currentCardNumber]="currentCardNumber "
+            (okEvent)="checkAnswer($event) " (skipEvent)="skipQuestion() " [title]=" 'Question' " [answer]="currentQuestion.answers " [question]="currentQuestion.question " [class]="class
         " [icon]=" 'bi-patch-question-fill' " [mode]="CardMode.question " *ngIf="!endQuiz "></app-generalcard>
         <ng-container *ngIf="endQuiz ">
             <ng-container *ngIf="checkWin ">

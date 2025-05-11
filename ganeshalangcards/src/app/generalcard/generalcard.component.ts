@@ -24,11 +24,14 @@ export class GeneralcardComponent implements OnInit, AfterViewChecked {
   @Input() question: string = '';
   @Input() langRead: string = '';
   @Input() answer: string = '';
+  @Input() questionBefore: string = '';
+  @Input() answerBefore: string = '';
   @Input() language = '';
   @Input() score  =  0;
   @Input() total  =  0;
   @Input() mode: CardMode = CardMode.OneSide;
   @Input() currentCardNumber = '';
+  @Input() correctAnswer = false;
   @Output() skipEvent = new EventEmitter<void>();
   @Output() okEvent = new EventEmitter<string>();
   @Output() onCardClick = new EventEmitter();
@@ -41,6 +44,7 @@ export class GeneralcardComponent implements OnInit, AfterViewChecked {
   @Input() disableLast: boolean = true;
   CardMode = CardMode;
   flipcard = false;
+  showSolution = false;
   userAnswer ='';
   @ViewChild('inputAnswer') inputAnswer!: ElementRef;
   @ViewChild('doubleSideDiv') doubleSideDiv?: ElementRef<HTMLDivElement>;
@@ -79,6 +83,7 @@ export class GeneralcardComponent implements OnInit, AfterViewChecked {
   }
 
   onSkip(): void {
+    this.showSolution = false;
     this.skipEvent.emit();
     this.userAnswer = '';
   }
@@ -92,7 +97,14 @@ export class GeneralcardComponent implements OnInit, AfterViewChecked {
 
   }
 
+  actionFlipCard() {
+    this.flipcard = !this.flipcard;
+    this.showSolution = false;
+  }
+
   onOk(): void {
+    this.showSolution = true;
+    this.flipcard = !this.flipcard;
     this.okEvent.emit(this.userAnswer);
     this.userAnswer = '';
   }
@@ -104,6 +116,7 @@ export class GeneralcardComponent implements OnInit, AfterViewChecked {
     this.prevClick.emit();
   }
   nextQuestion() {
+    this.showSolution = false;
     this.nextClick.emit();
   }
   lastQuestion() {
