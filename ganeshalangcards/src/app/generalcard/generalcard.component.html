@@ -89,7 +89,7 @@
                             <div class="text-answer">
                                 <div class="card-title flex-column" *ngIf="!isLoading">
                                     <div class="control-flip mb-2"><button class="btn btn-outline-primary" (click)="flipcard=! flipcard "><i class="bi bi-arrow-clockwise"></i></button>
-                                        <button class="ms-2 btn btn-outline-primary" (click)="speakText(answer.toString(), false)">
+                                        <button class="ms-2 btn btn-outline-primary" (click)="speakText(answers.toString(), false)">
                               <i class="bi bi-volume-up-fill"></i>
                             </button>
                                     </div>
@@ -103,7 +103,7 @@
                                     <div *ngIf="isLoading" class="skeleton skeleton-title"></div>
                                 </div>
                                 <div class=" card-subtitle">
-                                    <p *ngIf="!isLoading">{{ answer }}</p>
+                                    <p *ngIf="!isLoading">{{ answers }}</p>
                                     <p *ngIf="isLoading" class="skeleton skeleton-subtitle"></p>
                                 </div>
                             </div>
@@ -143,7 +143,7 @@
     <div class="col-md-10 col-lg-8 mb-2 question">
         <div class="card h-100 border-0">
             <div class="flip-card-inner" [ngClass]="{ 'flip-card-hover': flipcard}">
-                <div class="flip-card-front cursor-pointer" [ngClass]="class" (click)="actionFlipCard()" [class.good-answer]="showSolution && correctAnswer" [class.wrong-answer]="showSolution && !correctAnswer">
+                <div class="flip-card-front cursor-pointer" [ngClass]="class" [class.pe-none]="showSolution" (click)="actionFlipCard()" [class.good-answer]="showSolution && correctAnswer" [class.wrong-answer]="showSolution && !correctAnswer">
                     <div class="card-body text-center">
                         <ng-container *ngIf="!showSolution">
                             <div class="card-title">
@@ -159,13 +159,13 @@
                             <div class="card-title flex-column">
                                 <h5 *ngIf="!isLoading && !correctAnswer" class="d-flex">{{ 'sorry' | translate }}</h5>
                                 <h3 *ngIf="!isLoading && correctAnswer" class="d-flex">{{ 'nice'| translate }}</h3>
-                                <h4 *ngIf="!isLoading && !correctAnswer">{{ questionBefore }}</h4>
+                                <h4 *ngIf="!isLoading && !correctAnswer">{{ question }}</h4>
                                 <div *ngIf="isLoading && !correctAnswer" class="skeleton skeleton-title w-50 "></div>
                                 <div *ngIf="isLoading" class="skeleton skeleton-title w-50 "></div>
                             </div>
                             <i class="bi h1" [class.bi-emoji-smile-fill]="correctAnswer" [class.bi-emoji-frown-fill]="!correctAnswer" *ngIf="!isLoading "></i>
                             <div *ngIf="isLoading" class="skeleton skeleton-icon"></div>
-                            <span *ngIf="!isLoading && !correctAnswer"> {{ answerBefore }} </span>
+                            <span *ngIf="!isLoading && !correctAnswer"> {{ answers }} </span>
                             <span *ngIf=" isLoading && !correctAnswer" class="skeleton skeleton-title w-25"></span>
                         </ng-container>
                     </div>
@@ -192,7 +192,7 @@
 
                                 <div class="card-answer" *ngIf="!isLoading">
                                     <div class="form-group ">
-                                        <input type="text " class="form-control " id="answerInput " [placeholder]="('youranswer' | translate)" [(ngModel)]="userAnswer" (keydown.enter)="onOk()" #inputAnswer autofocus>
+                                        <input type="text " class="form-control " id="answerInput " [placeholder]="('youranswer' | translate)" [(ngModel)]="userAnswer" (keydown.enter)="onOk()" #inputAnswer autofocus [disabled]="showSolution">
                                     </div>
                                     <div class="buttons ">
                                         <div class="card-footer">

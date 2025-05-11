@@ -25,12 +25,10 @@ export class FlashcardComponent implements OnInit{
   currentQuestionIndex: number = 0;
   // userAnswer: string = '';
   endQuiz = false;
-  correctAnswer = false;
   private _modeTraining: boolean = false;
   loading = true;
   CardMode = CardMode;
   win = false;
-  questionsBefore: any =  {};
 
   @Input()
   set modeTraining(value: boolean) {
@@ -78,11 +76,8 @@ export class FlashcardComponent implements OnInit{
     }
   }
 
-  checkAnswer(answer: string):void {
-    this.correctAnswer = false;
-    this.questionsBefore =  {...this.currentQuestion};
-    if (this.checkInAnswers(answer, this.currentQuestion.answers)) {
-      this.correctAnswer = true;
+  checkAnswer(correctAnswer: boolean):void {
+    if (correctAnswer) {
       this.score++;
     }
     this.currentQuestionIndex++;
@@ -92,18 +87,6 @@ export class FlashcardComponent implements OnInit{
   skipQuestion():void {
     this.currentQuestionIndex++;
     this.showQuestion();
-  }
-
-
-  private checkInAnswers(userAnswer: string, answers: string[]): boolean {
-    return answers.some((answer: string) => this.cleanString(answer) === this.cleanString(userAnswer));
-  }
-
-  private cleanString(str: string): string {
-    return str
-      .replace(/[.?¿!¡:]/g, '') // Supprime les signes de ponctuation
-      .trim() // Supprime les espaces en début/fin
-      .toLowerCase(); // Met en minuscules pour éviter les erreurs de casse
   }
 
   nextQuestion() {

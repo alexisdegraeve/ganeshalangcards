@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { AfterViewChecked, AfterViewInit, Component, ElementRef, EventEmitter, HostListener, Input, OnInit, Output, ViewChild } from '@angular/core';
+import { AfterContentChecked, AfterViewChecked, AfterViewInit, Component, ElementRef, EventEmitter, HostListener, Input, OnInit, Output, ViewChild } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { CardMode } from '../cardmode';
@@ -23,9 +23,7 @@ export class GeneralcardComponent implements OnInit, AfterViewChecked {
   @Input() class: string = '';
   @Input() question: string = '';
   @Input() langRead: string = '';
-  @Input() answer: string = '';
-  @Input() questionBefore: string = '';
-  @Input() answerBefore: string = '';
+  @Input() answers: string[] = [];
   @Input() language = '';
   @Input() score  =  0;
   @Input() total  =  0;
@@ -33,7 +31,7 @@ export class GeneralcardComponent implements OnInit, AfterViewChecked {
   @Input() currentCardNumber = '';
   @Input() correctAnswer = false;
   @Output() skipEvent = new EventEmitter<void>();
-  @Output() okEvent = new EventEmitter<string>();
+  @Output() okEvent = new EventEmitter<boolean>();
   @Output() onCardClick = new EventEmitter();
   @Output() firstClick = new EventEmitter();
   @Output() prevClick = new EventEmitter();
@@ -53,11 +51,12 @@ export class GeneralcardComponent implements OnInit, AfterViewChecked {
 
   }
 
+
   ngAfterViewChecked(): void {
     if (this.mode === CardMode.DoubleSide && !this.isLoading && this.doubleSideDiv) {
       this.doubleSideDiv.nativeElement.focus();
     }
-    if (this.mode === CardMode.question && !this.isLoading && !this.showSolution) {
+    if (this.mode === CardMode.question && !this.isLoading) {
       setTimeout(() => {
         if (this.inputAnswer) {
           this.inputAnswer.nativeElement.focus();
@@ -102,11 +101,35 @@ export class GeneralcardComponent implements OnInit, AfterViewChecked {
     this.showSolution = false;
   }
 
+    private checkInAnswers(userAnswer: string, answers: string[]): boolean {
+    return answers.some((answer: string) => this.cleanString(answer) === this.cleanString(userAnswer));
+  }
+
+  private cleanString(str: string): string {
+    return str
+      .replace(/[.?¿!¡:]/g, '') // Supprime les signes de ponctuation
+      .trim() // Supprime les espaces en début/fin
+      .toLowerCase(); // Met en minuscules pour éviter les erreurs de casse
+  }
+
   onOk(): void {
     this.showSolution = true;
+//    this.flipcard = !this.flipcard;
     this.flipcard = !this.flipcard;
-    this.okEvent.emit(this.userAnswer);
-    this.userAnswer = '';
+     if (this.checkInAnswers(this.userAnswer, this.answers)) {
+      this.correctAnswer = true;
+        }else {
+          this.correctAnswer = false;
+    }
+    setTimeout(() => {
+      this.flipcard = !this.flipcard;
+      this.showSolution = false;
+      this.okEvent.emit(this.correctAnswer);
+      this.userAnswer = '';
+    }, 3000);
+
+
+
   }
 
   firstQuestion() {
@@ -150,7 +173,7 @@ export class GeneralcardComponent implements OnInit, AfterViewChecked {
           if(!this.flipcard) {
             this.speakText(this.question);
           } else {
-            this.speakText(this.answer.toString());
+            this.speakText(this.answers.toString());
           }
 
           break;
