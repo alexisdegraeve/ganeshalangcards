@@ -151,6 +151,11 @@
         "description": "🛬 Llegando a España",
         "class": "green",
         "url": "/es/level_a0/quizz_llegando.json"
+    }, {
+        "title": "Vocabulario",
+        "description": "🏨 Registro en el hotel",
+        "class": "green",
+        "url": "/es/level_a0/quizz_registrohotel.json"
     }
 
 ]

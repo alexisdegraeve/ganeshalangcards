@@ -1,0 +1,113 @@
+[{
+    "theme": "🏨 Registro en el hotel",
+    "langread": "en",
+    "questions": [{
+            "question": "How do you say 'Reception'?",
+            "answers": ["Recepción"]
+        },
+        {
+            "question": "How do you say 'Good afternoon'?",
+            "answers": ["Buenas tardes"]
+        },
+        {
+            "question": "How do you say 'Welcome to Hotel Estrella'?",
+            "answers": ["Bienvenido al Hotel Estrella"]
+        },
+        {
+            "question": "How do you say 'Hello, my name is Gil Johnson'?",
+            "answers": ["Hola, me llamo Gil Johnson"]
+        },
+        {
+            "question": "How do you say 'I have a reservation'?",
+            "answers": ["Tengo una reserva"]
+        },
+        {
+            "question": "How do you ask 'Can I see your passports, please?'",
+            "answers": ["¿Me pueden dar sus pasaportes, por favor?"]
+        },
+        {
+            "question": "How do you say 'You reserved a single room and a double room with a double bed, right?'",
+            "answers": [
+                "¿Usted reservó una habitación individual y una habitación doble con cama de matrimonio, verdad?"
+            ]
+        },
+        {
+            "question": "How do you say 'No, a double room with a double bed and a double room with two beds'?",
+            "answers": [
+                "No, una habitación doble con cama de matrimonio y una habitación doble con dos camas"
+            ]
+        },
+        {
+            "question": "How do you ask 'Are you Gil Johnson?'",
+            "answers": ["¿Usted se llama Gil Johnson?"]
+        },
+        {
+            "question": "How do you say 'No, I am Jay Johnson'?",
+            "answers": ["No, soy Jay Johnson"]
+        },
+        {
+            "question": "How do you say 'I made a mistake'?",
+            "answers": ["Me he equivocado"]
+        },
+        {
+            "question": "How do you say 'What a coincidence!'?",
+            "answers": ["¡Qué casualidad!"]
+        },
+        {
+            "question": "How do you say 'Here you go' (to hand something)?",
+            "answers": ["Aquí tiene"]
+        },
+        {
+            "question": "How do you say 'A room'?",
+            "answers": ["Una habitación"]
+        },
+        {
+            "question": "How do you ask 'Do you prefer a sea view or a mountain view?'",
+            "answers": ["¿Prefiere vista al mar o vista a la montaña?"]
+        },
+        {
+            "question": "How do you say 'Mountain view, if possible'?",
+            "answers": ["Vista a la montaña, si es posible"]
+        },
+        {
+            "question": "How do you say 'For a sea view room, there is a supplement'?",
+            "answers": ["Para una habitación con vista al mar hay que pagar un suplemento"]
+        },
+        {
+            "question": "How do you ask 'How much is the supplement?'",
+            "answers": ["¿Cuánto es el suplemento?"]
+        },
+        {
+            "question": "How do you say 'The supplement is 10 euros per night and per room'?",
+            "answers": ["El suplemento es de 10 euros por noche y por habitación"]
+        },
+        {
+            "question": "How do you say 'Mountain view rooms have no supplement'?",
+            "answers": ["Las habitaciones con vista a la montaña no tienen suplemento"]
+        },
+        {
+            "question": "How do you say 'We are staying for four nights'?",
+            "answers": ["Nos quedamos cuatro noches"]
+        },
+        {
+            "question": "How do you say '40 euros is a lot'?",
+            "answers": ["Cuarenta euros es mucho"]
+        },
+        {
+            "question": "How do you say 'Can you sign this form, please?'",
+            "answers": ["¿Puede firmar esta ficha, por favor?"]
+        },
+        {
+            "question": "How do you say 'Thank you, your room is on the third floor'?",
+            "answers": ["Gracias, su habitación está en el tercer piso"]
+        },
+        {
+            "question": "How do you say 'There is a lift on the left'?",
+            "answers": ["Hay un ascensor a la izquierda"]
+        },
+        {
+            "question": "How do you say 'Enjoy your stay'?",
+            "answers": ["Que disfrute su estancia"]
+        }
+    ]
+}]
