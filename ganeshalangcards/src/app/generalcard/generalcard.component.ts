@@ -57,7 +57,7 @@ export class GeneralcardComponent implements OnInit, AfterViewChecked {
     if (this.mode === CardMode.DoubleSide && !this.isLoading && this.doubleSideDiv) {
       this.doubleSideDiv.nativeElement.focus();
     }
-    if (this.mode === CardMode.question && !this.isLoading) {
+    if (this.mode === CardMode.question && !this.isLoading && !this.showSolution) {
       setTimeout(() => {
         if (this.inputAnswer) {
           this.inputAnswer.nativeElement.focus();
