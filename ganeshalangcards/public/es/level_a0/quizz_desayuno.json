@@ -1,5 +1,6 @@
 [{
     "theme": "Pedir el desayuno 🍽️☕",
+    "langread": "en",
     "questions": [{
             "question": "How do you greet the waiter in the morning?",
             "answers": ["Hola, buenos días"]
