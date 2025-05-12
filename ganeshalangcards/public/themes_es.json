@@ -156,6 +156,11 @@
         "description": "🏨 Registro en el hotel",
         "class": "green",
         "url": "/es/level_a0/quizz_registrohotel.json"
+    }, {
+        "title": "Vocabulario",
+        "description": "Pedir el desayuno 🍽️☕",
+        "class": "green",
+        "url": "/es/level_a0/quizz_desayuno.json"
     }
 
 ]

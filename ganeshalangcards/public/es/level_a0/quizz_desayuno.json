@@ -1,0 +1,124 @@
+[{
+    "theme": "Pedir el desayuno 🍽️☕",
+    "questions": [{
+            "question": "How do you greet the waiter in the morning?",
+            "answers": ["Hola, buenos días"]
+        },
+        {
+            "question": "How do you ask if someone wants breakfast?",
+            "answers": ["¿Quiere desayunar?"]
+        },
+        {
+            "question": "How do you say 'The breakfast' in Spanish?",
+            "answers": ["El desayuno"]
+        },
+        {
+            "question": "How do you say 'Yes, thank you, we are three'?",
+            "answers": ["Sí, gracias, somos tres"]
+        },
+        {
+            "question": "How to ask: 'Do you want breakfast on the terrace or inside?'",
+            "answers": ["¿Quieren desayunar en la terraza o dentro?"]
+        },
+        {
+            "question": "How do you say 'The terrace, please'?",
+            "answers": ["En la terraza, por favor"]
+        },
+        {
+            "question": "How to ask: 'What would you like to drink?'",
+            "answers": ["¿Qué desean beber?"]
+        },
+        {
+            "question": "How to order 'A coffee with milk'?",
+            "answers": ["Un café con leche"]
+        },
+        {
+            "question": "How to order 'A hot chocolate'?",
+            "answers": ["Un chocolate"]
+        },
+        {
+            "question": "How to say 'And my mother would like tea'?",
+            "answers": ["Y mi madre quiere té"]
+        },
+        {
+            "question": "How to say 'You speak Spanish very well'?",
+            "answers": ["Habla usted muy bien español"]
+        },
+        {
+            "question": "How to say 'I am learning Spanish'?",
+            "answers": ["Estoy estudiando español"]
+        },
+        {
+            "question": "How to apologize: 'Sorry, my English is bad'?",
+            "answers": ["Disculpe, mi inglés es malo"]
+        },
+        {
+            "question": "How to ask: 'Where are you from?' (formal)",
+            "answers": ["¿De dónde es usted?"]
+        },
+        {
+            "question": "How to say 'We are from Scotland'?",
+            "answers": ["Somos de Escocia"]
+        },
+        {
+            "question": "How to say 'Enjoy your meal'?",
+            "answers": ["Que aproveche"]
+        },
+        {
+            "question": "How to say 'I am Spanish from Burgos'?",
+            "answers": ["Soy española de Burgos"]
+        },
+        {
+            "question": "How to say 'I am here for business'?",
+            "answers": ["Estoy aquí de negocios"]
+        },
+        {
+            "question": "How to say 'I am a journalist'?",
+            "answers": ["Soy periodista"]
+        },
+        {
+            "question": "How to ask: 'Are you on vacation?'",
+            "answers": ["¿Están de vacaciones?"]
+        },
+        {
+            "question": "How to say 'I suppose so, but we also work a little'?",
+            "answers": ["Supongo que sí, pero también trabajamos un poco"]
+        },
+        {
+            "question": "How to say 'Toasted bread'?",
+            "answers": ["Pan tostado"]
+        },
+        {
+            "question": "How to say 'Croissant'?",
+            "answers": ["Cruasán"]
+        },
+        {
+            "question": "How to ask 'What is your room number?' (formal)",
+            "answers": ["¿Qué habitación tiene usted, por favor?"]
+        },
+        {
+            "question": "How to say 'We are in room 210'?",
+            "answers": ["Nosotras estamos en la doscientos diez"]
+        },
+        {
+            "question": "How to say 'She is in room 203'?",
+            "answers": ["Ella está en la doscientos tres"]
+        },
+        {
+            "question": "How to ask 'Do you play the piano?' (formal singular)",
+            "answers": ["¿Toca usted el piano?"]
+        },
+        {
+            "question": "How to ask 'Do you all play the piano?' (plural)",
+            "answers": ["¿Tocan ustedes el piano?"]
+        },
+        {
+            "question": "How to ask 'Are you going to the market?' (plural)",
+            "answers": ["¿Van ustedes al mercado?"]
+        },
+        {
+            "question": "How to ask 'Are you going to the market?' (singular)",
+            "answers": ["¿Va usted al mercado?"]
+        }
+    ]
+}]
