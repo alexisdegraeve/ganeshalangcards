@@ -1,0 +1,64 @@
+[{
+    "theme": "Het passief",
+    "questions": [{
+            "question": "Een piranha bijt de jongen.",
+            "answers": ["De jongen wordt gebeten door een piranha.", "De jongen wordt gebeten."]
+        },
+        {
+            "question": "Een piranha bijt een jongen.",
+            "answers": ["Er wordt een jongen gebeten door een piranha.", "Er wordt een jongen gebeten."]
+        },
+        {
+            "question": "Er wordt een cadeau gegeven.",
+            "answers": ["Het cadeau wordt gegeven."]
+        },
+        {
+            "question": "Er wordt niet vaak een boek gelezen.",
+            "answers": ["Dat boek wordt niet vaak gelezen."]
+        },
+        {
+            "question": "Er worden boeken verkocht in een boekenwinkel.",
+            "answers": ["Zijn boeken worden verkocht in een boekenwinkel."]
+        },
+        {
+            "question": "Een piranha beet de jongen.",
+            "answers": ["De jongen werd gebeten door een piranha.", "De jongen werd gebeten."]
+        },
+        {
+            "question": "Een piranha beet een jongen.",
+            "answers": ["Er werd een jongen gebeten door een piranha.", "Er werd een jongen gebeten."]
+        },
+        {
+            "question": "Een piranha heeft de jongen gebeten.",
+            "answers": ["De jongen is gebeten door een piranha.", "De jongen is gebeten."]
+        },
+        {
+            "question": "Een piranha heeft een jongen gebeten.",
+            "answers": ["Er is een jongen gebeten door een piranha.", "Er is een jongen gebeten."]
+        },
+        {
+            "question": "Een piranha had de jongen gebeten.",
+            "answers": ["De jongen was gebeten door een piranha.", "De jongen was gebeten."]
+        },
+        {
+            "question": "Een piranha had een jongen gebeten.",
+            "answers": ["Er was een jongen gebeten door een piranha.", "Er was een jongen gebeten."]
+        },
+        {
+            "question": "Jan en Inge dansen.",
+            "answers": ["Er wordt gedanst door Jan en Inge.", "Er wordt gedanst."]
+        },
+        {
+            "question": "Men mag de planten niet vergeten.",
+            "answers": ["De planten mogen niet vergeten worden."]
+        },
+        {
+            "question": "Men kon de chauffeur redden.",
+            "answers": ["De chauffeur kon gered worden."]
+        },
+        {
+            "question": "De brandweer moest alle inzittenden bevrijden.",
+            "answers": ["Alle inzittenden moesten door de brandweer bevrijd worden.", "Alle inzittenden moesten bevrijd worden."]
+        }
+    ]
+}]

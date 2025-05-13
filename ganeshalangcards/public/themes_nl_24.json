@@ -74,5 +74,17 @@
           "description": "📝 Zinnen maken (dat, ik denk dat, zou graag)",
           "class": "pink",
           "url": "/nl/2.4/quizz_zinnendat.json"
+      },
+      {
+          "title": "Grammatica",
+          "description": "Het passief",
+          "class": "pink",
+          "url": "/nl/2.4/quizz_passief.json"
+      },
+      {
+          "title": "Grammatica",
+          "description": "Het Passief (Oefeningen)",
+          "class": "pink",
+          "url": "/nl/2.4/quizz_passief2.json"
       }
   ]

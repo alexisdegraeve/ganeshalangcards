@@ -1,0 +1,76 @@
+[{
+    "theme": "Passief Oefeningen",
+    "questions": [{
+            "question": "Moeder bakt een taart.",
+            "answers": ["Er wordt een taart gebakken door moeder.", "Er wordt een taart gebakken."]
+        },
+        {
+            "question": "Moeder bakt die heerlijke taart.",
+            "answers": ["Die heerlijke taart wordt door moeder gebakken."]
+        },
+        {
+            "question": "Moeder bakte een taart.",
+            "answers": ["Er werd een taart gebakken door moeder.", "Er werd een taart gebakken."]
+        },
+        {
+            "question": "Moeder bakte die heerlijke taart.",
+            "answers": ["Die heerlijke taart werd door moeder gebakken."]
+        },
+        {
+            "question": "Moeder heeft een taart gebakken.",
+            "answers": ["Er is een taart gebakken door moeder.", "Er is een taart gebakken."]
+        },
+        {
+            "question": "Moeder heeft die heerlijke taart gebakken.",
+            "answers": ["Die heerlijke taart is door moeder gebakken."]
+        },
+        {
+            "question": "Ze schrijven veel artikels.",
+            "answers": ["Er worden veel artikels geschreven."]
+        },
+        {
+            "question": "Men bouwt nieuwe huizen.",
+            "answers": ["Er worden nieuwe huizen gebouwd."]
+        },
+        {
+            "question": "Gisteravond hebben ze veel gezegd.",
+            "answers": ["Er is veel gezegd gisteravond."]
+        },
+        {
+            "question": "Mijn grootvader maakte dit prachtige boek.",
+            "answers": ["Dit prachtige boek werd door mijn grootvader gemaakt."]
+        },
+        {
+            "question": "Zij speelden muziek op het feest.",
+            "answers": ["Er werd muziek gespeeld op het feest door hen.", "Er werd muziek gespeeld op het feest."]
+        },
+        {
+            "question": "Ze praatten niet met hem.",
+            "answers": ["Er werd met hem niet gepraat."]
+        },
+        {
+            "question": "huizing gronding (poetsen)",
+            "answers": ["De huizen worden grondig gepoetst."]
+        },
+        {
+            "question": "huizen (versieren)",
+            "answers": ["De huizen worden versierd."]
+        },
+        {
+            "question": "nieuwe kleren (kopen)",
+            "answers": ["Er worden nieuwe kleren gekocht."]
+        },
+        {
+            "question": "cadeautjes (geven)",
+            "answers": ["Er worden cadeautjes gegeven."]
+        },
+        {
+            "question": "lekkere gerechten (serveren)",
+            "answers": ["Er worden lekkere gerechten geserveerd."]
+        },
+        {
+            "question": "vuurwerk (afschieten)",
+            "answers": ["Er wordt vuurwerk afgeschoten."]
+        }
+    ]
+}]
