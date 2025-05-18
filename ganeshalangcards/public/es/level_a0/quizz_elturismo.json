@@ -1,0 +1,157 @@
+[{
+    "theme": "En la oficina de turismo 🗺️",
+    "langread": "en",
+    "questions": [{
+            "question": "How do you say 'we need some information' in Spanish?",
+            "answers": ["Necesitamos alguna información"]
+        },
+        {
+            "question": "How do you say 'about the city' in Spanish?",
+            "answers": ["Sobre la ciudad"]
+        },
+        {
+            "question": "How do you ask 'Do you have a map of the city?'",
+            "answers": ["¿Tienen un mapa de la ciudad?"]
+        },
+        {
+            "question": "How do you say 'a map' or 'a plan' in Spanish?",
+            "answers": ["Un plano"]
+        },
+        {
+            "question": "How do you say 'Here you are' (giving a map)?",
+            "answers": ["Aquí tiene"]
+        },
+        {
+            "question": "How do you say 'I'll show you what is interesting'?",
+            "answers": ["Le enseño lo que hay de interés"]
+        },
+        {
+            "question": "How do you say 'Here is the tourist office'?",
+            "answers": ["Aquí está la oficina de turismo"]
+        },
+        {
+            "question": "How do you say 'the main square'?",
+            "answers": ["La plaza mayor"]
+        },
+        {
+            "question": "How do you say 'It’s beside the market'?",
+            "answers": ["Está al lado del mercado"]
+        },
+        {
+            "question": "How do you say 'Tomorrow there is a craft market'?",
+            "answers": ["Mañana hay un mercadillo de artesanía"]
+        },
+        {
+            "question": "How do you say 'I like' in Spanish?",
+            "answers": ["Me gusta"]
+        },
+        {
+            "question": "How do you say 'My mother likes everything about crafts'?",
+            "answers": ["A mi madre le gusta mucho todo lo de artesanía"]
+        },
+        {
+            "question": "How do you say '500 meters from the main square is the Sea Museum'?",
+            "answers": ["A quinientos metros de la plaza mayor está el museo del mar"]
+        },
+        {
+            "question": "How do you say 'In the museum you can see sea shells and more'?",
+            "answers": ["En el museo se pueden ver colecciones de caracolas marinas"]
+        },
+        {
+            "question": "How do you say 'It is very interesting'?",
+            "answers": ["Es muy interesante"]
+        },
+        {
+            "question": "How do you ask 'Is it open today?'",
+            "answers": ["¿Está abierto hoy?"]
+        },
+        {
+            "question": "How do you say 'Today is Tuesday and it is closed'?",
+            "answers": ["Hoy es martes y está cerrado"]
+        },
+        {
+            "question": "How do you say 'It is open from Wednesday to Sunday'?",
+            "answers": ["Está abierto de miércoles a domingo"]
+        },
+        {
+            "question": "How do you say 'We go tomorrow'?",
+            "answers": ["Vamos mañana"]
+        },
+        {
+            "question": "How do you ask 'How much is the entrance?'",
+            "answers": ["¿Cuánto cuesta la entrada?"]
+        },
+        {
+            "question": "How do you say 'You don’t have to pay'?",
+            "answers": ["No hay que pagar"]
+        },
+        {
+            "question": "How do you say 'It is free'?",
+            "answers": ["Es gratuito"]
+        },
+        {
+            "question": "How do you ask 'What can we do in the evening?'",
+            "answers": ["¿Qué se puede hacer por la noche?"]
+        },
+        {
+            "question": "How do you say 'It depends on what you want to do'?",
+            "answers": ["Depende de lo que quieres"]
+        },
+        {
+            "question": "How do you ask 'Where are the best restaurants?'",
+            "answers": ["¿Dónde están los mejores restaurantes?"]
+        },
+        {
+            "question": "How do you say 'We are here and the port is here'?",
+            "answers": ["Estamos aquí y aquí está el puerto"]
+        },
+        {
+            "question": "How do you say 'If you like seafood, there are many restaurants'?",
+            "answers": ["Si le gusta el pescado y marisco, hay muchos restaurantes"]
+        },
+        {
+            "question": "How do you say 'Very good ones in this area'?",
+            "answers": ["Y muy buenos en esta zona"]
+        },
+        {
+            "question": "How do you ask 'Can you recommend a restaurant in particular?'",
+            "answers": ["¿Puede recomendar un restaurante en particular?"]
+        },
+        {
+            "question": "How do you say 'All the restaurants are very good'?",
+            "answers": ["Todos los restaurantes son muy buenos"]
+        },
+        {
+            "question": "How do you ask 'Where can we check what to do tonight?'",
+            "answers": ["¿Dónde podemos averiguar qué hacer esta noche?"]
+        },
+        {
+            "question": "How do you say 'The entertainment guide will show everything'?",
+            "answers": ["La guía de ocio les enseñará todo lo que hay"]
+        },
+        {
+            "question": "How do you ask 'The guide is in English or Spanish?'",
+            "answers": ["¿La guía en inglés o en castellano?"]
+        },
+        {
+            "question": "How do you say 'It doesn't matter'?",
+            "answers": ["No importa"]
+        },
+        {
+            "question": "How do you say 'We can practice our Spanish'?",
+            "answers": ["Podemos practicar nuestro castellano"]
+        },
+        {
+            "question": "How do you say 'Have a good time in the region'?",
+            "answers": ["Que lo pasen bien aquí en la región"]
+        },
+        {
+            "question": "How do you say 'Do you like music?' (informal)",
+            "answers": ["¿Te gusta la música?"]
+        },
+        {
+            "question": "How do you say 'Do you like music?' (formal)",
+            "answers": ["¿Le gusta la música?"]
+        }
+    ]
+}]

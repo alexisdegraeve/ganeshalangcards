@@ -161,6 +161,10 @@
         "description": "Pedir el desayuno 🍽️☕",
         "class": "green",
         "url": "/es/level_a0/quizz_desayuno.json"
+    }, {
+        "title": "Vocabulario",
+        "description": "En la oficina de turismo🗺️",
+        "class": "green",
+        "url": "/es/level_a0/quizz_elturismo.json"
     }
-
 ]
