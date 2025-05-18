@@ -98,5 +98,11 @@
           "description": "🍽️ Consumeren of consuminderen",
           "class": "pink",
           "url": "/nl/2.4/quizz_consumeren.json"
+      },
+      {
+          "title": "Woordenschat",
+          "description": "Alle dagen feest! 🎉",
+          "class": "pink",
+          "url": "/nl/2.4/quizz_feest.json"
       }
   ]
