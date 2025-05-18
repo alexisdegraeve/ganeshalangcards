@@ -92,5 +92,11 @@
           "description": "Straffe verhalen",
           "class": "pink",
           "url": "/nl/2.4/quizz_straffe_verhalen.json"
+      },
+      {
+          "title": "Woordenschat",
+          "description": "🍽️ Consumeren of consuminderen",
+          "class": "pink",
+          "url": "/nl/2.4/quizz_consumeren.json"
       }
   ]
