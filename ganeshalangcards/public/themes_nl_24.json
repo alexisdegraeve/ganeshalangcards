@@ -86,5 +86,11 @@
           "description": "Het Passief (Oefeningen)",
           "class": "pink",
           "url": "/nl/2.4/quizz_passief2.json"
+      },
+      {
+          "title": "Woordenschat",
+          "description": "Straffe verhalen",
+          "class": "pink",
+          "url": "/nl/2.4/quizz_straffe_verhalen.json"
       }
   ]
