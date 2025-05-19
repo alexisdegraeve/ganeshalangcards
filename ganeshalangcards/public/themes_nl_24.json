@@ -104,5 +104,29 @@
           "description": "Alle dagen feest! 🎉",
           "class": "pink",
           "url": "/nl/2.4/quizz_feest.json"
+      },
+      {
+          "title": "Grammatica",
+          "description": "Het passief – Valentijn ❤️",
+          "class": "pink",
+          "url": "/nl/2.4/quizz_passief_valentijn.json"
+      },
+      {
+          "title": "Grammatica",
+          "description": "Het passief– Er wordt Kerstmis gevierd!🎄",
+          "class": "pink",
+          "url": "/nl/2.4/quizz_passief_kerstmis.json"
+      },
+      {
+          "title": "Grammatica",
+          "description": "Het passief– Er worden cadeautjes gekocht!🎁",
+          "class": "pink",
+          "url": "/nl/2.4/quizz_passief_cadeautjes.json"
+      },
+      {
+          "title": "Woordenschat",
+          "description": "Feest! 🎉",
+          "class": "pink",
+          "url": "/nl/2.4/quizz_feest2.json"
       }
   ]

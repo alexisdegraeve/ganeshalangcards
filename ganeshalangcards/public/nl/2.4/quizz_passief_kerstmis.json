@@ -1,0 +1,44 @@
+[{
+    "theme": "Het passief – Er wordt Kerstmis gevierd! 🎄",
+    "questions": [{
+            "question": "Men versiert een kerstboom.",
+            "answers": ["Er wordt een kerstboom versierd."]
+        },
+        {
+            "question": "Men legt geschenken onder de boom.",
+            "answers": ["Er worden geschenken onder de boom gelegd."]
+        },
+        {
+            "question": "Men eet een kalkoengebraad.",
+            "answers": ["Er wordt een kalkoengebraad gegeten."]
+        },
+        {
+            "question": "Men verstuurt kerstkaarten.",
+            "answers": ["Er worden kerstkaarten verstuurd."]
+        },
+        {
+            "question": "Men zingt kerstliedjes.",
+            "answers": ["Er worden kerstliedjes gezongen."]
+        },
+        {
+            "question": "Men kust onder de maretak.",
+            "answers": ["Er wordt onder de maretak gekust."]
+        },
+        {
+            "question": "Men steekt vuurwerk af.",
+            "answers": ["Er wordt vuurwerk afgestoken."]
+        },
+        {
+            "question": "Men spreekt nieuwjaarswensen uit.",
+            "answers": ["Er worden nieuwjaarswensen uitgesproken."]
+        },
+        {
+            "question": "Men maakt goede voornemens.",
+            "answers": ["Er worden goede voornemens gemaakt."]
+        },
+        {
+            "question": "Kinderen lezen nieuwjaarsbrieven voor.",
+            "answers": ["Er worden nieuwjaarsbrieven voorgelezen."]
+        }
+    ]
+}]

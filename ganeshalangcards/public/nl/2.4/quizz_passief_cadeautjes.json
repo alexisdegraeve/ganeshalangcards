@@ -1,0 +1,44 @@
+[{
+    "theme": "Het passief – Er worden cadeautjes gekocht! 🎁",
+    "questions": [{
+            "question": "Men wisselt ringen uit.",
+            "answers": ["Er worden ringen uitgewisseld."]
+        },
+        {
+            "question": "Men gooit met rijst.",
+            "answers": ["Er wordt met rijst gegooid."]
+        },
+        {
+            "question": "De gasten drinken champagne.",
+            "answers": ["Er wordt champagne gedronken."]
+        },
+        {
+            "question": "De gasten eten van de huwelijkstaart.",
+            "answers": ["Er wordt van de huwelijkstaart gegeten."]
+        },
+        {
+            "question": "De gasten lachen en dansen.",
+            "answers": ["Er wordt gelachen en gedanst."]
+        },
+        {
+            "question": "Men praat en kust veel.",
+            "answers": ["Er wordt veel gepraat en gekust."]
+        },
+        {
+            "question": "Een fotograaf maakt foto's.",
+            "answers": ["Er worden foto's gemaakt."]
+        },
+        {
+            "question": "Een orkest speelt muziek.",
+            "answers": ["Er wordt muziek gespeeld."]
+        },
+        {
+            "question": "De gasten zingen liedjes.",
+            "answers": ["Er worden liedjes gezongen."]
+        },
+        {
+            "question": "De gasten geven cadeautjes.",
+            "answers": ["Er worden cadeautjes gegeven."]
+        }
+    ]
+}]
