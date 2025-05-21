@@ -1,5 +1,6 @@
 [{
     "theme": "Colores 🎨",
+    "langread": "en",
     "questions": [{
             "question": "What is the word for 'red' in Spanish?",
             "answers": ["rojo"]
