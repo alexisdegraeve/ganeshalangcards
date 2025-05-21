@@ -12,15 +12,21 @@
     },
     {
         "title": "Vocabulario",
+        "description": "Colores🎨",
+        "class": "green",
+        "url": "/es/level_a0/quizz_colores.json"
+    },
+    {
+        "title": "Vocabulario",
         "description": "Días de la semana y estaciones",
         "class": "green",
         "url": "/es/level_a0/quizz_dias.json"
     },
     {
-        "title": "Vocabulario",
-        "description": "Colores",
+        "title": "Verbos",
+        "description": "Verbos comunes",
         "class": "green",
-        "url": "/es/level_a0/quizz_colores.json"
+        "url": "/es/level_a0/quizz_verbos_communes.json"
     },
     {
         "title": "Verbos",

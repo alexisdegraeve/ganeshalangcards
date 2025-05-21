@@ -1,25 +1,64 @@
 [{
-    "theme": "Verbos comunes",
-    "questions": [
-        { "question": "Usamos este verbo para tener algo.", "answers": ["tener"] },
-        { "question": "Lo usamos para existir o estar en un lugar.", "answers": ["ser", "estar"] },
-        { "question": "Lo haces cuando comes algo.", "answers": ["comer"] },
-        { "question": "Lo haces cuando bebes agua.", "answers": ["beber", "tomar"] },
-        { "question": "Acción de descansar por la noche.", "answers": ["dormir"] },
-        { "question": "Lo haces con tus ojos para ver algo.", "answers": ["ver"] },
-        { "question": "Acción de ir a otro lugar.", "answers": ["ir"] },
-        { "question": "Acción de moverse con los pies.", "answers": ["caminar", "andar"] },
-        { "question": "Acción de utilizar la boca para expresar ideas.", "answers": ["hablar"] },
-        { "question": "Acción de oír sonidos.", "answers": ["escuchar"] },
-        { "question": "Acción de hacer algo con las manos o la mente.", "answers": ["hacer"] },
-        { "question": "Usas este verbo cuando lees un libro.", "answers": ["leer"] },
-        { "question": "Lo haces cuando usas un lápiz o un bolígrafo.", "answers": ["escribir"] },
-        { "question": "Verbo para tomar algo con la mano.", "answers": ["coger", "tomar"] },
-        { "question": "Verbo que usas cuando quieres aprender algo.", "answers": ["aprender"] },
-        { "question": "Lo haces cuando das una respuesta.", "answers": ["responder", "contestar"] },
-        { "question": "Es lo contrario de olvidar.", "answers": ["recordar"] },
-        { "question": "Acción de mirar y comprender algo visualmente.", "answers": ["mirar"] },
-        { "question": "Acción de usar los dientes con comida.", "answers": ["masticar"] },
-        { "question": "Acción de iniciar el día.", "answers": ["despertar"] }
+    "theme": "Colores 🎨",
+    "questions": [{
+            "question": "What is the word for 'red' in Spanish?",
+            "answers": ["rojo"]
+        },
+        {
+            "question": "What is the word for 'yellow' in Spanish?",
+            "answers": ["amarillo"]
+        },
+        {
+            "question": "What is the word for 'orange' in Spanish?",
+            "answers": ["naranja"]
+        },
+        {
+            "question": "What is the word for 'pink' in Spanish?",
+            "answers": ["rosa"]
+        },
+        {
+            "question": "What is the word for 'fuchsia pink' in Spanish?",
+            "answers": ["rosa fucsia"]
+        },
+        {
+            "question": "What is the word for 'purple' in Spanish?",
+            "answers": ["morado"]
+        },
+        {
+            "question": "What is the word for 'violet' in Spanish?",
+            "answers": ["violeta"]
+        },
+        {
+            "question": "What is the word for 'green' in Spanish?",
+            "answers": ["verde"]
+        },
+        {
+            "question": "What is the word for 'blue' in Spanish?",
+            "answers": ["azul"]
+        },
+        {
+            "question": "How do you say 'light blue' in Spanish?",
+            "answers": ["azul claro"]
+        },
+        {
+            "question": "How do you say 'dark blue' in Spanish?",
+            "answers": ["azul oscuro"]
+        },
+        {
+            "question": "What is the word for 'black' in Spanish?",
+            "answers": ["negro"]
+        },
+        {
+            "question": "What is the word for 'white' in Spanish?",
+            "answers": ["blanco"]
+        },
+        {
+            "question": "What is the word for 'gray' in Spanish?",
+            "answers": ["gris"]
+        },
+        {
+            "question": "What is the word for 'brown' in Spanish?",
+            "answers": ["marrón"]
+        }
     ]
 }]
