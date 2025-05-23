@@ -134,5 +134,19 @@
           "description": "Overlastsituaties 🚫 ",
           "class": "pink",
           "url": "/nl/2.4/quizz_overlastsituaties.json"
+      },
+      {
+          "title": "Woordenschat",
+          "description": "🍽️ Mijn eetgewoonten",
+          "class": "pink",
+          "url": "/nl/2.4/quizz_eetgewoonten.json"
+      },
+      {
+          "title": "Woordenschat",
+          "description": "Consumeren 🛒",
+          "class": "pink",
+          "url": "/nl/2.4/quizz_consumeren_winkel.json"
       }
+
+
   ]

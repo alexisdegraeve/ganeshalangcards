@@ -1,0 +1,95 @@
+[
+
+    {
+        "theme": "🍽️ Mijn eetgewoonten",
+        "questions": [{
+                "question": "Welk soort vlees eet men vaak in een stoofpot, het komt van een groot boerderijdier met horens?",
+                "answers": ["het rundvlees"]
+            },
+            {
+                "question": "Welk vlees is zacht en komt van een jong dier dat later koe wordt?",
+                "answers": ["het kalfsvlees"]
+            },
+            {
+                "question": "Welk vlees wordt vaak gebruikt voor spek en komt van een dier dat ook knor zegt?",
+                "answers": ["het varkensvlees"]
+            },
+            {
+                "question": "Welk soort vlees eet men soms als men couscous maakt en komt van een dier met wol?",
+                "answers": ["het schapenvlees"]
+            },
+            {
+                "question": "Welk jong dier levert mals vlees en wordt vaak geassocieerd met de lente?",
+                "answers": ["het lamsvlees"]
+            },
+            {
+                "question": "Welk vlees komt van een groot dier dat vaak gebruikt wordt om te rijden of trekken?",
+                "answers": ["het paardenvlees"]
+            },
+            {
+                "question": "Welk soort vlees komt van een dier dat vaak melk geeft en hoorntjes heeft, maar kleiner is dan een schaap?",
+                "answers": ["het geitenvlees"]
+            },
+            {
+                "question": "Welk dier eet men vaak met Pasen, heeft lange oren?",
+                "answers": ["het konijn"]
+            },
+            {
+                "question": "Welk soort wild vlees komt van een vrouwelijke hert?",
+                "answers": ["de hinde"]
+            },
+            {
+                "question": "Van welk groot wild dier eet men soms vlees in Amerika?",
+                "answers": ["de bizon"]
+            },
+            {
+                "question": "Welk dier legt eieren en eet men vaak gebraden?",
+                "answers": ["de kip"]
+            },
+            {
+                "question": "Welk klein vliegend dier wordt soms als delicatesse gegeten?",
+                "answers": ["de duif"]
+            },
+            {
+                "question": "Welk wild dier heeft kleurrijke veren en wordt in de herfst gegeten?",
+                "answers": ["de fazant"]
+            },
+            {
+                "question": "Welk groot vogelvlees wordt soms als alternatief voor kalkoen gegeten?",
+                "answers": ["de struisvogel"]
+            },
+            {
+                "question": "Welk dier leeft in water en is populair in sushi?",
+                "answers": ["de vis"]
+            },
+            {
+                "question": "Welke zeedieren worden vaak met friet gegeten in België?",
+                "answers": ["de mosselen"]
+            },
+            {
+                "question": "Welk duur schaaldier heeft scharen en wordt vaak gekookt?",
+                "answers": ["de kreeft"]
+            },
+            {
+                "question": "Welke kleine zeedieren lijken op garnalen en worden vaak gegrild?",
+                "answers": ["de scampi"]
+            },
+            {
+                "question": "Welke trage dieren met een huisje worden soms als delicatesse gegeten?",
+                "answers": ["de slakken"]
+            },
+            {
+                "question": "Welk insect kan knarsen en wordt soms in Azië gegeten?",
+                "answers": ["de sprinkhanen"]
+            },
+            {
+                "question": "Welk klein insect leeft in kolonies en wordt soms gebakken gegeten?",
+                "answers": ["de mieren"]
+            },
+            {
+                "question": "Welk jong insect eet men soms als bron van proteïnen?",
+                "answers": ["de rupsen"]
+            }
+        ]
+    }
+]

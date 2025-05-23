@@ -1,0 +1,268 @@
+[{
+    "theme": "Consumeren 🛒",
+    "questions": [{
+            "question": "Wie eet geen vlees, vis of dierlijke producten?",
+            "answers": ["de veganist"]
+        },
+        {
+            "question": "Waar wonen en werken veel dieren voor voedselproductie?",
+            "answers": ["de boerderij"]
+        },
+        {
+            "question": "Wie zorgt voor landbouw en veeteelt?",
+            "answers": ["de boer"]
+        },
+        {
+            "question": "Waar worden producten op grote schaal gemaakt?",
+            "answers": ["de fabriek"]
+        },
+        {
+            "question": "Wat leeft, voelt pijn en wordt vaak gegeten?",
+            "answers": ["het dier"]
+        },
+        {
+            "question": "Wat beschermt het welzijn van dieren?",
+            "answers": ["het dierenrecht"]
+        },
+        {
+            "question": "Wat ontsnapt uit je lichaam na bonen of linzen eten?",
+            "answers": ["de scheet"]
+        },
+        {
+            "question": "Wat is een kleiner onderdeel van een geheel?",
+            "answers": ["het deel"]
+        },
+        {
+            "question": "Wat functioneert als een geheel met organen en spieren?",
+            "answers": ["het lichaam"]
+        },
+        {
+            "question": "Wat vervoert zuurstof in je bloed?",
+            "answers": ["de rode bloedcel"]
+        },
+        {
+            "question": "Welk gas ontstaat bij veeteelt en draagt bij aan de opwarming?",
+            "answers": ["het methaangas"]
+        },
+        {
+            "question": "Waar worden dieren gedood voor vleesproductie?",
+            "answers": ["het slachthuis"]
+        },
+        {
+            "question": "Welk dier zegt 'boe' en geeft melk?",
+            "answers": ["de koe"]
+        },
+        {
+            "question": "Hoe noem je een jonge koe?",
+            "answers": ["het kalf"]
+        },
+        {
+            "question": "Wat gebruik je om buiten vlees te grillen?",
+            "answers": ["de barbecue"]
+        },
+        {
+            "question": "Hoe noem je iemands manier van eten?",
+            "answers": ["de eetgewoonte"]
+        },
+        {
+            "question": "Wie eet vlees?",
+            "answers": ["de vleeseter"]
+        },
+        {
+            "question": "Wie eet geen vlees, maar misschien wel vis of zuivel?",
+            "answers": ["de vegetariër"]
+        },
+        {
+            "question": "Wat kun je eten in plaats van vlees?",
+            "answers": ["de vleesvervanger"]
+        },
+        {
+            "question": "Wat krijg je uit voedsel en is belangrijk voor je gezondheid?",
+            "answers": ["de vitamine"]
+        },
+        {
+            "question": "Hoe noem je het houden van dieren voor voedselproductie?",
+            "answers": ["de veeteelt"]
+        },
+        {
+            "question": "Hoe heet het wanneer bossen verdwijnen voor landbouw?",
+            "answers": ["de ontbossing"]
+        },
+        {
+            "question": "Wat stijgt als het klimaat opwarmt?",
+            "answers": ["de opwarming"]
+        },
+        {
+            "question": "Wat bedoelen we met de planeet waarop we leven?",
+            "answers": ["de aarde"]
+        },
+        {
+            "question": "Wat willen we beschermen tegen schade en vervuiling?",
+            "answers": ["de natuur"]
+        },
+        {
+            "question": "Hoe noem je het gebruik van producten of voedsel?",
+            "answers": ["de consumptie"]
+        },
+        {
+            "question": "Welke uitstoot komt vrij bij auto's en fabrieken?",
+            "answers": ["de C02-uitstoot"]
+        },
+        {
+            "question": "Hoe heet de levenswijze waarbij je geen vlees eet?",
+            "answers": ["het vegetarisme"]
+        },
+        {
+            "question": "Wat verandert als de temperatuur op aarde stijgt?",
+            "answers": ["het klimaat"]
+        },
+        {
+            "question": "Hoe heet vlees dat in het laboratorium is nagemaakt?",
+            "answers": ["het namaakvlees"]
+        },
+        {
+            "question": "Wat moet je beschermen als je duurzaam wil leven?",
+            "answers": ["het milieu"]
+        },
+        {
+            "question": "Hoe noem je eten zonder vlees of dierlijke producten?",
+            "answers": ["vegetarisch"]
+        },
+        {
+            "question": "Wat betekent 'natuurlijk' en zonder chemische stoffen?",
+            "answers": ["biologisch"]
+        },
+        {
+            "question": "Wat is het tegenovergestelde van vriendelijk tegenover dieren?",
+            "answers": ["wreed"]
+        },
+        {
+            "question": "Wat betekent 'gevoelig en emotioneel'?",
+            "answers": ["sentimenteel"]
+        },
+        {
+            "question": "Wat is schadelijk voor het milieu?",
+            "answers": ["vervuilend"]
+        },
+        {
+            "question": "Wat is afkomstig van een dier?",
+            "answers": ["dierlijk"]
+        },
+        {
+            "question": "Wat ben je als je sportief en gezond leeft?",
+            "answers": ["fit"]
+        },
+        {
+            "question": "Wat ben je als je in goede gezondheid verkeert?",
+            "answers": ["gezond"]
+        },
+        {
+            "question": "Wat betekent 'serieus' of 'zorgwekkend'?",
+            "answers": ["ernstig"]
+        },
+        {
+            "question": "Wat zeg je over iets dat je graag eet?",
+            "answers": ["lekker"]
+        },
+        {
+            "question": "Wat doe je als je iets veilig wil houden?",
+            "answers": ["beschermen"]
+        },
+        {
+            "question": "Wat doe je als je je bewust wordt van iets?",
+            "answers": ["beseffen"]
+        },
+        {
+            "question": "Wat doe je als je iets koopt of eet?",
+            "answers": ["consumeren"]
+        },
+        {
+            "question": "Wat doe je in een fabriek of boerderij om iets te maken?",
+            "answers": ["produceren"]
+        },
+        {
+            "question": "Wat doe je als je iemands leven beëindigt?",
+            "answers": ["doden"]
+        },
+        {
+            "question": "Wat gebeurt er met dieren in een slachthuis?",
+            "answers": ["slachten"]
+        },
+        {
+            "question": "Wat doe je als je weigert om vlees te eten?",
+            "answers": ["weigeren"]
+        },
+        {
+            "question": "Wat doe je als kind op weg naar volwassenheid?",
+            "answers": ["opgroeien"]
+        },
+        {
+            "question": "Wat doen auto's en fabrieken met CO2?",
+            "answers": ["uitstoten"]
+        },
+        {
+            "question": "Wat doe je als je zorgt voor een dier of mens?",
+            "answers": ["zorgen voor"]
+        },
+        {
+            "question": "Wat doet een dier in gevaarlijke situaties?",
+            "answers": ["zich verdedigen"]
+        },
+        {
+            "question": "Wat doe je om proper te blijven of gezond te blijven?",
+            "answers": ["zich verzorgen"]
+        },
+        {
+            "question": "Wat doet een levend wezen dat pijn heeft of ziek is?",
+            "answers": ["lijden"]
+        },
+        {
+            "question": "Wat gebeurt er aan het einde van het leven?",
+            "answers": ["sterven"]
+        },
+        {
+            "question": "Wat doe je met vlees als je vegetariër wordt?",
+            "answers": ["vervangen"]
+        },
+        {
+            "question": "Wat doe je met voedsel tijdens het eten?",
+            "answers": ["opeten"]
+        },
+        {
+            "question": "Wat heb je als iets gevaarlijk is voor je gezondheid?",
+            "answers": ["risico hebben op"]
+        },
+        {
+            "question": "Wat zeg je als je argumenten juist zijn?",
+            "answers": ["gelijk hebben"]
+        },
+        {
+            "question": "Wanneer gebeurt iets als laatste stap?",
+            "answers": ["op het einde"]
+        },
+        {
+            "question": "Wat komt er eerst voor iets anders begint?",
+            "answers": ["voordat"]
+        },
+        {
+            "question": "Wat was het moment toen iets gebeurde?",
+            "answers": ["toen"]
+        },
+        {
+            "question": "Wat is het tijdstip waarop iets plaatsvindt?",
+            "answers": ["tijdens"]
+        },
+        {
+            "question": "Wat komt er als iets is afgelopen?",
+            "answers": ["na"]
+        },
+        {
+            "question": "Wat betekent 'uiteindelijk', aan het einde van een proces?",
+            "answers": ["uiteindelijk"]
+        },
+        {
+            "question": "Wie maakt programma's op tv of radio?",
+            "answers": ["de programmamakers"]
+        }
+    ]
+}]
