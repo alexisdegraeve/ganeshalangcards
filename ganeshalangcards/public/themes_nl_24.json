@@ -119,9 +119,21 @@
       },
       {
           "title": "Woordenschat",
-          "description": "Alle dagen feest! 🎉",
+          "description": "Alle dagen feest! 🎉 I",
           "class": "pink",
           "url": "/nl/2.4/quizz_feest.json"
+      },
+      {
+          "title": "Woordenschat",
+          "description": "Alle dagen feest! 🎉 II",
+          "class": "pink",
+          "url": "/nl/2.4/quizz_feest2.json"
+      },
+      {
+          "title": "Woordenschat",
+          "description": "Alle dagen feest! 🎉 III",
+          "class": "pink",
+          "url": "/nl/2.4/quizz_feest3.json"
       },
       {
           "title": "Grammatica",
@@ -140,12 +152,6 @@
           "description": "Het passief– Er worden cadeautjes gekocht!🎁",
           "class": "pink",
           "url": "/nl/2.4/quizz_passief_cadeautjes.json"
-      },
-      {
-          "title": "Woordenschat",
-          "description": "Feest! 🎉",
-          "class": "pink",
-          "url": "/nl/2.4/quizz_feest2.json"
       },
       {
           "title": "Woordenschat",
@@ -173,13 +179,13 @@
       },
       {
           "title": "Woordenschat",
-          "theme": "Consumeren (Engels <-> NL) I 🌱",
+          "description": "Consumeren I - (EN <-> NL) 🌱",
           "class": "pink",
           "url": "/nl/2.4/quizz_consumeren_en.json"
       },
       {
           "title": "Woordenschat",
-          "theme": "Consumeren (Engels <-> NL) II 🌱",
+          "description": "Consumeren II - (EN <-> NL) 🌱",
           "class": "pink",
           "url": "/nl/2.4/quizz_consumeren_en2.json"
       }

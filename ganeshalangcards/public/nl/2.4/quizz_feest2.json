@@ -1,72 +1,148 @@
 [{
-    "theme": "Feest! 🎉",
+    "theme": "Alle dagen feest! 🎉 II",
     "questions": [{
-            "question": "Kerstmis is een ….​",
-            "answers": ["Feestdag"]
+            "question": "Wat betekent het om buiten te eten met een mand vol eten?",
+            "answers": ["picknicken"]
         },
         {
-            "question": "Wij ….. Feest​",
-            "answers": ["Vieren"]
+            "question": "Hoe noem je het kind van je kind?",
+            "answers": ["de kleinzoon"]
         },
         {
-            "question": "Op een feestdag eten we een …​",
-            "answers": ["Feestmaal"]
+            "question": "Wat markeert het begin van een periode of gebeurtenis?",
+            "answers": ["het begin"]
         },
         {
-            "question": "Ik …… jou een gelukkige verjaardag​",
-            "answers": ["Wens"]
+            "question": "Hoe heet de periode die na 31 december begint?",
+            "answers": ["het nieuwe jaar"]
         },
         {
-            "question": "Op nieuwjaarsdag ….). ik een nieuwjaarsbrief....",
-            "answers": ["Lees", "Voorlezen"]
+            "question": "Wat gebeurt er als vuurwerk explodeert?",
+            "answers": ["ontploffen"]
         },
         {
-            "question": "Ik krijg dan als cadeau een ….. met geld​",
-            "answers": ["Envelop"]
+            "question": "Welke kleine bomen worden soms op feestdagen versierd?",
+            "answers": ["de boommetjes"]
         },
         {
-            "question": "Elk land heeft zijn eigen ….. (gewoontes die al jaren zo gebeuren)​",
-            "answers": ["Tradities"]
+            "question": "Wat doe je als je iets grondig schoonmaakt?",
+            "answers": ["poetsen"]
         },
         {
-            "question": "Het getal 7 brengt …​",
-            "answers": ["Geluk"]
+            "question": "Hoe heet het tijdstip waarop de klok twaalf slaat in de nacht?",
+            "answers": ["middernacht"]
         },
         {
-            "question": "Een zwarte kat brengt …​",
-            "answers": ["Ongeluk"]
+            "question": "Hoe noem je de dans met een leeuw als symbool?",
+            "answers": ["de leeuwendans"]
         },
         {
-            "question": "Op nieuwjaar om middernacht kan je naar het …. Kijken​",
-            "answers": ["Vuurwerk"]
+            "question": "Welk figuur uit Chinese tradities wordt vaak gebruikt in feesten?",
+            "answers": ["de draak"]
         },
         {
-            "question": "Begin december ……. wij onze kerstboom​",
-            "answers": ["Versieren"]
+            "question": "Hoe noem je de macht die men tijdens een feest kan vieren?",
+            "answers": ["de macht"]
         },
         {
-            "question": "Mijn huwelijksfeest …. 2 dagen​",
-            "answers": ["Duurt"]
+            "question": "Wat is het woord voor het officiële einde van een feest?",
+            "answers": ["de afsluiting"]
         },
         {
-            "question": "Wij …..   ….. aan onze tradities (=we vinden ze belangrijk)​",
-            "answers": ["Hechten belang"]
+            "question": "Welke jaargetijde volgt op de winter?",
+            "answers": ["de lente"]
         },
         {
-            "question": "Wij.... tradities …. aan onze kinderen​",
-            "answers": ["Geven door", "Doorgeven"]
+            "question": "Wat betekent het woord 'feest'?",
+            "answers": ["het feest"]
         },
         {
-            "question": "Mandarijnen …. geluk bij Xin Nian​",
-            "answers": ["Symboliseren"]
+            "question": "Welke beelden zijn belangrijk in het boeddhisme?",
+            "answers": ["de beelden van Boeddha"]
         },
         {
-            "question": "Op oudejaarsavond ….. we … af naar het nieuwe jaar​",
-            "answers": ["Tellen af", "Aftellen"]
+            "question": "Hoe heet het fenomeen waarbij mensen geld en spullen delen zonder geld terug te verwachten?",
+            "answers": ["potjebuur"]
         },
         {
-            "question": "We vieren heel laat feest, we vieren feest tot …​",
-            "answers": ["Tot in de vroege uurtjes"]
+            "question": "Wat vieren moslims als het einde van de ramadan?",
+            "answers": ["het suikerfeest"]
+        },
+        {
+            "question": "Hoe noem je een groep mensen die samen leven?",
+            "answers": ["de samenleving"]
+        },
+        {
+            "question": "Welk feest viert men als de zon op zijn hoogste punt staat in het jaar?",
+            "answers": ["het midzomerfeest"]
+        },
+        {
+            "question": "Welke periode in het jaar wordt gekenmerkt door het oogsten van gewassen?",
+            "answers": ["het oogstseizoen"]
+        },
+        {
+            "question": "Welke knol wordt vaak gegeten en gebruikt in feestgerechten?",
+            "answers": ["de aardappelen"]
+        },
+        {
+            "question": "Waar leg je je hoofd op tijdens het slapen?",
+            "answers": ["het hoofdkussen"]
+        },
+        {
+            "question": "Welke bladeren gebruikt men soms bij feestelijke rituelen?",
+            "answers": ["de berkenblaadjes"]
+        },
+        {
+            "question": "Hoe heet een dag waarop een feest wordt gehouden?",
+            "answers": ["de feestdag"]
+        },
+        {
+            "question": "Wat geef je aan iemand om hem geluk te wensen?",
+            "answers": ["de wens"]
+        },
+        {
+            "question": "Hoe noem je een kort verhaal met een boodschap?",
+            "answers": ["de gelijkenis"]
+        },
+        {
+            "question": "Wat is een teken dat iets vertegenwoordigt?",
+            "answers": ["het symbool"]
+        },
+        {
+            "question": "Wat krijg je als blijk van waardering op een feest?",
+            "answers": ["het cadeau"]
+        },
+        {
+            "question": "Welk woord betekent voorspoed en geluk?",
+            "answers": ["het geluk"]
+        },
+        {
+            "question": "Hoe noem je pech of iets dat fout gaat?",
+            "answers": ["het ongeluk"]
+        },
+        {
+            "question": "Wat maakt een feest vaak kleurrijk en luid?",
+            "answers": ["het vuurwerk"]
+        },
+        {
+            "question": "Hoe noem je het wanneer je samen met anderen feest viert?",
+            "answers": ["een feest vieren"]
+        },
+        {
+            "question": "Wat betekent het om belang te hechten aan iets?",
+            "answers": ["belang hechten aan"]
+        },
+        {
+            "question": "Wat doe je als je geluk wilt brengen?",
+            "answers": ["geluk brengen"]
+        },
+        {
+            "question": "Wat betekent het om ongeluk te veroorzaken?",
+            "answers": ["ongeluk brengen"]
+        },
+        {
+            "question": "Wat doe je als je bij iemand langsgaat om hem te bezoeken?",
+            "answers": ["op bezoek gaan bij"]
         }
     ]
 }]
