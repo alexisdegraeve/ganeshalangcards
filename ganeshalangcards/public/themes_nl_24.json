@@ -95,9 +95,27 @@
       },
       {
           "title": "Woordenschat",
-          "description": "🍽️ Consumeren of consuminderen",
+          "description": "🍽️ Consumeren of consuminderen I",
           "class": "pink",
           "url": "/nl/2.4/quizz_consumeren.json"
+      },
+      {
+          "title": "Woordenschat",
+          "description": "🍽️ Consumeren of consuminderen II",
+          "class": "pink",
+          "url": "/nl/2.4/quizz_consumeren2.json"
+      },
+      {
+          "title": "Woordenschat",
+          "description": "🍽️ Consumeren of consuminderen III",
+          "class": "pink",
+          "url": "/nl/2.4/quizz_consumeren3.json"
+      },
+      {
+          "title": "Woordenschat",
+          "description": "🍽️ Consumeren of consuminderen IV",
+          "class": "pink",
+          "url": "/nl/2.4/quizz_consumeren4.json"
       },
       {
           "title": "Woordenschat",
@@ -143,16 +161,29 @@
       },
       {
           "title": "Woordenschat",
-          "description": "Consumeren 🛒",
+          "description": "Consumeren I 🛒",
           "class": "pink",
           "url": "/nl/2.4/quizz_consumeren_winkel.json"
       },
       {
           "title": "Woordenschat",
-          "description": "Consumeren(Snel Engels)🌱",
+          "description": "Consumeren II 🛒",
+          "class": "pink",
+          "url": "/nl/2.4/quizz_consumeren_winkel2.json"
+      },
+      {
+          "title": "Woordenschat",
+          "theme": "Consumeren (Engels <-> NL) I 🌱",
           "class": "pink",
           "url": "/nl/2.4/quizz_consumeren_en.json"
+      },
+      {
+          "title": "Woordenschat",
+          "theme": "Consumeren (Engels <-> NL) II 🌱",
+          "class": "pink",
+          "url": "/nl/2.4/quizz_consumeren_en2.json"
       }
+
 
 
   ]
