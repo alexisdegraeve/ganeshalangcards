@@ -1,5 +1,10 @@
   [{
           "title": "Woordenschat",
+          "description": "Noodsituaties 🚨",
+          "class": "pink",
+          "url": "/nl/2.4/quizz_noodsituaties.json"
+      }, {
+          "title": "Woordenschat",
           "description": "Kom op voor je buurt!",
           "class": "pink",
           "url": "/nl/2.4/quizz_buurt.json"
@@ -189,7 +194,4 @@
           "class": "pink",
           "url": "/nl/2.4/quizz_consumeren_en2.json"
       }
-
-
-
   ]
