@@ -1,0 +1,121 @@
+[{
+    "theme": "🛍️ Las compras",
+    "langread": "en",
+    "questions": [{
+            "question": "What do you call a shop where you buy stamps or tobacco?",
+            "answers": ["un estanco"]
+        },
+        {
+            "question": "How do you say 'postcards' in Spanish?",
+            "answers": ["tarjetas postales"]
+        },
+        {
+            "question": "Where are the postcards?",
+            "answers": ["están al lado de las revistas"]
+        },
+        {
+            "question": "Do you want envelopes for the postcards?",
+            "answers": ["¿quieren ustedes sobres para las tarjetas postales?"]
+        },
+        {
+            "question": "How do you say 'stamp' in Spanish?",
+            "answers": ["el sello"]
+        },
+        {
+            "question": "One stamp for Canada, please.",
+            "answers": ["uno para Canadá"]
+        },
+        {
+            "question": "And one for Great Britain.",
+            "answers": ["uno para Gran Bretaña"]
+        },
+        {
+            "question": "And one for Spain.",
+            "answers": ["uno para España"]
+        },
+        {
+            "question": "How do you say '4 euros and 30 cents'?",
+            "answers": ["cuatro con treinta"]
+        },
+        {
+            "question": "How do you say 'Have a nice day'?",
+            "answers": ["que tenga un buen día"]
+        },
+        {
+            "question": "How do you say 'How can I help you?'",
+            "answers": ["¿en qué puedo ayudarles?"]
+        },
+        {
+            "question": "How do you say 'We are just looking'?",
+            "answers": ["solo estamos mirando"]
+        },
+        {
+            "question": "If you need something, tell me.",
+            "answers": ["si necesitan algo, dígamelo"]
+        },
+        {
+            "question": "How do you say 'shoes'?",
+            "answers": ["los zapatos"]
+        },
+        {
+            "question": "How do you say 'to try something on'?",
+            "answers": ["probarse"]
+        },
+        {
+            "question": "How do you say 'I would like'?",
+            "answers": ["quisiera"]
+        },
+        {
+            "question": "How do you say 'His name is...'?",
+            "answers": ["se llama"]
+        },
+        {
+            "question": "How do you say 'My name is...'?",
+            "answers": ["me llamo"]
+        },
+        {
+            "question": "How do you say 'I would like to try it on'?",
+            "answers": ["quisiera probármelo"]
+        },
+        {
+            "question": "How do you say 'I'm going to have a look'?",
+            "answers": ["voy a ver"]
+        },
+        {
+            "question": "We don’t have size 38.",
+            "answers": ["no tenemos la talla 38"]
+        },
+        {
+            "question": "It doesn’t matter.",
+            "answers": ["no importa"]
+        },
+        {
+            "question": "Do you like them? (Yes I do.)",
+            "answers": ["sí, me gustan"]
+        },
+        {
+            "question": "Are they OK?",
+            "answers": ["están bien"]
+        },
+        {
+            "question": "How do you say 'How much does it cost?'",
+            "answers": ["¿cuánto cuesta?", "¿cuánto vale?"]
+        },
+        {
+            "question": "She is taking them.",
+            "answers": ["se los lleva"]
+        },
+        {
+            "question": "How do you say 'credit card'?",
+            "answers": ["tarjeta de crédito"]
+        },
+        {
+            "question": "How do you say 'passport'?",
+            "answers": ["pasaporte"]
+        },
+        {
+            "question": "How do you say 'ID'?",
+            "answers": ["DNI"]
+        }
+    ]
+}]

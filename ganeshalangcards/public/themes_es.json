@@ -18,6 +18,12 @@
     },
     {
         "title": "Vocabulario",
+        "description": "🛍️ Las compras",
+        "class": "green",
+        "url": "/es/level_a0/quizz_compras.json"
+    },
+    {
+        "title": "Vocabulario",
         "description": "Días de la semana y estaciones",
         "class": "green",
         "url": "/es/level_a0/quizz_dias.json"
