@@ -6,31 +6,31 @@
         },
         {
             "question": "Het is mijn ... om 's morgens thee te drinken. Ik doe het elke dag.",
-            "answers": ["de gewoonte"]
+            "answers": ["gewoonte"]
         },
         {
             "question": "Tofu, seitan, tempeh zijn ...",
-            "answers": ["de vleesvervangers"]
+            "answers": ["vleesvervangers"]
         },
         {
             "question": "De industrie die voor vlees zorgt, is de ...",
-            "answers": ["de veeteelt"]
+            "answers": ["veeteelt"]
         },
         {
             "question": "Als je veel cola of spuitwater drinkt, moet je soms een ... laten",
-            "answers": ["de boer"]
+            "answers": ["boer"]
         },
         {
             "question": "Help! Open het raam! Papa heeft een ... gelaten en het stinkt.",
-            "answers": ["de scheet"]
+            "answers": ["scheet"]
         },
         {
             "question": "Greta Thunberg strijdt tegen de ... van de aarde.",
-            "answers": ["de opwarming"]
+            "answers": ["opwarming"]
         },
         {
             "question": "Dieren worden gedood in het ...",
-            "answers": ["het slachthuis"]
+            "answers": ["slachthuis"]
         },
         {
             "question": "Het is niet leuk om dieren of mensen te zien ... (= pijn hebben)",
@@ -38,11 +38,11 @@
         },
         {
             "question": "De veeteelt zorgt voor veel ... (= gassen in de lucht)",
-            "answers": ["de CO2-uitstoot"]
+            "answers": ["CO2-uitstoot"]
         },
         {
             "question": "De veeteelt zorgt voor ... (= minder bomen)",
-            "answers": ["de ontbossing"]
+            "answers": ["ontbossing"]
         },
         {
             "question": "Deze boer gebruikt geen pesticiden. Hij kweekt ... producten",
@@ -54,43 +54,43 @@
         },
         {
             "question": "Jan eet geen vlees. Hij is ...",
-            "answers": ["de vegetariër"]
+            "answers": ["vegetariër"]
         },
         {
             "question": "Jan eet geen vlees. Hij eet ...",
             "answers": ["vegetarisch"]
         },
         {
-            "question": "Tine eet geen dierlijke producten, ook geen kaas bv. Ze is ...",
-            "answers": ["de veganist"]
+            "question": "Tine eet geen dierlijke producten, ook geen kaas bv. Ze is de ...",
+            "answers": ["veganist"]
         },
         {
-            "question": "Tom eet verschillende dagen per week geen vlees. Hij is ...",
-            "answers": ["de flexitariër"]
+            "question": "Tom eet verschillende dagen per week geen vlees. Hij is de ...",
+            "answers": ["flexitariër"]
         },
         {
-            "question": "Het jonge dier van een koe is een ...",
-            "answers": ["het kalf"]
+            "question": "Het jonge dier van een koe is het ...",
+            "answers": ["kalf"]
         },
         {
-            "question": "Een dier met scharen dat in de zee leeft en duur is om te eten.",
-            "answers": ["de kreeft"]
+            "question": "Een dier met scharen dat in de zee leeft en duur is om te eten. De ...",
+            "answers": ["kreeft"]
         },
         {
-            "question": "Kleine insecten die soms in suiker lopen en in kolonies leven.",
-            "answers": ["de mieren"]
+            "question": "Kleine insecten die soms in suiker lopen en in kolonies leven. De ...",
+            "answers": ["mieren"]
         },
         {
-            "question": "Dieren met een huisje op hun rug die traag kruipen.",
-            "answers": ["de slakken"]
+            "question": "Dieren met een huisje op hun rug die traag kruipen. De ...",
+            "answers": ["slakken"]
         },
         {
             "question": "Als je vaak ongezond eet, kan je een groot ... hebben op hartproblemen.",
-            "answers": ["het risico hebben op"]
+            "answers": ["risico hebben op"]
         },
         {
-            "question": "Regels die zorgen voor de bescherming van dieren.",
-            "answers": ["het dierenrecht"]
+            "question": "Regels die zorgen voor de bescherming van dieren. Het ...",
+            "answers": ["dierenrecht"]
         }
     ]
 }]
