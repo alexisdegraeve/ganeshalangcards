@@ -21,5 +21,17 @@
         "description": "Animal Welfare & Observation",
         "class": "blue",
         "url": "/en/level_c1/quizz_animalwelfare.json"
+    },
+    {
+        "title": "Vocabulary",
+        "description": "🎨 Has Technology Made Creatives Lazy or Liberated?",
+        "class": "blue",
+        "url": "/en/level_c1/quizz_technology.json"
+    },
+    {
+        "title": "Vocabulary",
+        "description": "🌍 The Power of Cultural Exchange and Global Travel",
+        "class": "blue",
+        "url": "/en/level_c1/quizz_cultural.json"
     }
 ]

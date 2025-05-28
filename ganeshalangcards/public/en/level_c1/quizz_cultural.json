@@ -1,0 +1,44 @@
+[{
+    "theme": "🌍 The Power of Cultural Exchange and Global Travel",
+    "questions": [{
+            "question": "What verb means to become deeply involved in something, like being fully absorbed?",
+            "answers": ["immerse"]
+        },
+        {
+            "question": "Which verb means to increase the range, scope, or extent of something?",
+            "answers": ["broaden"]
+        },
+        {
+            "question": "What verb means to improve the quality or value of something?",
+            "answers": ["enrich"]
+        },
+        {
+            "question": "What noun describes an idea or opinion formed before having all the facts?",
+            "answers": ["preconception"]
+        },
+        {
+            "question": "Which verb means to encourage or nurture the development of something?",
+            "answers": ["foster"]
+        },
+        {
+            "question": "Which phrasal verb means to fully understand or absorb something?",
+            "answers": ["take in"]
+        },
+        {
+            "question": "Which phrasal verb means to encounter or find something by chance?",
+            "answers": ["come across"]
+        },
+        {
+            "question": "What phrasal verb means to get rid of something unwanted or unpleasant?",
+            "answers": ["shake off"]
+        },
+        {
+            "question": "Which idiom means to challenge yourself by trying something new or unfamiliar?",
+            "answers": ["step out of your comfort zone"]
+        },
+        {
+            "question": "What adjective describes something that reveals a new perspective or changes your view?",
+            "answers": ["eye-opening"]
+        }
+    ]
+}]
