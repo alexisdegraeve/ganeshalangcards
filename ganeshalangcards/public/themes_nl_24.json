@@ -5,6 +5,12 @@
           "url": "/nl/2.4/quizz_noodsituaties.json"
       }, {
           "title": "Woordenschat",
+          "description": "Consumeren of Consuminderen? 🛒 (Deel 4 van het boek)",
+          "class": "pink",
+          "url": "/nl/2.4/quizz_consumeren_deel_vier.json"
+      },
+      {
+          "title": "Woordenschat",
           "description": "Kom op voor je buurt!",
           "class": "pink",
           "url": "/nl/2.4/quizz_buurt.json"
