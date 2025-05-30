@@ -178,5 +178,11 @@
         "description": "En la oficina de turismo🗺️",
         "class": "green",
         "url": "/es/level_a0/quizz_elturismo.json"
+    },
+    {
+        "title": "Vocabulario",
+        "description": "🚌 Transporte público",
+        "class": "green",
+        "url": "/es/level_a0/quizz_transporte_publico.json"
     }
 ]

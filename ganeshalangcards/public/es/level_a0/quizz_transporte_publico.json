@@ -1,0 +1,105 @@
+[{
+    "theme": "🚌 Transporte público",
+    "langread": "en",
+    "questions": [{
+            "question": "Where can you ask for help or check in at a hotel?",
+            "answers": ["la recepción"]
+        },
+        {
+            "question": "What is the Spanish word for hotel?",
+            "answers": ["hotel"]
+        },
+        {
+            "question": "Where can you buy food and drinks?",
+            "answers": ["supermercado"]
+        },
+        {
+            "question": "Where can you shop in many stores inside one big building?",
+            "answers": ["el centro comercial"]
+        },
+        {
+            "question": "How do you say 'there is nothing' in Spanish?",
+            "answers": ["no hay nada"]
+        },
+        {
+            "question": "How do you say 'open' in Spanish?",
+            "answers": ["abierto"]
+        },
+        {
+            "question": "What is the word for Sunday in Spanish?",
+            "answers": ["domingo"]
+        },
+        {
+            "question": "How do you say 'I need' in Spanish?",
+            "answers": ["necesito"]
+        },
+        {
+            "question": "What is the word for 'information' in Spanish?",
+            "answers": ["información"]
+        },
+        {
+            "question": "What verb means 'to take' or 'to catch' a bus or train?",
+            "answers": ["coger"]
+        },
+        {
+            "question": "How do you say 'bus' in Spanish?",
+            "answers": ["autobús"]
+        },
+        {
+            "question": "How do you say 'it leaves' or 'it departs'?",
+            "answers": ["que sale"]
+        },
+        {
+            "question": "What do you call the place where buses stop?",
+            "answers": ["la estación de autobuses"]
+        },
+        {
+            "question": "How do you say 'walking' in Spanish?",
+            "answers": ["caminando"]
+        },
+        {
+            "question": "What verb means 'to continue' in Spanish?",
+            "answers": ["seguir"]
+        },
+        {
+            "question": "How do you say 'maybe' in Spanish?",
+            "answers": ["quizás"]
+        },
+        {
+            "question": "How do you say 'straight ahead' in Spanish?",
+            "answers": ["todo recto"]
+        },
+        {
+            "question": "How do you say 'here' in Spanish?",
+            "answers": ["aquí"]
+        },
+        {
+            "question": "What is the Spanish word for the underground train?",
+            "answers": ["metro"]
+        },
+        {
+            "question": "How do you say 'left' in Spanish?",
+            "answers": ["izquierda"]
+        },
+        {
+            "question": "How do you say 'right' in Spanish?",
+            "answers": ["derecha"]
+        },
+        {
+            "question": "How do you say 'it is in front' in Spanish?",
+            "answers": ["está en frente"]
+        },
+        {
+            "question": "How do you ask 'What time is it?' in Spanish?",
+            "answers": ["¿Qué hora es?"]
+        },
+        {
+            "question": "How do you say 'See you later' in Spanish?",
+            "answers": ["hasta luego"]
+        },
+        {
+            "question": "How do you say 'You're welcome' or 'No problem' in Spanish?",
+            "answers": ["no hay de qué"]
+        }
+    ]
+}]
