@@ -34,7 +34,7 @@
 </ng-container>
 
 <ng-container *ngIf="mode === CardMode.DoubleSide">
-    <div class="col-md-10 col-lg-8 mb-2 double-side" #doubleSideDiv tabindex="0">
+    <div class="col-md-10 col-lg-8 mb-2 double-side" #doubleSideDiv tabindex="0" (swipeleft)="onSwipeLeft()" (swipright)="onSwipeRight()">
         <div class="card h-100 border-0">
             <div class="flip-card-inner" [ngClass]="{ 'flip-card-hover': flipcard}">
 
@@ -44,7 +44,7 @@
                     <i class="bi bi-volume-up-fill"></i>
                   </button>
                     </div>
-                    <div class="card-body text-center">
+                    <div class="card-body text-center" (click)="flipcard=! flipcard ">
                         <div class="card-title" *ngIf="!isLoading">
                             <i class="bi bi-patch-question-fill"></i>
                             <h5>{{ 'question' | translate }}</h5>
@@ -93,7 +93,7 @@
                               <i class="bi bi-volume-up-fill"></i>
                             </button>
                                     </div>
-                                    <div class="d-flex">
+                                    <div class="d-flex" (click)="flipcard=! flipcard ">
                                         <i class="bi bi-patch-check-fill"></i>
                                         <h5> {{ 'answer' | translate }}</h5>
                                     </div>

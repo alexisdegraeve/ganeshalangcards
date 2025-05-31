@@ -181,4 +181,12 @@ export class GeneralcardComponent implements OnInit, AfterViewChecked {
     }
 
   }
+
+  onSwipeRight() {
+    this.nextQuestion();
+  }
+
+  onSwipeLeft() {
+    this.prevQuestion();
+  }
 }
