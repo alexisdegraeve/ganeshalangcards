@@ -179,19 +179,11 @@
                                             position: absolute;
                                             left: 0;
                                             bottom: 0;
-                                            border-radius: 1rem;
-                                        }
-                                        @media (max-width: 576px) {
-                                            svg {
-                                                transform: none;
-                                                transform-origin: center;
-                                                position: absolute;
-                                                left: 0;
-                                                bottom: 0;
-                                                height: auto;
-                                                width: auto;
-                                                border-radius: 1rem;
-                                            }
+                                            width: 100%;
+                                            border-radius: 0.5rem;
+                                            border-top-left-radius: unset;
+                                            border-top-right-radius: unset;
+                                            zoom: 2.0;
                                         }
                                     }
 

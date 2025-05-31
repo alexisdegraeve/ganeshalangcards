@@ -189,4 +189,8 @@ export class GeneralcardComponent implements OnInit, AfterViewChecked {
   onSwipeLeft() {
     this.prevQuestion();
   }
+
+  getGradient(color: string): string {
+    return `linear-gradient(to top, ${color} 4%, #fff 60%)`;
+  }
 }
