@@ -46,6 +46,7 @@ export class GeneralcardComponent implements OnInit, AfterViewChecked {
   userAnswer ='';
   @ViewChild('inputAnswer') inputAnswer!: ElementRef;
   @ViewChild('doubleSideDiv') doubleSideDiv?: ElementRef<HTMLDivElement>;
+  startX = 0;
 
   constructor(private quizService : QuizService) {
 
@@ -182,15 +183,34 @@ export class GeneralcardComponent implements OnInit, AfterViewChecked {
 
   }
 
-  onSwipeRight() {
-    this.nextQuestion();
-  }
+  // onSwipeRight() {
+  //   this.nextQuestion();
+  // }
 
-  onSwipeLeft() {
-    this.prevQuestion();
-  }
+  // onSwipeLeft() {
+  //   this.prevQuestion();
+  // }
 
   getGradient(color: string): string {
     return `linear-gradient(to top, ${color} 4%, #fff 60%)`;
   }
+
+
+
+onTouchStart(event: TouchEvent) {
+  this.startX = event.touches[0].clientX;
+}
+
+onTouchEnd(event: TouchEvent) {
+  const endX = event.changedTouches[0].clientX;
+  const deltaX = endX - this.startX;
+
+  if (deltaX > 50) {
+    this.prevQuestion(); // comme un clic sur "← Prev"
+  } else if (deltaX < -50) {
+    this.nextQuestion(); // comme un clic sur "Next →"
+  }
+}
+
+
 }

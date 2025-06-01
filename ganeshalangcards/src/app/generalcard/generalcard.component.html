@@ -34,42 +34,42 @@
 </ng-container>
 
 <ng-container *ngIf="mode === CardMode.DoubleSide">
-    <div class="col-md-10 col-lg-8 mb-2 double-side" #doubleSideDiv tabindex="0" (swipeleft)="onSwipeLeft()" (swipright)="onSwipeRight()">
-        <div class="card h-100 border-0">
-            <div class="flip-card-inner" [ngClass]="{ 'flip-card-hover': flipcard}">
+    <div class="col-md-10 col-lg-8 mb-2 double-side" #doubleSideDiv tabindex="0" (touchstart)="onTouchStart($event)" (touchend)="onTouchEnd($event)">
+        <div class="card h-100 border-0 ">
+            <div class="flip-card-inner " [ngClass]="{ 'flip-card-hover': flipcard} ">
 
-                <div class="flip-card-front" [ngClass]="class">
-                    <div class="control-flip d-flex justify-content-center m-2"><button class="btn btn-outline-light border-0" (click)="flipcard=! flipcard "><i class="bi bi-arrow-clockwise"></i></button>
-                        <button class="ms-2 btn btn-outline-light border-0" (click)="speakText(question)">
-                    <i class="bi bi-volume-up-fill"></i>
+                <div class="flip-card-front " [ngClass]="class ">
+                    <div class="control-flip d-flex justify-content-center m-2 "><button class="btn btn-outline-light border-0 " (click)="flipcard=! flipcard "><i class="bi bi-arrow-clockwise "></i></button>
+                        <button class="ms-2 btn btn-outline-light border-0 " (click)="speakText(question) ">
+                    <i class="bi bi-volume-up-fill "></i>
                   </button>
                     </div>
-                    <div class="card-body text-center" (click)="flipcard=! flipcard ">
-                        <div class="card-title" *ngIf="!isLoading">
-                            <i class="bi bi-patch-question-fill"></i>
+                    <div class="card-body text-center " (click)="flipcard=! flipcard ">
+                        <div class="card-title " *ngIf="!isLoading ">
+                            <i class="bi bi-patch-question-fill "></i>
                             <h5>{{ 'question' | translate }}</h5>
                         </div>
-                        <div class="card-title w-100" *ngIf="isLoading">
-                            <div *ngIf="isLoading" class="skeleton skeleton-title"></div>
+                        <div class="card-title w-100 " *ngIf="isLoading ">
+                            <div *ngIf="isLoading " class="skeleton skeleton-title "></div>
                         </div>
-                        <p class="card-subtitle " *ngIf="!isLoading" [innerHtml]="question">
+                        <p class="card-subtitle " *ngIf="!isLoading " [innerHtml]="question ">
                         </p>
                     </div>
-                    <div class="card-footer">
+                    <div class="card-footer ">
                         <div class="ms-auto me-auto ">
                             <button class="btn btn-outline-primary me-2 " type="button " (click)="firstQuestion() " [disabled]="disableFirst " aria-label="First question ">
-                <i class="bi bi-chevron-bar-left"></i>
+                <i class="bi bi-chevron-bar-left "></i>
               </button>
 
                             <button class="btn btn-outline-primary me-2 " type="button " (click)="prevQuestion() " [disabled]="disableFirst " aria-label="Previous question ">
-                <i class="bi bi-chevron-left"></i>
-              </button> <span class="currentnumber me-2 text-primary">{{ currentCardNumber }}</span>
+                <i class="bi bi-chevron-left "></i>
+              </button> <span class="currentnumber me-2 text-primary ">{{ currentCardNumber }}</span>
                             <button class="btn btn-outline-primary me-2 " type="button " (click)="nextQuestion() " [disabled]="disableLast " aria-label="Next question ">
-                <i class="bi bi-chevron-right"></i>
+                <i class="bi bi-chevron-right "></i>
               </button>
 
                             <button class="btn btn-outline-primary " type="button " (click)="lastQuestion() " [disabled]="disableLast " aria-label="Last question ">
-                <i class="bi bi-chevron-bar-right"></i>
+                <i class="bi bi-chevron-bar-right "></i>
               </button>
 
                         </div>
@@ -77,8 +77,8 @@
                     </div>
 
                 </div>
-                <div class="flip-card-back">
-                    <div class="control-back" [ngClass]="class">
+                <div class="flip-card-back ">
+                    <div class="control-back " [ngClass]="class ">
 
                     </div>
 
@@ -86,47 +86,47 @@
                     <div class="card-body text-center ">
                         <div class="skeleton " *ngIf="isLoading "></div>
                         <div class="wave-card " [ngClass]="class ">
-                            <div class="text-answer">
-                                <div class="card-title flex-column" *ngIf="!isLoading">
-                                    <div class="control-flip mb-2"><button class="btn btn-outline-primary" (click)="flipcard=! flipcard "><i class="bi bi-arrow-clockwise"></i></button>
-                                        <button class="ms-2 btn btn-outline-primary" (click)="speakText(answers.toString(), false)">
-                              <i class="bi bi-volume-up-fill"></i>
+                            <div class="text-answer ">
+                                <div class="card-title flex-column " *ngIf="!isLoading ">
+                                    <div class="control-flip mb-2 "><button class="btn btn-outline-primary " (click)="flipcard=! flipcard "><i class="bi bi-arrow-clockwise "></i></button>
+                                        <button class="ms-2 btn btn-outline-primary " (click)="speakText(answers.toString(), false) ">
+                              <i class="bi bi-volume-up-fill "></i>
                             </button>
                                     </div>
-                                    <div class="d-flex" (click)="flipcard=! flipcard ">
-                                        <i class="bi bi-patch-check-fill"></i>
+                                    <div class="d-flex " (click)="flipcard=! flipcard ">
+                                        <i class="bi bi-patch-check-fill "></i>
                                         <h5> {{ 'answer' | translate }}</h5>
                                     </div>
 
                                 </div>
-                                <div class="card-title w-100" *ngIf="isLoading">
-                                    <div *ngIf="isLoading" class="skeleton skeleton-title"></div>
+                                <div class="card-title w-100 " *ngIf="isLoading ">
+                                    <div *ngIf="isLoading " class="skeleton skeleton-title "></div>
                                 </div>
-                                <div class=" card-subtitle">
-                                    <p *ngIf="!isLoading">{{ answers }}</p>
-                                    <p *ngIf="isLoading" class="skeleton skeleton-subtitle"></p>
+                                <div class=" card-subtitle ">
+                                    <p *ngIf="!isLoading ">{{ answers }}</p>
+                                    <p *ngIf="isLoading " class="skeleton skeleton-subtitle "></p>
                                 </div>
                             </div>
-                            <svg fill="currentColor " xmlns="http://www.w3.org/2000/svg " [style.background]="getGradient(class)">
+                            <svg fill="currentColor " xmlns="http://www.w3.org/2000/svg " [style.background]="getGradient(class) ">
                 <path d="M0,80 C150,120 300,40 450,80 L450,167 L0,167 Z " fill="currentColor " />
               </svg>
                         </div>
                     </div>
-                    <div class="card-footer mg-top-4" [ngClass]="class">
+                    <div class="card-footer mg-top-4 " [ngClass]="class ">
                         <div class="ms-auto me-auto ">
                             <button class="btn btn-outline-primary me-2 " type="button " (click)="firstQuestion() " [disabled]="disableFirst " aria-label="First question ">
-              <i class="bi bi-chevron-bar-left"></i>
+              <i class="bi bi-chevron-bar-left "></i>
             </button>
 
                             <button class="btn btn-outline-primary me-2 " type="button " (click)="prevQuestion() " [disabled]="disableFirst " aria-label="Previous question ">
-              <i class="bi bi-chevron-left"></i>
-            </button> <span class="currentnumber text-primary me-2">{{ currentCardNumber }}</span>
+              <i class="bi bi-chevron-left "></i>
+            </button> <span class="currentnumber text-primary me-2 ">{{ currentCardNumber }}</span>
                             <button class="btn btn-outline-primary me-2 " type="button " (click)="nextQuestion() " [disabled]="disableLast " aria-label="Next question ">
-              <i class="bi bi-chevron-right"></i>
+              <i class="bi bi-chevron-right "></i>
             </button>
 
                             <button class="btn btn-outline-primary " type="button " (click)="lastQuestion() " [disabled]="disableLast " aria-label="Last question ">
-              <i class="bi bi-chevron-bar-right"></i>
+              <i class="bi bi-chevron-bar-right "></i>
             </button>
 
                         </div>
@@ -139,34 +139,34 @@
     </div>
 </ng-container>
 
-<ng-container *ngIf="mode === CardMode.question">
-    <div class="col-md-10 col-lg-8 mb-2 question">
-        <div class="card h-100 border-0">
-            <div class="flip-card-inner" [ngClass]="{ 'flip-card-hover': flipcard}">
-                <div class="flip-card-front cursor-pointer" [ngClass]="class" [class.pe-none]="showSolution" (click)="actionFlipCard()" [class.good-answer]="showSolution && correctAnswer" [class.wrong-answer]="showSolution && !correctAnswer">
-                    <div class="card-body text-center">
-                        <ng-container *ngIf="!showSolution">
-                            <div class="card-title">
-                                <h5 *ngIf="!isLoading" class="big">{{ 'question' | translate }}</h5>
-                                <div *ngIf="isLoading" class="skeleton skeleton-title w-50 "></div>
+<ng-container *ngIf="mode===CardMode.question">
+    <div class="col-md-10 col-lg-8 mb-2 question ">
+        <div class="card h-100 border-0 ">
+            <div class="flip-card-inner " [ngClass]="{ 'flip-card-hover': flipcard} ">
+                <div class="flip-card-front cursor-pointer " [ngClass]="class " [class.pe-none]="showSolution " (click)="actionFlipCard() " [class.good-answer]="showSolution && correctAnswer " [class.wrong-answer]="showSolution && !correctAnswer ">
+                    <div class="card-body text-center ">
+                        <ng-container *ngIf="!showSolution ">
+                            <div class="card-title ">
+                                <h5 *ngIf="!isLoading " class="big ">{{ 'question' | translate }}</h5>
+                                <div *ngIf="isLoading " class="skeleton skeleton-title w-50 "></div>
                             </div>
                             <i class="bi bi-patch-question-fill h1 " *ngIf="!isLoading "></i>
-                            <div *ngIf="isLoading" class="skeleton skeleton-icon"></div>
+                            <div *ngIf="isLoading " class="skeleton skeleton-icon "></div>
                             <span *ngIf="!isLoading "> {{ currentCardNumber }} </span>
-                            <span *ngIf=" isLoading " class="skeleton skeleton-title w-25"></span>
+                            <span *ngIf=" isLoading " class="skeleton skeleton-title w-25 "></span>
                         </ng-container>
-                        <ng-container *ngIf="showSolution">
-                            <div class="card-title flex-column">
-                                <h5 *ngIf="!isLoading && !correctAnswer" class="d-flex">{{ 'sorry' | translate }}</h5>
-                                <h3 *ngIf="!isLoading && correctAnswer" class="d-flex">{{ 'nice'| translate }}</h3>
-                                <h4 *ngIf="!isLoading && !correctAnswer">{{ question }}</h4>
-                                <div *ngIf="isLoading && !correctAnswer" class="skeleton skeleton-title w-50 "></div>
-                                <div *ngIf="isLoading" class="skeleton skeleton-title w-50 "></div>
+                        <ng-container *ngIf="showSolution ">
+                            <div class="card-title flex-column ">
+                                <h5 *ngIf="!isLoading && !correctAnswer " class="d-flex ">{{ 'sorry' | translate }}</h5>
+                                <h3 *ngIf="!isLoading && correctAnswer " class="d-flex ">{{ 'nice'| translate }}</h3>
+                                <h4 *ngIf="!isLoading && !correctAnswer ">{{ question }}</h4>
+                                <div *ngIf="isLoading && !correctAnswer " class="skeleton skeleton-title w-50 "></div>
+                                <div *ngIf="isLoading " class="skeleton skeleton-title w-50 "></div>
                             </div>
-                            <i class="bi h1" [class.bi-emoji-smile-fill]="correctAnswer" [class.bi-emoji-frown-fill]="!correctAnswer" *ngIf="!isLoading "></i>
-                            <div *ngIf="isLoading" class="skeleton skeleton-icon"></div>
-                            <span *ngIf="!isLoading && !correctAnswer"> {{ answers }} </span>
-                            <span *ngIf=" isLoading && !correctAnswer" class="skeleton skeleton-title w-25"></span>
+                            <i class="bi h1 " [class.bi-emoji-smile-fill]="correctAnswer " [class.bi-emoji-frown-fill]="!correctAnswer " *ngIf="!isLoading "></i>
+                            <div *ngIf="isLoading " class="skeleton skeleton-icon "></div>
+                            <span *ngIf="!isLoading && !correctAnswer "> {{ answers }} </span>
+                            <span *ngIf=" isLoading && !correctAnswer " class="skeleton skeleton-title w-25 "></span>
                         </ng-container>
                     </div>
 
@@ -176,56 +176,56 @@
                         <div class="skeleton " *ngIf="isLoading "></div>
                         <div class="wave-card " [ngClass]="class ">
                             <div class="text-answer ">
-                                <div class="control-flip"><button class="btn btn-outline-primary  border-0" (click)="flipcard=! flipcard "><i class="bi bi-arrow-clockwise"></i></button>
-                                    <button class="ms-2 btn btn-outline-primary  border-0" (click)="speakText(question)">
-                                    <i class="bi bi-volume-up-fill"></i>
+                                <div class="control-flip "><button class="btn btn-outline-primary border-0 " (click)="flipcard=! flipcard "><i class="bi bi-arrow-clockwise "></i></button>
+                                    <button class="ms-2 btn btn-outline-primary border-0 " (click)="speakText(question) ">
+                                    <i class="bi bi-volume-up-fill "></i>
                                   </button>
                                 </div>
-                                <div class="card-title" *ngIf="!isLoading">
+                                <div class="card-title " *ngIf="!isLoading ">
                                     <i class="bi bi-patch-question-fill "></i>
-                                    <h5 [innerHtml]="question"></h5>
+                                    <h5 [innerHtml]="question "></h5>
 
                                 </div>
-                                <div class="card-title" *ngIf="isLoading">
+                                <div class="card-title " *ngIf="isLoading ">
                                     <div *ngIf=" isLoading " class="skeleton skeleton-title w-100 "></div>
                                 </div>
 
-                                <div class="card-answer" *ngIf="!isLoading">
+                                <div class="card-answer " *ngIf="!isLoading ">
                                     <div class="form-group ">
-                                        <input type="text " class="form-control " id="answerInput " [placeholder]="('youranswer' | translate)" [(ngModel)]="userAnswer" (keydown.enter)="onOk()" #inputAnswer autofocus [disabled]="showSolution">
+                                        <input type="text " class="form-control " id="answerInput " [placeholder]="( 'youranswer' | translate) " [(ngModel)]="userAnswer " (keydown.enter)="onOk() " #inputAnswer autofocus [disabled]="showSolution ">
                                     </div>
                                     <div class="buttons ">
-                                        <div class="card-footer">
+                                        <div class="card-footer ">
                                             {{ 'question' | translate }} {{ currentCardNumber }}
-                                            <div class="stars">
-                                                <span *ngFor="let i of [].constructor(total); let idx = index">
-                                            <i class="bi" [ngClass]="idx < score ? 'bi-star-fill text-warning' : 'bi-star'"></i>
+                                            <div class="stars ">
+                                                <span *ngFor="let i of [].constructor(total); let idx=index ">
+                                            <i class="bi " [ngClass]="idx < score ? 'bi-star-fill text-warning' : 'bi-star' "></i>
                                           </span>
                                             </div>
                                         </div>
-                                        <div class="ms-auto">
-                                            <button type="button " class="btn btn-outline-light btn-sm btn-md  px-2 px-md-3 " (click)="onSkip() ">{{ 'skip' | translate
+                                        <div class="ms-auto ">
+                                            <button type="button " class="btn btn-outline-light btn-sm btn-md px-2 px-md-3 " (click)="onSkip() ">{{ 'skip' | translate
                                           }}</button>
-                                            <button type="button " class="ms-2 btn btn-outline-warning btn-sm btn-md  px-2 px-md-3 " (click)="onOk() ">Ok</button>
+                                            <button type="button " class="ms-2 btn btn-outline-warning btn-sm btn-md px-2 px-md-3 " (click)="onOk() ">Ok</button>
                                         </div>
 
                                     </div>
                                 </div>
 
-                                <div class="card-answer " *ngIf="isLoading">
+                                <div class="card-answer " *ngIf="isLoading ">
                                     <div class="form-group ">
                                         <div class="skeleton skeleton-title w-100 "></div>
                                         <div class="skeleton skeleton-title w-100 "></div>
                                     </div>
 
                                     <div class="buttons ">
-                                        <div class="skeleton btn skeleton-button"></div>
-                                        <div class="skeleton btn ms-2 skeleton-button"></div>
+                                        <div class="skeleton btn skeleton-button "></div>
+                                        <div class="skeleton btn ms-2 skeleton-button "></div>
                                     </div>
                                 </div>
 
                             </div>
-                            <svg fill="currentColor " xmlns="http://www.w3.org/2000/svg " [style.background]="getGradient(class)">
+                            <svg fill="currentColor " xmlns="http://www.w3.org/2000/svg " [style.background]="getGradient(class) ">
                 <path d="M0,80 C150,120 300,40 450,80 L450,167 L0,167 Z " fill="currentColor " />
               </svg>
                         </div>
@@ -238,22 +238,22 @@
 
 
 
-<ng-container *ngIf="mode === CardMode.win">
-    <div class="col-md-10 col-lg-8 mb-2 question win">
-        <div class="card h-100 border-0">
-            <div class="flip-card-inner anm-card" [ngClass]="{ 'flip-card-hover': flipcard}">
-                <div class="flip-card-front" [ngClass]="class">
-                    <div class="card-body text-center">
-                        <div class="skeleton" *ngIf="isLoading"></div>
-                        <div class="card-title">
-                            <h5 *ngIf="!isLoading" class="big" [innerHtml]="('win' | translate)"></h5>
-                            <div *ngIf="isLoading" class="skeleton skeleton-title w-100 "></div>
+<ng-container *ngIf="mode===CardMode.win ">
+    <div class="col-md-10 col-lg-8 mb-2 question win ">
+        <div class="card h-100 border-0 ">
+            <div class="flip-card-inner anm-card " [ngClass]="{ 'flip-card-hover': flipcard} ">
+                <div class="flip-card-front " [ngClass]="class ">
+                    <div class="card-body text-center ">
+                        <div class="skeleton " *ngIf="isLoading "></div>
+                        <div class="card-title ">
+                            <h5 *ngIf="!isLoading " class="big " [innerHtml]="( 'win' | translate) "></h5>
+                            <div *ngIf="isLoading " class="skeleton skeleton-title w-100 "></div>
                         </div>
-                        <i class="bi bi-trophy-fill h1" *ngIf="!isLoading "></i>
-                        <div class="score">
+                        <i class="bi bi-trophy-fill h1 " *ngIf="!isLoading "></i>
+                        <div class="score ">
                             {{ score }}/{{ total }}
                         </div>
-                        <div class="buttons-restart">
+                        <div class="buttons-restart ">
                             <button type="button " class="btn btn-light " (click)="restart() ">{{ 'restart' | translate}}</button>
                         </div>
                     </div>
@@ -264,22 +264,22 @@
 </ng-container>
 
 
-<ng-container *ngIf="mode === CardMode.lose">
-    <div class="col-md-10 col-lg-8 mb-2 question lose">
-        <div class="card h-100 border-0">
-            <div class="flip-card-inner anm-card" [ngClass]="{ 'flip-card-hover': flipcard}">
-                <div class="flip-card-front" [ngClass]="class">
-                    <div class="card-body text-center">
-                        <div class="skeleton" *ngIf="isLoading"></div>
-                        <div class="card-title">
-                            <h5 *ngIf="!isLoading" class="big" [innerHtml]="('lose' | translate)"></h5>
-                            <div *ngIf="isLoading" class="skeleton skeleton-title w-100 "></div>
+<ng-container *ngIf="mode===CardMode.lose ">
+    <div class="col-md-10 col-lg-8 mb-2 question lose ">
+        <div class="card h-100 border-0 ">
+            <div class="flip-card-inner anm-card " [ngClass]="{ 'flip-card-hover': flipcard} ">
+                <div class="flip-card-front " [ngClass]="class ">
+                    <div class="card-body text-center ">
+                        <div class="skeleton " *ngIf="isLoading "></div>
+                        <div class="card-title ">
+                            <h5 *ngIf="!isLoading " class="big " [innerHtml]="( 'lose' | translate) "></h5>
+                            <div *ngIf="isLoading " class="skeleton skeleton-title w-100 "></div>
                         </div>
-                        <i class="bi bi-emoji-dizzy" *ngIf="!isLoading"></i>
-                        <div class="score">
+                        <i class="bi bi-emoji-dizzy " *ngIf="!isLoading "></i>
+                        <div class="score ">
                             {{ score }}/{{ total }}
                         </div>
-                        <div class="buttons-restart">
+                        <div class="buttons-restart ">
                             <button type="button " class="btn btn-light " (click)="restart() ">{{ 'restart' | translate}}</button>
                         </div>
                     </div>
