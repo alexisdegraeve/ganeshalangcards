@@ -206,9 +206,9 @@ onTouchEnd(event: TouchEvent) {
   const deltaX = endX - this.startX;
 
   if (deltaX > 50) {
-    this.prevQuestion(); // comme un clic sur "← Prev"
+    this.nextQuestion();
   } else if (deltaX < -50) {
-    this.nextQuestion(); // comme un clic sur "Next →"
+     this.prevQuestion();
   }
 }
 
