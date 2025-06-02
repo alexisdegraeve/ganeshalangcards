@@ -5,12 +5,18 @@
     font-family: 'Verdana';
     color: #000;
     a {
-        color: #555;
+        color: #888;
+        font-weight: bold;
         border-bottom: 0.25rem solid transparent;
+        display: flex;
+        margin-right: 2rem;
         &.active {
             color: $active;
-            border-bottom: 0.25rem solid $active;
+            // border-bottom: 0.25rem solid $active;
         }
+    }
+    .navbar-nav {
+        margin-left: 5rem;
     }
     .navbar-brand {
         .logo {
@@ -34,4 +40,27 @@
             }
         }
     }
+}
+
+.icon-flag {
+    height: 1.5rem;
+    width: 2rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.2rem;
+    display: flex;
+    &.nl {
+        background-image: url("/images/flags/flag_dutch.svg");
+    }
+    &.es {
+        background-image: url("/images/flags/flag_spain.svg");
+    }
+    &.en {
+        background-image: url("/images/flags/flag_english.svg");
+    }
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
 }
