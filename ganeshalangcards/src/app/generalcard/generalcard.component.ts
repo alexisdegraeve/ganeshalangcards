@@ -17,6 +17,7 @@ export class GeneralcardComponent implements OnInit, AfterViewChecked {
   @Input() title: string  = '';
   @Input() subtitle: string  = '';
   @Input() imageUrl: string = '';
+  @Input() imageWidth: number = 20;
   @Input() icon: string = '';  // Vous pouvez ajouter un icône si nécessaire
   @Input() isLoading: boolean = true;
   @Input() link: string | undefined = '';

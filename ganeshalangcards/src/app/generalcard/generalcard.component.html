@@ -23,7 +23,7 @@
 
                         <!-- Skeleton Loader pour l'image -->
                         <div *ngIf="isLoading && imageUrl !== ''" class="skeleton skeleton-image"></div>
-                        <div class="image-container" *ngIf="imageUrl !== '' && !isLoading">
+                        <div class="image-container" *ngIf="imageUrl !== '' && !isLoading" [style.width.rem]="imageWidth" [style.width.rem]="imageWidth">
                             <img [src]="imageUrl" alt="Card image" class="img-fluid">
                         </div>
                     </div>
