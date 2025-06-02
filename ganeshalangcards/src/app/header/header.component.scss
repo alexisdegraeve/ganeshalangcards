@@ -1,9 +1,17 @@
 @use './../../_variables.scss' as *;
 .navbar {
-    background-color: #{$primary};
+    // background-color: #{$primary};
     font-size: 1.125rem;
     font-family: 'Verdana';
-    color: #fff;
+    color: #000;
+    a {
+        color: #555;
+        border-bottom: 0.25rem solid transparent;
+        &.active {
+            color: $active;
+            border-bottom: 0.25rem solid $active;
+        }
+    }
     .navbar-brand {
         .logo {
             background-image: url("/images/ganesha-lang-cards.svg");
