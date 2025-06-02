@@ -3,12 +3,11 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 199 46" style="enable-background:new 0 0 199 46;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#9ACCE0;}
+	.st0{fill:#376FB6;}
 	.st1{fill:#136282;}
 	.st2{fill:#40B0E5;}
-	.st3{fill:none;stroke:#40B0E5;stroke-miterlimit:10;}
-	.st4{font-family:'Webdings';}
-	.st5{font-size:45.6049px;}
+	.st3{font-family:'Webdings';}
+	.st4{font-size:45.6049px;}
 </style>
 <g id="Layer_1">
 	<g>
@@ -57,7 +56,7 @@
 </g>
 <g id="Layer_2">
 	<g>
-		<text transform="matrix(1 0 0 1 6.9581 33.5561)" class="st3 st4 st5"></text>
+		<text transform="matrix(1 0 0 1 6.9581 33.5561)" class="st0 st3 st4"></text>
 	</g>
 </g>
 </svg>
