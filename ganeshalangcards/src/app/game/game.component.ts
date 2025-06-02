@@ -54,7 +54,7 @@ export class GameComponent implements OnInit {
       title: 'English',
       subtitle: 'Level C 1',
       imageUrl: '/images/soldier.svg',
-      imageWidth: 10,
+      imageWidth: 4,
       isLoading: false,
       link: '/theme',
       class: 'blue',
