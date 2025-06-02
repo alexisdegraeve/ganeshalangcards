@@ -86,7 +86,7 @@
                     <div class="card-body text-center ">
                         <div class="skeleton " *ngIf="isLoading "></div>
                         <div class="wave-card " [ngClass]="class ">
-                            <div class="text-answer ">
+                            <div class="text-answer " [ngClass]="class">
                                 <div class="card-title flex-column " *ngIf="!isLoading ">
                                     <div class="control-flip mb-2 "><button class="btn btn-outline-primary " (click)="flipcard=! flipcard "><i class="bi bi-arrow-clockwise "></i></button>
                                         <button class="ms-2 btn btn-outline-primary " (click)="speakText(answers.toString(), false) ">
@@ -107,9 +107,6 @@
                                     <p *ngIf="isLoading " class="skeleton skeleton-subtitle "></p>
                                 </div>
                             </div>
-                            <svg fill="currentColor " xmlns="http://www.w3.org/2000/svg " [style.background]="getGradient(class) ">
-                <path d="M0,80 C150,120 300,40 450,80 L450,167 L0,167 Z " fill="currentColor " />
-              </svg>
                         </div>
                     </div>
                     <div class="card-footer mg-top-4 " [ngClass]="class ">
@@ -175,7 +172,7 @@
                     <div class="card-body text-center ">
                         <div class="skeleton " *ngIf="isLoading "></div>
                         <div class="wave-card " [ngClass]="class ">
-                            <div class="text-answer ">
+                            <div class="text-answer " [ngClass]="class">
                                 <div class="control-flip "><button class="btn btn-outline-primary border-0 " (click)="flipcard=! flipcard "><i class="bi bi-arrow-clockwise "></i></button>
                                     <button class="ms-2 btn btn-outline-primary border-0 " (click)="speakText(question) ">
                                     <i class="bi bi-volume-up-fill "></i>
@@ -225,9 +222,7 @@
                                 </div>
 
                             </div>
-                            <svg fill="currentColor " xmlns="http://www.w3.org/2000/svg " [style.background]="getGradient(class) ">
-                <path d="M0,80 C150,120 300,40 450,80 L450,167 L0,167 Z " fill="currentColor " />
-              </svg>
+
                         </div>
                     </div>
                 </div>

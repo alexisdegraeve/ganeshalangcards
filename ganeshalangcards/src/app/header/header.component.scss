@@ -5,6 +5,13 @@
     font-family: 'Verdana';
     color: #fff;
     .navbar-brand {
+        .logo {
+            background-image: url("/images/ganesha-lang-cards.svg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 2rem;
+            width: 10rem;
+        }
         display: flex;
         flex-direction: column;
         font-size: 1.25rem;
