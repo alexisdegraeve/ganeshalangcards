@@ -1,0 +1,64 @@
+[{
+    "theme": "🔁 Reincarnation",
+    "questions": [{
+            "question": "A conclusion based on incomplete evidence. (speculation, assumption, inference)",
+            "answers": ["conjecture"]
+        },
+        {
+            "question": "Based on observation or experience rather than theory. (observational, practical, experiential)",
+            "answers": ["empirical"]
+        },
+        {
+            "question": "Doubt about the truth of something. (distrust, disbelief, uncertainty)",
+            "answers": ["skepticism"]
+        },
+        {
+            "question": "To call upon a concept, idea, or authority for support. (summon, appeal to, refer to)",
+            "answers": ["invoke"]
+        },
+        {
+            "question": "Looking back on past events. (reflective, backward-looking, recollective)",
+            "answers": ["retrospective"]
+        },
+        {
+            "question": "Complicated and detailed. (complex, elaborate, sophisticated)",
+            "answers": ["intricate"]
+        },
+        {
+            "question": "An idea or belief about something. (concept, perception, thought)",
+            "answers": ["notion"]
+        },
+        {
+            "question": "To confirm that something is real or valid. (verify, validate, confirm)",
+            "answers": ["authenticate"]
+        },
+        {
+            "question": "The part of the mind that affects behavior without awareness. (unconscious, hidden mind, inner thoughts)",
+            "answers": ["subconscious"]
+        },
+        {
+            "question": "A difference between things that should be the same. (inconsistency, divergence, mismatch)",
+            "answers": ["discrepancy"]
+        },
+        {
+            "question": "To reveal something previously unknown.",
+            "answers": ["bring to light"]
+        },
+        {
+            "question": "To become deeply involved in something complex or bizarre.",
+            "answers": ["go down the rabbit hole"]
+        },
+        {
+            "question": "To give an opinion or input.",
+            "answers": ["weigh in on"]
+        },
+        {
+            "question": "To investigate or examine something.",
+            "answers": ["look into"]
+        },
+        {
+            "question": "To set a clear limit.",
+            "answers": ["draw the line"]
+        }
+    ]
+}]

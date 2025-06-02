@@ -1,0 +1,44 @@
+[{
+    "theme": "🎤 Rolling Stone Names '200 Greatest Singers of All Time'",
+    "questions": [{
+            "question": "Extremely beautiful, impressive, or admirable. (Splendid, grand, glorious)",
+            "answers": ["magnificent"]
+        },
+        {
+            "question": "Widely recognized and admired, especially as a representative symbol. (Symbolic, legendary, emblematic)",
+            "answers": ["iconic"]
+        },
+        {
+            "question": "Impossible to forget or remove. (Permanent, lasting, unforgettable)",
+            "answers": ["indelible"]
+        },
+        {
+            "question": "Gradually developing or changing over time. (Changing, progressing, adapting)",
+            "answers": ["evolving"]
+        },
+        {
+            "question": "A person who is among the first to explore or develop something. (Trailblazer, innovator, pathfinder)",
+            "answers": ["pioneer"]
+        },
+        {
+            "question": "Accepted without challenge or doubt. (Unquestioned, uncontested, certain)",
+            "answers": ["undisputed"]
+        },
+        {
+            "question": "A strong and adverse reaction to an idea or event. (Repercussion, resistance, opposition)",
+            "answers": ["backlash"]
+        },
+        {
+            "question": "Producing a large amount of something, especially works of art. (Productive, creative, fertile)",
+            "answers": ["prolific"]
+        },
+        {
+            "question": "To be highly conspicuous or draw strong attention. (Stand out, shine, attract attention)",
+            "answers": ["glare"]
+        },
+        {
+            "question": "The quality of being trusted or believed. (Trustworthiness, reliability, validity)",
+            "answers": ["credibility"]
+        }
+    ]
+}]

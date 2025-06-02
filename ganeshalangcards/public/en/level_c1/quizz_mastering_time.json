@@ -1,0 +1,56 @@
+[{
+    "theme": "⏰ Mastering the Art of Time Management",
+    "questions": [{
+            "question": "To manage two or more responsibilities or tasks at the same time.",
+            "answers": ["juggle"]
+        },
+        {
+            "question": "To delay doing something until later.",
+            "answers": ["put off"]
+        },
+        {
+            "question": "To reserve time or resources for a specific activity.",
+            "answers": ["set aside"]
+        },
+        {
+            "question": "To have no time remaining to complete something.",
+            "answers": ["run out"]
+        },
+        {
+            "question": "To make time for something despite being busy.",
+            "answers": ["carve out"]
+        },
+        {
+            "question": "The act of intentionally delaying a task or decision.",
+            "answers": ["procrastination"]
+        },
+        {
+            "question": "To decide what tasks should be done first based on importance.",
+            "answers": ["prioritise"]
+        },
+        {
+            "question": "The ability to complete tasks with little or no waste of time or resources.",
+            "answers": ["efficiency"]
+        },
+        {
+            "question": "Duties or tasks one is required or expected to do.",
+            "answers": ["obligations"]
+        },
+        {
+            "question": "To complete a task just before the deadline.",
+            "answers": ["beat the clock"]
+        },
+        {
+            "question": "Used to say time is passing very quickly.",
+            "answers": ["time flies"]
+        },
+        {
+            "question": "To arrive or complete something just before it is too late.",
+            "answers": ["in the nick of time"]
+        },
+        {
+            "question": "To do something at the very last moment possible.",
+            "answers": ["at the eleventh hour"]
+        }
+    ]
+}]

@@ -1,4 +1,33 @@
 [{
+        "title": "Vocabulary",
+        "description": "Mastering the Art of Time Management",
+        "class": "blue",
+        "url": "/en/level_c1/quizz_mastering_time.json"
+    }, {
+        "title": "Vocabulary",
+        "description": "🌱Environmental Issues",
+        "class": "blue",
+        "url": "/en/level_c1/quizz_environmental_issues.json"
+    },
+    {
+        "title": "Vocabulary",
+        "description": "🔁 Reincarnation ",
+        "class": "blue",
+        "url": "/en/level_c1/quizz_reincarnation.json"
+    },
+    {
+        "title": "Vocabulary",
+        "description": "🎤 Rolling Stone Names '200 Greatest Singers of All Time",
+        "class": "blue",
+        "url": "/en/level_c1/quizz_rolling_stone.json"
+    },
+    {
+        "title": "Vocabulary",
+        "description": "🌍 The Power of Cultural Exchange and Global Travel",
+        "class": "blue",
+        "url": "/en/level_c1/quizz_cultural.json"
+    },
+    {
         "title": "Expressions",
         "description": "Common English Expressions",
         "class": "blue",
@@ -27,11 +56,5 @@
         "description": "🎨 Has Technology Made Creatives Lazy or Liberated?",
         "class": "blue",
         "url": "/en/level_c1/quizz_technology.json"
-    },
-    {
-        "title": "Vocabulary",
-        "description": "🌍 The Power of Cultural Exchange and Global Travel",
-        "class": "blue",
-        "url": "/en/level_c1/quizz_cultural.json"
     }
 ]

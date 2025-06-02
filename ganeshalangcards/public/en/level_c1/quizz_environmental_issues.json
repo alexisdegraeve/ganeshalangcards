@@ -1,0 +1,64 @@
+[{
+    "theme": "🌱 Environmental Issues",
+    "questions": [{
+            "question": "To notice or detect something subtle or not obvious.",
+            "answers": ["pick up on"]
+        },
+        {
+            "question": "To be perceived or interpreted in a certain way.",
+            "answers": ["come across"]
+        },
+        {
+            "question": "To become something completely different.",
+            "answers": ["turn into"]
+        },
+        {
+            "question": "To encounter someone or something unexpectedly.",
+            "answers": ["run into"]
+        },
+        {
+            "question": "To dismiss something as unimportant, often with humor.",
+            "answers": ["laugh off"]
+        },
+        {
+            "question": "To explain something step by step or in detail.",
+            "answers": ["break down"]
+        },
+        {
+            "question": "To use different meanings of a word for a humorous effect.",
+            "answers": ["play on"]
+        },
+        {
+            "question": "To avoid punishment or consequences for something wrong.",
+            "answers": ["get away with"]
+        },
+        {
+            "question": "When meaning is distorted because of translation between languages.",
+            "answers": ["lost in translation"]
+        },
+        {
+            "question": "A small mistake when speaking, such as saying the wrong word.",
+            "answers": ["a slip of the tongue"]
+        },
+        {
+            "question": "When a word or sentence has more than one interpretation.",
+            "answers": ["double meaning"]
+        },
+        {
+            "question": "A situation where people from different cultures misunderstand each other.",
+            "answers": ["cross-cultural misunderstanding"]
+        },
+        {
+            "question": "A difficulty in communicating due to differences in language.",
+            "answers": ["language barrier"]
+        },
+        {
+            "question": "The way you say something can change how it’s interpreted.",
+            "answers": ["tone matters"]
+        },
+        {
+            "question": "When something is misunderstood because it was not considered in its original situation.",
+            "answers": ["out of context"]
+        }
+    ]
+}]
