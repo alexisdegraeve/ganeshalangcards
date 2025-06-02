@@ -44,10 +44,9 @@
 
 .icon-flag {
     height: 1.5rem;
-    width: 2rem;
+    width: 2.5rem;
     background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 0.2rem;
+    background-size: contain;
     display: flex;
     &.nl {
         background-image: url("/images/flags/flag_dutch.svg");
