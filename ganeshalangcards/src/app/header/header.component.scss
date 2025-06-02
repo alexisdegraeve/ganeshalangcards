@@ -9,6 +9,7 @@
         font-weight: bold;
         border-bottom: 0.25rem solid transparent;
         display: flex;
+        align-items: center;
         margin-right: 2rem;
         &.active {
             color: $active;
