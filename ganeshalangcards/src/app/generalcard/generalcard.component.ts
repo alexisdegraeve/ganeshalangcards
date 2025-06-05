@@ -99,8 +99,15 @@ export class GeneralcardComponent implements OnInit, AfterViewChecked {
   }
 
   actionFlipCard() {
-    this.flipcard = !this.flipcard;
-    this.showSolution = false;
+    if(this.showSolution) {
+        this.flipcard = !this.flipcard;
+        this.showSolution = false;
+       this.okEvent.emit(this.correctAnswer);
+       this.userAnswer = '';
+    } else {
+      this.flipcard = !this.flipcard;
+      this.showSolution = false;
+    }
   }
 
     private checkInAnswers(userAnswer: string, answers: string[]): boolean {
@@ -123,15 +130,12 @@ export class GeneralcardComponent implements OnInit, AfterViewChecked {
         }else {
           this.correctAnswer = false;
     }
-    setTimeout(() => {
-      this.flipcard = !this.flipcard;
-      this.showSolution = false;
-      this.okEvent.emit(this.correctAnswer);
-      this.userAnswer = '';
-    }, 3000);
-
-
-
+    // setTimeout(() => {
+    //  this.flipcard = !this.flipcard;
+//      this.showSolution = false;
+       //this.okEvent.emit(this.correctAnswer);
+       // this.userAnswer = '';
+    //}, 3000);
   }
 
   firstQuestion() {
@@ -181,7 +185,6 @@ export class GeneralcardComponent implements OnInit, AfterViewChecked {
           break;
       }
     }
-
   }
 
   // onSwipeRight() {
@@ -212,6 +215,8 @@ onTouchEnd(event: TouchEvent) {
      this.prevQuestion();
   }
 }
+
+
 
 
 }

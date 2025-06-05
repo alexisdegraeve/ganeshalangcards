@@ -25,7 +25,7 @@ export class FlashcardComponent implements OnInit{
   currentQuestionIndex: number = 0;
   // userAnswer: string = '';
   endQuiz = false;
-  private _modeTraining: boolean = false;
+  private _modeTraining: boolean = true;
   loading = true;
   CardMode = CardMode;
   win = false;

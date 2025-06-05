@@ -140,7 +140,7 @@
     <div class="col-md-10 col-lg-8 mb-2 question ">
         <div class="card h-100 border-0 ">
             <div class="flip-card-inner " [ngClass]="{ 'flip-card-hover': flipcard} ">
-                <div class="flip-card-front cursor-pointer " [ngClass]="class " [class.pe-none]="showSolution " (click)="actionFlipCard() " [class.good-answer]="showSolution && correctAnswer " [class.wrong-answer]="showSolution && !correctAnswer ">
+                <div class="flip-card-front cursor-pointer " [ngClass]="class " (click)="actionFlipCard() " [class.good-answer]="showSolution && correctAnswer " [class.wrong-answer]="showSolution && !correctAnswer ">
                     <div class="card-body text-center ">
                         <ng-container *ngIf="!showSolution ">
                             <div class="card-title ">

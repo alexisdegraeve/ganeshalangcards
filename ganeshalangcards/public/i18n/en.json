@@ -12,5 +12,7 @@
     "learn": "Training",
     "test": "Test",
     "sorry": "Sorry it was...",
-    "nice": "Well done!"
+    "nice": "Well done!",
+    "titleinfo": "🎮 How to play",
+    "instructions": "<ul><li><strong>Start</strong> with the <em>Training</em> mode.</li><li>When ready, click on <strong>Test</strong> to begin.</li><li>Type your answer and press <kbd>Enter</kbd>.</li><li>If you don’t know the answer, simply skip the question.</li><li>Once the solution is shown, click it to go to the next question.</li></ul>"
 }
