@@ -1,7 +1,7 @@
 <div class="container-fluid">
     <div class="info-to-play">
-        <h5> {{ 'titleinfo' | translate }}</h5>
-        <p [innerHTML]="'instructions' |translate"></p>
+        <button class="info-button" (click)="showinfo = !showinfo"> {{ 'titleinfo' | translate }}</button>
+        <p [innerHTML]="'instructions' |translate" *ngIf="showinfo"></p>
     </div>
     <div class="col-md-10 col-lg-8  mode" [class]="class">
         <div class="btn-group " role="group" aria-label="Basic radio toggle button group">

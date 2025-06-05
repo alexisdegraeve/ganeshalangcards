@@ -29,6 +29,7 @@ export class FlashcardComponent implements OnInit{
   loading = true;
   CardMode = CardMode;
   win = false;
+  showinfo = false;
 
   @Input()
   set modeTraining(value: boolean) {
