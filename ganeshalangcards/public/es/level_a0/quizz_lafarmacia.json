@@ -1,0 +1,97 @@
+[{
+    "theme": "🩺 Buscando ayuda en la farmacia",
+    "langread": "en",
+    "questions": [{
+            "question": "My friend doesn’t feel well.",
+            "answers": ["mi amiga no se siente bien"]
+        },
+        {
+            "question": "I don’t feel well.",
+            "answers": ["no me siento bien"]
+        },
+        {
+            "question": "What’s the problem?",
+            "answers": ["¿Cuál es el problema?"]
+        },
+        {
+            "question": "Nausea (feminine form).",
+            "answers": ["mareada"]
+        },
+        {
+            "question": "Nausea (masculine form).",
+            "answers": ["mareado"]
+        },
+        {
+            "question": "You look pale.",
+            "answers": ["estás pálido"]
+        },
+        {
+            "question": "Your face is red.",
+            "answers": ["la cara está roja"]
+        },
+        {
+            "question": "I already see.",
+            "answers": ["ya veo"]
+        },
+        {
+            "question": "My throat hurts too.",
+            "answers": ["me duele la garganta también"]
+        },
+        {
+            "question": "How many days?",
+            "answers": ["¿cuántos días?"]
+        },
+        {
+            "question": "Did you eat something different?",
+            "answers": ["¿comiste algo diferente?"]
+        },
+        {
+            "question": "More than usual?",
+            "answers": ["¿más de lo normal?"]
+        },
+        {
+            "question": "Is it the first time?",
+            "answers": ["¿es la primera vez?"]
+        },
+        {
+            "question": "Octopus.",
+            "answers": ["pulpo"]
+        },
+        {
+            "question": "I don't know if it comes from that.",
+            "answers": ["no sé si viene de eso"]
+        },
+        {
+            "question": "A reaction.",
+            "answers": ["una reacción"]
+        },
+        {
+            "question": "Did you take the sun?",
+            "answers": ["¿tomaste el sol?"]
+        },
+        {
+            "question": "Are you pregnant?",
+            "answers": ["¿estás embarazada?"]
+        },
+        {
+            "question": "It’s nothing serious.",
+            "answers": ["no es nada grave"]
+        },
+        {
+            "question": "I'll give you these medicines.",
+            "answers": ["le doy estos medicamentos"]
+        },
+        {
+            "question": "Since two weeks ago.",
+            "answers": ["desde hace dos semanas"]
+        },
+        {
+            "question": "I’ve been speaking with Miguel for one hour.",
+            "answers": ["hablo con Miguel desde hace una hora"]
+        },
+        {
+            "question": "I’ve been eating octopus for ten years.",
+            "answers": ["como el pulpo desde hace diez años"]
+        }
+    ]
+}]
