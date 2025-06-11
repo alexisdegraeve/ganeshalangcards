@@ -1,0 +1,117 @@
+[{
+    "theme": "📘 Progresando en español",
+    "langread": "en",
+    "questions": [{
+            "question": "How do you say 'I am here' in Spanish?",
+            "answers": ["estoy aquí"]
+        },
+        {
+            "question": "How do you say 'I'm from Pinatar'?",
+            "answers": ["del Pinatar"]
+        },
+        {
+            "question": "How do you say 'I'm with someone'?",
+            "answers": ["estoy con"]
+        },
+        {
+            "question": "How do you say 'Tell me' or 'Go ahead'?",
+            "answers": ["dime", "dígame"]
+        },
+        {
+            "question": "How do you ask 'Are you Spanish?' to a woman?",
+            "answers": ["¿Eres española?"]
+        },
+        {
+            "question": "How do you say 'Are you American?' to a man?",
+            "answers": ["¿Eres norteamericano?"]
+        },
+        {
+            "question": "What verb means 'to study'?",
+            "answers": ["estudiar"]
+        },
+        {
+            "question": "What verb means 'to work'?",
+            "answers": ["trabajar"]
+        },
+        {
+            "question": "What is the Spanish word for 'science'?",
+            "answers": ["ciencias"]
+        },
+        {
+            "question": "How do you say 'business studies'?",
+            "answers": ["empresariales"]
+        },
+        {
+            "question": "How do you ask someone 'Do you like it?'?",
+            "answers": ["¿Te gusta?"]
+        },
+        {
+            "question": "How do you ask 'Do you speak English?'?",
+            "answers": ["¿Hablas inglés?"]
+        },
+        {
+            "question": "How do you say 'Very little'?",
+            "answers": ["muy poco"]
+        },
+        {
+            "question": "What is the Spanish word for 'career' or 'degree'?",
+            "answers": ["carrera"]
+        },
+        {
+            "question": "Which verb means 'to choose'?",
+            "answers": ["elegir"]
+        },
+        {
+            "question": "How do you say 'Yes, I chose it'?",
+            "answers": ["sí, la elegí"]
+        },
+        {
+            "question": "How do you say 'I speak it'?",
+            "answers": ["lo hablo"]
+        },
+        {
+            "question": "How do you ask 'Since when?' or 'How long ago?'",
+            "answers": ["¿Hace cuánto tiempo?"]
+        },
+        {
+            "question": "How do you say 'Only one year'?",
+            "answers": ["solo un año"]
+        },
+        {
+            "question": "How do you say 'I have studied'?",
+            "answers": ["he estudiado"]
+        },
+        {
+            "question": "What is the Spanish word for 'primary school'?",
+            "answers": ["colegio"]
+        },
+        {
+            "question": "What is the Spanish word for 'high school'?",
+            "answers": ["instituto"]
+        },
+        {
+            "question": "How do you ask 'What do you think?'",
+            "answers": ["¿Qué piensas tú?"]
+        },
+        {
+            "question": "How do you say 'easily'?",
+            "answers": ["fácilmente"]
+        },
+        {
+            "question": "How do you say 'tourists' in Spanish?",
+            "answers": ["los turistas"]
+        },
+        {
+            "question": "What is the Spanish word for 'area' or 'zone'?",
+            "answers": ["zona"]
+        },
+        {
+            "question": "How do you say 'beach'?",
+            "answers": ["playa"]
+        },
+        {
+            "question": "How do you say 'party'?",
+            "answers": ["fiesta"]
+        }
+    ]
+}]

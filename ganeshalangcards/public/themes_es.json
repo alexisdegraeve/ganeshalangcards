@@ -1,5 +1,10 @@
 [{
         "title": "Vocabulario",
+        "description": "📚 Progresando en español",
+        "class": "green",
+        "url": "/es/level_a0/quizz_progressando.json"
+    }, {
+        "title": "Vocabulario",
         "description": "🩺 Pedir ayuda en la farmacia",
         "class": "green",
         "url": "/es/level_a0/quizz_lafarmacia.json"

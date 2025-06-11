@@ -189,7 +189,7 @@
 
                                 <div class="card-answer " *ngIf="!isLoading ">
                                     <div class="form-group ">
-                                        <input type="text " class="form-control " id="answerInput " [placeholder]="( 'youranswer' | translate) " [(ngModel)]="userAnswer " (keydown.enter)="onOk() " #inputAnswer autofocus [disabled]="showSolution ">
+                                        <input type="text " autocomplete="off" class="form-control " id="answerInput " [placeholder]="( 'youranswer' | translate) " [(ngModel)]="userAnswer " (keydown.enter)="onOk() " #inputAnswer autofocus [disabled]="showSolution ">
                                     </div>
                                     <div class="buttons ">
                                         <div class="card-footer ">
