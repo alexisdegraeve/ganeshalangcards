@@ -78,6 +78,7 @@ export class GeneralcardComponent implements OnInit, AfterViewChecked {
 
   ngOnInit(): void {
     // Simulez un délai de chargement de 3 secondes
+    document.addEventListener('keydown', this.handleKey.bind(this));
     setTimeout(() => {
       this.isLoading = false; // Une fois les données chargées, mettez isLoading à false
     }, 500);
@@ -122,9 +123,9 @@ export class GeneralcardComponent implements OnInit, AfterViewChecked {
   }
 
   onOk(): void {
-    this.showSolution = true;
 //    this.flipcard = !this.flipcard;
     this.flipcard = !this.flipcard;
+    this.showSolution = true;
      if (this.checkInAnswers(this.userAnswer, this.answers)) {
       this.correctAnswer = true;
         }else {
@@ -216,6 +217,20 @@ onTouchEnd(event: TouchEvent) {
   }
 }
 
+handleKey(event: KeyboardEvent) {
+  const active = document.activeElement;
+  const isInputFocused = active && (active.tagName === 'INPUT' || active.tagName === 'TEXTAREA');
+  console.log('tagName : ', active?.tagName, active, isInputFocused);
+  if (isInputFocused) return; // ⛔ Ignore le Enter du champ input
+
+  // if(!isInputFocused) {
+  //   if (event.key === 'Enter' || event.code === 'Space' && this.showSolution)  {
+  //     event.preventDefault();
+  //     this.actionFlipCard(); // ta logique pour avancer
+  //   }
+  // }
+
+}
 
 
 
