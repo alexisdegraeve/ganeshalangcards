@@ -1,5 +1,17 @@
 import { CommonModule } from '@angular/common';
-import { AfterContentChecked, AfterViewChecked, AfterViewInit, Component, ElementRef, EventEmitter, HostListener, Input, OnInit, Output, ViewChild } from '@angular/core';
+import {
+  AfterContentChecked,
+  AfterViewChecked,
+  AfterViewInit,
+  Component,
+  ElementRef,
+  EventEmitter,
+  HostListener,
+  Input,
+  OnInit,
+  Output,
+  ViewChild,
+} from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { CardMode } from '../cardmode';
@@ -11,14 +23,14 @@ import { Question } from '../question';
   selector: 'app-generalcard',
   imports: [FormsModule, CommonModule, RouterModule, TranslateModule],
   templateUrl: './generalcard.component.html',
-  styleUrl: './generalcard.component.scss'
+  styleUrl: './generalcard.component.scss',
 })
 export class GeneralcardComponent implements OnInit, AfterViewChecked {
-  @Input() title: string  = '';
-  @Input() subtitle: string  = '';
+  @Input() title: string = '';
+  @Input() subtitle: string = '';
   @Input() imageUrl: string = '';
   @Input() imageWidth: number = 20;
-  @Input() icon: string = '';  // Vous pouvez ajouter un icône si nécessaire
+  @Input() icon: string = ''; // Vous pouvez ajouter un icône si nécessaire
   @Input() isLoading: boolean = true;
   @Input() link: string | undefined = '';
   @Input() class: string = '';
@@ -26,8 +38,8 @@ export class GeneralcardComponent implements OnInit, AfterViewChecked {
   @Input() langRead: string = '';
   @Input() answers: string[] = [];
   @Input() language = '';
-  @Input() score  =  0;
-  @Input() total  =  0;
+  @Input() score = 0;
+  @Input() total = 0;
   @Input() mode: CardMode = CardMode.OneSide;
   @Input() currentCardNumber = '';
   @Input() correctAnswer = false;
@@ -44,19 +56,20 @@ export class GeneralcardComponent implements OnInit, AfterViewChecked {
   CardMode = CardMode;
   flipcard = false;
   showSolution = false;
-  userAnswer ='';
+  userAnswer = '';
   solutioncardRead = 0;
   @ViewChild('inputAnswer') inputAnswer!: ElementRef;
   @ViewChild('doubleSideDiv') doubleSideDiv?: ElementRef<HTMLDivElement>;
   startX = 0;
 
-  constructor(private quizService : QuizService) {
-
-  }
-
+  constructor(private quizService: QuizService) {}
 
   ngAfterViewChecked(): void {
-    if (this.mode === CardMode.DoubleSide && !this.isLoading && this.doubleSideDiv) {
+    if (
+      this.mode === CardMode.DoubleSide &&
+      !this.isLoading &&
+      this.doubleSideDiv
+    ) {
       this.doubleSideDiv.nativeElement.focus();
     }
     if (this.mode === CardMode.question && !this.isLoading) {
@@ -69,12 +82,11 @@ export class GeneralcardComponent implements OnInit, AfterViewChecked {
   }
 
   speakText(text: string, question: boolean = true) {
-    if(question) {
+    if (question) {
       this.quizService.speakText(text, this.langRead);
     } else {
       this.quizService.speakText(text, this.language);
     }
-
   }
 
   ngOnInit(): void {
@@ -95,23 +107,25 @@ export class GeneralcardComponent implements OnInit, AfterViewChecked {
       this.flipcard = false;
       this.onCardClick.emit();
     }, 500);
-
   }
 
   actionFlipCard() {
-    if(this.showSolution) {
-        this.flipcard = !this.flipcard;
-        this.showSolution = false;
-       this.okEvent.emit(this.correctAnswer);
-       this.userAnswer = '';
+    if (this.showSolution) {
+      this.flipcard = !this.flipcard;
+      this.showSolution = false;
+      this.okEvent.emit(this.correctAnswer);
+      this.userAnswer = '';
     } else {
       this.flipcard = !this.flipcard;
       this.showSolution = false;
     }
   }
 
-    private checkInAnswers(userAnswer: string, answers: string[]): boolean {
-    return answers.some((answer: string) => this.cleanString(answer) === this.cleanString(userAnswer));
+  private checkInAnswers(userAnswer: string, answers: string[]): boolean {
+    return answers.some(
+      (answer: string) =>
+        this.cleanString(answer) === this.cleanString(userAnswer)
+    );
   }
 
   private cleanString(str: string): string {
@@ -123,12 +137,16 @@ export class GeneralcardComponent implements OnInit, AfterViewChecked {
 
   onOk(): void {
     this.flipcard = !this.flipcard;
-    this.showSolution = true;
-     if (this.checkInAnswers(this.userAnswer, this.answers)) {
-      this.correctAnswer = true;
-        }else {
-          this.correctAnswer = false;
+
+    if(this.userAnswer.length > 0 ) {
+      this.showSolution = true;
+      if (this.checkInAnswers(this.userAnswer, this.answers)) {
+        this.correctAnswer = true;
+      } else {
+        this.correctAnswer = false;
+      }
     }
+
   }
 
   firstQuestion() {
@@ -151,21 +169,18 @@ export class GeneralcardComponent implements OnInit, AfterViewChecked {
 
   @HostListener('document:keydown', ['$event'])
   handleKeyboardEvent(event: KeyboardEvent) {
-
-    if(this.mode=== CardMode.question) {
-            switch (event.key) {
+    if (this.mode === CardMode.question) {
+      switch (event.key) {
         case 'Enter':
           this.solutioncardRead++;
-          if(this.solutioncardRead == 2) {
-            this.solutioncardRead = 0;
-            this.actionFlipCard();
 
+          if (this.solutioncardRead == 2) {
+            this.solutioncardRead = 0;
           }
           break;
       }
-
     }
-    if(this.mode=== CardMode.DoubleSide) {
+    if (this.mode === CardMode.DoubleSide) {
       switch (event.key) {
         case 'ArrowRight':
           if (!this.disableLast) this.nextQuestion();
@@ -183,7 +198,7 @@ export class GeneralcardComponent implements OnInit, AfterViewChecked {
           this.flipcard = !this.flipcard;
           break;
         case 'Enter':
-          if(!this.flipcard) {
+          if (!this.flipcard) {
             this.speakText(this.question);
           } else {
             this.speakText(this.answers.toString());
@@ -206,22 +221,18 @@ export class GeneralcardComponent implements OnInit, AfterViewChecked {
     return `linear-gradient(to top, ${color} 4%, #fff 60%)`;
   }
 
-
-
-onTouchStart(event: TouchEvent) {
-  this.startX = event.touches[0].clientX;
-}
-
-onTouchEnd(event: TouchEvent) {
-  const endX = event.changedTouches[0].clientX;
-  const deltaX = endX - this.startX;
-
-  if (deltaX > 50) {
-    this.nextQuestion();
-  } else if (deltaX < -50) {
-     this.prevQuestion();
+  onTouchStart(event: TouchEvent) {
+    this.startX = event.touches[0].clientX;
   }
-}
 
+  onTouchEnd(event: TouchEvent) {
+    const endX = event.changedTouches[0].clientX;
+    const deltaX = endX - this.startX;
 
+    if (deltaX > 50) {
+      this.nextQuestion();
+    } else if (deltaX < -50) {
+      this.prevQuestion();
+    }
+  }
 }
