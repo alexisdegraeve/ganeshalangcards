@@ -45,6 +45,7 @@ export class GeneralcardComponent implements OnInit, AfterViewChecked {
   flipcard = false;
   showSolution = false;
   userAnswer ='';
+  solutioncardRead = 0;
   @ViewChild('inputAnswer') inputAnswer!: ElementRef;
   @ViewChild('doubleSideDiv') doubleSideDiv?: ElementRef<HTMLDivElement>;
   startX = 0;
@@ -159,6 +160,21 @@ export class GeneralcardComponent implements OnInit, AfterViewChecked {
 
   @HostListener('document:keydown', ['$event'])
   handleKeyboardEvent(event: KeyboardEvent) {
+
+    if(this.mode=== CardMode.question) {
+            switch (event.key) {
+        case 'Enter':
+          this.solutioncardRead++;
+          console.log('enter with question reading', this.solutioncardRead);
+          if(this.solutioncardRead == 2) {
+            this.solutioncardRead = 0;
+            this.onOk();
+            console.log('enter with question reading', this.solutioncardRead);
+          }
+          break;
+      }
+
+    }
     if(this.mode=== CardMode.DoubleSide) {
       switch (event.key) {
         case 'ArrowRight':
