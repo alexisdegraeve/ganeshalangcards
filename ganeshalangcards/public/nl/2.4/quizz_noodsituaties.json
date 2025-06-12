@@ -1,16 +1,16 @@
 [{
     "theme": "Noodsituaties 🚨",
     "questions": [{
-            "question": "Komen je helpen als je een ongeval hebt, thuis gevallen bent,...",
-            "answers": ["de hulpdiensten"]
+            "question": "Komen je helpen als je een ongeval hebt, thuis gevallen bent, de...",
+            "answers": ["hulpdiensten"]
         },
         {
-            "question": "Komt je helpen bij brand of bij een ongeval (blust een brand)?",
-            "answers": ["de brandweer"]
+            "question": "Komt je helpen bij brand of bij een ongeval (blust een brand)? De ...",
+            "answers": ["brandweer"]
         },
         {
-            "question": "Helpt je met alle kleine medische problemen.",
-            "answers": ["de huisarts"]
+            "question": "Helpt je met alle kleine medische problemen. De ...",
+            "answers": ["huisarts"]
         },
         {
             "question": "Iets moet direct gebeuren.",
@@ -22,11 +22,11 @@
         },
         {
             "question": "Komt als je een acuut medisch probleem hebt en niet zelf naar het ziekenhuis kan gaan.",
-            "answers": ["de ambulance", "de ziekenwagen"]
+            "answers": ["ambulance", "ziekenwagen"]
         },
         {
             "question": "Daar ga je naartoe als je een acuut medisch probleem hebt.",
-            "answers": ["de spoeddienst"]
+            "answers": ["spoeddienst"]
         },
         {
             "question": "Als je met iemand niet meer kan communiceren.",
@@ -37,16 +37,16 @@
             "answers": ["bij bewustzijn zijn"]
         },
         {
-            "question": "Als je een ongeval of noodgeval hebt, kan je dit nummer 112 bellen.",
-            "answers": ["het noodnummer"]
+            "question": "Als je een ongeval of noodgeval hebt, kan je dit nummer 112 bellen. Het ...",
+            "answers": ["noodnummer"]
         },
         {
-            "question": "Iemand die gewond is bij een ongeval of misdaad.",
-            "answers": ["het slachtoffer"]
+            "question": "Iemand die gewond is bij een ongeval of misdaad. Het ...",
+            "answers": ["slachtoffer"]
         },
         {
-            "question": "Als je met gas, hout of mazout verwarmt, kan je een ... oplopen.",
-            "answers": ["de CO-vergiftiging"]
+            "question": "Als je met gas, hout of mazout verwarmt, kan je de ... oplopen.",
+            "answers": ["CO-vergiftiging"]
         }
     ]
 }]
