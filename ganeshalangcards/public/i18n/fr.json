@@ -12,6 +12,6 @@
     "sorry": "Désolé c'était...",
     "nice": "Bien joué!",
     "titleinfo": "🎮 Comment jouer",
-    "instructions": "<ul><li><strong>Commencez</strong> par le mode <em>Apprendre</em>.</li><li>Quand vous êtes prêt, cliquez sur <strong>Tester</strong> pour commencer.</li><li>Saisissez votre réponse et appuyez sur <kbd>Entrée</kbd>.</li><li>Si vous ne connaissez pas la réponse, passez simplement à la question suivante.</li><li>Une fois la solution affichée, cliquez dessus pour continuer.</li></ul>"
+    "instructions": "<ul><li><strong>Commencez</strong> par le mode <em>Apprendre</em>.</li><li>Quand vous êtes prêt, cliquez sur <strong>Tester</strong> pour commencer.</li><li>Saisissez votre réponse et appuyez sur <kbd>Entrée</kbd>.</li><li>Appuyez sur <kbd>Espace</kbd> pour retourner la carte.</li><li>Si vous ne connaissez pas la réponse, passez simplement à la question suivante.</li><li>Une fois la solution affichée, cliquez dessus pour continuer.</li></ul>"
 
 }

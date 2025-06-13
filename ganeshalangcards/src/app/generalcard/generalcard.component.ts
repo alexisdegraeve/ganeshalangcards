@@ -136,9 +136,8 @@ export class GeneralcardComponent implements OnInit, AfterViewChecked {
   }
 
   onOk(): void {
-    this.flipcard = !this.flipcard;
-
     if(this.userAnswer.length > 0 ) {
+      this.flipcard = !this.flipcard;
       this.showSolution = true;
       if (this.checkInAnswers(this.userAnswer, this.answers)) {
         this.correctAnswer = true;
@@ -171,12 +170,19 @@ export class GeneralcardComponent implements OnInit, AfterViewChecked {
   handleKeyboardEvent(event: KeyboardEvent) {
     if (this.mode === CardMode.question) {
       switch (event.key) {
-        case 'Enter':
-          this.solutioncardRead++;
+        case ' ':
+          if(this.showSolution) {
+            this.actionFlipCard();
+          } else {
+            if(this.flipcard == false ){
+              this.flipcard = !this.flipcard;
+            }
+          }
+          /* this.solutioncardRead++;
 
           if (this.solutioncardRead == 2) {
             this.solutioncardRead = 0;
-          }
+          } */
           break;
       }
     }
