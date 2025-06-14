@@ -1,0 +1,105 @@
+[{
+    "theme": "🌍 Aprender idiomas",
+    "langread": "es",
+    "questions": [{
+            "question": "What languages do you speak?",
+            "answers": ["¿Qué idiomas hablas?"]
+        },
+        {
+            "question": "How do you say 'to speak'?",
+            "answers": ["hablar"]
+        },
+        {
+            "question": "How do you say 'tourism'?",
+            "answers": ["turismo"]
+        },
+        {
+            "question": "How do you say 'school'?",
+            "answers": ["colegio"]
+        },
+        {
+            "question": "How do you say 'high school'?",
+            "answers": ["instituto"]
+        },
+        {
+            "question": "How do you say 'mandatory'?",
+            "answers": ["obligatorio"]
+        },
+        {
+            "question": "How do you say 'of course'?",
+            "answers": ["claro que sí"]
+        },
+        {
+            "question": "How do you say 'I am Spanish'?",
+            "answers": ["yo soy español"]
+        },
+        {
+            "question": "How do you say 'so' (as in 'so I did it')?",
+            "answers": ["así que"]
+        },
+        {
+            "question": "How do you say 'important'?",
+            "answers": ["importante"]
+        },
+        {
+            "question": "How do you say 'particularly'?",
+            "answers": ["particularmente"]
+        },
+        {
+            "question": "How do you say 'Did you study?'",
+            "answers": ["¿Estudiaste?"]
+        },
+        {
+            "question": "How do you say 'to study'?",
+            "answers": ["estudiar"]
+        },
+        {
+            "question": "How do you say 'At what age?'",
+            "answers": ["¿A qué edad?"]
+        },
+        {
+            "question": "How do you say 'It begins'?",
+            "answers": ["Se empieza"]
+        },
+        {
+            "question": "How do you say 'When I was little'?",
+            "answers": ["Cuando yo era pequeño"]
+        },
+        {
+            "question": "How do you say 'before'?",
+            "answers": ["antes"]
+        },
+        {
+            "question": "How do you say 'at eight years old'?",
+            "answers": ["con ocho años"]
+        },
+        {
+            "question": "How do you say 'to understand each other'?",
+            "answers": ["entendernos"]
+        },
+        {
+            "question": "How do you say 'furthermore' or 'besides'?",
+            "answers": ["además"]
+        },
+        {
+            "question": "How do you say 'he/she came'?",
+            "answers": ["vino"]
+        },
+        {
+            "question": "How do you say 'especially'?",
+            "answers": ["especialmente"]
+        },
+        {
+            "question": "How do you say 'Arabic'?",
+            "answers": ["árabe"]
+        },
+        {
+            "question": "How do you say 'Russian'?",
+            "answers": ["ruso"]
+        },
+        {
+            "question": "How do you say 'French'?",
+            "answers": ["francés"]
+        }
+    ]
+}]

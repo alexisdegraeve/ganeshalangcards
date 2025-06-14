@@ -1,5 +1,10 @@
 [{
         "title": "Vocabulario",
+        "description": "🌍 Aprender idiomas",
+        "class": "green",
+        "url": "/es/level_a0/quizz_idiomas.json"
+    }, {
+        "title": "Vocabulario",
         "description": "📚 Progresando en español",
         "class": "green",
         "url": "/es/level_a0/quizz_progresando.json"
