@@ -1,0 +1,153 @@
+[{
+    "theme": "⏰ Present Tense Practice – Verbos y expresiones comunes",
+    "langread": "en",
+    "questions": [{
+            "question": "What do you do during the weekend?",
+            "answers": ["haces"]
+        },
+        {
+            "question": "The weekend",
+            "answers": ["el fin de semana"]
+        },
+        {
+            "question": "Does the sun shine?",
+            "answers": ["hace"]
+        },
+        {
+            "question": "Do you work in the restaurant?",
+            "answers": ["trabajas"]
+        },
+        {
+            "question": "Do you (formal) work in the restaurant?",
+            "answers": ["trabaja"]
+        },
+        {
+            "question": "I work.",
+            "answers": ["trabajo"]
+        },
+        {
+            "question": "Does Carla work?",
+            "answers": ["trabaja"]
+        },
+        {
+            "question": "We work.",
+            "answers": ["trabajamos"]
+        },
+        {
+            "question": "You all (informal) work.",
+            "answers": ["trabajáis"]
+        },
+        {
+            "question": "They work.",
+            "answers": ["trabajan"]
+        },
+        {
+            "question": "I dance.",
+            "answers": ["bailo"]
+        },
+        {
+            "question": "You dance.",
+            "answers": ["bailas"]
+        },
+        {
+            "question": "He or she dances.",
+            "answers": ["baila"]
+        },
+        {
+            "question": "We dance.",
+            "answers": ["bailamos"]
+        },
+        {
+            "question": "You all (informal) dance.",
+            "answers": ["bailáis"]
+        },
+        {
+            "question": "They dance.",
+            "answers": ["bailan"]
+        },
+        {
+            "question": "Infinitive of 'to spend time'.",
+            "answers": ["pasar"]
+        },
+        {
+            "question": "I spend time with my family.",
+            "answers": ["paso"]
+        },
+        {
+            "question": "You spend (time).",
+            "answers": ["pasas"]
+        },
+        {
+            "question": "He/She spends (time).",
+            "answers": ["pasa"]
+        },
+        {
+            "question": "We spend (time).",
+            "answers": ["pasamos"]
+        },
+        {
+            "question": "You all spend (time).",
+            "answers": ["pasáis"]
+        },
+        {
+            "question": "They spend (time).",
+            "answers": ["pasan"]
+        },
+        {
+            "question": "I speak with my friends.",
+            "answers": ["hablo"]
+        },
+        {
+            "question": "You speak with your friends.",
+            "answers": ["hablas"]
+        },
+        {
+            "question": "He/She speaks.",
+            "answers": ["habla"]
+        },
+        {
+            "question": "We speak.",
+            "answers": ["hablamos"]
+        },
+        {
+            "question": "You all speak.",
+            "answers": ["habláis"]
+        },
+        {
+            "question": "They speak.",
+            "answers": ["hablan"]
+        },
+        {
+            "question": "Infinitive of 'to chat'.",
+            "answers": ["charlar"]
+        },
+        {
+            "question": "I chat.",
+            "answers": ["charlo"]
+        },
+        {
+            "question": "You chat.",
+            "answers": ["charlas"]
+        },
+        {
+            "question": "He/She chats.",
+            "answers": ["charla"]
+        },
+        {
+            "question": "We chat.",
+            "answers": ["charlamos"]
+        },
+        {
+            "question": "You all chat.",
+            "answers": ["charláis"]
+        },
+        {
+            "question": "They chat.",
+            "answers": ["charlan"]
+        },
+        {
+            "question": "Infinitive of 'to talk' (used in Latin America).",
+            "answers": ["platicar"]
+        }
+    ]
+}]

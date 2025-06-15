@@ -1,6 +1,6 @@
 [{
-    "title": "Vocabulario",
-    "description": "🌍 Aprender idiomas",
+    "title": "Grammar",
+    "description": "⏰ Gramática – El presente del indicativo",
     "class": "green",
-    "url": "/es/level_b1/quizz_idiomas.json"
+    "url": "/es/level_b1/quizz_present.json"
 }]
