@@ -21,7 +21,7 @@ export class GameComponent implements OnInit {
     {
       title: 'Nederlands',
       subtitle: 'Level B 2.3',
-      imageUrl: '/images/moulin.svg', 
+      imageUrl: '/images/moulin.svg',
       imageWidth: 10, // Remplacez par le chemin réel de vos images
       isLoading: false,
       link: '/theme',
@@ -42,13 +42,25 @@ export class GameComponent implements OnInit {
     },
     {
       title: 'Spanish',
-      subtitle: 'Level A 0',
+      subtitle: 'Level A 1',
       imageUrl: '/images/espana.svg',
       imageWidth: 28,
       isLoading: false,
       link: '/theme',
       class: 'green',
-      language: 'es'
+      language: 'es',
+      serie: 11
+    },
+        {
+      title: 'Spanish',
+      subtitle: 'Level B 1',
+      imageUrl: '/images/espana.svg',
+      imageWidth: 28,
+      isLoading: false,
+      link: '/theme',
+      class: 'green',
+      language: 'es',
+      serie: 21
     },
     {
       title: 'English',

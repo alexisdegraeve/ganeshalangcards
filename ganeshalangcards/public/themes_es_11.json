@@ -2,202 +2,202 @@
         "title": "Vocabulario",
         "description": "🌍 Aprender idiomas",
         "class": "green",
-        "url": "/es/level_a0/quizz_idiomas.json"
+        "url": "/es/level_a1/quizz_idiomas.json"
     }, {
         "title": "Vocabulario",
         "description": "📚 Progresando en español",
         "class": "green",
-        "url": "/es/level_a0/quizz_progresando.json"
+        "url": "/es/level_a1/quizz_progresando.json"
     }, {
         "title": "Vocabulario",
         "description": "🩺 Pedir ayuda en la farmacia",
         "class": "green",
-        "url": "/es/level_a0/quizz_lafarmacia.json"
+        "url": "/es/level_a1/quizz_lafarmacia.json"
     }, {
         "title": "Vocabulario",
         "description": "🚌 Transporte público",
         "class": "green",
-        "url": "/es/level_a0/quizz_transporte_publico.json"
+        "url": "/es/level_a1/quizz_transporte_publico.json"
     },
     {
         "title": "Vocabulario",
         "description": "Números del 1 al 20",
         "class": "green",
-        "url": "/es/level_a0/quizz_numeros.json"
+        "url": "/es/level_a1/quizz_numeros.json"
     },
     {
         "title": "Vocabulario",
         "description": "Números del 20 al 1 millón",
         "class": "green",
-        "url": "/es/level_a0/quizz_more_numeros.json"
+        "url": "/es/level_a1/quizz_more_numeros.json"
     },
     {
         "title": "Vocabulario",
         "description": "Colores🎨",
         "class": "green",
-        "url": "/es/level_a0/quizz_colores.json"
+        "url": "/es/level_a1/quizz_colores.json"
     },
     {
         "title": "Vocabulario",
         "description": "🛍️ Las compras",
         "class": "green",
-        "url": "/es/level_a0/quizz_compras.json"
+        "url": "/es/level_a1/quizz_compras.json"
     },
     {
         "title": "Vocabulario",
         "description": "Días de la semana y estaciones",
         "class": "green",
-        "url": "/es/level_a0/quizz_dias.json"
+        "url": "/es/level_a1/quizz_dias.json"
     },
     {
         "title": "Verbos",
         "description": "Verbos comunes",
         "class": "green",
-        "url": "/es/level_a0/quizz_verbos_communes.json"
+        "url": "/es/level_a1/quizz_verbos_communes.json"
     },
     {
         "title": "Verbos",
         "description": "comunes",
         "class": "green",
-        "url": "/es/level_a0/quizz_verbos.json"
+        "url": "/es/level_a1/quizz_verbos.json"
     },
     {
         "title": "Vocabulario",
         "description": "ropa",
         "class": "green",
-        "url": "/es/level_a0/quizz_ropa.json"
+        "url": "/es/level_a1/quizz_ropa.json"
     },
     {
         "title": "Vocabulario",
         "description": "Objetos de la casa",
         "class": "green",
-        "url": "/es/level_a0/quizz_objetos.json"
+        "url": "/es/level_a1/quizz_objetos.json"
     },
     {
         "title": "Vocabulario",
         "description": "Transporte",
         "class": "green",
-        "url": "/es/level_a0/quizz_transporte.json"
+        "url": "/es/level_a1/quizz_transporte.json"
     }, {
         "title": "Vocabulario",
         "description": "Animales",
         "class": "green",
-        "url": "/es/level_a0/quizz_animales.json"
+        "url": "/es/level_a1/quizz_animales.json"
     }, {
         "title": "Vocabulario",
         "description": "Las bebidas",
         "class": "green",
-        "url": "/es/level_a0/quizz_bebidas.json"
+        "url": "/es/level_a1/quizz_bebidas.json"
     }, {
         "title": "Vocabulario",
         "description": "Los lugares y la orientación",
         "class": "green",
-        "url": "/es/level_a0/quizz_lugares.json"
+        "url": "/es/level_a1/quizz_lugares.json"
     }, {
         "title": "Vocabulario",
         "description": "De las acciones habituales",
         "class": "green",
-        "url": "/es/level_a0/quizz_actiones.json"
+        "url": "/es/level_a1/quizz_actiones.json"
     },
     {
         "title": "Vocabulario",
         "description": "Amor, encuentros y algo para comer😍🍷",
         "class": "green",
-        "url": "/es/level_a0/quizz_comer.json"
+        "url": "/es/level_a1/quizz_comer.json"
     }, {
         "title": "Vocabulario",
         "description": "🍽️ En el restaurante y aprender frase",
         "class": "green",
-        "url": "/es/level_a0/quizz_restaurante.json"
+        "url": "/es/level_a1/quizz_restaurante.json"
     }, {
         "title": "Vocabulario",
         "description": "🍽️ En el restaurante y expresar lo que comes ",
         "class": "green",
-        "url": "/es/level_a0/quizz_restaurante_dos.json"
+        "url": "/es/level_a1/quizz_restaurante_dos.json"
     }, {
         "title": "Vocabulario",
         "description": "🧭 Revisión en español: moverse, preguntar, pedir",
         "class": "green",
-        "url": "/es/level_a0/quizz_revisarmoverse.json"
+        "url": "/es/level_a1/quizz_revisarmoverse.json"
     }, {
         "title": "Vocabulario",
         "description": "🍽️ En el restaurante - Conversación completa",
         "class": "green",
-        "url": "/es/level_a0/quizz_restaurante_2.json"
+        "url": "/es/level_a1/quizz_restaurante_2.json"
     }, {
         "title": "Vocabulario",
         "description": "🌤️ El tiempo",
         "class": "green",
-        "url": "/es/level_a0/quizz_tiempo.json"
+        "url": "/es/level_a1/quizz_tiempo.json"
     }, {
         "title": "Vocabulario",
         "description": "🏨 Viajar a España — Necesito un hotel",
         "class": "green",
-        "url": "/es/level_a0/quizz_hotel.json"
+        "url": "/es/level_a1/quizz_hotel.json"
     }, {
         "title": "Vocabulario",
         "description": "🛎️ Problemas en el hotel",
         "class": "green",
-        "url": "/es/level_a0/quizz_problemashotel.json"
+        "url": "/es/level_a1/quizz_problemashotel.json"
     }, {
         "title": "Vocabulario",
         "description": "Camping— Preguntas situacionales",
         "class": "green",
-        "url": "/es/level_a0/quizz_camping.json"
+        "url": "/es/level_a1/quizz_camping.json"
     }, {
         "title": "Vocabulario",
         "description": "🛍️ Ir de compras — Preguntas situacionales",
         "class": "green",
-        "url": "/es/level_a0/quizz_irdecompras.json"
+        "url": "/es/level_a1/quizz_irdecompras.json"
     }, {
         "title": "Vocabulario",
         "description": "En el mercado en España",
         "class": "green",
-        "url": "/es/level_a0/quizz_mercado.json"
+        "url": "/es/level_a1/quizz_mercado.json"
     }, {
         "title": "Vocabulario",
         "description": "💶 Cambiar Dinero",
         "class": "green",
-        "url": "/es/level_a0/quizz_dinero.json"
+        "url": "/es/level_a1/quizz_dinero.json"
     }, {
         "title": "Vocabulario",
         "description": "💢 Dolores y molestias",
         "class": "green",
-        "url": "/es/level_a0/quizz_dolores.json"
+        "url": "/es/level_a1/quizz_dolores.json"
     }, {
         "title": "Vocabulario",
         "description": "💊 En la farmacia o con el médico",
         "class": "green",
-        "url": "/es/level_a0/quizz_farmacia.json"
+        "url": "/es/level_a1/quizz_farmacia.json"
     }, {
         "title": "Vocabulario",
         "description": "⚽ En un partido de fútbol - Final de la UEFA en Glasgow",
         "class": "green",
-        "url": "/es/level_a0/quizz_futbol.json"
+        "url": "/es/level_a1/quizz_futbol.json"
     }, {
         "title": "Vocabulario",
         "description": "🛫 En un vuelo a España",
         "class": "green",
-        "url": "/es/level_a0/quizz_vueloespana.json"
+        "url": "/es/level_a1/quizz_vueloespana.json"
     }, {
         "title": "Vocabulario",
         "description": "🛬 Llegando a España",
         "class": "green",
-        "url": "/es/level_a0/quizz_llegando.json"
+        "url": "/es/level_a1/quizz_llegando.json"
     }, {
         "title": "Vocabulario",
         "description": "🏨 Registro en el hotel",
         "class": "green",
-        "url": "/es/level_a0/quizz_registrohotel.json"
+        "url": "/es/level_a1/quizz_registrohotel.json"
     }, {
         "title": "Vocabulario",
         "description": "Pedir el desayuno 🍽️☕",
         "class": "green",
-        "url": "/es/level_a0/quizz_desayuno.json"
+        "url": "/es/level_a1/quizz_desayuno.json"
     }, {
         "title": "Vocabulario",
         "description": "En la oficina de turismo🗺️",
         "class": "green",
-        "url": "/es/level_a0/quizz_elturismo.json"
+        "url": "/es/level_a1/quizz_elturismo.json"
     }
 ]
