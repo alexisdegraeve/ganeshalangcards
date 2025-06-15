@@ -1,5 +1,10 @@
   [{
           "title": "Woordenschat",
+          "description": "📺 Aflevering 2",
+          "class": "pink",
+          "url": "/nl/2.4/quizz_aflevering_2.json"
+      }, {
+          "title": "Woordenschat",
           "description": "📺 Aflevering",
           "class": "pink",
           "url": "/nl/2.4/quizz_aflevering.json"
