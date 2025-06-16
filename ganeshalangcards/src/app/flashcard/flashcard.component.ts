@@ -69,7 +69,7 @@ export class FlashcardComponent implements OnInit{
   }
 
   showQuestion() {
-    if(this.currentQuestionIndex < this.questions.length) {
+    if(this.currentQuestionIndex < this.quizService.maxQuestions) {
       this.endQuiz = false;
       this.currentQuestion = this.questions[this.currentQuestionIndex];
     } else {
@@ -128,6 +128,11 @@ export class FlashcardComponent implements OnInit{
     return `${this.currentQuestionIndex + 1}  / ${this.questions.length}`;
   }
 
+    get currentCarQuizzdNumber() {
+    return `${this.currentQuestionIndex + 1}  / ${this.quizService.maxQuestions}`;
+  }
+
+
   get scoreTotal() {
     return `${this.score} / ${this.questions.length}`;
   }
@@ -135,4 +140,15 @@ export class FlashcardComponent implements OnInit{
     return this.score > (this.questions.length / 2);
   }
 
+  get maxQuestion() {
+      return this.quizService.maxQuestions;
+  }
+
+  setMaxQuizz(total: number) {
+    if(total < this.questions.length) {
+      this.quizService.totalQuestions(total);
+    } else {
+      this.quizService.totalQuestions(this.questions.length);
+    }
+  }
 }

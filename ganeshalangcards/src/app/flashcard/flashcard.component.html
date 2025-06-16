@@ -9,7 +9,24 @@
             <label class="btn btn-outline-primary" for="btnradio1">{{ 'learn' | translate}}</label>
 
             <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" [(ngModel)]="modeTraining" [value]="false">
-            <label class="btn btn-outline-primary " for="btnradio2">{{ 'test' | translate}}</label>
+            <label class="btn btn-outline-primary btn-quizz" for="btnradio2" (click)="setMaxQuizz(5)">{{ 'test' | translate}}                       {{ 'fast' | translate}}
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger badge-top">
+                      5
+                      <span class="visually-hidden">5 words</span>
+                    </span>
+            </label>
+            <label class="btn btn-outline-primary btn-quizz" for="btnradio2" (click)="setMaxQuizz(10)">{{ 'test' | translate}} {{ 'normal' | translate}}
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger badge-top">
+                      10
+                      <span class="visually-hidden">5 words</span>
+                    </span>
+            </label>
+            <label class="btn btn-outline-primary btn-quizz" for="btnradio2" (click)="setMaxQuizz(20)">{{ 'test' | translate}} {{ 'expert' | translate}}
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger badge-top">
+                      20
+                      <span class="visually-hidden">5 words</span>
+                    </span>
+            </label>
         </div>
     </div>
     <ng-container *ngIf="modeTraining ">
@@ -19,16 +36,16 @@
     </ng-container>
 
     <ng-container *ngIf="!modeTraining ">
-        <app-generalcard [language]="language" [langRead]="langRead" [score]="score" [total]="questions.length" [currentCardNumber]="currentCardNumber " (okEvent)="checkAnswer($event) " (skipEvent)="skipQuestion() " [title]=" 'Question' " [answers]="currentQuestion.answers "
+        <app-generalcard [language]="language" [langRead]="langRead" [score]="score" [total]="maxQuestion" [currentCardNumber]="currentCarQuizzdNumber " (okEvent)="checkAnswer($event) " (skipEvent)="skipQuestion() " [title]=" 'Question' " [answers]="currentQuestion.answers "
             [question]="currentQuestion.question " [class]="class
         " [icon]=" 'bi-patch-question-fill' " [mode]="CardMode.question " *ngIf="!endQuiz "></app-generalcard>
         <ng-container *ngIf="endQuiz ">
             <ng-container *ngIf="checkWin ">
-                <app-generalcard [class]="class " [mode]="CardMode.win " [score]="score" [total]="questions.length" (restartClick)="reset() "></app-generalcard>
+                <app-generalcard [class]="class " [mode]="CardMode.win " [score]="score" [total]="maxQuestion" (restartClick)="reset() "></app-generalcard>
             </ng-container>
 
             <ng-container *ngIf="!checkWin ">
-                <app-generalcard [class]="class " [mode]="CardMode.lose " [score]="score" [total]="questions.length" (restartClick)="reset() "></app-generalcard>
+                <app-generalcard [class]="class " [mode]="CardMode.lose " [score]="score" [total]="maxQuestion" (restartClick)="reset() "></app-generalcard>
             </ng-container>
 
         </ng-container>

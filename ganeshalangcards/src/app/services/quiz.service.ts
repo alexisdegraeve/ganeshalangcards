@@ -7,6 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class QuizService {
   private _hardWords: string[] = [];
+  _maxquestion = 5;
 
   constructor(private http: HttpClient) {
         this.resetHardWord();
@@ -77,4 +78,11 @@ export class QuizService {
     return this._hardWords;
   }
 
+  totalQuestions(max: number) {
+    this._maxquestion = max;
+  }
+
+  get maxQuestions() {
+    return this._maxquestion;
+  }
 }
