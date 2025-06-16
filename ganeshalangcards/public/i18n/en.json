@@ -18,5 +18,6 @@
     "nice": "Well done!",
     "titleinfo": "🎮 How to play",
     "wordstoreview": "Words to review",
-    "instructions": "<ul><li><strong>Start</strong> with the <em>Training</em> mode.</li><li>When ready, click on <strong>Test</strong> to begin.</li><li>Type your answer and press <kbd>Enter</kbd>.</li><li>Press <kbd>Space</kbd> to flip the card.</li><li>If you don’t know the answer, simply skip the question.</li><li>Once the solution is shown, click it to go to the next question.</li></ul>"
+    "instructions": "<ul><li><strong>Start</strong> with the <em>Learning</em> mode.</li><li>When ready, choose one of the <strong>Quizz modes</strong>:</li><ul><li><strong>Fast</strong>: 5 questions</li><li><strong>Normal</strong>: 10 questions</li><li><strong>Expert</strong>: 20 questions</li></ul><li>Type your answer and press <kbd>Enter</kbd>.</li><li>Press <kbd>Space</kbd> to flip the card.</li><li>If you don’t know the answer, simply skip the question.</li><li>Once the solution is shown, click it to go to the next question.</li></ul>"
+
 }
