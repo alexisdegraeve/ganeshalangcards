@@ -3,7 +3,7 @@
     "langread": "en",
     "questions": [{
             "question": "What do you do during the weekend?",
-            "answers": ["haces"]
+            "answers": ["¿Qué haces durante el fin de semana?"]
         },
         {
             "question": "The weekend",
@@ -11,35 +11,35 @@
         },
         {
             "question": "Does the sun shine?",
-            "answers": ["hace"]
+            "answers": ["Hace sol."]
         },
         {
             "question": "Do you (formal) work in the restaurant?",
-            "answers": ["trabaja"]
+            "answers": ["¿Usted trabaja en el restaurante?"]
         },
         {
             "question": "I work.",
-            "answers": ["trabajo"]
+            "answers": ["Yo trabajo."]
         },
         {
             "question": "We work.",
-            "answers": ["trabajamos"]
+            "answers": ["Nosotros trabajamos."]
         },
         {
             "question": "They work.",
-            "answers": ["trabajan"]
+            "answers": ["Ellos trabajan."]
         },
         {
             "question": "Do you dance?",
-            "answers": ["bailas"]
+            "answers": ["¿Tú bailas?"]
         },
         {
             "question": "He/She dances.",
-            "answers": ["baila"]
+            "answers": ["Él baila."]
         },
         {
             "question": "You all (informal) dance.",
-            "answers": ["bailáis"]
+            "answers": ["Vosotros bailáis."]
         },
         {
             "question": "Infinitive of 'to spend time'.",
@@ -47,27 +47,27 @@
         },
         {
             "question": "I spend time with my family.",
-            "answers": ["paso"]
+            "answers": ["Yo paso tiempo con mi familia."]
         },
         {
             "question": "He/She spends time.",
-            "answers": ["pasa"]
+            "answers": ["Él pasa tiempo."]
         },
         {
             "question": "You all spend time.",
-            "answers": ["pasáis"]
+            "answers": ["Vosotros pasáis tiempo."]
         },
         {
             "question": "Do you speak with your friends?",
-            "answers": ["hablas"]
+            "answers": ["¿Hablas con tus amigos?"]
         },
         {
             "question": "We speak.",
-            "answers": ["hablamos"]
+            "answers": ["Nosotros hablamos."]
         },
         {
             "question": "They speak.",
-            "answers": ["hablan"]
+            "answers": ["Ellos hablan."]
         },
         {
             "question": "Infinitive of 'to chat'.",
@@ -75,7 +75,7 @@
         },
         {
             "question": "You chat.",
-            "answers": ["charlas"]
+            "answers": ["Tú charlas."]
         },
         {
             "question": "Infinitive of 'to talk' (used in Latin America).",
