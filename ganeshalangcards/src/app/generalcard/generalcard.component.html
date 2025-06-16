@@ -285,7 +285,7 @@
 </ng-container>
 
 <ng-container *ngIf="mode===(CardMode.lose || CardMode.win)">
-    <span class="ms-2 my-2 fw-bold d-flex">Words to review</span>
+    <span class="ms-2 my-2 fw-bold d-flex">{{'wordstoreview' | translate}}</span>
     <div class="ms-2 d-flex flex-wrap">
         <div *ngFor="let word of hardWords" [ngClass]="class" class="badge mx-1 my-1">
             {{ word }}

@@ -98,6 +98,7 @@ export class GeneralcardComponent implements OnInit, AfterViewChecked {
 
   onSkip(): void {
     this.showSolution = false;
+    this.quizService.addHardWord(this.answers[0]);
     this.skipEvent.emit();
     this.userAnswer = '';
   }
