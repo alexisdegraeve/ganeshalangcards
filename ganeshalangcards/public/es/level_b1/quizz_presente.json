@@ -15,31 +15,31 @@
         },
         {
             "question": "Do you (formal) work in the restaurant?",
-            "answers": ["¿Usted trabaja en el restaurante?"]
+            "answers": ["¿trabaja en el restaurante?"]
         },
         {
             "question": "I work.",
-            "answers": ["Yo trabajo."]
+            "answers": ["trabajo"]
         },
         {
             "question": "We work.",
-            "answers": ["Nosotros trabajamos."]
+            "answers": ["trabajamos"]
         },
         {
             "question": "They work.",
-            "answers": ["Ellos trabajan."]
+            "answers": ["trabajan"]
         },
         {
             "question": "Do you dance?",
-            "answers": ["¿Tú bailas?"]
+            "answers": ["¿bailas?"]
         },
         {
             "question": "He/She dances.",
-            "answers": ["Él baila."]
+            "answers": ["baila"]
         },
         {
             "question": "You all (informal) dance.",
-            "answers": ["Vosotros bailáis."]
+            "answers": ["bailáis"]
         },
         {
             "question": "Infinitive of 'to spend time'.",
@@ -47,15 +47,15 @@
         },
         {
             "question": "I spend time with my family.",
-            "answers": ["Yo paso tiempo con mi familia."]
+            "answers": ["paso tiempo con mi familia."]
         },
         {
             "question": "He/She spends time.",
-            "answers": ["Él pasa tiempo."]
+            "answers": ["pasa tiempo."]
         },
         {
             "question": "You all spend time.",
-            "answers": ["Vosotros pasáis tiempo."]
+            "answers": ["pasáis tiempo."]
         },
         {
             "question": "Do you speak with your friends?",
@@ -63,11 +63,11 @@
         },
         {
             "question": "We speak.",
-            "answers": ["Nosotros hablamos."]
+            "answers": ["hablamos"]
         },
         {
             "question": "They speak.",
-            "answers": ["Ellos hablan."]
+            "answers": ["hablan"]
         },
         {
             "question": "Infinitive of 'to chat'.",
@@ -75,7 +75,7 @@
         },
         {
             "question": "You chat.",
-            "answers": ["Tú charlas."]
+            "answers": ["charlas"]
         },
         {
             "question": "Infinitive of 'to talk' (used in Latin America).",
