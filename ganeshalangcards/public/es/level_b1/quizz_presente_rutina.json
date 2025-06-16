@@ -1,116 +1,65 @@
 [{
     "theme": "🧠 Gramática: El presente – rutina diaria",
+    "langread": "en",
     "questions": [{
-            "question": "Yo _ en una oficina.",
+            "question": "I work in an office.",
             "answers": ["trabajo"]
         },
         {
-            "question": "¿Tú _ todos los días?",
+            "question": "Do you (informal) work every day?",
             "answers": ["trabajas"]
         },
         {
-            "question": "Él _ en un restaurante.",
-            "answers": ["trabaja"]
+            "question": "He eats at one o'clock.",
+            "answers": ["come"]
         },
         {
-            "question": "Nosotros _ en el centro.",
-            "answers": ["trabajamos"]
-        },
-        {
-            "question": "Vosotros _ por la tarde.",
-            "answers": ["trabajáis"]
-        },
-        {
-            "question": "Ellos _ mucho.",
-            "answers": ["trabajan"]
-        },
-        {
-            "question": "Usted _ desde casa.",
-            "answers": ["trabaja"]
-        },
-        {
-            "question": "Ustedes _ en la escuela.",
-            "answers": ["trabajan"]
-        },
-        {
-            "question": "Yo _ a las siete.",
-            "answers": ["desayuno"]
-        },
-        {
-            "question": "¿Tú _ a las ocho?",
-            "answers": ["desayunas"]
-        },
-        {
-            "question": "Ella _ pan y café.",
-            "answers": ["desayuna"]
-        },
-        {
-            "question": "Nosotros _ juntos.",
+            "question": "We have breakfast together.",
             "answers": ["desayunamos"]
         },
         {
-            "question": "Vosotros _ en casa.",
-            "answers": ["desayunáis"]
+            "question": "They return home at four.",
+            "answers": ["vuelven"]
         },
         {
-            "question": "Ellos _ con sus padres.",
-            "answers": ["desayunan"]
-        },
-        {
-            "question": "¿A qué hora _ tú?",
-            "answers": ["desayunas"]
-        },
-        {
-            "question": "Yo desayuno a las _.",
-            "answers": ["siete"]
-        },
-        {
-            "question": "Yo desayuno a las siete y _.",
-            "answers": ["media"]
-        },
-        {
-            "question": "Yo _ de casa a las ocho.",
+            "question": "I leave the house at eight.",
             "answers": ["salgo"]
         },
         {
-            "question": "Yo _ al trabajo a las nueve.",
-            "answers": ["llego"]
+            "question": "Do you (formal) work from home?",
+            "answers": ["trabaja"]
         },
         {
-            "question": "Yo _ a casa a las cuatro.",
-            "answers": ["vuelvo"]
+            "question": "We arrive at nine.",
+            "answers": ["llegamos"]
         },
         {
-            "question": "Luego _ un poco.",
+            "question": "I rest after lunch.",
             "answers": ["descanso"]
         },
         {
-            "question": "Yo _ a las ocho.",
-            "answers": ["ceno"]
-        },
-        {
-            "question": "Más o _ a las nueve.",
-            "answers": ["menos"]
-        },
-        {
-            "question": "¿Tú _ a casa tarde?",
-            "answers": ["vuelves"]
-        },
-        {
-            "question": "¿Tú _ con tus amigos?",
-            "answers": ["sales"]
-        },
-        {
-            "question": "¿A qué hora _ tú?",
+            "question": "Do you (informal) eat with your family?",
             "answers": ["comes"]
         },
         {
-            "question": "Yo _ a la una.",
-            "answers": ["como"]
+            "question": "They dance every weekend.",
+            "answers": ["bailan"]
         },
         {
-            "question": "Después _ al trabajo.",
-            "answers": ["vuelvo"]
+            "question": "We chat in the afternoon.",
+            "answers": ["charlamos"]
+        },
+        {
+            "question": "Do you all (plural informal) talk a lot?",
+            "answers": ["habláis"]
+        },
+        {
+            "question": "She has dinner at eight.",
+            "answers": ["cena"]
+        },
+        {
+            "question": "Do you (formal plural) eat late?",
+            "answers": ["comen"]
         }
     ]
 }]
