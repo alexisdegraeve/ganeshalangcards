@@ -46,6 +46,7 @@ export class FlashcardComponent implements OnInit{
   reset() {
     this.score = 0;
     this.currentQuestionIndex = 0;
+    this.quizService.resetHardWord();
     this.endQuiz = false;
   }
 

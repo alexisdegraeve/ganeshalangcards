@@ -165,7 +165,6 @@ export class GeneralcardComponent implements OnInit, AfterViewChecked {
   }
 
   restart() {
-    this.quizService.resetHardWord;
     this.restartClick.emit();
   }
 

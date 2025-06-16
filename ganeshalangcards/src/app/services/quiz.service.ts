@@ -71,7 +71,7 @@ export class QuizService {
   }
 
   resetHardWord() {
-    this._hardWords.slice(0);
+    this._hardWords = [];
   }
 
   get hardWords() {

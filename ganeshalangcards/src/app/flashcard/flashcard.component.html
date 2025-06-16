@@ -10,14 +10,14 @@
 
             <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" [(ngModel)]="modeTraining" [value]="QuizzMode.fast">
             <label class="btn btn-outline-primary btn-quizz" for="btnradio2" (click)="setMaxQuizz(5)">{{ 'test' | translate}}                       {{ 'fast' | translate}}
-                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger badge-top">
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill badge-top" [class]="class">
                       5
                       <span class="visually-hidden">5 words</span>
                     </span>
             </label>
             <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off" [(ngModel)]="modeTraining" [value]="QuizzMode.normal">
             <label class="btn btn-outline-primary btn-quizz" for="btnradio3" (click)="setMaxQuizz(10)">{{ 'test' | translate}} {{ 'normal' | translate}}
-                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger badge-top">
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill badge-top" [class]="class">
                       10
                       <span class="visually-hidden">10 words</span>
                     </span>
@@ -25,7 +25,7 @@
 
             <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off" [(ngModel)]="modeTraining" [value]="QuizzMode.expert">
             <label class="btn btn-outline-primary btn-quizz" for="btnradio4" (click)="setMaxQuizz(20)">{{ 'test' | translate}} {{ 'expert' | translate}}
-                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger badge-top">
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill badge-top" [class]="class">
                       20
                       <span class="visually-hidden">20 words</span>
                     </span>
