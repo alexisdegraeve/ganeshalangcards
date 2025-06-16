@@ -3,63 +3,63 @@
     "langread": "en",
     "questions": [{
             "question": "I work in an office.",
-            "answers": ["Yo trabajo en una oficina."]
+            "answers": ["trabajo en una oficina."]
         },
         {
             "question": "Do you (informal) work every day?",
-            "answers": ["¿Tú trabajas todos los días?"]
+            "answers": ["¿trabajas todos los días?"]
         },
         {
             "question": "He eats at one o'clock.",
-            "answers": ["Él come a la una."]
+            "answers": ["come a la una."]
         },
         {
             "question": "We have breakfast together.",
-            "answers": ["Nosotros desayunamos juntos."]
+            "answers": ["desayunamos juntos."]
         },
         {
             "question": "They return home at four.",
-            "answers": ["Ellos vuelven a casa a las cuatro."]
+            "answers": ["vuelven a casa a las cuatro."]
         },
         {
             "question": "I leave the house at eight.",
-            "answers": ["Yo salgo de la casa a las ocho."]
+            "answers": ["salgo de la casa a las ocho."]
         },
         {
             "question": "Do you (formal) work from home?",
-            "answers": ["¿Usted trabaja desde casa?"]
+            "answers": ["¿trabaja desde casa?"]
         },
         {
             "question": "We arrive at nine.",
-            "answers": ["Nosotros llegamos a las nueve."]
+            "answers": ["llegamos a las nueve."]
         },
         {
             "question": "I rest after lunch.",
-            "answers": ["Yo descanso después de comer."]
+            "answers": ["descanso después de comer."]
         },
         {
             "question": "Do you (informal) eat with your family?",
-            "answers": ["¿Tú comes con tu familia?"]
+            "answers": ["¿comes con tu familia?"]
         },
         {
             "question": "They dance every weekend.",
-            "answers": ["Ellos bailan todos los fines de semana."]
+            "answers": ["bailan todos los fines de semana."]
         },
         {
             "question": "We chat in the afternoon.",
-            "answers": ["Nosotros charlamos por la tarde."]
+            "answers": ["charlamos por la tarde."]
         },
         {
             "question": "Do you all (plural informal) talk a lot?",
-            "answers": ["¿Vosotros habláis mucho?"]
+            "answers": ["¿habláis mucho?"]
         },
         {
             "question": "She has dinner at eight.",
-            "answers": ["Ella cena a las ocho."]
+            "answers": ["cena a las ocho."]
         },
         {
             "question": "Do you (formal plural) eat late?",
-            "answers": ["¿Ustedes comen tarde?"]
+            "answers": ["¿comen tarde?"]
         }
     ]
 }]
