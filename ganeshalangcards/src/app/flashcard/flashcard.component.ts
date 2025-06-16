@@ -6,6 +6,7 @@ import { FormsModule } from '@angular/forms';
 import { ActivatedRoute } from '@angular/router';
 import { GeneralcardComponent } from '../generalcard/generalcard.component';
 import { CardMode } from '../cardmode';
+import { QuizzMode } from '../quizzmode';
 
 @Component({
   selector: 'app-flashcard',
@@ -25,19 +26,20 @@ export class FlashcardComponent implements OnInit{
   currentQuestionIndex: number = 0;
   // userAnswer: string = '';
   endQuiz = false;
-  private _modeTraining: boolean = true;
+  private _modeTraining: QuizzMode =  QuizzMode.learn;
+  QuizzMode = QuizzMode;
   loading = true;
   CardMode = CardMode;
   win = false;
   showinfo = false;
 
   @Input()
-  set modeTraining(value: boolean) {
+  set modeTraining(value: QuizzMode) {
     this._modeTraining = value;
     this.reset();
   }
 
-  get modeTraining(): boolean {
+  get modeTraining():  QuizzMode {
     return this._modeTraining;
   }
 

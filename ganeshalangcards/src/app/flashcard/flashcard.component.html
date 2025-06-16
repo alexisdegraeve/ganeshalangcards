@@ -5,37 +5,40 @@
     </div>
     <div class="col-md-10 col-lg-8  mode" [class]="class">
         <div class="btn-group " role="group" aria-label="Basic radio toggle button group">
-            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked [(ngModel)]="modeTraining" [value]="true">
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked [(ngModel)]="modeTraining" [value]="QuizzMode.learn">
             <label class="btn btn-outline-primary" for="btnradio1">{{ 'learn' | translate}}</label>
 
-            <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" [(ngModel)]="modeTraining" [value]="false">
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" [(ngModel)]="modeTraining" [value]="QuizzMode.fast">
             <label class="btn btn-outline-primary btn-quizz" for="btnradio2" (click)="setMaxQuizz(5)">{{ 'test' | translate}}                       {{ 'fast' | translate}}
                     <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger badge-top">
                       5
                       <span class="visually-hidden">5 words</span>
                     </span>
             </label>
-            <label class="btn btn-outline-primary btn-quizz" for="btnradio2" (click)="setMaxQuizz(10)">{{ 'test' | translate}} {{ 'normal' | translate}}
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off" [(ngModel)]="modeTraining" [value]="QuizzMode.normal">
+            <label class="btn btn-outline-primary btn-quizz" for="btnradio3" (click)="setMaxQuizz(10)">{{ 'test' | translate}} {{ 'normal' | translate}}
                     <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger badge-top">
                       10
-                      <span class="visually-hidden">5 words</span>
+                      <span class="visually-hidden">10 words</span>
                     </span>
             </label>
-            <label class="btn btn-outline-primary btn-quizz" for="btnradio2" (click)="setMaxQuizz(20)">{{ 'test' | translate}} {{ 'expert' | translate}}
+
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off" [(ngModel)]="modeTraining" [value]="QuizzMode.expert">
+            <label class="btn btn-outline-primary btn-quizz" for="btnradio4" (click)="setMaxQuizz(20)">{{ 'test' | translate}} {{ 'expert' | translate}}
                     <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger badge-top">
                       20
-                      <span class="visually-hidden">5 words</span>
+                      <span class="visually-hidden">20 words</span>
                     </span>
             </label>
         </div>
     </div>
-    <ng-container *ngIf="modeTraining ">
+    <ng-container *ngIf="modeTraining === QuizzMode.learn">
         <app-generalcard [language]="language" [langRead]="langRead" [disableFirst]="checkFirstQuestion " [disableLast]="checkLastQuestion " (firstClick)="firstQuestion() " (prevClick)="prevQuestion() " (nextClick)="nextQuestion() " (lastClick)="lastQuestion() "
             [currentCardNumber]="currentCardNumber
         " [title]=" 'Question' " [answers]="currentQuestion.answers " [question]="currentQuestion.question " [class]="class " [icon]=" 'bi-patch-question-fill' " [mode]="CardMode.DoubleSide "></app-generalcard>
     </ng-container>
 
-    <ng-container *ngIf="!modeTraining ">
+    <ng-container *ngIf="modeTraining != QuizzMode.learn">
         <app-generalcard [language]="language" [langRead]="langRead" [score]="score" [total]="maxQuestion" [currentCardNumber]="currentCarQuizzdNumber " (okEvent)="checkAnswer($event) " (skipEvent)="skipQuestion() " [title]=" 'Question' " [answers]="currentQuestion.answers "
             [question]="currentQuestion.question " [class]="class
         " [icon]=" 'bi-patch-question-fill' " [mode]="CardMode.question " *ngIf="!endQuiz "></app-generalcard>
