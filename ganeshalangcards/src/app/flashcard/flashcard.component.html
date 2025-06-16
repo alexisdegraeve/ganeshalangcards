@@ -28,7 +28,7 @@
             </ng-container>
 
             <ng-container *ngIf="!checkWin ">
-                <app-generalcard [class]="class " [mode]="CardMode.lose " [class]=" 'grey' " [score]="score" [total]="questions.length" (restartClick)="reset() "></app-generalcard>
+                <app-generalcard [class]="class " [mode]="CardMode.lose " [score]="score" [total]="questions.length" (restartClick)="reset() "></app-generalcard>
             </ng-container>
 
         </ng-container>

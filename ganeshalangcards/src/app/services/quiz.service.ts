@@ -6,8 +6,11 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class QuizService {
+  private _hardWords: string[] = [];
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {
+        this.resetHardWord();
+  }
 
   getVocabulary(filePath: string): Observable<any> {
     return this.http.get<any>(filePath);
@@ -60,6 +63,18 @@ export class QuizService {
     const withoutEntities = withoutTags.replace(/&[a-z]+;/gi, '');
     const finalCleaned = withoutEntities.replace(/[^\w\sÀ-ÿ']/gi, '');
     return finalCleaned.trim();
+  }
+
+  addHardWord(word: string) {
+    this._hardWords.push(word);
+  }
+
+  resetHardWord() {
+    this._hardWords.slice(0);
+  }
+
+  get hardWords() {
+    return this._hardWords;
   }
 
 }

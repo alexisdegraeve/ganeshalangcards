@@ -263,7 +263,7 @@
     <div class="col-md-10 col-lg-8 mb-2 question lose ">
         <div class="card h-100 border-0 ">
             <div class="flip-card-inner anm-card " [ngClass]="{ 'flip-card-hover': flipcard} ">
-                <div class="flip-card-front " [ngClass]="class ">
+                <div class="flip-card-front " [ngClass]="'grey'">
                     <div class="card-body text-center ">
                         <div class="skeleton " *ngIf="isLoading "></div>
                         <div class="card-title ">
@@ -280,6 +280,15 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+</ng-container>
+
+<ng-container *ngIf="mode===(CardMode.lose || CardMode.win)">
+    <span class="ms-2 my-2 fw-bold d-flex">Words to review</span>
+    <div class="ms-2 d-flex">
+        <div *ngFor="let word of hardWords" [ngClass]="class" class="badge mx-1">
+            {{ word }}
         </div>
     </div>
 </ng-container>

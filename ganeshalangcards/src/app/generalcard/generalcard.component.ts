@@ -58,6 +58,7 @@ export class GeneralcardComponent implements OnInit, AfterViewChecked {
   showSolution = false;
   userAnswer = '';
   solutioncardRead = 0;
+
   @ViewChild('inputAnswer') inputAnswer!: ElementRef;
   @ViewChild('doubleSideDiv') doubleSideDiv?: ElementRef<HTMLDivElement>;
   startX = 0;
@@ -142,6 +143,7 @@ export class GeneralcardComponent implements OnInit, AfterViewChecked {
       if (this.checkInAnswers(this.userAnswer, this.answers)) {
         this.correctAnswer = true;
       } else {
+        this.quizService.addHardWord(this.answers[0]);
         this.correctAnswer = false;
       }
     }
@@ -163,7 +165,12 @@ export class GeneralcardComponent implements OnInit, AfterViewChecked {
   }
 
   restart() {
+    this.quizService.resetHardWord;
     this.restartClick.emit();
+  }
+
+  get hardWords() {
+    return this.quizService.hardWords;
   }
 
   @HostListener('document:keydown', ['$event'])
