@@ -1,0 +1,116 @@
+[{
+    "theme": "🧠 Gramática: El presente – rutina diaria",
+    "questions": [{
+            "question": "Yo _ en una oficina.",
+            "answers": ["trabajo"]
+        },
+        {
+            "question": "¿Tú _ todos los días?",
+            "answers": ["trabajas"]
+        },
+        {
+            "question": "Él _ en un restaurante.",
+            "answers": ["trabaja"]
+        },
+        {
+            "question": "Nosotros _ en el centro.",
+            "answers": ["trabajamos"]
+        },
+        {
+            "question": "Vosotros _ por la tarde.",
+            "answers": ["trabajáis"]
+        },
+        {
+            "question": "Ellos _ mucho.",
+            "answers": ["trabajan"]
+        },
+        {
+            "question": "Usted _ desde casa.",
+            "answers": ["trabaja"]
+        },
+        {
+            "question": "Ustedes _ en la escuela.",
+            "answers": ["trabajan"]
+        },
+        {
+            "question": "Yo _ a las siete.",
+            "answers": ["desayuno"]
+        },
+        {
+            "question": "¿Tú _ a las ocho?",
+            "answers": ["desayunas"]
+        },
+        {
+            "question": "Ella _ pan y café.",
+            "answers": ["desayuna"]
+        },
+        {
+            "question": "Nosotros _ juntos.",
+            "answers": ["desayunamos"]
+        },
+        {
+            "question": "Vosotros _ en casa.",
+            "answers": ["desayunáis"]
+        },
+        {
+            "question": "Ellos _ con sus padres.",
+            "answers": ["desayunan"]
+        },
+        {
+            "question": "¿A qué hora _ tú?",
+            "answers": ["desayunas"]
+        },
+        {
+            "question": "Yo desayuno a las _.",
+            "answers": ["siete"]
+        },
+        {
+            "question": "Yo desayuno a las siete y _.",
+            "answers": ["media"]
+        },
+        {
+            "question": "Yo _ de casa a las ocho.",
+            "answers": ["salgo"]
+        },
+        {
+            "question": "Yo _ al trabajo a las nueve.",
+            "answers": ["llego"]
+        },
+        {
+            "question": "Yo _ a casa a las cuatro.",
+            "answers": ["vuelvo"]
+        },
+        {
+            "question": "Luego _ un poco.",
+            "answers": ["descanso"]
+        },
+        {
+            "question": "Yo _ a las ocho.",
+            "answers": ["ceno"]
+        },
+        {
+            "question": "Más o _ a las nueve.",
+            "answers": ["menos"]
+        },
+        {
+            "question": "¿Tú _ a casa tarde?",
+            "answers": ["vuelves"]
+        },
+        {
+            "question": "¿Tú _ con tus amigos?",
+            "answers": ["sales"]
+        },
+        {
+            "question": "¿A qué hora _ tú?",
+            "answers": ["comes"]
+        },
+        {
+            "question": "Yo _ a la una.",
+            "answers": ["como"]
+        },
+        {
+            "question": "Después _ al trabajo.",
+            "answers": ["vuelvo"]
+        }
+    ]
+}]
