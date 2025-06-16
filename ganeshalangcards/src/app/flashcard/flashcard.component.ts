@@ -137,10 +137,10 @@ export class FlashcardComponent implements OnInit{
 
 
   get scoreTotal() {
-    return `${this.score} / ${this.questions.length}`;
+    return `${this.score} / ${this.quizService.maxQuestions}`;
   }
   get checkWin() {
-    return this.score > (this.questions.length / 2);
+    return this.score > (this.quizService.maxQuestions / 2);
   }
 
   get maxQuestion() {
