@@ -1,4 +1,9 @@
 [{
+    "title": "Vocabulario",
+    "description": "☀️ El Verano",
+    "class": "green",
+    "url": "/es/level_b1/quizz_elverano.json"
+}, {
     "title": "Grammar",
     "description": "🧠 Gramática: El presente – rutina diaria",
     "class": "green",

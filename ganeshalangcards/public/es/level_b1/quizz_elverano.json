@@ -1,0 +1,65 @@
+[{
+    "theme": "☀️ El Verano",
+    "langread": "en",
+    "questions": [{
+            "question": "What do you use to protect yourself from the sun at the beach?",
+            "answers": ["sombrilla"]
+        },
+        {
+            "question": "What do children build with sand at the beach?",
+            "answers": ["castillo de arena"]
+        },
+        {
+            "question": "What do you take when you don’t go to school or work and travel or rest?",
+            "answers": ["vacaciones"]
+        },
+        {
+            "question": "What shines in the sky and gives us warmth?",
+            "answers": ["sol"]
+        },
+        {
+            "question": "What do you wear to swim in the sea or pool?",
+            "answers": ["bañador"]
+        },
+        {
+            "question": "What do you wear on your head to protect it from the sun?",
+            "answers": ["gorra"]
+        },
+        {
+            "question": "What cold treat do you eat during hot summer days?",
+            "answers": ["helado"]
+        },
+        {
+            "question": "What do you wear on your eyes when it's sunny?",
+            "answers": ["gafas de sol"]
+        },
+        {
+            "question": "What do you use to dry off after swimming?",
+            "answers": ["toalla"]
+        },
+        {
+            "question": "What do you put on your skin to protect it from sunburn?",
+            "answers": ["protector solar"]
+        },
+        {
+            "question": "What helps you float in the pool or sea?",
+            "answers": ["flotador"]
+        },
+        {
+            "question": "What cold drink do you enjoy during a hot day?",
+            "answers": ["refresco"]
+        },
+        {
+            "question": "What kind of shoes do you wear to the beach or pool?",
+            "answers": ["chancletas", "chanclas"]
+        },
+        {
+            "question": "What is the place with water where you swim that is not natural?",
+            "answers": ["piscina"]
+        },
+        {
+            "question": "What is the place with sand and sea where you relax in summer?",
+            "answers": ["playa"]
+        }
+    ]
+}]
