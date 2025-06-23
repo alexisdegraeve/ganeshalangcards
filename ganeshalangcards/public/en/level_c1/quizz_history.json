@@ -1,0 +1,49 @@
+[{
+    "theme": "📜 The Importance of History in Art",
+    "langread": "en",
+    "questions": [{
+            "question": "She made a shrewd investment that doubled her money in six months.",
+            "answers": ["shrewd"]
+        },
+        {
+            "question": "A smile flickered across his face before he turned away.",
+            "answers": ["flicker"]
+        },
+        {
+            "question": "I had a hunch that something wasn’t quite right with the deal.",
+            "answers": ["hunch"]
+        },
+        {
+            "question": "The crux of the problem lies in communication failures.",
+            "answers": ["crux"]
+        },
+        {
+            "question": "They toiled in the fields from sunrise to sunset.",
+            "answers": ["toil"]
+        },
+        {
+            "question": "Her witty remarks kept the conversation lively.",
+            "answers": ["witty"]
+        },
+        {
+            "question": "The disagreement caused a rift between the two long-time friends.",
+            "answers": ["rift"]
+        },
+        {
+            "question": "They stayed in a snug little cabin during their holiday.",
+            "answers": ["snug"]
+        },
+        {
+            "question": "The soup tasted bland and needed more seasoning.",
+            "answers": ["bland"]
+        },
+        {
+            "question": "This knife is too blunt to cut the vegetables properly.",
+            "answers": ["blunt"]
+        },
+        {
+            "question": "He fumbled for the keys in his pocket.",
+            "answers": ["fumble"]
+        }
+    ]
+}]

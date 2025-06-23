@@ -1,5 +1,10 @@
 [{
         "title": "Vocabulary",
+        "description": "📜 The Importance of History in Art",
+        "class": "blue",
+        "url": "/en/level_c1/quizz_history.json"
+    }, {
+        "title": "Vocabulary",
         "description": "Mastering the Art of Time Management",
         "class": "blue",
         "url": "/en/level_c1/quizz_mastering_time.json"
