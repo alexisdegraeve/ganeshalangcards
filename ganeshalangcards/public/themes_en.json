@@ -1,5 +1,10 @@
 [{
         "title": "Vocabulary",
+        "description": "🎛️ Strange and Wonderful New Technologies of 2025",
+        "class": "blue",
+        "url": "/en/level_c1/quizz_strangeandwonderful.json"
+    }, {
+        "title": "Vocabulary",
         "description": "📜 The Importance of History in Art",
         "class": "blue",
         "url": "/en/level_c1/quizz_history.json"

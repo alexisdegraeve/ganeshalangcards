@@ -1,0 +1,53 @@
+[{
+    "theme": "🎛️ Strange and Wonderful New Technologies of 2025",
+    "langread": "en",
+    "questions": [{
+            "question": "Which phrasal verb means to remove something completely, especially by cleaning?",
+            "answers": ["wipe off"]
+        },
+        {
+            "question": "Which phrasal verb is used when something becomes popular or fashionable?",
+            "answers": ["catch on"]
+        },
+        {
+            "question": "Which phrasal verb means to establish or arrange something for use?",
+            "answers": ["set up"]
+        },
+        {
+            "question": "Which phrasal verb means to cheat someone by making them pay too much?",
+            "answers": ["rip off"]
+        },
+        {
+            "question": "Which phrasal verb means to fully understand or absorb information?",
+            "answers": ["take in"]
+        },
+        {
+            "question": "What adjective describes something new and innovative in a way that changes everything?",
+            "answers": ["groundbreaking"]
+        },
+        {
+            "question": "Which adjective refers to something based on guesses or ideas about what might happen?",
+            "answers": ["speculative"]
+        },
+        {
+            "question": "Which verb means to guess something is true without solid evidence?",
+            "answers": ["speculate"]
+        },
+        {
+            "question": "What adjective describes a price that is unreasonably high?",
+            "answers": ["exorbitant"]
+        },
+        {
+            "question": "Which verb means to force someone to pay for something they don't need or want?",
+            "answers": ["extort"]
+        },
+        {
+            "question": "Which adjective describes something capable of working successfully?",
+            "answers": ["viable"]
+        },
+        {
+            "question": "Which adjective refers to someone who is distrustful of human sincerity or motives?",
+            "answers": ["cynical"]
+        }
+    ]
+}]
