@@ -1,0 +1,49 @@
+[{
+    "theme": "Laat je kinderen muziek studeren",
+    "langread": "nl",
+    "questions": [{
+            "question": "heel erg enthousiast",
+            "answers": ["laaiend enthousiast"]
+        },
+        {
+            "question": "de wetenschap die zich bezighoudt met alle aspecten van het zenuwstelsel",
+            "answers": ["neurowetenschap (de)"]
+        },
+        {
+            "question": "verwijst gewoonlijk naar een periode van vijf tot tien jaar of verder in de toekomst",
+            "answers": ["lange termijn"]
+        },
+        {
+            "question": "tegelijkertijd, gelijktijdig tegelijk",
+            "answers": ["terzelfder tijd"]
+        },
+        {
+            "question": "beter zichtbaar worden door hte uitstralen of weerspiegelen van licht",
+            "answers": ["oplichten"]
+        },
+        {
+            "question": "met elkaar, zonder anderen",
+            "answers": ["onderling"]
+        },
+        {
+            "question": "musicus die een violoncello of kortweg een cello bespeelt",
+            "answers": ["cellist (de)"]
+        },
+        {
+            "question": "boek waarin in notenschrift een muziekstuk staat",
+            "answers": ["partituur (de)"]
+        },
+        {
+            "question": "op hetzelfde moment",
+            "answers": ["simultaan"]
+        },
+        {
+            "question": "aangeboren",
+            "answers": ["van nature"]
+        },
+        {
+            "question": "er kom niets van terecht, het gebeurt niet, het lukt niet",
+            "answers": ["niets van in huis komen"]
+        }
+    ]
+}]
