@@ -14,11 +14,11 @@
             "answers": ["lange termijn"]
         },
         {
-            "question": "tegelijkertijd, gelijktijdig tegelijk",
+            "question": "tegelijkertijd, gelijktijdig",
             "answers": ["terzelfder tijd"]
         },
         {
-            "question": "beter zichtbaar worden door hte uitstralen of weerspiegelen van licht",
+            "question": "beter zichtbaar worden door het uitstralen of weerspiegelen van licht",
             "answers": ["oplichten"]
         },
         {
@@ -42,7 +42,7 @@
             "answers": ["van nature"]
         },
         {
-            "question": "er kom niets van terecht, het gebeurt niet, het lukt niet",
+            "question": "er komt niets van terecht, het gebeurt niet, het lukt niet",
             "answers": ["niets van in huis komen"]
         }
     ]

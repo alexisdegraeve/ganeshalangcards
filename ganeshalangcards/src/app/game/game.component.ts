@@ -40,6 +40,17 @@ export class GameComponent implements OnInit {
       language: 'nl',
       serie: 24
     },
+        {
+      title: 'Nederlands',
+      subtitle: 'Level B 3.1',
+      imageUrl: '/images/moulin.svg',  // Remplacez par le chemin réel de vos images
+      imageWidth: 10,
+      isLoading: false,
+      link: '/theme',
+      class: 'pink',
+      language: 'nl',
+      serie: 31
+    },
     {
       title: 'Spanish',
       subtitle: 'Level A 1',
