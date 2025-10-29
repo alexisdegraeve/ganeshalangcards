@@ -1,0 +1,49 @@
+[{
+    "theme": "De zwarte lijst - Substantieven B",
+    "langread": "nl",
+    "questions": [{
+            "question": "de herziening van de hypothecaire lening; het feit dat je je lopende lening vervangt door een nieuwe lening onder betere voorwaarden",
+            "answers": ["herfinanciering"]
+        },
+        {
+            "question": "het geld dat je leent om een huis te kopen",
+            "answers": ["hypotheek"]
+        },
+        {
+            "question": "het geld dat binnenkomt; het inkomen",
+            "answers": ["inkomsten"]
+        },
+        {
+            "question": "mensen die iets grondig en nauwkeurig controleren",
+            "answers": ["inspectie"]
+        },
+        {
+            "question": "iemand die rechten heeft gestudeerd",
+            "answers": ["jurist"]
+        },
+        {
+            "question": "de geldlening",
+            "answers": ["krediet"]
+        },
+        {
+            "question": "de overeenkomst waarbij geld geleend wordt",
+            "answers": ["kredietcontract"]
+        },
+        {
+            "question": "iemand die geld aan iemand anders leent",
+            "answers": ["kredietgever", "kredietverstrekker"]
+        },
+        {
+            "question": "iemand die geld van iemand anders leent",
+            "answers": ["kredietnemer"]
+        },
+        {
+            "question": "het feit dat je geen geld mag lenen",
+            "answers": ["kredietverbod"]
+        },
+        {
+            "question": "de beslissing waardoor men iets regelt",
+            "answers": ["maatregelen"]
+        }
+    ]
+}]

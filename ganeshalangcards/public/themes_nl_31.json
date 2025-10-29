@@ -1,6 +1,19 @@
   [{
-      "title": "Woordenschat",
-      "description": "Laat je kinderen muziek studeren",
-      "class": "pink",
-      "url": "/nl/3.1/quizz_kinderen_muziek.json"
-  }]
+          "title": "Woordenschat",
+          "description": "Laat je kinderen muziek studeren",
+          "class": "pink",
+          "url": "/nl/3.1/quizz_kinderen_muziek.json"
+      },
+      {
+          "title": "Woordenschat",
+          "description": "De zwarte lijst - Substantieven A",
+          "class": "pink",
+          "url": "/nl/3.1/quizz_zwarte_lijst_a.json"
+      },
+      {
+          "title": "Woordenschat",
+          "description": "De zwarte lijst - Substantieven B",
+          "class": "pink",
+          "url": "/nl/3.1/quizz_zwarte_lijst_b.json"
+      }
+  ]

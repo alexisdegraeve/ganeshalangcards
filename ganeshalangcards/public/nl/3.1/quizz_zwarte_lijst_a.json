@@ -1,0 +1,49 @@
+[{
+    "theme": "De zwarte lijst - Substantieven A",
+    "langread": "nl",
+    "questions": [{
+            "question": "periode waarin het heel slecht gaat",
+            "answers": ["laaiend crisis"]
+        },
+        {
+            "question": "geld dat je besteedt aan water, elektriciteit, eten",
+            "answers": ["basisuitgave"]
+        },
+        {
+            "question": "gesprek waarbij de gesprekspartners allebei aanwezig zijn (dus niet telefonisch)",
+            "answers": ["face-to-face-gesprek"]
+        },
+        {
+            "question": "de zorg en de verantwoordelijkheid voor je budget",
+            "answers": ["budgetbeheer"]
+        },
+        {
+            "question": "de elektriciteit en het gas die echt verbruikt zijn",
+            "answers": ["energieverbruik"]
+        },
+        {
+            "question": "niet-schriftelijke afspraak",
+            "answers": ["mondelinge afspraak"]
+        },
+        {
+            "question": "de elektriciteitsmeter die wordt opgeladen via een systeem van voorafbetaling",
+            "answers": ["budgetmeter"]
+        },
+        {
+            "question": "Belgisch Nederlands voor de schuld",
+            "answers": ["achterstal"]
+        },
+        {
+            "question": "de zorg en de verantwoordelijkheid voor je geld",
+            "answers": ["geldbeheer"]
+        },
+        {
+            "question": "krediet voor privégebruik (geen hypothecair krediet)",
+            "answers": ["consumentenkrediet"]
+        },
+        {
+            "question": "de arme persoon",
+            "answers": ["armoedzaaier"]
+        }
+    ]
+}]

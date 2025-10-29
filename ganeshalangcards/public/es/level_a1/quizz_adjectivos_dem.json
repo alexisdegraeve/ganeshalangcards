@@ -1,0 +1,44 @@
+[{
+    "theme": "Los adjetivos demostrativos",
+    "questions": [{
+            "question": "El gato está aquí, muy cerca de mí.",
+            "answers": ["este gato"]
+        },
+        {
+            "question": "El gato está cerca de ti, no de mí.",
+            "answers": ["ese gato"]
+        },
+        {
+            "question": "El gato está muy lejos, allá.",
+            "answers": ["aquel gato"]
+        },
+        {
+            "question": "La nube está aquí, muy cerca.",
+            "answers": ["esta nube"]
+        },
+        {
+            "question": "La nube está cerca de ti.",
+            "answers": ["esa nube"]
+        },
+        {
+            "question": "La nube está muy lejos, allá en el cielo.",
+            "answers": ["aquella nube"]
+        },
+        {
+            "question": "Los gatos están aquí, muy cerca.",
+            "answers": ["estos gatos"]
+        },
+        {
+            "question": "Los gatos están cerca de ti.",
+            "answers": ["esos gatos"]
+        },
+        {
+            "question": "Las nubes están muy lejos, allá en el cielo.",
+            "answers": ["aquellas nubes"]
+        },
+        {
+            "question": "Las nubes están aquí, muy cerca.",
+            "answers": ["estas nubes"]
+        }
+    ]
+}]
