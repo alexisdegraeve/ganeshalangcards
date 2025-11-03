@@ -1,4 +1,19 @@
   [{
+          "title": "Grammar",
+          "description": "Er + vaste uitdrukkingen (deel 1)",
+          "class": "pink",
+          "url": "/nl/3.1/quizz_er_01.json"
+      }, {
+          "title": "Grammar",
+          "description": "Er + vaste uitdrukkingen (deel 2)",
+          "class": "pink",
+          "url": "/nl/3.1/quizz_er_02.json"
+      }, {
+          "title": "Grammar",
+          "description": "Er + vaste uitdrukkingen (deel 3)",
+          "class": "pink",
+          "url": "/nl/3.1/quizz_er_03.json"
+      }, {
           "title": "Woordenschat",
           "description": "Laat je kinderen muziek studeren",
           "class": "pink",

@@ -1,0 +1,41 @@
+[{
+    "theme": "Er + vaste uitdrukkingen (deel 2)",
+    "langread": "nl",
+    "questions": [{
+            "question": "Heb jij vandaag van het mooie weer genoten?",
+            "answers": ["Ja, ik heb ervan genoten."]
+        },
+        {
+            "question": "Heb jij vandaag van het mooie weer genoten?",
+            "answers": ["Nee, ik heb er niet van genoten."]
+        },
+        {
+            "question": "Heb jij vandaag van het mooie weer genoten?",
+            "answers": ["Ik vraag me af of je ervan hebt genoten."]
+        },
+        {
+            "question": "Heb je altijd een hekel aan honden gehad?",
+            "answers": ["Ja, ik heb er altijd een hekel aan gehad."]
+        },
+        {
+            "question": "Heb je altijd een hekel aan honden gehad?",
+            "answers": ["Nee, ik heb er nooit een hekel aan gehad."]
+        },
+        {
+            "question": "Heb je altijd een hekel aan honden gehad?",
+            "answers": ["Ik vraag me af of hij er altijd een hekel aan heeft gehad."]
+        },
+        {
+            "question": "Ben je nog steeds geabonneerd op een krant?",
+            "answers": ["Ja, ik ben er nog steeds op geabonneerd."]
+        },
+        {
+            "question": "Ben je nog steeds geabonneerd op een krant?",
+            "answers": ["Nee, ik ben er niet meer op geabonneerd."]
+        },
+        {
+            "question": "Ben je nog steeds geabonneerd op een krant?",
+            "answers": ["Ik vraag me af of je er nog steeds op bent geabonneerd."]
+        }
+    ]
+}]

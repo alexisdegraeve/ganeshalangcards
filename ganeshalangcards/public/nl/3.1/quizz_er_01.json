@@ -1,0 +1,41 @@
+[{
+    "theme": "Er + vaste uitdrukkingen (deel 1)",
+    "langread": "nl",
+    "questions": [{
+            "question": "Hou je ook van chocolade?",
+            "answers": ["Ja, ik hou ervan."]
+        },
+        {
+            "question": "Hou je ook van chocolade?",
+            "answers": ["Nee, ik hou er niet van."]
+        },
+        {
+            "question": "Hou je ook van chocolade?",
+            "answers": ["Ik vraag me af of iedereen ervan houdt."]
+        },
+        {
+            "question": "Ben je gek op chips?",
+            "answers": ["Ja, ik ben er gek op."]
+        },
+        {
+            "question": "Ben je gek op chips?",
+            "answers": ["Nee, ik ben er niet gek op."]
+        },
+        {
+            "question": "Ben je gek op chips?",
+            "answers": ["Ik vraag me af of alle kinderen er gek op zijn."]
+        },
+        {
+            "question": "Kijk je ’s avonds naar het nieuws?",
+            "answers": ["Ja, ik kijk er ’s avonds naar."]
+        },
+        {
+            "question": "Kijk je ’s avonds naar het nieuws?",
+            "answers": ["Nee, ik kijk er ’s avonds niet naar."]
+        },
+        {
+            "question": "Kijk je ’s avonds naar het nieuws?",
+            "answers": ["Ik vraag me af of hij er ’s avonds naar kijkt."]
+        }
+    ]
+}]

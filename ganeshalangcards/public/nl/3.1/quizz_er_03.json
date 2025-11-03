@@ -1,0 +1,53 @@
+[{
+    "theme": "Er + vaste uitdrukkingen (deel 3)",
+    "langread": "nl",
+    "questions": [{
+            "question": "Ben je in staat tot grote sportprestaties?",
+            "answers": ["Ja, ik ben ertoe in staat. Ja, ik ben er in staat toe."]
+        },
+        {
+            "question": "Ben je in staat tot grote sportprestaties?",
+            "answers": ["Nee, ik ben er niet toe in staat. Nee, ik ben er niet in staat toe."]
+        },
+        {
+            "question": "Ben je in staat tot grote sportprestaties?",
+            "answers": ["Ik vraag me af of hij ertoe in staat is."]
+        },
+        {
+            "question": "Droom jij wel eens van een leven zonder zorgen?",
+            "answers": ["Ja, ik droom er wel eens van."]
+        },
+        {
+            "question": "Droom jij wel eens van een leven zonder zorgen?",
+            "answers": ["Nee, ik droom er nooit/niet meer/niet van."]
+        },
+        {
+            "question": "Droom jij wel eens van een leven zonder zorgen?",
+            "answers": ["Ik vraag me af of zij er wel eens van droomt."]
+        },
+        {
+            "question": "Bereid jij je altijd voor op een sollicitatiegesprek?",
+            "answers": ["Ja, ik bereid me er altijd op voor."]
+        },
+        {
+            "question": "Bereid jij je altijd voor op een sollicitatiegesprek?",
+            "answers": ["Nee, ik bereid me er niet altijd op voor."]
+        },
+        {
+            "question": "Bereid jij je altijd voor op een sollicitatiegesprek?",
+            "answers": ["Ik vraag me af of zij zich er altijd op voorbereidt."]
+        },
+        {
+            "question": "Verheug je je op de vakantie?",
+            "answers": ["Ja, ik verheug me erop."]
+        },
+        {
+            "question": "Verheug je je op de vakantie?",
+            "answers": ["Nee, ik verheug me er niet op."]
+        },
+        {
+            "question": "Verheug je je op de vakantie?",
+            "answers": ["Ik vraag me af of hij zich erop verheugt."]
+        }
+    ]
+}]
