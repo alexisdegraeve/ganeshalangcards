@@ -1,0 +1,73 @@
+[{
+    "theme": "🎃 Vocabulario de Halloween",
+    "langread": "es",
+    "questions": [{
+            "question": "Fruta grande y naranja que se usa para decorar en Halloween.",
+            "answers": ["calabaza"]
+        },
+        {
+            "question": "Frase que dicen los niños cuando piden dulces: '¡____ o trato!'.",
+            "answers": ["truco o trato"]
+        },
+        {
+            "question": "Dulces que los niños reciben en Halloween.",
+            "answers": ["caramelos"]
+        },
+        {
+            "question": "Mujer con poderes mágicos que vuela en una escoba.",
+            "answers": ["bruja"]
+        },
+        {
+            "question": "Animal que vuela de noche y duerme colgado.",
+            "answers": ["murciélago"]
+        },
+        {
+            "question": "Ser que chupa la sangre de las personas.",
+            "answers": ["vampiro"]
+        },
+        {
+            "question": "Figura hecha de huesos.",
+            "answers": ["esqueleto"]
+        },
+        {
+            "question": "Muerto que camina lentamente y da miedo.",
+            "answers": ["zombi"]
+        },
+        {
+            "question": "Hilos blancos que hacen las arañas.",
+            "answers": ["telaraña"]
+        },
+        {
+            "question": "Animal pequeño con ocho patas que hace telarañas.",
+            "answers": ["araña"]
+        },
+        {
+            "question": "Piedra que se pone sobre una tumba.",
+            "answers": ["lápida"]
+        },
+        {
+            "question": "Lugar donde hay tumbas y se entierran los muertos.",
+            "answers": ["cementerio"]
+        },
+        {
+            "question": "Lugar donde viven los fantasmas y se oyen ruidos extraños.",
+            "answers": ["casa encantada"]
+        },
+        {
+            "question": "Caja donde se pone a los muertos.",
+            "answers": ["ataúd"]
+        },
+        {
+            "question": "Cuerpo envuelto en vendas.",
+            "answers": ["momia"]
+        },
+        {
+            "question": "Animal negro que se asocia con la mala suerte en Halloween.",
+            "answers": ["gato negro"]
+        },
+        {
+            "question": "Espíritu que aparece y desaparece.",
+            "answers": ["fantasma"]
+        }
+    ]
+}]
