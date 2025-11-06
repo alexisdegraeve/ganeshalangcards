@@ -1,0 +1,73 @@
+[{
+    "theme": "School en eigenschappen",
+    "langread": "nl",
+    "questions": [{
+            "question": "Een persoon die iemand beschermt, bijvoorbeeld een beroemdheid. Dat is de ...",
+            "answers": ["lijfwacht"]
+        },
+        {
+            "question": "Een groep soldaten die samen vechten voor hun land. Dat is het ...",
+            "answers": ["leger"]
+        },
+        {
+            "question": "Als je iets niet weet en je wilt de naam weten, zeg je: ... ?",
+            "answers": ["hoe heet dat"]
+        },
+        {
+            "question": "De school voor kleine kinderen vóór de lagere school. Dat is de ...",
+            "answers": ["kleuterschool"]
+        },
+        {
+            "question": "De school na de kleuterschool, voor kinderen van ongeveer 6 tot 12 jaar. Dat is de ...",
+            "answers": ["lagere school"]
+        },
+        {
+            "question": "Een school die de kleuterschool en lagere school samenbrengt. (lagereschool + kleuterschool) Dat is de ...",
+            "answers": ["basisschool"]
+        },
+        {
+            "question": "De school voor jongeren na de basisschool. Dat is de ...",
+            "answers": ["middelbare school"]
+        },
+        {
+            "question": "In België zegt men vaak ... in plaats van 'middelbare school'.",
+            "answers": ["secundaire school"]
+        },
+        {
+            "question": "De plaats waar je studeert om een diploma te halen, bijvoorbeeld voor arts of advocaat. Dat is de ...",
+            "answers": ["universiteit"]
+        },
+        {
+            "question": "Een soort universiteit waar je praktisch gerichte studies kunt volgen. Dat is de ...",
+            "answers": ["hogeschool"]
+        },
+        {
+            "question": "Een leraar of lerares in het middelbaar of hoger onderwijs. Dat is de ...",
+            "answers": ["docent"]
+        },
+        {
+            "question": "Een leraar aan de universiteit. Dat is de ...",
+            "answers": ["professor"]
+        },
+        {
+            "question": "Als je heel precies werkt, heb je veel ...",
+            "answers": ["nauwkeurigheid"]
+        },
+        {
+            "question": "Als je anderen graag helpt, ben je ...",
+            "answers": ["behulpzaam"]
+        },
+        {
+            "question": "Als je graag dingen doet met je handen en oplossingen vindt, ben je ...",
+            "answers": ["praktisch"]
+        },
+        {
+            "question": "Iets dat heel mooi of indrukwekkend is, is ...",
+            "answers": ["prachtig"]
+        },
+        {
+            "question": "Een uitdrukking: als je precies zegt wat juist is, dan sla je ...",
+            "answers": ["de nagel op de kop"]
+        }
+    ]
+}]

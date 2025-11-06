@@ -1,0 +1,85 @@
+[{
+    "theme": "20 verbos más comunes en español",
+    "langread": "en",
+    "questions": [{
+            "question": "to be (essential/permanent)",
+            "answers": ["ser"]
+        },
+        {
+            "question": "to be (states/locations)",
+            "answers": ["estar"]
+        },
+        {
+            "question": "to have",
+            "answers": ["tener"]
+        },
+        {
+            "question": "to do, to make",
+            "answers": ["hacer"]
+        },
+        {
+            "question": "to go",
+            "answers": ["ir"]
+        },
+        {
+            "question": "to say, to tell",
+            "answers": ["decir"]
+        },
+        {
+            "question": "can, to be able to",
+            "answers": ["poder"]
+        },
+        {
+            "question": "to see",
+            "answers": ["ver"]
+        },
+        {
+            "question": "to give",
+            "answers": ["dar"]
+        },
+        {
+            "question": "to know (facts/information)",
+            "answers": ["saber"]
+        },
+        {
+            "question": "to want, to love",
+            "answers": ["querer"]
+        },
+        {
+            "question": "to arrive",
+            "answers": ["llegar"]
+        },
+        {
+            "question": "to pass, to happen",
+            "answers": ["pasar"]
+        },
+        {
+            "question": "should, to owe",
+            "answers": ["deber"]
+        },
+        {
+            "question": "to put, to place",
+            "answers": ["poner"]
+        },
+        {
+            "question": "to seem, to appear",
+            "answers": ["parecer"]
+        },
+        {
+            "question": "to stay, to remain",
+            "answers": ["quedarse"]
+        },
+        {
+            "question": "to believe",
+            "answers": ["creer"]
+        },
+        {
+            "question": "to speak, to talk",
+            "answers": ["hablar"]
+        },
+        {
+            "question": "to carry, to wear",
+            "answers": ["llevar"]
+        }
+    ]
+}]

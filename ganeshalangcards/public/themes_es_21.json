@@ -1,4 +1,9 @@
 [{
+    "title": "Verbos",
+    "description": "20 verbos más comunes en español",
+    "class": "green",
+    "url": "/es/level_b1/quizz_verbos.json"
+}, {
     "title": "Vocabulario",
     "description": "🎃 Vocabulario de Halloween",
     "class": "green",

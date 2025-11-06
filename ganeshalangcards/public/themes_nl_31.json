@@ -1,4 +1,9 @@
   [{
+          "title": "Woordenschat",
+          "description": "School en eigenschappen",
+          "class": "pink",
+          "url": "/nl/3.1/quizz_school.json"
+      }, {
           "title": "Grammar",
           "description": "Er + vaste uitdrukkingen (deel 1)",
           "class": "pink",
