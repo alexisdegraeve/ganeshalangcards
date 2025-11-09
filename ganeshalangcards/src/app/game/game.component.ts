@@ -64,14 +64,14 @@ export class GameComponent implements OnInit {
     },
         {
       title: 'Spanish',
-      subtitle: 'Level B 1',
+      subtitle: 'Level A 2',
       imageUrl: '/images/espana.svg',
       imageWidth: 28,
       isLoading: false,
       link: '/theme',
       class: 'green',
       language: 'es',
-      serie: 21
+      serie: 12
     },
     {
       title: 'English',

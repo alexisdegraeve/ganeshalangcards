@@ -1,26 +1,31 @@
 [{
+    "title": "Vocabulario",
+    "description": "¿Sigues traduciendo en tu cabeza?",
+    "class": "green",
+    "url": "/es/level_a2/quizz_traduciendo.json"
+}, {
     "title": "Verbos",
     "description": "20 verbos más comunes en español",
     "class": "green",
-    "url": "/es/level_b1/quizz_verbos.json"
+    "url": "/es/level_a2/quizz_verbos.json"
 }, {
     "title": "Vocabulario",
     "description": "🎃 Vocabulario de Halloween",
     "class": "green",
-    "url": "/es/level_b1/quizz_halloween.json"
+    "url": "/es/level_a2/quizz_halloween.json"
 }, {
     "title": "Vocabulario",
     "description": "☀️ El Verano",
     "class": "green",
-    "url": "/es/level_b1/quizz_elverano.json"
+    "url": "/es/level_a2/quizz_elverano.json"
 }, {
     "title": "Grammar",
     "description": "🧠 Gramática: El presente – rutina diaria",
     "class": "green",
-    "url": "/es/level_b1/quizz_presente_rutina.json"
+    "url": "/es/level_a2/quizz_presente_rutina.json"
 }, {
     "title": "Grammar",
     "description": "⏰ Gramática – El presente I",
     "class": "green",
-    "url": "/es/level_b1/quizz_presente.json"
+    "url": "/es/level_a2/quizz_presente.json"
 }]
