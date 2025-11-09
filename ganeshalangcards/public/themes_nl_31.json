@@ -1,5 +1,10 @@
   [{
           "title": "Woordenschat",
+          "description": "Leven er over 80 jaar",
+          "class": "pink",
+          "url": "/nl/3.1/quizz_leven_erover_80.json"
+      }, {
+          "title": "Woordenschat",
           "description": "School en eigenschappen",
           "class": "pink",
           "url": "/nl/3.1/quizz_school.json"

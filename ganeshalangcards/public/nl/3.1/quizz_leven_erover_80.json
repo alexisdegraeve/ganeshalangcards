@@ -1,0 +1,105 @@
+[{
+    "theme": "Leven er over 80 jaar",
+    "langread": "nl",
+    "questions": [{
+            "question": "Apparaat dat het aantal iets meet of aangeeft.",
+            "answers": ["teller"]
+        },
+        {
+            "question": "Wanneer iemand overlijdt, dat is een ...",
+            "answers": ["sterfgeval"]
+        },
+        {
+            "question": "De grens waarbij iets niet verder kan gaan; het maximum dat toelaatbaar is.",
+            "answers": ["kritische grens"]
+        },
+        {
+            "question": "Het geld dat iemand verdient door werk of andere bronnen.",
+            "answers": ["inkomen"]
+        },
+        {
+            "question": "Het aantal mensen dat in een bepaalde periode sterft.",
+            "answers": ["sterftecijfer"]
+        },
+        {
+            "question": "De relatie of het verband tussen verschillende zaken.",
+            "answers": ["samenhang"]
+        },
+        {
+            "question": "Wat iemand toevoegt aan een gemeenschappelijk resultaat.",
+            "answers": ["bijdrage"]
+        },
+        {
+            "question": "Het aantal kinderen dat sterft voordat ze een bepaalde leeftijd bereiken.",
+            "answers": ["kindersterfte"]
+        },
+        {
+            "question": "Een voorspelling over hoe iets in de toekomst zal zijn.",
+            "answers": ["prognose"]
+        },
+        {
+            "question": "Het hoogste punt van een grafiek of een gebeurtenis.",
+            "answers": ["piek"]
+        },
+        {
+            "question": "Het gunstige moment om iets te doen of te beslissen.",
+            "answers": ["momentum"]
+        },
+        {
+            "question": "De invloed of het effect van iets op een situatie.",
+            "answers": ["impact"]
+        },
+        {
+            "question": "Een probleem of onderwerp dat discussie oproept.",
+            "answers": ["kwestie"]
+        },
+        {
+            "question": "Materiaal dat uit de natuur komt en gebruikt wordt om iets te produceren.",
+            "answers": ["grondstof"]
+        },
+        {
+            "question": "Van allerlei soorten; verschillend van aard.",
+            "answers": ["allerhande"]
+        },
+        {
+            "question": "Wat nu bestaat; niet oud of toekomstig.",
+            "answers": ["huidig"]
+        },
+        {
+            "question": "Zeer angstaanjagend of huiveringwekkend.",
+            "answers": ["ijzingwekkend"]
+        },
+        {
+            "question": "Wat eerder bestond of vroeger in functie was.",
+            "answers": ["voormalig"]
+        },
+        {
+            "question": "Ongeveer; niet exact maar dicht in de buurt.",
+            "answers": ["bij benadering"]
+        },
+        {
+            "question": "Misschien, mogelijk, vermoedelijk.",
+            "answers": ["wellicht"]
+        },
+        {
+            "question": "Wat eerlijk en moreel juist is.",
+            "answers": ["rechtvaardig"]
+        },
+        {
+            "question": "Bijna, nagenoeg, zo goed als helemaal.",
+            "answers": ["vrijwel"]
+        },
+        {
+            "question": "Meestal, gewoonlijk, in de meeste gevallen.",
+            "answers": ["doorgaans"]
+        },
+        {
+            "question": "Zeer belangrijk, doorslaggevend voor het resultaat.",
+            "answers": ["cruciaal"]
+        },
+        {
+            "question": "Logisch, redelijk te begrijpen of aanvaardbaar.",
+            "answers": ["redelijk"]
+        }
+    ]
+}]
