@@ -1,0 +1,57 @@
+[{
+    "theme": "Dierlijke uitdrukkingen 🐾",
+    "langread": "nl",
+    "questions": [{
+            "question": "Een vogel die vaak wordt geassocieerd met trots; hij pronkt graag met zijn veren.",
+            "answers": ["de pauw"]
+        },
+        {
+            "question": "Iemand die heel gezond is, net als een dier dat in het water leeft.",
+            "answers": ["Hij is zo gezond als een vis"]
+        },
+        {
+            "question": "Iemand die erg trots is, net als een bepaalde kleurrijke vogel.",
+            "answers": ["hij is zo trots als een pauw"]
+        },
+        {
+            "question": "Iemand die heel hard werkt, net als een groot dier dat op het land werkt.",
+            "answers": ["Hij werkt zo hard als een paard", "Werken als een paard"]
+        },
+        {
+            "question": "Iemand die erg koppig is en nooit van mening verandert.",
+            "answers": ["Hij is zo koppig als een ezel"]
+        },
+        {
+            "question": "Iemand die heel sterk is, net als een groot wild dier.",
+            "answers": ["Hij is zo sterk als een beer"]
+        },
+        {
+            "question": "Iemand die zich niet goed voelt, net als een huisdier dat ziek is.",
+            "answers": ["hij is ziek als een hond"]
+        },
+        {
+            "question": "Iemand die heel sluw en slim is, net als een dier dat kippen steelt.",
+            "answers": ["hij is zo sluw als een vos"]
+        },
+        {
+            "question": "Iemand die heel glad of onbetrouwbaar is, zoals een glibberig waterdier.",
+            "answers": ["Hij is zo glad als een aal"]
+        },
+        {
+            "question": "Iemand die bijna niets hoort, net als een kleine vogel.",
+            "answers": ["Hij is zo doof als een kwartel"]
+        },
+        {
+            "question": "Iemand die heel rustig en tam is, net als een jong schaap.",
+            "answers": ["Hij is zo mak als een lammetje"]
+        },
+        {
+            "question": "Een dier dat heel traag beweegt; het wordt vaak gebruikt om iemand traag te beschrijven.",
+            "answers": ["slakken"]
+        },
+        {
+            "question": "Een uitdrukking voor iemand die over kleine details zeurt of overdrijft.",
+            "answers": ["muggenziften"]
+        }
+    ]
+}]

@@ -1,0 +1,125 @@
+[{
+    "theme": "💅 Rutinas de belleza",
+    "langread": "es",
+    "questions": [{
+            "question": "Tiempo libre que tienes cuando no trabajas o estudias.",
+            "answers": ["vacaciones"]
+        },
+        {
+            "question": "Tener algo en la memoria o no olvidarlo.",
+            "answers": ["recordar"]
+        },
+        {
+            "question": "Atractivo físico o algo que es agradable a la vista.",
+            "answers": ["belleza"]
+        },
+        {
+            "question": "Sinónimo de lindo o hermoso.",
+            "answers": ["bonito"]
+        },
+        {
+            "question": "Lo que haces para obtener información o aclarar una duda.",
+            "answers": ["preguntas"]
+        },
+        {
+            "question": "Algunas, pero no todas; una parte de un conjunto.",
+            "answers": ["algunas"]
+        },
+        {
+            "question": "Cuando algo o alguien te motiva o te da nuevas ideas.",
+            "answers": ["inspirado"]
+        },
+        {
+            "question": "Consejo o secreto que ayuda a mejorar algo, por ejemplo, tu maquillaje.",
+            "answers": ["truco"]
+        },
+        {
+            "question": "Atraer a alguien con encanto o belleza.",
+            "answers": ["seducir"]
+        },
+        {
+            "question": "Aplicar productos cosméticos en la cara para embellecerla.",
+            "answers": ["maquillar"]
+        },
+        {
+            "question": "Lo que haces por la noche para descansar.",
+            "answers": ["dormir"]
+        },
+        {
+            "question": "Algo muy importante o necesario, básico para algo.",
+            "answers": ["fundamental"]
+        },
+        {
+            "question": "La etapa de la vida cuando una persona es anciana.",
+            "answers": ["la vieillessa"]
+        },
+        {
+            "question": "Persona que cuida mucho su aspecto y le gusta verse bien.",
+            "answers": ["coqueta"]
+        },
+        {
+            "question": "Tratamiento estético de las uñas de las manos.",
+            "answers": ["manicura"]
+        },
+        {
+            "question": "Algo que tiene mal aspecto o causa desagrado.",
+            "answers": ["horribles"]
+        },
+        {
+            "question": "Que es solo uno, diferente a los demás.",
+            "answers": ["unico"]
+        },
+        {
+            "question": "Mis cosas personales o pertenecientes a mí.",
+            "answers": ["miscosas"]
+        },
+        {
+            "question": "Uñas decoradas con colores o dibujos.",
+            "answers": ["pintandas"]
+        },
+        {
+            "question": "Seguridad en uno mismo o en los demás.",
+            "answers": ["confienza"]
+        },
+        {
+            "question": "Lo que crece en la cabeza o en el cuerpo de las personas y animales.",
+            "answers": ["pello"]
+        },
+        {
+            "question": "Producto que se usa después del champú para suavizar el cabello.",
+            "answers": ["conditionador"]
+        },
+        {
+            "question": "Producto que se usa para lavar el cabello.",
+            "answers": ["shampoo"]
+        },
+        {
+            "question": "Palabra que se usa para indicar consecuencia o resultado.",
+            "answers": ["entonces"]
+        },
+        {
+            "question": "Verbo que significa colocar algo sobre otra cosa.",
+            "answers": ["pongo"]
+        },
+        {
+            "question": "Crema que protege la piel del sol.",
+            "answers": ["crema solar"]
+        },
+        {
+            "question": "Estación del año con calor, sol y vacaciones.",
+            "answers": ["verano"]
+        },
+        {
+            "question": "Algo que puede causar daño o riesgo.",
+            "answers": ["pelligroso"]
+        },
+        {
+            "question": "Planta aromática que se usa en perfumes o aceites relajantes.",
+            "answers": ["lavanda"]
+        },
+        {
+            "question": "Algo que se fabrica y se vende, especialmente en cosmética o cuidado personal.",
+            "answers": ["producto"]
+        }
+    ]
+}]

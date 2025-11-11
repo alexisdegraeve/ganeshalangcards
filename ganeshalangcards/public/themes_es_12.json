@@ -1,5 +1,10 @@
 [{
     "title": "Vocabulario",
+    "description": "💅 Rutinas de belleza",
+    "class": "green",
+    "url": "/es/level_a2/quizz_belleza.json"
+}, {
+    "title": "Vocabulario",
     "description": "¿Sigues traduciendo en tu cabeza?",
     "class": "green",
     "url": "/es/level_a2/quizz_traduciendo.json"

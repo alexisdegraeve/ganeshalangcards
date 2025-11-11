@@ -1,0 +1,73 @@
+[{
+    "theme": "Dagelijks leven",
+    "langread": "nl",
+    "questions": [{
+            "question": "Een uitdrukking voor iemand die heel goed kan koken, meestal een vrouw.",
+            "answers": ["keukenprinses"]
+        },
+        {
+            "question": "Iemand op iets attent maken, meestal op een mogelijk gevaar of probleem.",
+            "answers": ["waarschuwen"]
+        },
+        {
+            "question": "Iemand provoceren of aanzetten om iets moeilijks te doen.",
+            "answers": ["uitdagen"]
+        },
+        {
+            "question": "Iemand emotioneel raken of ontroerd maken.",
+            "answers": ["ontroeren"]
+        },
+        {
+            "question": "Iets later doen dan gepland, het uitstellen van een actie.",
+            "answers": ["uitstellen"]
+        },
+        {
+            "question": "Twee of meer dingen naast elkaar plaatsen om de verschillen of gelijkenissen te zien.",
+            "answers": ["vergelijken"]
+        },
+        {
+            "question": "De manier waarop iemand de mening of het gedrag van anderen probeert te veranderen.",
+            "answers": ["beïnvloeden"]
+        },
+        {
+            "question": "Iemand onverwachts plezier doen of iets doen wat hij niet verwacht.",
+            "answers": ["verrassen"]
+        },
+        {
+            "question": "Een persoon die te veel weegt of obesitas heeft.",
+            "answers": ["zwaarlijvig"]
+        },
+        {
+            "question": "Iets ontwijken of ervoor zorgen dat je niet in een bepaalde situatie terechtkomt.",
+            "answers": ["vermijden"]
+        },
+        {
+            "question": "Plots begrijpen of bewust worden van iets.",
+            "answers": ["beseffen"]
+        },
+        {
+            "question": "Wanneer iets groter of hoger wordt, bijvoorbeeld de prijzen of de temperatuur.",
+            "answers": ["stijgen"]
+        },
+        {
+            "question": "Wat je weggooit omdat het niet meer bruikbaar is.",
+            "answers": ["het afval"]
+        },
+        {
+            "question": "Wanneer je verwacht had dat iets beter zou zijn; je voelt je ...",
+            "answers": ["teleurgesteld"]
+        },
+        {
+            "question": "Wanneer iemand zich netjes gedraagt en respect toont tegenover anderen.",
+            "answers": ["beleefd"]
+        },
+        {
+            "question": "Wanneer iets kleiner of lager wordt, bijvoorbeeld de temperatuur of de prijzen.",
+            "answers": ["dalen"]
+        },
+        {
+            "question": "Wanneer het weer voortdurend verandert, soms zonnig en soms regenachtig.",
+            "answers": ["wisselvallig"]
+        }
+    ]
+}]
