@@ -1,5 +1,11 @@
 [{
         "title": "Vocabulary",
+        "description": "Kenya Approves Controversial Cybercrimes Law",
+        "class": "blue",
+        "url": "/en/level_c1/quizz_kenya.json"
+    },
+    {
+        "title": "Vocabulary",
         "description": "🎛️ Strange and Wonderful New Technologies of 2025",
         "class": "blue",
         "url": "/en/level_c1/quizz_strangeandwonderful.json"
