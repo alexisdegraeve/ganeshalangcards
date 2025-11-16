@@ -1,0 +1,105 @@
+[{
+    "theme": "¡Al médico!",
+    "langread": "es",
+    "questions": [{
+            "question": "Palabra que significa 'feliz' o 'alegre'.",
+            "answers": ["contenta"]
+        },
+        {
+            "question": "Profesional de la medicina que atiende a los pacientes.",
+            "answers": ["doctor"]
+        },
+        {
+            "question": "Lo contrario de mentira.",
+            "answers": ["verdad"]
+        },
+        {
+            "question": "Sentimiento fuerte producido por una situación.",
+            "answers": ["emoción"]
+        },
+        {
+            "question": "Algo hecho de manera fácil, sin complicaciones.",
+            "answers": ["simplemente"]
+        },
+        {
+            "question": "Cuando una persona no tiene energía o necesita descansar.",
+            "answers": ["cansada"]
+        },
+        {
+            "question": "Examen médico de laboratorio para revisar la salud.",
+            "answers": ["analítica"]
+        },
+        {
+            "question": "Incluso, hasta, aun.",
+            "answers": ["incluso"]
+        },
+        {
+            "question": "Relacionado con algo que es para todo el mundo, no privado.",
+            "answers": ["pública"]
+        },
+        {
+            "question": "Relacionado con un resfriado, sentirse con síntomas de gripe.",
+            "answers": ["resfriado"]
+        },
+        {
+            "question": "Palabra relacionada con medicina alternativa y hierbas.",
+            "answers": ["fango"]
+        },
+        {
+            "question": "Algo que causa dificultad o molestia.",
+            "answers": ["problema"]
+        },
+        {
+            "question": "Especialista en los pies.",
+            "answers": ["podólogo"]
+        },
+        {
+            "question": "Expresión para disculparse o expresar pena.",
+            "answers": ["siento"]
+        },
+        {
+            "question": "Estar en buen estado de salud.",
+            "answers": ["bien"]
+        },
+        {
+            "question": "Estar en mal estado de salud.",
+            "answers": ["mal"]
+        },
+        {
+            "question": "Relacionado con la energía eléctrica.",
+            "answers": ["eléctrico"]
+        },
+        {
+            "question": "Terapia basada en presiones en puntos específicos del cuerpo.",
+            "answers": ["reflexología"]
+        },
+        {
+            "question": "Fuerza o energía producida por la corriente.",
+            "answers": ["electricidad"]
+        },
+        {
+            "question": "Estado general del cuerpo y la mente.",
+            "answers": ["salud"]
+        },
+        {
+            "question": "Dar dinero a cambio de un servicio.",
+            "answers": ["pagar"]
+        },
+        {
+            "question": "Profesional de la salud mental.",
+            "answers": ["psicólogo"]
+        },
+        {
+            "question": "Médico especializado en el sistema reproductor femenino.",
+            "answers": ["ginecólogo"]
+        },
+        {
+            "question": "Que cuesta mucho dinero.",
+            "answers": ["caros"]
+        },
+        {
+            "question": "Miedo exagerado a estar enfermo.",
+            "answers": ["hipocondría"]
+        }
+    ]
+}]

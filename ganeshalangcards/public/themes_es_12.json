@@ -1,5 +1,10 @@
 [{
     "title": "Vocabulario",
+    "description": "¡Al médico!",
+    "class": "green",
+    "url": "/es/level_a2/quizz_medico.json"
+}, {
+    "title": "Vocabulario",
     "description": "💅 Rutinas de belleza",
     "class": "green",
     "url": "/es/level_a2/quizz_belleza.json"
