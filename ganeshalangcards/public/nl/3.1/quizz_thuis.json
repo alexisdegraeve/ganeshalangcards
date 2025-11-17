@@ -1,0 +1,53 @@
+[{
+    "theme": "Thuis",
+    "langread": "nl",
+    "questions": [{
+            "question": "Wat je innerlijk voelt.",
+            "answers": ["gemoed"]
+        },
+        {
+            "question": "Oninteressant en langdradig gepraat.",
+            "answers": ["gezeur"]
+        },
+        {
+            "question": "Iemand die niet op tijd komt.",
+            "answers": ["telaatkomer"]
+        },
+        {
+            "question": "Woorden die toverkracht hebben.",
+            "answers": ["toverformule"]
+        },
+        {
+            "question": "Gepensioneerde hoogleraar.",
+            "answers": ["emeritus"]
+        },
+        {
+            "question": "Huishouden of gezin waarin beide partners een inkomen hebben.",
+            "answers": ["tweeverdieners"]
+        },
+        {
+            "question": "Iemand die dagelijks op en neer reist tussen woning en werk.",
+            "answers": ["pendelaar"]
+        },
+        {
+            "question": "Plaats onder de grond waar je waardevolle dingen uit de aarde haalt.",
+            "answers": ["mijn"]
+        },
+        {
+            "question": "Handarbeider.",
+            "answers": ["ambachtsman"]
+        },
+        {
+            "question": "De omschakeling van handmatig naar machinaal vervaardigde goederen.",
+            "answers": ["industriële revolutie"]
+        },
+        {
+            "question": "De verschuiving.",
+            "answers": ["shift"]
+        },
+        {
+            "question": "Gebied buiten de steden.",
+            "answers": ["platteland"]
+        }
+    ]
+}]
