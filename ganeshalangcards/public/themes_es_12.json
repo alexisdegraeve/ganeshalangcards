@@ -1,5 +1,10 @@
 [{
     "title": "Vocabulario",
+    "description": "Zumba",
+    "class": "green",
+    "url": "/es/level_a2/quizz_zumba.json"
+}, {
+    "title": "Vocabulario",
     "description": "¡Al médico!",
     "class": "green",
     "url": "/es/level_a2/quizz_medico.json"

@@ -1,5 +1,10 @@
   [{
           "title": "Woordenschat",
+          "description": "Weerkaart",
+          "class": "pink",
+          "url": "/nl/3.1/quizz_weerkaart.json"
+      }, {
+          "title": "Woordenschat",
           "description": "Donald Trump beveelt onderzoek naar mogelijke banden",
           "class": "pink",
           "url": "/nl/3.1/quizz_trump.json"

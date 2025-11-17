@@ -1,0 +1,89 @@
+[{
+    "theme": "Zumba",
+    "langread": "es",
+    "questions": [{
+            "question": "Palabra que describe estar sin energía después de moverse mucho.",
+            "answers": ["cansado"]
+        },
+        {
+            "question": "Lugar donde se preparan comidas.",
+            "answers": ["cocina"]
+        },
+        {
+            "question": "Expresión para pedir más información.",
+            "answers": ["qué más"]
+        },
+        {
+            "question": "Conjunto de habilidades para realizar correctamente un movimiento.",
+            "answers": ["técnica"]
+        },
+        {
+            "question": "Ciencia relacionada con los astros y el universo.",
+            "answers": ["astronomía"]
+        },
+        {
+            "question": "Conjunto de cosas que se hacen para mantenerse activo.",
+            "answers": ["actividades"]
+        },
+        {
+            "question": "Lugar donde los niños y jóvenes aprenden.",
+            "answers": ["escuela"]
+        },
+        {
+            "question": "Algo que sorprende por ser muy bueno.",
+            "answers": ["increíble"]
+        },
+        {
+            "question": "Mover el cuerpo al ritmo de la música.",
+            "answers": ["bailar"]
+        },
+        {
+            "question": "Persona que enseña una actividad como la Zumba.",
+            "answers": ["maestro"]
+        },
+        {
+            "question": "Expresión que significa sinceridad.",
+            "answers": ["la verdad"]
+        },
+        {
+            "question": "Categoría o estilo de movimiento musical.",
+            "answers": ["tipo de danza"]
+        },
+        {
+            "question": "Lugar donde se hace ejercicio con máquinas.",
+            "answers": ["gimnasio"]
+        },
+        {
+            "question": "Elemento musical que marca el tempo.",
+            "answers": ["ritmo"]
+        },
+        {
+            "question": "Expresión motivadora para animar a comenzar.",
+            "answers": ["¡venga!"]
+        },
+        {
+            "question": "Palabra que indica poner algo en su lugar o iniciar algo.",
+            "answers": ["ponga"]
+        },
+        {
+            "question": "Sentimiento de pasarlo bien haciendo una actividad.",
+            "answers": ["disfrutar"]
+        },
+        {
+            "question": "Mover el cuerpo al compás, similar a bailar.",
+            "answers": ["danzar"]
+        },
+        {
+            "question": "Producir sonidos musicales con la voz.",
+            "answers": ["cantar"]
+        },
+        {
+            "question": "Que no presenta peligro.",
+            "answers": ["seguro"]
+        },
+        {
+            "question": "Algo que requiere mucho esfuerzo físico.",
+            "answers": ["intenso"]
+        }
+    ]
+}]

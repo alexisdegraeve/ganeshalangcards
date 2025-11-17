@@ -1,0 +1,41 @@
+[{
+    "theme": "Weerkaart",
+    "langread": "nl",
+    "questions": [{
+            "question": "Dit zie je aan de hemel wanneer het weer helemaal helder is.",
+            "answers": ["zon"]
+        },
+        {
+            "question": "Water dat uit de lucht valt tijdens slecht weer.",
+            "answers": ["regen"]
+        },
+        {
+            "question": "Wanneer de lucht deels wolken heeft maar niet volledig bedekt is.",
+            "answers": ["half bewolkt"]
+        },
+        {
+            "question": "Bevroren vlokjes die uit de lucht vallen in de winter.",
+            "answers": ["sneeuw"]
+        },
+        {
+            "question": "Weer met bliksem en donder.",
+            "answers": ["onweer"]
+        },
+        {
+            "question": "Lucht die in beweging is en krachtig kan waaien.",
+            "answers": ["wind"]
+        },
+        {
+            "question": "Wanneer de lucht zo laag hangt dat je moeilijk kunt zien.",
+            "answers": ["mist"]
+        },
+        {
+            "question": "Harde, kleine ijsbolletjes die uit de lucht vallen.",
+            "answers": ["hagel"]
+        },
+        {
+            "question": "Kleurenboog die soms verschijnt wanneer zon en regen samen voorkomen.",
+            "answers": ["regenboog"]
+        }
+    ]
+}]
