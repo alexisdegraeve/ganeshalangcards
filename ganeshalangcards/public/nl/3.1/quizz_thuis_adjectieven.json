@@ -1,0 +1,57 @@
+[{
+    "theme": "Adjectieven – Thuis",
+    "langread": "nl",
+    "questions": [{
+            "question": "Aan zijn huis gehecht zijn.",
+            "answers": ["honkvast"]
+        },
+        {
+            "question": "Miserabel; heel naar en vervelend.",
+            "answers": ["ellendig"]
+        },
+        {
+            "question": "Net voor dit moment.",
+            "answers": ["daarnet"]
+        },
+        {
+            "question": "Landelijk, van het platteland.",
+            "answers": ["ruraal"]
+        },
+        {
+            "question": "Kleiner gemaakt.",
+            "answers": ["ingeperkt"]
+        },
+        {
+            "question": "Ommuurd; met een muur errond.",
+            "answers": ["omwald"]
+        },
+        {
+            "question": "Van de gemeenschap.",
+            "answers": ["communautair"]
+        },
+        {
+            "question": "Als je veel geld hebt, ben je...",
+            "answers": ["kapitaalkrachtig"]
+        },
+        {
+            "question": "Als het meer geld opbrengt dan het kost.",
+            "answers": ["rendabel"]
+        },
+        {
+            "question": "Randstedelijk; aan de rand van de stadskern.",
+            "answers": ["voorstedelijk"]
+        },
+        {
+            "question": "Wat lang blijft bestaan, met een lange levensduur.",
+            "answers": ["duurzaam"]
+        },
+        {
+            "question": "Langzamerhand.",
+            "answers": ["onderhand"]
+        },
+        {
+            "question": "Met plotse, korte bewegingen, niet geleidelijk.",
+            "answers": ["in schokken"]
+        }
+    ]
+}]

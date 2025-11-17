@@ -1,0 +1,53 @@
+[{
+    "theme": "Thuis – Substantieven",
+    "langread": "nl",
+    "questions": [{
+            "question": "De zone.",
+            "answers": ["gordel"]
+        },
+        {
+            "question": "Afgesloten stadsdeel.",
+            "answers": ["cité"]
+        },
+        {
+            "question": "Chemische nijverheid op basis van aardolie.",
+            "answers": ["petrochemie"]
+        },
+        {
+            "question": "Het monteren van onderdelen tot een product.",
+            "answers": ["assemblage"]
+        },
+        {
+            "question": "Huizen die in een enkele rij naast elkaar staan, bijvoorbeeld langs een weg.",
+            "answers": ["lintbebouwing"]
+        },
+        {
+            "question": "Het steeds slechter, viezer en lelijker worden.",
+            "answers": ["verloedering"]
+        },
+        {
+            "question": "De dichtheid.",
+            "answers": ["densiteit"]
+        },
+        {
+            "question": "De motor, de drijvende kracht.",
+            "answers": ["trekker"]
+        },
+        {
+            "question": "De hulpverlening.",
+            "answers": ["zorg"]
+        },
+        {
+            "question": "Verbinding van twee principes.",
+            "answers": ["dualiteit"]
+        },
+        {
+            "question": "Alle mensen die mogen kiezen.",
+            "answers": ["electoraat"]
+        },
+        {
+            "question": "Salariswagen, voertuig dat de werkgever gratis of onder gunstige voorwaarden ter beschikking stelt.",
+            "answers": ["bedrijfswagen"]
+        }
+    ]
+}]

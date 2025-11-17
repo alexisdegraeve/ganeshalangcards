@@ -1,4 +1,24 @@
   [{
+          "title": "Uitdrukkingen",
+          "description": "Thuis",
+          "class": "pink",
+          "url": "/nl/3.1/quizz_thuis_uitdrukkingen.json"
+      }, {
+          "title": "Verba",
+          "description": "Thuis",
+          "class": "pink",
+          "url": "/nl/3.1/quizz_thuis_verba.json"
+      }, {
+          "title": "Adjectieven",
+          "description": "Thuis",
+          "class": "pink",
+          "url": "/nl/3.1/quizz_thuis_adjectieven.json"
+      }, {
+          "title": "Substantieven",
+          "description": "Thuis",
+          "class": "pink",
+          "url": "/nl/3.1/quizz_thuis_substantieven.json"
+      }, {
           "title": "Woordenschat",
           "description": "Thuis",
           "class": "pink",

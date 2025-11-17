@@ -1,0 +1,41 @@
+[{
+    "theme": "Uitdrukkingen – Thuis",
+    "langread": "nl",
+    "questions": [{
+            "question": "De oplossing is gemakkelijk; ligt voor het grijpen.",
+            "answers": ["de oplossing ligt voor het rapen"]
+        },
+        {
+            "question": "Helemaal niet bewegen.",
+            "answers": ["geen vin verroeren"]
+        },
+        {
+            "question": "Zijn eigen fouten zien.",
+            "answers": ["in eigen boezem kijken , de hand in eigen boezem steken"]
+        },
+        {
+            "question": "Een doel willen bereiken.",
+            "answers": ["op het oog hebben"]
+        },
+        {
+            "question": "Beginnen te werken.",
+            "answers": ["aan de slag gaan"]
+        },
+        {
+            "question": "Telen, aan landbouw doen.",
+            "answers": ["het land verbouwen"]
+        },
+        {
+            "question": "Alle maatregelen die de overheid neemt om bepaalde problemen op te lossen.",
+            "answers": ["een beleid voeren"]
+        },
+        {
+            "question": "In je geboortedorp blijven wonen.",
+            "answers": ["onder de kerktoren blijven"]
+        },
+        {
+            "question": "Er niets mee kunnen doen.",
+            "answers": ["ergens niets mee kunnen aanvangen"]
+        }
+    ]
+}]

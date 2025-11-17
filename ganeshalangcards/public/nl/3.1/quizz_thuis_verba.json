@@ -1,0 +1,29 @@
+[{
+    "theme": "Werkwoorden – Thuis",
+    "langread": "nl",
+    "questions": [{
+            "question": "Blokkeren.",
+            "answers": ["opstoppen"]
+        },
+        {
+            "question": "Aanmoedigen.",
+            "answers": ["aanzetten"]
+        },
+        {
+            "question": "Het verdelen van bouwgrond in verschillende stukken.",
+            "answers": ["verkavelen"]
+        },
+        {
+            "question": "Iets als mooier, belangrijker of groter beschrijven dan het is.",
+            "answers": ["overdrijven"]
+        },
+        {
+            "question": "Je best doen voor.",
+            "answers": ["inzetten op , streven naar"]
+        },
+        {
+            "question": "De uitgaven verminderen.",
+            "answers": ["bezuinigen op"]
+        }
+    ]
+}]
