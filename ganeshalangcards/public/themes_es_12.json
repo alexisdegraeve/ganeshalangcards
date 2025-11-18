@@ -1,5 +1,10 @@
 [{
     "title": "Vocabulario",
+    "description": "Cosas extrañas en México",
+    "class": "green",
+    "url": "/es/level_a2/quizz_mexico.json"
+}, {
+    "title": "Vocabulario",
     "description": "Zumba",
     "class": "green",
     "url": "/es/level_a2/quizz_zumba.json"

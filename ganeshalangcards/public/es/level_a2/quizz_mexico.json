@@ -1,0 +1,89 @@
+[{
+    "theme": "Cosas extrañas en México",
+    "langread": "es",
+    "questions": [{
+            "question": "Capital de México.",
+            "answers": ["Ciudad"]
+        },
+        {
+            "question": "Nombre del país.",
+            "answers": ["Mexico"]
+        },
+        {
+            "question": "Personas en general.",
+            "answers": ["gente"]
+        },
+        {
+            "question": "Joven masculino.",
+            "answers": ["chico"]
+        },
+        {
+            "question": "De tamaño pequeño.",
+            "answers": ["pequena"]
+        },
+        {
+            "question": "Próximo o cercano.",
+            "answers": ["cerca"]
+        },
+        {
+            "question": "Animal doméstico que ladra.",
+            "answers": ["perros"]
+        },
+        {
+            "question": "Perro pequeño.",
+            "answers": ["perritos"]
+        },
+        {
+            "question": "Saltar.",
+            "answers": ["salte"]
+        },
+        {
+            "question": "Bonita, agradable a la vista.",
+            "answers": ["linda"]
+        },
+        {
+            "question": "Buena fortuna.",
+            "answers": ["suerte"]
+        },
+        {
+            "question": "Personas que han fallecido.",
+            "answers": ["muertos"]
+        },
+        {
+            "question": "De apariencia poco atractiva.",
+            "answers": ["fea"]
+        },
+        {
+            "question": "Calaveras decorativas.",
+            "answers": ["calaveras"]
+        },
+        {
+            "question": "Nuevo o reciente.",
+            "answers": ["extreno"]
+        },
+        {
+            "question": "Objeto o elemento.",
+            "answers": ["cosa"]
+        },
+        {
+            "question": "Palabra que señala o indica algo.",
+            "answers": ["designador"]
+        },
+        {
+            "question": "Alimentos dulces y comestibles de origen vegetal.",
+            "answers": ["frutas"]
+        },
+        {
+            "question": "Caramelos o golosinas.",
+            "answers": ["dulces"]
+        },
+        {
+            "question": "Fruta amarilla y alargada.",
+            "answers": ["platano"]
+        },
+        {
+            "question": "Día anterior.",
+            "answers": ["ayer"]
+        }
+    ]
+}]
