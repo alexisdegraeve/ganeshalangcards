@@ -1,0 +1,72 @@
+[{
+    "theme": "Rutinas diarias",
+    "langread": "es",
+    "questions": [{
+            "question": "Construye una frase usando *ducharse* con un adverbio de frecuencia y una expresión temporal.",
+            "answer": "Lo hago antes de desayunar."
+        },
+        {
+            "question": "Construye una frase usando *ducharse* con un adverbio de frecuencia y una expresión temporal.",
+            "answer": "Es mejor hacerlo después de hacer deporte."
+        },
+        {
+            "question": "Construye una frase usando *ducharse* con un adverbio de frecuencia y una expresión temporal.",
+            "answer": "Creo que es bueno hacerlo antes de acostarme."
+        },
+        {
+            "question": "Construye una frase usando *ducharse* con un adverbio de frecuencia y una expresión temporal.",
+            "answer": "Es importante hacerlo después de levantarme."
+        },
+
+        {
+            "question": "Construye una frase usando *ir al trabajo* con un adverbio de frecuencia y una expresión temporal.",
+            "answer": "Lo hago después de desayunar."
+        },
+        {
+            "question": "Construye una frase usando *ir al trabajo* con un adverbio de frecuencia y una expresión temporal.",
+            "answer": "Es mejor hacerlo antes de que empiece la hora punta."
+        },
+        {
+            "question": "Construye una frase usando *ir a clase* con un adverbio de frecuencia y una expresión temporal.",
+            "answer": "Creo que es bueno hacerlo antes de comer."
+        },
+        {
+            "question": "Construye una frase usando *ir a clase* con un adverbio de frecuencia y una expresión temporal.",
+            "answer": "Es importante hacerlo después de preparar mis cosas."
+        },
+
+        {
+            "question": "Construye una frase usando *hacer la cama* con un adverbio de frecuencia y una expresión temporal.",
+            "answer": "Lo hago después de levantarme."
+        },
+        {
+            "question": "Construye una frase usando *hacer la cama* con un adverbio de frecuencia y una expresión temporal.",
+            "answer": "Es mejor hacerlo antes de salir de casa."
+        },
+        {
+            "question": "Construye una frase usando *hacer la cama* con un adverbio de frecuencia y una expresión temporal.",
+            "answer": "Creo que es bueno hacerlo después de ventilar la habitación."
+        },
+        {
+            "question": "Construye una frase usando *hacer la cama* con un adverbio de frecuencia y una expresión temporal.",
+            "answer": "Es importante hacerlo antes de empezar a estudiar."
+        },
+
+        {
+            "question": "Construye una frase usando *lavarse la cara* con un adverbio de frecuencia y una expresión temporal.",
+            "answer": "Lo hago antes de desayunar."
+        },
+        {
+            "question": "Construye una frase usando *lavarse la cara* con un adverbio de frecuencia y una expresión temporal.",
+            "answer": "Es mejor hacerlo después de levantarse."
+        },
+        {
+            "question": "Construye una frase usando *lavarse la cara* con un adverbio de frecuencia y una expresión temporal.",
+            "answer": "Creo que es bueno hacerlo antes de dormir."
+        },
+        {
+            "question": "Construye una frase usando *lavarse la cara* con un adverbio de frecuencia y una expresión temporal.",
+            "answer": "Es importante hacerlo después de hacer ejercicio."
+        }
+    ]
+}]

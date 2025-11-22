@@ -1,5 +1,10 @@
 [{
         "title": "Vocabulary",
+        "description": "Absurd Events, Rules, and Regulations Around the World",
+        "class": "blue",
+        "url": "/en/level_c1/quizz_absurd.json"
+    }, {
+        "title": "Vocabulary",
         "description": "Kenya Approves Controversial Cybercrimes Law",
         "class": "blue",
         "url": "/en/level_c1/quizz_kenya.json"

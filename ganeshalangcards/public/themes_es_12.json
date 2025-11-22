@@ -1,4 +1,9 @@
 [{
+    "title": "Frase",
+    "description": "Rutinas diarias",
+    "class": "green",
+    "url": "/es/level_a2/quizz_rutinas.json"
+}, {
     "title": "Vocabulario",
     "description": "Cosas extrañas en México",
     "class": "green",

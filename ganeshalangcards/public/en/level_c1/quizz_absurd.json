@@ -1,0 +1,45 @@
+[{
+    "theme": "Absurd Events, Rules, and Regulations Around the World",
+    "langread": "en",
+    "questions": [{
+            "question": "A noun meaning the point or level at which something begins or changes; the limit or brink of a situation.",
+            "answers": ["threshold"]
+        },
+        {
+            "question": "A verb meaning to prevent someone from doing something; to hinder or obstruct an action.",
+            "answers": ["thwart"]
+        },
+        {
+            "question": "An adjective describing behaviour or style that is exaggerated, dramatic, or showy.",
+            "answers": ["theatrical"]
+        },
+        {
+            "question": "An adjective meaning economical or careful with money; not wasteful.",
+            "answers": ["thrifty"]
+        },
+        {
+            "question": "A verb meaning to break a rule or law; to violate or infringe upon something.",
+            "answers": ["transgress"]
+        },
+        {
+            "question": "An adjective meaning very worn-out, thin, or shabby—literally or metaphorically.",
+            "answers": ["threadbare"]
+        },
+        {
+            "question": "A noun referring to strong or violent feelings experienced during a difficult situation; turmoil or struggle.",
+            "answers": ["throes"]
+        },
+        {
+            "question": "A noun meaning a dense group of bushes or trees, or metaphorically, a confusing set of rules.",
+            "answers": ["thicket"]
+        },
+        {
+            "question": "An adjective describing something dangerous in a hidden or unpredictable way.",
+            "answers": ["treacherous"]
+        },
+        {
+            "question": "An adjective meaning very loud or powerful; booming or resounding.",
+            "answers": ["thunderous"]
+        }
+    ]
+}]
