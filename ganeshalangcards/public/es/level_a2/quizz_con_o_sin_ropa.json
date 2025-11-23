@@ -1,0 +1,65 @@
+[{
+    "theme": "¿Con o sin ropa?",
+    "langread": "es",
+    "questions": [{
+            "question": "German",
+            "answer": "alemán"
+        },
+        {
+            "question": "street",
+            "answer": "calle"
+        },
+        {
+            "question": "lake",
+            "answer": "lago"
+        },
+        {
+            "question": "substitute",
+            "answer": "sustituto"
+        },
+        {
+            "question": "strange",
+            "answer": "extraño"
+        },
+        {
+            "question": "dangerous",
+            "answer": "peligroso"
+        },
+        {
+            "question": "unique",
+            "answer": "único"
+        },
+        {
+            "question": "I love it",
+            "answer": "me encanta"
+        },
+        {
+            "question": "body",
+            "answer": "cuerpo"
+        },
+        {
+            "question": "naked",
+            "answer": "desnudo"
+        },
+        {
+            "question": "beautiful",
+            "answer": "hermoso"
+        },
+        {
+            "question": "sauna",
+            "answer": "sauna"
+        },
+        {
+            "question": "curious",
+            "answer": "curioso"
+        },
+        {
+            "question": "laughter",
+            "answer": "risas"
+        },
+        {
+            "question": "naked",
+            "answer": "encuerado"
+        }
+    ]
+}]

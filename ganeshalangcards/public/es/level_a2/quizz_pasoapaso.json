@@ -1,0 +1,45 @@
+[{
+    "theme": "Paso a Paso",
+    "langread": "en",
+    "questions": [{
+            "question": "always",
+            "answer": "siempre"
+        },
+        {
+            "question": "normally",
+            "answer": "normalmente"
+        },
+        {
+            "question": "often",
+            "answer": "a menudo"
+        },
+        {
+            "question": "sometimes",
+            "answer": "a veces"
+        },
+        {
+            "question": "never",
+            "answer": "nunca"
+        },
+        {
+            "question": "every day",
+            "answer": "cada día"
+        },
+        {
+            "question": "I do it before/after…",
+            "answer": "Lo hago antes/después de…"
+        },
+        {
+            "question": "It is better to do it before/after…",
+            "answer": "Es mejor hacerlo antes/después de…"
+        },
+        {
+            "question": "I think it is good to do it before/after…",
+            "answer": "Creo que es bueno hacerlo antes/después de…"
+        },
+        {
+            "question": "It is important to do it before/after…",
+            "answer": "Es importante hacerlo antes/después de…"
+        }
+    ]
+}]

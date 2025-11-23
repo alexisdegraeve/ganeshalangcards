@@ -1,8 +1,18 @@
 [{
-    "title": "Frase",
-    "description": "Rutinas diarias",
+    "title": "Vocabulario",
+    "description": "¿Con o sin ropa?",
+    "class": "green",
+    "url": "/es/level_a2/quizz_con_o_sin_ropa.json"
+}, {
+    "title": "Vocabulario",
+    "description": "Rutinas",
     "class": "green",
     "url": "/es/level_a2/quizz_rutinas.json"
+}, {
+    "title": "Vocabulario",
+    "description": "Paso a Paso",
+    "class": "green",
+    "url": "/es/level_a2/quizz_pasoapaso.json"
 }, {
     "title": "Vocabulario",
     "description": "Cosas extrañas en México",

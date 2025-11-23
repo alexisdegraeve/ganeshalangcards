@@ -1,72 +1,85 @@
 [{
-    "theme": "Rutinas diarias",
-    "langread": "es",
+    "theme": "Rutinas",
+    "langread": "en",
     "questions": [{
-            "question": "Construye una frase usando *ducharse* con un adverbio de frecuencia y una expresión temporal.",
-            "answer": "Lo hago antes de desayunar."
+            "question": "to take a shower",
+            "answer": "ducharse"
         },
         {
-            "question": "Construye una frase usando *ducharse* con un adverbio de frecuencia y una expresión temporal.",
-            "answer": "Es mejor hacerlo después de hacer deporte."
+            "question": "to go to work / to go to class",
+            "answer": "ir al trabajo / ir a clase"
         },
         {
-            "question": "Construye una frase usando *ducharse* con un adverbio de frecuencia y una expresión temporal.",
-            "answer": "Creo que es bueno hacerlo antes de acostarme."
+            "question": "to make the bed",
+            "answer": "hacer la cama"
         },
         {
-            "question": "Construye una frase usando *ducharse* con un adverbio de frecuencia y una expresión temporal.",
-            "answer": "Es importante hacerlo después de levantarme."
-        },
-
-        {
-            "question": "Construye una frase usando *ir al trabajo* con un adverbio de frecuencia y una expresión temporal.",
-            "answer": "Lo hago después de desayunar."
+            "question": "to wash your face",
+            "answer": "lavarse la cara"
         },
         {
-            "question": "Construye una frase usando *ir al trabajo* con un adverbio de frecuencia y una expresión temporal.",
-            "answer": "Es mejor hacerlo antes de que empiece la hora punta."
+            "question": "to brush your teeth",
+            "answer": "cepillarse los dientes"
         },
         {
-            "question": "Construye una frase usando *ir a clase* con un adverbio de frecuencia y una expresión temporal.",
-            "answer": "Creo que es bueno hacerlo antes de comer."
+            "question": "to wash your hands",
+            "answer": "lavarse las manos"
         },
         {
-            "question": "Construye una frase usando *ir a clase* con un adverbio de frecuencia y una expresión temporal.",
-            "answer": "Es importante hacerlo después de preparar mis cosas."
-        },
-
-        {
-            "question": "Construye una frase usando *hacer la cama* con un adverbio de frecuencia y una expresión temporal.",
-            "answer": "Lo hago después de levantarme."
+            "question": "to comb your hair",
+            "answer": "peinarse"
         },
         {
-            "question": "Construye una frase usando *hacer la cama* con un adverbio de frecuencia y una expresión temporal.",
-            "answer": "Es mejor hacerlo antes de salir de casa."
+            "question": "to get dressed",
+            "answer": "vestirse"
         },
         {
-            "question": "Construye una frase usando *hacer la cama* con un adverbio de frecuencia y una expresión temporal.",
-            "answer": "Creo que es bueno hacerlo después de ventilar la habitación."
+            "question": "to prepare breakfast",
+            "answer": "preparar el desayuno"
         },
         {
-            "question": "Construye una frase usando *hacer la cama* con un adverbio de frecuencia y una expresión temporal.",
-            "answer": "Es importante hacerlo antes de empezar a estudiar."
-        },
-
-        {
-            "question": "Construye una frase usando *lavarse la cara* con un adverbio de frecuencia y una expresión temporal.",
-            "answer": "Lo hago antes de desayunar."
+            "question": "to leave the house",
+            "answer": "salir de casa"
         },
         {
-            "question": "Construye una frase usando *lavarse la cara* con un adverbio de frecuencia y una expresión temporal.",
-            "answer": "Es mejor hacerlo después de levantarse."
+            "question": "to have a coffee",
+            "answer": "tomar un café"
         },
         {
-            "question": "Construye una frase usando *lavarse la cara* con un adverbio de frecuencia y una expresión temporal.",
-            "answer": "Creo que es bueno hacerlo antes de dormir."
+            "question": "to clean the room",
+            "answer": "limpiar la habitación"
         },
         {
-            "question": "Construye una frase usando *lavarse la cara* con un adverbio de frecuencia y una expresión temporal.",
-            "answer": "Es importante hacerlo después de hacer ejercicio."
+            "question": "to eat breakfast",
+            "answer": "desayunar"
+        },
+        {
+            "question": "to wash the dishes",
+            "answer": "fregar los platos"
+        },
+        {
+            "question": "to do the shopping",
+            "answer": "hacer la compra"
+        },
+        {
+            "question": "to walk the dog",
+            "answer": "sacar al perro"
+        },
+        {
+            "question": "to make a video call",
+            "answer": "hacer una videollamada"
+        },
+        {
+            "question": "to do sports / to exercise",
+            "answer": "hacer deporte"
+        },
+        {
+            "question": "to charge the phone",
+            "answer": "cargar el móvil"
+        },
+        {
+            "question": "to listen to music",
+            "answer": "escuchar música"
         }
     ]
 }]
