@@ -3,63 +3,63 @@
     "langread": "es",
     "questions": [{
             "question": "German",
-            "answer": "alemán"
+            "answers": ["alemán"]
         },
         {
             "question": "street",
-            "answer": "calle"
+            "answers": ["calle"]
         },
         {
             "question": "lake",
-            "answer": "lago"
+            "answers": ["lago"]
         },
         {
             "question": "substitute",
-            "answer": "sustituto"
+            "answers": ["sustituto"]
         },
         {
             "question": "strange",
-            "answer": "extraño"
+            "answers": ["extraño"]
         },
         {
             "question": "dangerous",
-            "answer": "peligroso"
+            "answers": ["peligroso"]
         },
         {
             "question": "unique",
-            "answer": "único"
+            "answers": ["único"]
         },
         {
             "question": "I love it",
-            "answer": "me encanta"
+            "answers": ["me encanta"]
         },
         {
             "question": "body",
-            "answer": "cuerpo"
+            "answers": ["cuerpo"]
         },
         {
             "question": "naked",
-            "answer": "desnudo"
+            "answers": ["desnudo"]
         },
         {
             "question": "beautiful",
-            "answer": "hermoso"
+            "answers": ["hermoso"]
         },
         {
             "question": "sauna",
-            "answer": "sauna"
+            "answers": ["sauna"]
         },
         {
             "question": "curious",
-            "answer": "curioso"
+            "answers": ["curioso"]
         },
         {
             "question": "laughter",
-            "answer": "risas"
+            "answers": ["risas"]
         },
         {
             "question": "naked",
-            "answer": "encuerado"
+            "answers": ["encuerado"]
         }
     ]
 }]

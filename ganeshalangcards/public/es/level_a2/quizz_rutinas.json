@@ -3,83 +3,83 @@
     "langread": "en",
     "questions": [{
             "question": "to take a shower",
-            "answer": "ducharse"
+            "answers": ["ducharse"]
         },
         {
             "question": "to go to work / to go to class",
-            "answer": "ir al trabajo / ir a clase"
+            "answers": ["ir al trabajo / ir a clase"]
         },
         {
             "question": "to make the bed",
-            "answer": "hacer la cama"
+            "answers": ["hacer la cama"]
         },
         {
             "question": "to wash your face",
-            "answer": "lavarse la cara"
+            "answers": ["lavarse la cara"]
         },
         {
             "question": "to brush your teeth",
-            "answer": "cepillarse los dientes"
+            "answers": ["cepillarse los dientes"]
         },
         {
             "question": "to wash your hands",
-            "answer": "lavarse las manos"
+            "answers": ["lavarse las manos"]
         },
         {
             "question": "to comb your hair",
-            "answer": "peinarse"
+            "answers": ["peinarse"]
         },
         {
             "question": "to get dressed",
-            "answer": "vestirse"
+            "answers": ["vestirse"]
         },
         {
             "question": "to prepare breakfast",
-            "answer": "preparar el desayuno"
+            "answers": ["preparar el desayuno"]
         },
         {
             "question": "to leave the house",
-            "answer": "salir de casa"
+            "answers": ["salir de casa"]
         },
         {
             "question": "to have a coffee",
-            "answer": "tomar un café"
+            "answers": ["tomar un café"]
         },
         {
             "question": "to clean the room",
-            "answer": "limpiar la habitación"
+            "answers": ["limpiar la habitación"]
         },
         {
             "question": "to eat breakfast",
-            "answer": "desayunar"
+            "answers": ["desayunar"]
         },
         {
             "question": "to wash the dishes",
-            "answer": "fregar los platos"
+            "answers": ["fregar los platos"]
         },
         {
             "question": "to do the shopping",
-            "answer": "hacer la compra"
+            "answers": ["hacer la compra"]
         },
         {
             "question": "to walk the dog",
-            "answer": "sacar al perro"
+            "answers": ["sacar al perro"]
         },
         {
             "question": "to make a video call",
-            "answer": "hacer una videollamada"
+            "answers": ["hacer una videollamada"]
         },
         {
             "question": "to do sports / to exercise",
-            "answer": "hacer deporte"
+            "answers": ["hacer deporte"]
         },
         {
             "question": "to charge the phone",
-            "answer": "cargar el móvil"
+            "answers": ["cargar el móvil"]
         },
         {
             "question": "to listen to music",
-            "answer": "escuchar música"
+            "answers": ["escuchar música"]
         }
     ]
 }]
