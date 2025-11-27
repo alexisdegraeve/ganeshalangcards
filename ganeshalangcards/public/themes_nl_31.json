@@ -1,4 +1,9 @@
   [{
+          "title": "Woordenschat",
+          "description": "Alleen wonen",
+          "class": "pink",
+          "url": "/nl/3.1/quizz_alleenwonen.json"
+      }, {
           "title": "Uitdrukkingen",
           "description": "Thuis",
           "class": "pink",

@@ -1,0 +1,73 @@
+[{
+    "theme": "Minimalismo",
+    "langread": "en",
+    "questions": [{
+            "question": "cold",
+            "answers": ["frío"]
+        },
+        {
+            "question": "cute / pretty",
+            "answers": ["lindo"]
+        },
+        {
+            "question": "I cheer up / I get happy",
+            "answers": ["me alegro"]
+        },
+        {
+            "question": "dwelling / housing",
+            "answers": ["habitación"]
+        },
+        {
+            "question": "my case",
+            "answers": ["mi caso"]
+        },
+        {
+            "question": "gift / present",
+            "answers": ["regalo"]
+        },
+        {
+            "question": "clothes",
+            "answers": ["ropa"]
+        },
+        {
+            "question": "shoes",
+            "answers": ["zapatos"]
+        },
+        {
+            "question": "pen / stylus",
+            "answers": ["stylo"]
+        },
+        {
+            "question": "minimalist",
+            "answers": ["minimalista"]
+        },
+        {
+            "question": "beautiful / handsome",
+            "answers": ["hermoso"]
+        },
+        {
+            "question": "to clean",
+            "answers": ["limpiar"]
+        },
+        {
+            "question": "to control",
+            "answers": ["controlar"]
+        },
+        {
+            "question": "house / home",
+            "answers": ["casa"]
+        },
+        {
+            "question": "sister",
+            "answers": ["hermana"]
+        },
+        {
+            "question": "book",
+            "answers": ["libro"]
+        },
+        {
+            "question": "lack / missing",
+            "answers": ["falta"]
+        }
+    ]
+}]

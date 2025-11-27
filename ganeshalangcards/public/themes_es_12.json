@@ -1,5 +1,15 @@
 [{
     "title": "Vocabulario",
+    "description": "Minimalismo",
+    "class": "green",
+    "url": "/es/level_a2/quizz_minimalismo.json"
+}, {
+    "title": "Vocabulario",
+    "description": "Objetos desaparecidos en el tiempo",
+    "class": "green",
+    "url": "/es/level_a2/quizz_objetos.json"
+}, {
+    "title": "Vocabulario",
     "description": "¿Con o sin ropa?",
     "class": "green",
     "url": "/es/level_a2/quizz_con_o_sin_ropa.json"

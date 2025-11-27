@@ -1,0 +1,61 @@
+[{
+    "theme": "Objetos desaparecidos en el tiempo",
+    "langread": "es",
+    "questions": [{
+            "question": "sense",
+            "answers": ["sentido"]
+        },
+        {
+            "question": "small",
+            "answers": ["pequeños"]
+        },
+        {
+            "question": "cute / pretty",
+            "answers": ["lindo"]
+        },
+        {
+            "question": "photo album",
+            "answers": ["álbum de foto"]
+        },
+        {
+            "question": "sometimes",
+            "answers": ["a veces"]
+        },
+        {
+            "question": "the same",
+            "answers": ["lo mismo"]
+        },
+        {
+            "question": "to touch",
+            "answers": ["tocar"]
+        },
+        {
+            "question": "memory / souvenir",
+            "answers": ["recuerdo"]
+        },
+        {
+            "question": "nostalgic",
+            "answers": ["nostálgica"]
+        },
+        {
+            "question": "a problem",
+            "answers": ["un problema"]
+        },
+        {
+            "question": "map",
+            "answers": ["mapa"]
+        },
+        {
+            "question": "telephone / phone",
+            "answers": ["teléfono"]
+        },
+        {
+            "question": "bicycle",
+            "answers": ["bicicleta"]
+        },
+        {
+            "question": "to postpone",
+            "answers": ["posponer"]
+        }
+    ]
+}]

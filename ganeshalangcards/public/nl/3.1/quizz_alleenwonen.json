@@ -1,0 +1,77 @@
+[{
+    "theme": "Alleen wonen",
+    "langread": "nl",
+    "questions": [{
+            "question": "steunpilaar, de steen die het bouwwerk bij elkaar houdt, bv. het gezin als hoeksteen van de samenleving",
+            "answers": ["hoeksteen"]
+        },
+        {
+            "question": "het extra geldbedrag dat je moet betalen",
+            "answers": ["toeslag"]
+        },
+        {
+            "question": "eigen woonst, eigen zelf uitgekozen plek",
+            "answers": ["eigen stekje"]
+        },
+        {
+            "question": "plaats waar iedereen in-en uitloopt",
+            "answers": ["duivenkot"]
+        },
+        {
+            "question": "akelige vrouw",
+            "answers": ["taart"]
+        },
+        {
+            "question": "iets waarvan veel mensen vinden dat het niet mag of waarover je niets mag zeggen",
+            "answers": ["taboe"]
+        },
+        {
+            "question": "tussenstandpunt of -oplossing",
+            "answers": ["gulden middenweg"]
+        },
+        {
+            "question": "grappig als iets of iemand je aan het lachen maakt",
+            "answers": ["geestig"]
+        },
+        {
+            "question": "verbitterd, vergald, slecht geworden",
+            "answers": ["verzuurd"]
+        },
+        {
+            "question": "trendy zijn in zijn",
+            "answers": ["hip zijn"]
+        },
+        {
+            "question": "ontmoeten, in conflict komen met",
+            "answers": ["botsen op"]
+        },
+        {
+            "question": "deponeren, in een pot doen",
+            "answers": ["inleggen"]
+        },
+        {
+            "question": "iemand om hulp vragen; een beroep doen op iemand",
+            "answers": ["aankloppen bij"]
+        },
+        {
+            "question": "nadenken of je iets wilt doen of niet",
+            "answers": ["overwegen"]
+        },
+        {
+            "question": "bij iemand in huis wonen",
+            "answers": ["inwonen"]
+        },
+        {
+            "question": "opzijzetten / reserveren",
+            "answers": ["opzijzetten"]
+        },
+        {
+            "question": "zich overgeven",
+            "answers": ["de duimen leggen"]
+        },
+        {
+            "question": "iemand in een hogere plaats benoemen",
+            "answers": ["een stempel krijgen"]
+        }
+    ]
+}]
