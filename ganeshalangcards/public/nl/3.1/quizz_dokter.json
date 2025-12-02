@@ -38,7 +38,7 @@
             "answers": ["introspectie"]
         },
         {
-            "question": "Hoe zeg je dat iemand een slechte lichaamsgeur heeft?",
+            "question": "Hoe omschrijf je dat iemand onaangenaam ruikt door zijn lichaam? ",
             "answers": ["slechte lichaamsgeur"]
         },
         {
@@ -58,7 +58,11 @@
             "answers": ["sommige"]
         },
         {
-            "question": "Welk woord betekent ‘een paar, enkele’?",
+            "question": "Ik heb ___ minuten nodig.",
+            "answers": ["paar"]
+        },
+        {
+            "question": "Er waren ___ studenten te laat.",
             "answers": ["enkele"]
         },
         {
@@ -86,19 +90,19 @@
             "answers": ["overleggen"]
         },
         {
-            "question": "Welk werkwoord betekent ‘als resultaat geven, opleveren’?",
+            "question": "Welk werkwoord betekent ‘iets als resultaat geven’?",
             "answers": ["opleveren"]
         },
         {
-            "question": "Welk werkwoord betekent ‘kinderen grootbrengen, opvoeden’?",
+            "question": "Welk werkwoord betekent ‘kinderen grootbrengen’?",
             "answers": ["opvoeden"]
         },
         {
-            "question": "Welk werkwoord betekent ‘iemand of iets opleiden, onderwijzen’?",
+            "question": "Welk werkwoord betekent ‘iemand onderwijzen of training geven’?",
             "answers": ["opleiden"]
         },
         {
-            "question": "Hoe zeg je ‘iemand of iets opnemen, registreren of in huis nemen’?",
+            "question": "Hoe zeg je ‘iemand of iets registreren of in huis nemen’?",
             "answers": ["opnemen"]
         },
         {
