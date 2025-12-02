@@ -1,0 +1,30 @@
+[{
+    "theme": "Los meses del año",
+    "langread": "es",
+    "questions": [
+        { "question": "energy", "answers": ["energía"] },
+        { "question": "spring", "answers": ["primavera"] },
+        { "question": "summer", "answers": ["verano"] },
+        { "question": "winter", "answers": ["invierno"] },
+        { "question": "colours", "answers": ["colores"] },
+        { "question": "foods", "answers": ["comidas"] },
+        { "question": "alive / lively", "answers": ["vivo"] },
+        { "question": "with cold / feeling cold", "answers": ["con frío"] },
+        { "question": "to walk", "answers": ["caminar"] },
+        { "question": "routine", "answers": ["rutina"] },
+        { "question": "temperature", "answers": ["temperatura"] },
+        { "question": "January", "answers": ["enero"] },
+        { "question": "February", "answers": ["febrero"] },
+        { "question": "March", "answers": ["marzo"] },
+        { "question": "April", "answers": ["abril"] },
+        { "question": "May", "answers": ["mayo"] },
+        { "question": "June", "answers": ["junio"] },
+        { "question": "July", "answers": ["julio"] },
+        { "question": "August", "answers": ["agosto"] },
+        { "question": "September", "answers": ["septiembre"] },
+        { "question": "October", "answers": ["octubre"] },
+        { "question": "November", "answers": ["noviembre"] },
+        { "question": "December", "answers": ["diciembre"] },
+        { "question": "Independence of Mexico", "answers": ["15 de septiembre"] }
+    ]
+}]

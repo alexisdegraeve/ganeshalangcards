@@ -1,95 +1,100 @@
-  [{
-          "title": "Woordenschat",
-          "description": "Alleen wonen",
-          "class": "pink",
-          "url": "/nl/3.1/quizz_alleenwonen.json"
-      }, {
-          "title": "Uitdrukkingen",
-          "description": "Thuis",
-          "class": "pink",
-          "url": "/nl/3.1/quizz_thuis_uitdrukkingen.json"
-      }, {
-          "title": "Verba",
-          "description": "Thuis",
-          "class": "pink",
-          "url": "/nl/3.1/quizz_thuis_verba.json"
-      }, {
-          "title": "Adjectieven",
-          "description": "Thuis",
-          "class": "pink",
-          "url": "/nl/3.1/quizz_thuis_adjectieven.json"
-      }, {
-          "title": "Substantieven",
-          "description": "Thuis",
-          "class": "pink",
-          "url": "/nl/3.1/quizz_thuis_substantieven.json"
-      }, {
-          "title": "Woordenschat",
-          "description": "Thuis",
-          "class": "pink",
-          "url": "/nl/3.1/quizz_thuis.json"
-      }, {
-          "title": "Woordenschat",
-          "description": "Weerkaart",
-          "class": "pink",
-          "url": "/nl/3.1/quizz_weerkaart.json"
-      }, {
-          "title": "Woordenschat",
-          "description": "Donald Trump beveelt onderzoek naar mogelijke banden",
-          "class": "pink",
-          "url": "/nl/3.1/quizz_trump.json"
-      },
-      {
-          "title": "Woordenschat",
-          "description": "Dagelijks leven",
-          "class": "pink",
-          "url": "/nl/3.1/quizz_dagelijksleven.json"
-      }, {
-          "title": "Woordenschat",
-          "description": "Dierlijke uitdrukkingen 🐾",
-          "class": "pink",
-          "url": "/nl/3.1/quizz_dieren.json"
-      }, {
-          "title": "Woordenschat",
-          "description": "Leven er over 80 jaar",
-          "class": "pink",
-          "url": "/nl/3.1/quizz_leven_erover_80.json"
-      }, {
-          "title": "Woordenschat",
-          "description": "School en eigenschappen",
-          "class": "pink",
-          "url": "/nl/3.1/quizz_school.json"
-      }, {
-          "title": "Grammar",
-          "description": "Er + vaste uitdrukkingen (deel 1)",
-          "class": "pink",
-          "url": "/nl/3.1/quizz_er_01.json"
-      }, {
-          "title": "Grammar",
-          "description": "Er + vaste uitdrukkingen (deel 2)",
-          "class": "pink",
-          "url": "/nl/3.1/quizz_er_02.json"
-      }, {
-          "title": "Grammar",
-          "description": "Er + vaste uitdrukkingen (deel 3)",
-          "class": "pink",
-          "url": "/nl/3.1/quizz_er_03.json"
-      }, {
-          "title": "Woordenschat",
-          "description": "Laat je kinderen muziek studeren",
-          "class": "pink",
-          "url": "/nl/3.1/quizz_kinderen_muziek.json"
-      },
-      {
-          "title": "Woordenschat",
-          "description": "De zwarte lijst - Substantieven A",
-          "class": "pink",
-          "url": "/nl/3.1/quizz_zwarte_lijst_a.json"
-      },
-      {
-          "title": "Woordenschat",
-          "description": "De zwarte lijst - Substantieven B",
-          "class": "pink",
-          "url": "/nl/3.1/quizz_zwarte_lijst_b.json"
-      }
-  ]
+[{
+        "title": "Woordenschat",
+        "description": "Dokter",
+        "class": "pink",
+        "url": "/nl/3.1/quizz_dokter.json"
+    }, {
+        "title": "Woordenschat",
+        "description": "Alleen wonen",
+        "class": "pink",
+        "url": "/nl/3.1/quizz_alleenwonen.json"
+    }, {
+        "title": "Uitdrukkingen",
+        "description": "Thuis",
+        "class": "pink",
+        "url": "/nl/3.1/quizz_thuis_uitdrukkingen.json"
+    }, {
+        "title": "Verba",
+        "description": "Thuis",
+        "class": "pink",
+        "url": "/nl/3.1/quizz_thuis_verba.json"
+    }, {
+        "title": "Adjectieven",
+        "description": "Thuis",
+        "class": "pink",
+        "url": "/nl/3.1/quizz_thuis_adjectieven.json"
+    }, {
+        "title": "Substantieven",
+        "description": "Thuis",
+        "class": "pink",
+        "url": "/nl/3.1/quizz_thuis_substantieven.json"
+    }, {
+        "title": "Woordenschat",
+        "description": "Thuis",
+        "class": "pink",
+        "url": "/nl/3.1/quizz_thuis.json"
+    }, {
+        "title": "Woordenschat",
+        "description": "Weerkaart",
+        "class": "pink",
+        "url": "/nl/3.1/quizz_weerkaart.json"
+    }, {
+        "title": "Woordenschat",
+        "description": "Donald Trump beveelt onderzoek naar mogelijke banden",
+        "class": "pink",
+        "url": "/nl/3.1/quizz_trump.json"
+    },
+    {
+        "title": "Woordenschat",
+        "description": "Dagelijks leven",
+        "class": "pink",
+        "url": "/nl/3.1/quizz_dagelijksleven.json"
+    }, {
+        "title": "Woordenschat",
+        "description": "Dierlijke uitdrukkingen 🐾",
+        "class": "pink",
+        "url": "/nl/3.1/quizz_dieren.json"
+    }, {
+        "title": "Woordenschat",
+        "description": "Leven er over 80 jaar",
+        "class": "pink",
+        "url": "/nl/3.1/quizz_leven_erover_80.json"
+    }, {
+        "title": "Woordenschat",
+        "description": "School en eigenschappen",
+        "class": "pink",
+        "url": "/nl/3.1/quizz_school.json"
+    }, {
+        "title": "Grammar",
+        "description": "Er + vaste uitdrukkingen (deel 1)",
+        "class": "pink",
+        "url": "/nl/3.1/quizz_er_01.json"
+    }, {
+        "title": "Grammar",
+        "description": "Er + vaste uitdrukkingen (deel 2)",
+        "class": "pink",
+        "url": "/nl/3.1/quizz_er_02.json"
+    }, {
+        "title": "Grammar",
+        "description": "Er + vaste uitdrukkingen (deel 3)",
+        "class": "pink",
+        "url": "/nl/3.1/quizz_er_03.json"
+    }, {
+        "title": "Woordenschat",
+        "description": "Laat je kinderen muziek studeren",
+        "class": "pink",
+        "url": "/nl/3.1/quizz_kinderen_muziek.json"
+    },
+    {
+        "title": "Woordenschat",
+        "description": "De zwarte lijst - Substantieven A",
+        "class": "pink",
+        "url": "/nl/3.1/quizz_zwarte_lijst_a.json"
+    },
+    {
+        "title": "Woordenschat",
+        "description": "De zwarte lijst - Substantieven B",
+        "class": "pink",
+        "url": "/nl/3.1/quizz_zwarte_lijst_b.json"
+    }
+]

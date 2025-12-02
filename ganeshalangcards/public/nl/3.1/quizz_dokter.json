@@ -1,0 +1,109 @@
+[{
+    "theme": "Dokter",
+    "langread": "nl",
+    "questions": [{
+            "question": "Welk woord gebruik je voor iemand die zich perfect gedraagt bij de dokter?",
+            "answers": ["een voorbeeldige patiënt"]
+        },
+        {
+            "question": "Hoe zeg je dat iemand zonder twijfel erg veeleisend is?",
+            "answers": ["ongetwijfeld kent u ook veeleisende patiënten"]
+        },
+        {
+            "question": "Welke uitdrukking betekent dat er iets misloopt in het functioneren?",
+            "answers": ["er raakt zand in de motor"]
+        },
+        {
+            "question": "Hoe noem je een geur afkomstig van het lichaam?",
+            "answers": ["een lijfgeur"]
+        },
+        {
+            "question": "Welk woord verwijst naar onrustige of ongemakkelijke gevoelens?",
+            "answers": ["onlustgevoelens"]
+        },
+        {
+            "question": "Hoe heet het document dat je ziekte bevestigt voor werk of school?",
+            "answers": ["ziekteattest"]
+        },
+        {
+            "question": "Welk woord betekent dat iemand spijt of medelijden uitdrukt?",
+            "answers": ["beklaagt"]
+        },
+        {
+            "question": "Hoe zeg je ‘emoties of wat je voelt’ in het Nederlands?",
+            "answers": ["gevoelens"]
+        },
+        {
+            "question": "Welk woord betekent ‘naar binnen kijken, zelfonderzoek uitvoeren’?",
+            "answers": ["introspectie"]
+        },
+        {
+            "question": "Hoe zeg je dat iemand een slechte lichaamsgeur heeft?",
+            "answers": ["slechte lichaamsgeur"]
+        },
+        {
+            "question": "Hoe noem je iemand die snel boos, dreigend of gewelddadig reageert?",
+            "answers": ["agressief"]
+        },
+        {
+            "question": "Hoe noem je het besef dat je hebt van jezelf en je omgeving?",
+            "answers": ["bewustzijn"]
+        },
+        {
+            "question": "Welk werkwoord gebruik je voor ‘harde klappen geven of trappen’?",
+            "answers": ["schoppen"]
+        },
+        {
+            "question": "Welk woord gebruik je voor ‘een aantal, maar niet veel’?",
+            "answers": ["sommige"]
+        },
+        {
+            "question": "Welk woord betekent ‘een paar, enkele’?",
+            "answers": ["enkele"]
+        },
+        {
+            "question": "Hoe zeg je het werkwoord ‘bidden’ in alle drie de tijden?",
+            "answers": ["bidden - bad - gebeden"]
+        },
+        {
+            "question": "Welk woord gebruik je voor iets dat aangeraden wordt?",
+            "answers": ["aanbevolen"]
+        },
+        {
+            "question": "Hoe zeg je dat je opnieuw naar een plaats gaat?",
+            "answers": ["terugkeren"]
+        },
+        {
+            "question": "Welke uitdrukking betekent dat je iets niet volledig gelooft?",
+            "answers": ["ik neem dat met een korreltje zout"]
+        },
+        {
+            "question": "Hoe zeg je dat iemand klaagt over iets?",
+            "answers": ["zich beklagen over"]
+        },
+        {
+            "question": "Welk werkwoord betekent ‘iets bespreken om een beslissing te nemen’?",
+            "answers": ["overleggen"]
+        },
+        {
+            "question": "Welk werkwoord betekent ‘als resultaat geven, opleveren’?",
+            "answers": ["opleveren"]
+        },
+        {
+            "question": "Welk werkwoord betekent ‘kinderen grootbrengen, opvoeden’?",
+            "answers": ["opvoeden"]
+        },
+        {
+            "question": "Welk werkwoord betekent ‘iemand of iets opleiden, onderwijzen’?",
+            "answers": ["opleiden"]
+        },
+        {
+            "question": "Hoe zeg je ‘iemand of iets opnemen, registreren of in huis nemen’?",
+            "answers": ["opnemen"]
+        },
+        {
+            "question": "Hoe zeg je dat je de buurman hebt horen drummen?",
+            "answers": ["ik heb de buurman horen drummen"]
+        }
+    ]
+}]
